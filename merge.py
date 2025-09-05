@@ -35,7 +35,10 @@ def merge_json_namespaces(output_file, schema_file):
 
                     current_namespace = namespace
                     print(f"Processing namespace: {current_namespace}")
-                    namespace_data = {}
+
+                    # Initialize namespace if it doesn't exist yet
+                    if current_namespace not in merged_data:
+                        merged_data[current_namespace] = {}
 
                     for file in sorted(os.listdir(namespace_path)):
                         current_file = os.path.join(namespace_path, file)
@@ -44,7 +47,8 @@ def merge_json_namespaces(output_file, schema_file):
                         try:
                             with open(current_file, 'r', encoding='utf-8') as infile:
                                 data = json.load(infile)
-                                namespace_data.update(data)
+                                # Merge into existing namespace data instead of overwriting
+                                merged_data[current_namespace].update(data)
                         except json.JSONDecodeError as e:
                             print(f"ERROR: JSON decode error in file {current_file}")
                             print(f"  Line {e.lineno}, Column {e.colno}: {e.msg}")
@@ -58,7 +62,6 @@ def merge_json_namespaces(output_file, schema_file):
                             print(f"  {type(e).__name__}: {e}")
                             raise
 
-                    merged_data[current_namespace] = namespace_data
                     print(f"  Completed namespace: {current_namespace}")
 
         print(f"Loading schema from: {schema_file}")
