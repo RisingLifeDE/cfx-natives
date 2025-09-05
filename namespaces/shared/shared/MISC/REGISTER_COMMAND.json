@@ -9,7 +9,7 @@
             },
             {
                 "name": "handler",
-                "type": "Function",
+                "type": "func",
                 "description": "A handler function that gets called whenever the command is executed."
             },
             {

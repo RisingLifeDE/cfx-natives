@@ -9,12 +9,12 @@
             },
             {
                 "name": "onKeyDown",
-                "type": "Function",
+                "type": "func",
                 "description": "The function to run when the key is being pressed, or `nil`."
             },
             {
                 "name": "onKeyUp",
-                "type": "Function",
+                "type": "func",
                 "description": "The function to run when the key is no longer being pressed, or `nil`."
             },
             {

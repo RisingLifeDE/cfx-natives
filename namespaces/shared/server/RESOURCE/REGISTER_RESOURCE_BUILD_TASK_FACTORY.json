@@ -9,7 +9,7 @@
             },
             {
                 "name": "factoryFn",
-                "type": "Function",
+                "type": "func",
                 "description": "The factory function."
             }
         ],

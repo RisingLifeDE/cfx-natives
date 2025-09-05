@@ -3551,7 +3551,7 @@
             "params": [
                 {
                     "name": "factory",
-                    "type": "Function",
+                    "type": "func",
                     "description": "A function returning a list of archetypes."
                 }
             ],
@@ -4210,12 +4210,12 @@
                 },
                 {
                     "name": "onKeyDown",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The function to run when the key is being pressed, or `nil`."
                 },
                 {
                     "name": "onKeyUp",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The function to run when the key is no longer being pressed, or `nil`."
                 },
                 {
@@ -5463,7 +5463,7 @@
             "params": [
                 {
                     "name": "listener",
-                    "type": "Function",
+                    "type": "func",
                     "description": "A function of `(channel: string, message: string) => void`. The message might contain `\\n`."
                 }
             ],
@@ -5558,7 +5558,7 @@
             "params": [
                 {
                     "name": "handler",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The handler function."
                 }
             ],
@@ -5719,7 +5719,7 @@
                 },
                 {
                     "name": "handler",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The handler function."
                 }
             ],
@@ -5751,7 +5751,7 @@
                 },
                 {
                     "name": "handler",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The handler function."
                 }
             ],
@@ -6116,7 +6116,7 @@
                 },
                 {
                     "name": "handler",
-                    "type": "Function",
+                    "type": "func",
                     "description": "A handler function that gets called whenever the command is executed."
                 },
                 {
@@ -18515,7 +18515,7 @@
                 },
                 {
                     "name": "callback",
-                    "type": "Function"
+                    "type": "func"
                 }
             ],
             "return_type": "void",
@@ -18549,7 +18549,7 @@
                 },
                 {
                     "name": "callback",
-                    "type": "Function"
+                    "type": "func"
                 }
             ],
             "return_type": "void",
@@ -19080,7 +19080,7 @@
                 },
                 {
                     "name": "factoryFn",
-                    "type": "Function",
+                    "type": "func",
                     "description": "The factory function."
                 }
             ],
@@ -19133,7 +19133,7 @@
                 },
                 {
                     "name": "callback",
-                    "type": "Function",
+                    "type": "func",
                     "description": "A callback that will receive an object with results."
                 }
             ],

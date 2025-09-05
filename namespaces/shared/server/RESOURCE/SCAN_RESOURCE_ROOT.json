@@ -9,7 +9,7 @@
             },
             {
                 "name": "callback",
-                "type": "Function",
+                "type": "func",
                 "description": "A callback that will receive an object with results."
             }
         ],

@@ -8,7 +8,7 @@
             },
             {
                 "name": "callback",
-                "type": "Function"
+                "type": "func"
             }
         ],
         "return_type": "void",

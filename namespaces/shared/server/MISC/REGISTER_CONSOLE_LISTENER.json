@@ -4,7 +4,7 @@
         "params": [
             {
                 "name": "listener",
-                "type": "Function",
+                "type": "func",
                 "description": "A function of `(channel: string, message: string) => void`. The message might contain `\\n`."
             }
         ],

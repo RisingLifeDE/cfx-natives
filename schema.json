@@ -173,7 +173,7 @@
         "PropSet*",
         "Volume",
         "Volume*",
-        "Function"
+        "func"
       ]
     },
     "return_type": {

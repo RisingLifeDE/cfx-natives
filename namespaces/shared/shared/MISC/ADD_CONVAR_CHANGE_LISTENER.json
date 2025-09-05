@@ -9,7 +9,7 @@
             },
             {
                 "name": "handler",
-                "type": "Function",
+                "type": "func",
                 "description": "The handler function."
             }
         ],
