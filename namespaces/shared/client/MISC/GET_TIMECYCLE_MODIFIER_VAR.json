@@ -14,11 +14,11 @@
             },
             {
                 "name": "value1",
-                "type": "const float*"
+                "type": "float*"
             },
             {
                 "name": "value2",
-                "type": "const float*"
+                "type": "float*"
             }
         ],
         "return_type": "BOOL",
