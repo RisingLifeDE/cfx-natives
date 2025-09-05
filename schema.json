@@ -25,6 +25,12 @@
             "jhash": {
               "type": "string"
             },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
             "resultsDescription": {
               "type": "string"
             },
