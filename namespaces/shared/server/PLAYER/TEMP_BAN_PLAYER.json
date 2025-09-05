@@ -8,7 +8,7 @@
             },
             {
                 "name": "reason",
-                "type": "char*"
+                "type": "const char*"
             }
         ],
         "return_type": "void",
