@@ -1,0 +1,20 @@
+{
+    "0x81B50033": {
+        "name": "GET_TRAIN_STATE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x81B50033",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "The trains current state```cpp\nenum eTrainState\r\n{\r\n    MOVING = 0,\r\n    ENTERING_STATION,\r\n    OPENING_DOORS,\r\n    STOPPED,\r\n    CLOSING_DOORS,\r\n    LEAVING_STATION,\r\n}\n```"
+    }
+}

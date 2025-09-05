@@ -1,0 +1,13 @@
+{
+    "0x63D13184": {
+        "name": "GET_NUM_PLAYER_INDICES",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x63D13184",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

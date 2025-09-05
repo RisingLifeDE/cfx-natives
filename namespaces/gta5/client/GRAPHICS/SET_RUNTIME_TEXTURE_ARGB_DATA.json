@@ -1,0 +1,27 @@
+{
+    "0x3963D527": {
+        "name": "SET_RUNTIME_TEXTURE_ARGB_DATA",
+        "params": [
+            {
+                "name": "tex",
+                "type": "long"
+            },
+            {
+                "name": "buffer",
+                "type": "const char*"
+            },
+            {
+                "name": "length",
+                "type": "int"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x3963D527",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

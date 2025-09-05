@@ -1,0 +1,29 @@
+{
+    "0xC53BB6D3": {
+        "name": "DOES_TIMECYCLE_MODIFIER_HAS_VAR",
+        "params": [
+            {
+                "name": "modifierName",
+                "type": "const char*",
+                "description": "The name of timecycle modifier."
+            },
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The name of timecycle variable."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local modifierName = \"superDARK\"\r\nlocal varName = \"postfx_noise\"\r\n\r\nif DoesTimecycleModifierHasVar(modifierName, varName) then\r\n  local success, value1, value2 = GetTimecycleModifierVar(modifierName, varName)\r\n\r\n  if success then\r\n    print(string.format(\"[%s] removed var %s with values: %f %f\", modifierName, varName, value1, value2))\r\n    RemoveTimecycleModifierVar(modifierName, varName)\r\n  end\r\nelse\r\n    SetTimecycleModifierVar(modifierName, varName, 1.0, 1.0)\r\n    print(string.format(\"[%s] created var %s\", modifierName, varName))\r\nend"
+            }
+        ],
+        "hash": "0xC53BB6D3",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Whether or not variable by name was found on the specified timecycle modifier."
+    }
+}

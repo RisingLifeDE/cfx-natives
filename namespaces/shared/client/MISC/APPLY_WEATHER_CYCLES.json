@@ -1,0 +1,29 @@
+{
+    "0x3422291C": {
+        "name": "APPLY_WEATHER_CYCLES",
+        "params": [
+            {
+                "name": "numEntries",
+                "type": "int",
+                "description": "The number of cycle entries. Must be between 1 and 256"
+            },
+            {
+                "name": "msPerCycle",
+                "type": "int",
+                "description": "The duration in milliseconds of each cycle. Must be between 1000 and 86400000 (24 hours)"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- Cycle between XMAS weather for 30 seconds (3 * 10000 milliseconds), and SMOG weather for 20 seconds (2 * 10000 milliseconds)\r\nlocal success = SetWeatherCycleEntry(0, \"XMAS\", 3) and\r\n                SetWeatherCycleEntry(1, \"SMOG\", 2) and\r\n                ApplyWeatherCycles(2, 10000)"
+            }
+        ],
+        "hash": "0x3422291C",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns true if all parameters were valid, otherwise false."
+    }
+}

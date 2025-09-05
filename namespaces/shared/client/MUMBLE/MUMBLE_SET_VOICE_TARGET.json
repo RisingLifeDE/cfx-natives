@@ -1,0 +1,18 @@
+{
+    "0x960A4A95": {
+        "name": "MUMBLE_SET_VOICE_TARGET",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive). 0 disables voice targets, and 31 is server loopback."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the current Mumble voice target ID to broadcast voice to.",
+        "examples": [],
+        "hash": "0x960A4A95",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

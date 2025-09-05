@@ -1,0 +1,18 @@
+{
+    "0x9E35DAB6": {
+        "name": "NETWORK_GET_NETWORK_ID_FROM_ENTITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x9E35DAB6",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

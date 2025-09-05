@@ -1,0 +1,19 @@
+{
+    "0x2A7B50E": {
+        "name": "SET_WEAPONS_NO_AUTOSWAP",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "On/Off"
+            }
+        ],
+        "return_type": "void",
+        "description": "Disables autoswapping to another weapon when the current weapon runs out of ammo.",
+        "examples": [],
+        "hash": "0x2A7B50E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

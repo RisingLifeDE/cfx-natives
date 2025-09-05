@@ -1,0 +1,37 @@
+{
+    "0x77A435B0": {
+        "name": "GET_INTERIOR_POSITION",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "posX",
+                "type": "float*"
+            },
+            {
+                "name": "posY",
+                "type": "float*"
+            },
+            {
+                "name": "posZ",
+                "type": "float*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local x, y, z = GetInteriorPosition(interiorId)\r\n  print(\"current interior \" .. interiorId .. \" position is: \" .. vec(x, y, z))\r\nend"
+            }
+        ],
+        "hash": "0x77A435B0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Interior position."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x68DFF2DD": {
+        "name": "SET_ENTITY_DRAW_OUTLINE_RENDER_TECHNIQUE",
+        "params": [
+            {
+                "name": "techniqueGroup",
+                "type": "const char*",
+                "description": "Technique group name."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the render technique for drawing an entity's outline. This function allows you to specify a technique group name to control how the entity's outline is rendered in the game.\n\nList of known technique group's:\n\n```\nalt0\r\nalt1\r\nalt2\r\nalt3\r\nalt4\r\nalt5\r\nalt6\r\nalt7\r\nalt8\r\nblit\r\ncube\r\ndefault\r\ngeometry\r\nimposter\r\nimposterdeferred\r\nlightweight0\r\nlightweight0CutOut\r\nlightweight0CutOutTint\r\nlightweight0WaterRefractionAlpha\r\nlightweight4\r\nlightweight4CutOut\r\nlightweight4CutOutTint\r\nlightweight4WaterRefractionAlpha\r\nlightweight8\r\nlightweight8CutOut\r\nlightweight8CutOutTint\r\nlightweight8WaterRefractionAlpha\r\nlightweightHighQuality0\r\nlightweightHighQuality0CutOut\r\nlightweightHighQuality0WaterRefractionAlpha\r\nlightweightHighQuality4\r\nlightweightHighQuality4CutOut\r\nlightweightHighQuality4WaterRefractionAlpha\r\nlightweightHighQuality8\r\nlightweightHighQuality8CutOut\r\nlightweightHighQuality8WaterRefractionAlpha\r\nlightweightNoCapsule4\r\nlightweightNoCapsule8\r\nmultilight\r\ntessellate\r\nui\r\nunlit\r\nwaterreflection\r\nwaterreflectionalphaclip\r\nwaterreflectionalphacliptint\r\nwdcascade\n```",
+        "examples": [],
+        "hash": "0x68DFF2DD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

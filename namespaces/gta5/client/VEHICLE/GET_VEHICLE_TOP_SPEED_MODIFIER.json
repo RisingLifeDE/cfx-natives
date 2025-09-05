@@ -1,0 +1,20 @@
+{
+    "0x998B7FEE": {
+        "name": "GET_VEHICLE_TOP_SPEED_MODIFIER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [MODIFY_VEHICLE_TOP_SPEED](#\\_0x93A3996368C94158). Returns -1.0 if a modifier is not set.",
+        "examples": [],
+        "hash": "0x998B7FEE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns vehicle's modified top speed."
+    }
+}

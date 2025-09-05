@@ -1,0 +1,24 @@
+{
+    "0x12A330": {
+        "name": "STATE_BAG_HAS_KEY",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*",
+                "description": "The name of the bag."
+            },
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key used to check data existence."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x12A330",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns true if the data associated with the specified key exists; otherwise, returns false."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0x77CC80DC": {
+        "name": "DOES_TRAIN_STOP_AT_STATIONS",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x77CC80DC",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "True if the train stops at stations. False otherwise"
+    }
+}

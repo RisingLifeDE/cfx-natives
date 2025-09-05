@@ -1,0 +1,20 @@
+{
+    "0x1F3AC778": {
+        "name": "CREATE_RUNTIME_TXD",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The name for the runtime TXD."
+            }
+        ],
+        "return_type": "long",
+        "description": "Creates a runtime texture dictionary with the specified name.\r\nExample:\n\n```lua\nlocal txd = CreateRuntimeTxd('meow')\n```",
+        "examples": [],
+        "hash": "0x1F3AC778",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A handle to the runtime TXD."
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "0xA61C8FC6": {
+        "name": "GET_PLAYER_IDENTIFIER_BY_TYPE",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player to get the identifier for"
+            },
+            {
+                "name": "identifierType",
+                "type": "const char*",
+                "description": "The string to match in an identifier, this can be `\"license\"` for example."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Get an identifier from a player by the type of the identifier.\r\nKnown [Identifiers](https://docs.fivem.net/docs/scripting-reference/runtimes/lua/functions/GetPlayerIdentifiers/#identifier-types)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerLicenses = {}\r\n\r\nAddEventHandler('playerJoining', function()\r\n    playerLicenses[source] = GetPlayerIdentifierByType(source, 'license')\r\nend)"
+            },
+            {
+                "lang": "js",
+                "code": "let playerLicenses = {};\r\n\r\non('playerJoining', () => {\r\n    playerLicenses[source] = GetPlayerIdentifierByType(source, 'license');\r\n});"
+            },
+            {
+                "lang": "cs",
+                "code": "using System.Collections.Generic;\r\nusing static CitizenFX.Core.Native.API;\r\n// ...\r\n\r\n// In class\r\nprivate Dictionary<int, string> PlayerLicenses = new Dictionary<int, string>();\r\n\r\n// In class constructor\r\nEventHandlers[\"playerJoining\"] += new Action<Player>(SetLicense);\r\n\r\n// Delegate method\r\nprivate void SetLicense([FromSource]Player player) {\r\n    PlayerLicenses.Add(player.Handle, GetPlayerIdentifierByType(player.Handle, \"license\"));\r\n}"
+            }
+        ],
+        "hash": "0xA61C8FC6",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The identifier that matches the string provided"
+    }
+}

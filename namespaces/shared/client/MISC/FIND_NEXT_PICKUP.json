@@ -1,0 +1,22 @@
+{
+    "0x4107EF0F": {
+        "name": "FIND_NEXT_PICKUP",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            },
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x4107EF0F",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

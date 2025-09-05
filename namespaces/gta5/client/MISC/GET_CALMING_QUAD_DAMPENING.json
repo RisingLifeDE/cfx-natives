@@ -1,0 +1,29 @@
+{
+    "0xB0E3A058": {
+        "name": "GET_CALMING_QUAD_DAMPENING",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The calming quad index"
+            },
+            {
+                "name": "calmingQuadDampening",
+                "type": "float*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, dampening = GetCalmingQuadDampening(1)"
+            }
+        ],
+        "hash": "0xB0E3A058",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Dampening value is undefined on failure"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x4D386C9E": {
+        "name": "MUMBLE_ADD_VOICE_TARGET_CHANNEL",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "channel",
+                "type": "int",
+                "description": "A game voice channel ID."
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds the specified channel to the target list for the specified Mumble voice target ID.",
+        "examples": [],
+        "hash": "0x4D386C9E",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

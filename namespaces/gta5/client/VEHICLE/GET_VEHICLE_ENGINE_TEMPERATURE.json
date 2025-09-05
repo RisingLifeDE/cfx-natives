@@ -1,0 +1,19 @@
+{
+    "0xF4F495CB": {
+        "name": "GET_VEHICLE_ENGINE_TEMPERATURE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xF4F495CB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

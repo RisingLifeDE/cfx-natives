@@ -1,0 +1,68 @@
+{
+    "0x60746B88": {
+        "name": "SET_PED_HEAD_BLEND_DATA",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped entity"
+            },
+            {
+                "name": "shapeFirstID",
+                "type": "int",
+                "description": "Controls the shape of the first ped's face"
+            },
+            {
+                "name": "shapeSecondID",
+                "type": "int",
+                "description": "Controls the shape of the second ped's face"
+            },
+            {
+                "name": "shapeThirdID",
+                "type": "int",
+                "description": "Controls the shape of the third ped's face"
+            },
+            {
+                "name": "skinFirstID",
+                "type": "int",
+                "description": "Controls the first id's skin tone"
+            },
+            {
+                "name": "skinSecondID",
+                "type": "int",
+                "description": "Controls the second id's skin tone"
+            },
+            {
+                "name": "skinThirdID",
+                "type": "int",
+                "description": "Controls the third id's skin tone"
+            },
+            {
+                "name": "shapeMix",
+                "type": "float",
+                "description": "0.0 - 1.0 Of whose characteristics to take Mother -> Father (shapeFirstID and shapeSecondID)"
+            },
+            {
+                "name": "skinMix",
+                "type": "float",
+                "description": "0.0 - 1.0 Of whose characteristics to take Mother -> Father (skinFirstID and skinSecondID)"
+            },
+            {
+                "name": "thirdMix",
+                "type": "float",
+                "description": "Overrides the others in favor of the third IDs."
+            },
+            {
+                "name": "isParent",
+                "type": "BOOL",
+                "description": "IsParent is set for \"children\" of the player character's grandparents during old-gen character creation. It has unknown effect otherwise."
+            }
+        ],
+        "return_type": "void",
+        "description": "For more info please refer to [this](https://gtaforums.com/topic/858970-all-gtao-face-ids-pedset-ped-head-blend-data-explained) topic.\r\n**Other information:**\r\nIDs start at zero and go Male Non-DLC, Female Non-DLC, Male DLC, and Female DLC.</br>\r\nThis native function is often called prior to calling natives such as:\n\n*   [`SetPedHairColor`](#\\_0xA23FE32C)\n*   [`SetPedHeadOverlayColor`](#\\_0x78935A27)\n*   [`SetPedHeadOverlay`](#\\_0xD28DBA90)\n*   [`SetPedFaceFeature`](#\\_0x6C8D4458)\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_HEAD_BLEND_DATA](?\\_0x9414E18B9434C2FE).**",
+        "examples": [],
+        "hash": "0x60746B88",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

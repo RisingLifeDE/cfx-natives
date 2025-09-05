@@ -1,0 +1,19 @@
+{
+    "0x9AAD420E": {
+        "name": "GET_VEHICLE_DASHBOARD_SPEED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x9AAD420E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0x5F4CD0E2": {
+        "name": "GET_TIMECYCLE_MODIFIER_INDEX_BY_NAME",
+        "params": [
+            {
+                "name": "modifierName",
+                "type": "const char*",
+                "description": "The timecycle modifier name."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local modifierIndex = GetTimecycleModifierIndexByName(\"underwater\")\r\nlocal currentIndex = GetTimecycleModifierIndex()\r\n\r\nif currentIndex ~= -1 and currentIndex == modifierIndex then\r\n  print(\"we're actually using 'underwater' timecycle!\")\r\nend"
+            }
+        ],
+        "hash": "0x5F4CD0E2",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The timecycle modifier index."
+    }
+}

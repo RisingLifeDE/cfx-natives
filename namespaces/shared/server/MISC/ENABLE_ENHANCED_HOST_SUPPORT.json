@@ -1,0 +1,17 @@
+{
+    "0xF97B1C93": {
+        "name": "ENABLE_ENHANCED_HOST_SUPPORT",
+        "params": [
+            {
+                "name": "enabled",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xF97B1C93",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

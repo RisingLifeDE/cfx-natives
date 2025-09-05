@@ -1,0 +1,20 @@
+{
+    "0x78F27B1F": {
+        "name": "GET_PLAYER_VEHICLE_DAMAGE_MODIFIER",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_PLAYER_VEHICLE_DAMAGE_MODIFIER](#\\_0xA50E117CDDF82F0C).",
+        "examples": [],
+        "hash": "0x78F27B1F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The value of player vehicle damage modifier."
+    }
+}

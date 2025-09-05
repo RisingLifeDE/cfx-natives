@@ -1,0 +1,25 @@
+{
+    "0xA7F04022": {
+        "name": "GET_VEHICLE_WHEEL_SURFACE_MATERIAL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "Index of wheel, 0-3."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xA7F04022",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Integer representing the index of the current surface material of that wheel. Check materials.dat for the indexes."
+    }
+}

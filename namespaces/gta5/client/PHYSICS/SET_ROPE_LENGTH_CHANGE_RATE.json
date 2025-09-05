@@ -1,0 +1,24 @@
+{
+    "0x69B680A7": {
+        "name": "SET_ROPE_LENGTH_CHANGE_RATE",
+        "params": [
+            {
+                "name": "rope",
+                "type": "int",
+                "description": "The rope to set the length change rate for."
+            },
+            {
+                "name": "lengthChangeRate",
+                "type": "float",
+                "description": "The rope's new length change rate."
+            }
+        ],
+        "return_type": "void",
+        "description": "Set's the ropes length change rate, which is the speed that rope should wind if started.",
+        "examples": [],
+        "hash": "0x69B680A7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x11A5B7ED": {
+        "name": "RESET_MAP_ZOOM_DATA_LEVEL",
+        "params": [
+            {
+                "name": "index",
+                "type": "int",
+                "description": "Zoom level index."
+            }
+        ],
+        "return_type": "void",
+        "description": "Resets values from the zoom level data by index to defaults from mapzoomdata.meta.",
+        "examples": [],
+        "hash": "0x11A5B7ED",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

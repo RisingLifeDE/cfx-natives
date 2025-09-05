@@ -1,0 +1,20 @@
+{
+    "0x4AFD2499": {
+        "name": "ADD_MINIMAP_OVERLAY",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The path to a `.gfx` file in the current resource. It has to be specified as a `file`."
+            }
+        ],
+        "return_type": "int",
+        "description": "Loads a minimap overlay from a GFx file in the current resource.\n\nIf you need to control the depth of overlay use [`ADD_MINIMAP_OVERLAY_WITH_DEPTH`](#\\_0xED0935B5).",
+        "examples": [],
+        "hash": "0x4AFD2499",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A minimap overlay ID."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0x4152C90": {
+        "name": "DELETE_RESOURCE_KVP_NO_SYNC",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to delete"
+            }
+        ],
+        "return_type": "void",
+        "description": "Nonsynchronous [DELETE_RESOURCE_KVP](#\\_0x7389B5DF) operation; see [FLUSH_RESOURCE_KVP](#\\_0x5240DA5A).",
+        "examples": [],
+        "hash": "0x4152C90",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

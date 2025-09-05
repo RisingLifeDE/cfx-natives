@@ -1,0 +1,22 @@
+{
+    "0x90D1CAD1": {
+        "name": "SET_VEHICLE_OIL_LEVEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "level",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x90D1CAD1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "0xEC09DB1B": {
+        "name": "_SET_PED_EYE_COLOR",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "index",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "Used for freemode (online) characters.\r\nIndices:\n\n1.  black\n2.  very light blue/green\n3.  dark blue\n4.  brown\n5.  darker brown\n6.  light brown\n7.  blue\n8.  light blue\n9.  pink\n10. yellow\n11. purple\n12. black\n13. dark green\n14. light brown\n15. yellow/black pattern\n16. light colored spiral pattern\n17. shiny red\n18. shiny half blue/half red\n19. half black/half light blue\n20. white/red perimter\n21. green snake\n22. red snake\n23. dark blue snake\n24. dark yellow\n25. bright yellow\n26. all black\n27. red small pupil\n28. devil blue/black\n29. white small pupil\n30. glossed over\n\n**This is the server-side RPC native equivalent of the client native [\\_SET_PED_EYE_COLOR](?\\_0x50B56988B170AFDF).**",
+        "examples": [],
+        "hash": "0xEC09DB1B",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

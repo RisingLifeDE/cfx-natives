@@ -1,0 +1,37 @@
+{
+    "0x5FA79B0F": {
+        "name": "REGISTER_COMMAND",
+        "params": [
+            {
+                "name": "commandName",
+                "type": "const char*",
+                "description": "The command you want to register."
+            },
+            {
+                "name": "handler",
+                "type": "Function",
+                "description": "A handler function that gets called whenever the command is executed."
+            },
+            {
+                "name": "restricted",
+                "type": "BOOL",
+                "description": "If this is a server command and you set this to true, then players will need the command.yourCommandName ace permission to execute this command."
+            }
+        ],
+        "return_type": "void",
+        "description": "Registered commands can be executed by entering them in the client console (this works for client side and server side registered commands). Or by entering them in the server console/through an RCON client (only works for server side registered commands). Or if you use a supported chat resource, like the default one provided in the cfx-server-data repository, then you can enter the command in chat by prefixing it with a `/`.\n\nCommands registered using this function can also be executed by resources, using the [`ExecuteCommand` native](#\\_0x561C060B).\n\nThe restricted bool is not used on the client side. Permissions can only be checked on the server side, so if you want to limit your command with an ace permission automatically, make it a server command (by registering it in a server script).\n\n**Example result**:\n\n![](https://i.imgur.com/TaCnG09.png)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- (server side script)\r\n-- Registers a command named 'ping'.\r\nRegisterCommand(\"ping\", function(source, args, rawCommand)\r\n    -- If the source is > 0, then that means it must be a player.\r\n    if (source > 0) then\r\n    \r\n        -- result (using the default GTA:O chat theme) https://i.imgur.com/TaCnG09.png\r\n        TriggerClientEvent(\"chat:addMessage\", -1, {\r\n            args = {\r\n                GetPlayerName(source),\r\n                \"PONG!\"\r\n            },\r\n            color = { 5, 255, 255 }\r\n        })\r\n    \r\n    -- If it's not a player, then it must be RCON, a resource, or the server console directly.\r\n    else\r\n        print(\"This command was executed by the server console, RCON client, or a resource.\")\r\n    end\r\nend, false --[[this command is not restricted, everyone can use this.]])"
+            },
+            {
+                "lang": "cs",
+                "code": "RegisterCommand(\"ping\", new Action<int, List<object>, string>((source, args, rawCommand) =>\r\n{\r\n    if (source > 0) // it's a player.\r\n    {\r\n        // Create a message object.\r\n        dynamic messageObject = new ExpandoObject();\r\n        // Set the message object args (message author, message content)\r\n        messageObject.args = new string[] { GetPlayerName(source.ToString()), \"PONG!\" };\r\n        // Set the message color (r, g, b)\r\n        messageObject.color = new int[] { 5, 255, 255 };\r\n\r\n        // Trigger the client event with the message object on all clients.\r\n        TriggerClientEvent(\"chat:addMessage\", messageObject);\r\n    }\r\n    // It's not a player, so it's the server console, a RCON client, or a resource.\r\n    else\r\n    {\r\n        Debug.WriteLine(\"This command was executed by the server console, RCON client, or a resource.\");\r\n    }\r\n}), false /*This command is also not restricted, anyone can use it.*/ );"
+            }
+        ],
+        "hash": "0x5FA79B0F",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

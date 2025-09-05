@@ -1,0 +1,20 @@
+{
+    "0x9C7B59F9": {
+        "name": "GET_VEHICLE_WHEEL_WIDTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            }
+        ],
+        "return_type": "float",
+        "description": "Returns vehicle's wheels' width (width is the same for all the wheels, cannot get/set specific wheel of vehicle).\r\nOnly works on non-default wheels (returns 0 in case of default wheels).",
+        "examples": [],
+        "hash": "0x9C7B59F9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Float representing width of the wheel (usually between 0.1 and 1.5)"
+    }
+}

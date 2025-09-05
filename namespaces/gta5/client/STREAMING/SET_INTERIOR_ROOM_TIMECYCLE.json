@@ -1,0 +1,34 @@
+{
+    "0x31C9A848": {
+        "name": "SET_INTERIOR_ROOM_TIMECYCLE",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "roomIndex",
+                "type": "int",
+                "description": "Interior room index."
+            },
+            {
+                "name": "timecycleHash",
+                "type": "int",
+                "description": "Timecycle hash."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal roomHash = GetRoomKeyFromEntity(playerPed)\r\nlocal roomId = GetInteriorRoomIndexByHash(interiorId, roomHash)\r\n\r\nif roomId ~= -1 then\r\n  local timecycleHash = GetHashKey(\"scanline_cam\")\r\n  SetInteriorRoomTimecycle(interiorId, roomId, timecycleHash)\r\n  RefreshInterior(interiorId)\r\nend"
+            }
+        ],
+        "hash": "0x31C9A848",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

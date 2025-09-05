@@ -1,0 +1,19 @@
+{
+    "0xEDF4B0FC": {
+        "name": "GET_VEHICLE_NUMBER_OF_WHEELS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xEDF4B0FC",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

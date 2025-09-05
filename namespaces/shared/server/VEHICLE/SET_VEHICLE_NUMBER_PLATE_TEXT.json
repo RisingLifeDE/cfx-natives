@@ -1,0 +1,23 @@
+{
+    "0x400F9556": {
+        "name": "SET_VEHICLE_NUMBER_PLATE_TEXT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set the plate for"
+            },
+            {
+                "name": "plateText",
+                "type": "const char*",
+                "description": "The text to set the plate to, 8 chars maximum"
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_VEHICLE_NUMBER_PLATE_TEXT\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_NUMBER_PLATE_TEXT](?\\_0x95A88F0B409CDA47).**",
+        "examples": [],
+        "hash": "0x400F9556",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

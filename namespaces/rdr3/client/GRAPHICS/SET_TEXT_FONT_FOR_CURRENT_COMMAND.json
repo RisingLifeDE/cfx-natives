@@ -1,0 +1,19 @@
+{
+    "0xADA9255D": {
+        "name": "SET_TEXT_FONT_FOR_CURRENT_COMMAND",
+        "params": [
+            {
+                "name": "fontId",
+                "type": "int",
+                "description": "The index of the font."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the text font for the current text drawing command.",
+        "examples": [],
+        "hash": "0xADA9255D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

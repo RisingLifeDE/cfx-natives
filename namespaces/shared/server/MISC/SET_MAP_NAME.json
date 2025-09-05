@@ -1,0 +1,17 @@
+{
+    "0xB7BA82DC": {
+        "name": "SET_MAP_NAME",
+        "params": [
+            {
+                "name": "mapName",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xB7BA82DC",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

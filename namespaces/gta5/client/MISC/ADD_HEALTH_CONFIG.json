@@ -1,0 +1,73 @@
+{
+    "0x9CBFD5C1": {
+        "name": "ADD_HEALTH_CONFIG",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config. Cannot be default game health config name."
+            },
+            {
+                "name": "defaultHealth",
+                "type": "float",
+                "description": "Default health value."
+            },
+            {
+                "name": "defaultArmor",
+                "type": "float",
+                "description": "Default armor value."
+            },
+            {
+                "name": "defaultEndurance",
+                "type": "float"
+            },
+            {
+                "name": "fatiguedHealthThreshold",
+                "type": "float",
+                "description": "Fatigued health threshold value."
+            },
+            {
+                "name": "injuredHealthThreshold",
+                "type": "float",
+                "description": "Injured health threshold value."
+            },
+            {
+                "name": "dyingHealthThreshold",
+                "type": "float",
+                "description": "Dying health threshold value."
+            },
+            {
+                "name": "hurtHealthThreshold",
+                "type": "float",
+                "description": "Hurt health threshold value."
+            },
+            {
+                "name": "dogTakedownThreshold",
+                "type": "float",
+                "description": "Dog takedown threshold value."
+            },
+            {
+                "name": "writheFromBulletThreshold",
+                "type": "float",
+                "description": "Writhe from bulled threshold value."
+            },
+            {
+                "name": "meleeCardinalFatalAttack",
+                "type": "BOOL",
+                "description": "Melee cardinal fatal attack check value."
+            },
+            {
+                "name": "invincible",
+                "type": "BOOL",
+                "description": "Invincible value."
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds new health config.",
+        "examples": [],
+        "hash": "0x9CBFD5C1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

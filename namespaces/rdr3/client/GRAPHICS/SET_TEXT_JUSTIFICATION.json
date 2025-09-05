@@ -1,0 +1,18 @@
+{
+    "0x68CDFA60": {
+        "name": "SET_TEXT_JUSTIFICATION",
+        "params": [
+            {
+                "name": "justifyType",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x68CDFA60",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

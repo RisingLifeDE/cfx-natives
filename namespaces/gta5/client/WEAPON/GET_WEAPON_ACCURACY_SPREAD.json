@@ -1,0 +1,20 @@
+{
+    "0x5343721": {
+        "name": "GET_WEAPON_ACCURACY_SPREAD",
+        "params": [
+            {
+                "name": "weaponHash",
+                "type": "Hash",
+                "description": "Weapon name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for the accuracy spread of a weapon.",
+        "examples": [],
+        "hash": "0x5343721",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The accuracy spread of a weapon."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x19D81F4E": {
+        "name": "COMMIT_RUNTIME_TEXTURE",
+        "params": [
+            {
+                "name": "tex",
+                "type": "long",
+                "description": "The runtime texture handle."
+            }
+        ],
+        "return_type": "void",
+        "description": "Commits the backing pixels to the specified runtime texture.",
+        "examples": [],
+        "hash": "0x19D81F4E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

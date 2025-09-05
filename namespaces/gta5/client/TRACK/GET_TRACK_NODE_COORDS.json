@@ -1,0 +1,30 @@
+{
+    "0x1628548E": {
+        "name": "GET_TRACK_NODE_COORDS",
+        "params": [
+            {
+                "name": "trackIndex",
+                "type": "int",
+                "description": "The track index"
+            },
+            {
+                "name": "trackNode",
+                "type": "int",
+                "description": "The track node"
+            },
+            {
+                "name": "coords",
+                "type": "Vector3*",
+                "description": "The resulting track node coords"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets the coordinates of a specific track node.",
+        "examples": [],
+        "hash": "0x1628548E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns if it succeeds in getting coords or not"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "0x4301E10C": {
+        "name": "GET_SHAPE_TEST_RESULT_INCLUDING_MATERIAL",
+        "params": [
+            {
+                "name": "shapeTestHandle",
+                "type": "int",
+                "description": "A shape test handle."
+            },
+            {
+                "name": "hit",
+                "type": "BOOL*",
+                "description": "Whether or not the shape test hit any collisions."
+            },
+            {
+                "name": "endCoords",
+                "type": "Vector3*",
+                "description": "The resulting coordinates where the shape test hit a collision."
+            },
+            {
+                "name": "surfaceNormal",
+                "type": "Vector3*",
+                "description": "The surface normal of the hit position."
+            },
+            {
+                "name": "materialHash",
+                "type": "Hash*",
+                "description": "hash of the hit material or surface type, see materialFX.dat"
+            },
+            {
+                "name": "entityHit",
+                "type": "Entity*",
+                "description": "Any dynamic entity hit by the shape test."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the result of a shape test, also returning the material of any touched surface.\n\nWhen used with an asynchronous shape test, this native should be looped until returning 0 or 2, after which the handle is invalidated.\n\nUnless the return value is 2, the other return values are undefined.",
+        "examples": [],
+        "hash": "0x4301E10C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3",
+        "resultsDescription": "`0` if the handle is invalid, `1` if the shape test is still pending, or `2` if the shape test has completed, and the handle should be invalidated."
+    }
+}

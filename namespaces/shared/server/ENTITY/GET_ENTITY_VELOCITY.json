@@ -1,0 +1,18 @@
+{
+    "0xC14C9B6B": {
+        "name": "GET_ENTITY_VELOCITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "",
+        "examples": [],
+        "hash": "0xC14C9B6B",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

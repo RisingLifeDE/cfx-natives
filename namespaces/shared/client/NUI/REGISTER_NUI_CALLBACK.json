@@ -1,0 +1,21 @@
+{
+    "0xC59B980C": {
+        "name": "REGISTER_NUI_CALLBACK",
+        "params": [
+            {
+                "name": "callbackType",
+                "type": "const char*"
+            },
+            {
+                "name": "callback",
+                "type": "Function"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xC59B980C",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

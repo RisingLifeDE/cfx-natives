@@ -1,0 +1,29 @@
+{
+    "0xAB7F7241": {
+        "name": "ADD_CONVAR_CHANGE_LISTENER",
+        "params": [
+            {
+                "name": "conVarFilter",
+                "type": "const char*",
+                "description": "The Console Variable to listen for, this can be a pattern like \"test:\\*\", or null for any"
+            },
+            {
+                "name": "handler",
+                "type": "Function",
+                "description": "The handler function."
+            }
+        ],
+        "return_type": "int",
+        "description": "Adds a listener for Console Variable changes.\n\nThe function called expects to match the following signature:\n\n```ts\nfunction ConVarChangeListener(conVarName: string, reserved: any);\n```\n\n*   **conVarName**: The ConVar that changed.\n*   **reserved**: Currently unused.",
+        "examples": [
+            {
+                "lang": "js",
+                "code": "// listen for all convar changes\r\nAddConvarChangeListener(null, (conVarName, reserved) => {\r\n    print(GetConvarInt(conVarName))\r\n})\r\n\r\n// listen to convars that start with \"script:\"\r\nAddConvarChangeListener(\"script:*\", (conVarName, reserved) => {\r\n    print(GetConvarInt(conVarName))\r\n})"
+            }
+        ],
+        "hash": "0xAB7F7241",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "A cookie to remove the change handler."
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0xF9D9B647": {
+        "name": "SET_HEALTH_CONFIG_INJURED_THRESHOLD",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            },
+            {
+                "name": "newValue",
+                "type": "float",
+                "description": "Value"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets default injured health threshold value for specific health config.",
+        "examples": [],
+        "hash": "0xF9D9B647",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

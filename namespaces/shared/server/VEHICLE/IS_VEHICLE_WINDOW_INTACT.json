@@ -1,0 +1,24 @@
+{
+    "0xAC4EF23D": {
+        "name": "IS_VEHICLE_WINDOW_INTACT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            },
+            {
+                "name": "windowIndex",
+                "type": "int",
+                "description": "The window index."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "See the client-side [IS_VEHICLE_WINDOW_INTACT](#\\_0x46E571A0E20D01F1) for a window indexes list.",
+        "examples": [],
+        "hash": "0xAC4EF23D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0x6485615E": {
+        "name": "SET_VEHICLE_TURBO_PRESSURE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "pressure",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x6485615E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

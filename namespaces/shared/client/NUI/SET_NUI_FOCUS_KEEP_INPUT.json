@@ -1,0 +1,17 @@
+{
+    "0x3FF5E5F8": {
+        "name": "SET_NUI_FOCUS_KEEP_INPUT",
+        "params": [
+            {
+                "name": "keepInput",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x3FF5E5F8",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

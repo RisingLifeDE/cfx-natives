@@ -1,0 +1,37 @@
+{
+    "0x82E794B7": {
+        "name": "GET_VEHICLE_GEAR_RATIO",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "gear",
+                "type": "int",
+                "description": "The vehicles gear you want to get."
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets vehicles gear ratio on choosen gear.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsIn(PlayerPedId(-1))\r\nlocal currentGear = GetVehicleCurrentGear(Vehicle)\r\n\r\nprint(GetVehicleGearRatio(vehicle, currentGear)) -- will print current vehicle gear to console"
+            },
+            {
+                "lang": "js",
+                "code": "const vehicle = GetVehiclePedIsIn(PlayerPedId(-1));\r\nconst currentGear = GetVehicleCurrentGear(Vehicle);\r\n\r\nconsole.log(GetVehicleGearRatio(vehicle, currentGear)); // will print current vehicle gear to console"
+            },
+            {
+                "lang": "cs",
+                "code": "using static CitizenFX.Core.API;\r\n\r\nVehicle vehicle = Game.PlayerPed.CurrentVehicle;\r\nint currentGear = GetVehicleCurrentGear(vehicle.Handle);\r\n\r\nDebug.WriteLine($\"{GetVehicleGearRatio(vehicle.Handle, currentGear)}\");"
+            }
+        ],
+        "hash": "0x82E794B7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

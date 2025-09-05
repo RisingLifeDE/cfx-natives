@@ -1,0 +1,34 @@
+{
+    "0xB41A56C2": {
+        "name": "SET_ENTITY_DRAW_OUTLINE_COLOR",
+        "params": [
+            {
+                "name": "red",
+                "type": "int",
+                "description": "Red component of color."
+            },
+            {
+                "name": "green",
+                "type": "int",
+                "description": "Green component of color."
+            },
+            {
+                "name": "blue",
+                "type": "int",
+                "description": "Blue component of color."
+            },
+            {
+                "name": "alpha",
+                "type": "int",
+                "description": "Alpha component of color, ignored for shader `0`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets color for entity outline. `255, 0, 255, 255` by default.",
+        "examples": [],
+        "hash": "0xB41A56C2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

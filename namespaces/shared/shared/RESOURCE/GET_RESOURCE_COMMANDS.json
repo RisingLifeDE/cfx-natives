@@ -1,0 +1,18 @@
+{
+    "0x97628584": {
+        "name": "GET_RESOURCE_COMMANDS",
+        "params": [
+            {
+                "name": "resource",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "Object",
+        "description": "Returns all commands registered by the specified resource.\r\nThe data returned adheres to the following layout:\n\n```\n[\r\n{\r\n\"name\": \"cmdlist\",\r\n\"resource\": \"example_resource\",\r\n\"arity\" = -1,\r\n},\r\n{\r\n\"name\": \"command1\"\r\n\"resource\": \"example_resource2\",\r\n\"arity\" = -1,\r\n}\r\n]\n```",
+        "examples": [],
+        "hash": "0x97628584",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "An object containing registered commands."
+    }
+}

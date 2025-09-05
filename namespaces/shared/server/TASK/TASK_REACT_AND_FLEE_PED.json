@@ -1,0 +1,21 @@
+{
+    "0x8A632BD8": {
+        "name": "TASK_REACT_AND_FLEE_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "fleeTarget",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "void",
+        "description": "TASK_REACT_AND_FLEE_PED\n\n**This is the server-side RPC native equivalent of the client native [TASK_REACT_AND_FLEE_PED](?\\_0x72C896464915D1B1).**",
+        "examples": [],
+        "hash": "0x8A632BD8",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

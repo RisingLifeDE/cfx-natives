@@ -1,0 +1,18 @@
+{
+    "0xDE3316AB": {
+        "name": "CLEAR_PED_TASKS",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "Ped id. Use PlayerPedId() for your own character."
+            }
+        ],
+        "return_type": "void",
+        "description": "Clear a ped's tasks. Stop animations and other tasks created by scripts.\n\n**This is the server-side RPC native equivalent of the client native [CLEAR_PED_TASKS](?\\_0xE1EF3C1216AFF2CD).**",
+        "examples": [],
+        "hash": "0xDE3316AB",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "0x780DA86": {
+        "name": "ENTER_CURSOR_MODE",
+        "params": [],
+        "return_type": "void",
+        "description": "Enters cursor mode, suppressing mouse movement to the game and displaying a mouse cursor instead. This function supports\r\nSDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0x780DA86",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

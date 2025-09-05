@@ -1,0 +1,28 @@
+{
+    "0x21C7A35B": {
+        "name": "SET_RESOURCE_KVP",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "const char*",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "A setter for [GET_RESOURCE_KVP_STRING](#\\_0x5240DA5A).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetResourceKvp('mollis', 'vesuvius citrate')"
+            }
+        ],
+        "hash": "0x21C7A35B",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

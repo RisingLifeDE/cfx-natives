@@ -1,0 +1,24 @@
+{
+    "0x28CB8608": {
+        "name": "GET_TIMECYCLE_MODIFIER_NAME_BY_INDEX",
+        "params": [
+            {
+                "name": "modifierIndex",
+                "type": "int",
+                "description": "The timecycle modifier index."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local modifierIndex = GetTimecycleModifierIndex()\r\n\r\nif modifierIndex ~= -1 then\r\n  local modifierName = GetTimecycleModifierNameByIndex(modifierIndex)\r\n  print(\"current timecycle name is \" .. modifierName)\r\nend"
+            }
+        ],
+        "hash": "0x28CB8608",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The timecycle modifier name."
+    }
+}

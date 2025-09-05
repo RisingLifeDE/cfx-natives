@@ -1,0 +1,20 @@
+{
+    "0xC37D668": {
+        "name": "GET_HELI_MAIN_ROTOR_DAMAGE_SCALE",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xC37D668",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns a value representing the damage scaling factor applied to the helicopter's main rotor. The value ranges from `0.0` (no damage scaling) to`  1.0 ` (full damage scaling)."
+    }
+}

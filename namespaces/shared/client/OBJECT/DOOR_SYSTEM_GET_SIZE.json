@@ -1,0 +1,13 @@
+{
+    "0x237613B3": {
+        "name": "DOOR_SYSTEM_GET_SIZE",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x237613B3",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The number of doors registered in the system"
+    }
+}

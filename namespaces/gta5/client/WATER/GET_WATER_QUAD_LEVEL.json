@@ -1,0 +1,29 @@
+{
+    "0x6523816B": {
+        "name": "GET_WATER_QUAD_LEVEL",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The returned water quad level"
+            },
+            {
+                "name": "waterQuadLevel",
+                "type": "float*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "*level is defined as \"z\" in water.xml*",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, waterQuadLevel = GetWaterQuadLevel(0)"
+            }
+        ],
+        "hash": "0x6523816B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Level is undefined on failure"
+    }
+}

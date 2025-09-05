@@ -1,0 +1,14 @@
+{
+    "0x16605B30": {
+        "name": "GET_VEHICLE_XMAS_SNOW_FACTOR",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_VEHICLE_XMAS_SNOW_FACTOR](#\\_0x80CC4C9E).",
+        "examples": [],
+        "hash": "0x16605B30",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns the grip factor for the vehicles wheels during xmas weather. default value is 0.2."
+    }
+}

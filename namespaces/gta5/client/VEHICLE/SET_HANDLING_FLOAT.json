@@ -1,0 +1,34 @@
+{
+    "0x90DD01C": {
+        "name": "SET_HANDLING_FLOAT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "const char*",
+                "description": "The vehicle class to set data for."
+            },
+            {
+                "name": "class_",
+                "type": "const char*",
+                "description": "The handling class to set. Only \"CHandlingData\" is supported at this time."
+            },
+            {
+                "name": "fieldName",
+                "type": "const char*",
+                "description": "The field name to set. These match the keys in `handling.meta`."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "The floating-point value to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a global handling override for a specific vehicle class. The name is supposed to match the `handlingName` field from handling.meta.\r\nExample: `SetHandlingFloat('AIRTUG', 'CHandlingData', 'fSteeringLock', 360.0)`",
+        "examples": [],
+        "hash": "0x90DD01C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

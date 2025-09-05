@@ -1,0 +1,29 @@
+{
+    "0x23EAF899": {
+        "name": "CREATE_DUI",
+        "params": [
+            {
+                "name": "url",
+                "type": "const char*",
+                "description": "The initial URL to load in the browser."
+            },
+            {
+                "name": "width",
+                "type": "int",
+                "description": "The width of the backing surface."
+            },
+            {
+                "name": "height",
+                "type": "int",
+                "description": "The height of the backing surface."
+            }
+        ],
+        "return_type": "long",
+        "description": "Creates a DUI browser. This can be used to draw on a runtime texture using CREATE_RUNTIME_TEXTURE_FROM_DUI_HANDLE.",
+        "examples": [],
+        "hash": "0x23EAF899",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A DUI object."
+    }
+}

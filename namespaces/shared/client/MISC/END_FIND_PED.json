@@ -1,0 +1,17 @@
+{
+    "0x9615C2AD": {
+        "name": "END_FIND_PED",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x9615C2AD",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

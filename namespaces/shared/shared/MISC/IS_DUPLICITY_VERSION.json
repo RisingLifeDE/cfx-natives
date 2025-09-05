@@ -1,0 +1,13 @@
+{
+    "0xCF24C52E": {
+        "name": "IS_DUPLICITY_VERSION",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "Gets whether or not this is the CitizenFX server.",
+        "examples": [],
+        "hash": "0xCF24C52E",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "A boolean value."
+    }
+}

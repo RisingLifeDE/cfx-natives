@@ -1,0 +1,22 @@
+{
+    "0xCCFF3B6E": {
+        "name": "GET_VEHICLE_INTERIOR_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "color",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xCCFF3B6E",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

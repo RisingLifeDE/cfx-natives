@@ -1,0 +1,19 @@
+{
+    "0x7BCAA6E7": {
+        "name": "REMOVE_DRY_VOLUME",
+        "params": [
+            {
+                "name": "handle",
+                "type": "int",
+                "description": "The handle of the dry volume that needs to be removed."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes a dry volume from the game session.\r\nSee CREATE_DRY_VOLUME for more info",
+        "examples": [],
+        "hash": "0x7BCAA6E7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

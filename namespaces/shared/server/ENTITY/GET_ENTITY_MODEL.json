@@ -1,0 +1,18 @@
+{
+    "0xDAFCB3EC": {
+        "name": "GET_ENTITY_MODEL",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "Hash",
+        "description": "",
+        "examples": [],
+        "hash": "0xDAFCB3EC",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

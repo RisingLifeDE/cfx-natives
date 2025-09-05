@@ -1,0 +1,14 @@
+{
+    "0x81A08523": {
+        "name": "GET_ALL_TRACK_JUNCTIONS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all track junctions on the client\r\nThe data returned adheres to the following structure:\n\n```\n[1, 2, 4, 6, 69, 420]\n```",
+        "examples": [],
+        "hash": "0x81A08523",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An object containing a list of track junctions ids.```\n```"
+    }
+}

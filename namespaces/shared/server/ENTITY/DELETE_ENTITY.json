@@ -1,0 +1,18 @@
+{
+    "0xFAA3D236": {
+        "name": "DELETE_ENTITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to delete."
+            }
+        ],
+        "return_type": "void",
+        "description": "Deletes the specified entity.\n\n**NOTE**: For trains this will only work if called on the train engine, it will not work on its carriages.",
+        "examples": [],
+        "hash": "0xFAA3D236",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

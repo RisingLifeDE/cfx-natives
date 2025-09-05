@@ -1,0 +1,23 @@
+{
+    "0xEA1859E5": {
+        "name": "GET_VEHICLE_WHEEL_ROTATION_SPEED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the rotation speed of a wheel.\r\nThis is used internally to calcuate GET_VEHICLE_WHEEL_SPEED.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0xEA1859E5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The angular velocity of the wheel."
+    }
+}

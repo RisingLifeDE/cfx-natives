@@ -1,0 +1,20 @@
+{
+    "0x2FD0BC1B": {
+        "name": "GET_WEAPON_COMPONENT_RANGE_MODIFIER",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for `CWeaponFallOffModifier` range modifier value in a weapon component.",
+        "examples": [],
+        "hash": "0x2FD0BC1B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A weapon component range modifier."
+    }
+}

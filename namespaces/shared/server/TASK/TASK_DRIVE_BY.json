@@ -1,0 +1,53 @@
+{
+    "0x2B84D1C4": {
+        "name": "TASK_DRIVE_BY",
+        "params": [
+            {
+                "name": "driverPed",
+                "type": "Ped"
+            },
+            {
+                "name": "targetPed",
+                "type": "Ped"
+            },
+            {
+                "name": "targetVehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "targetX",
+                "type": "float"
+            },
+            {
+                "name": "targetY",
+                "type": "float"
+            },
+            {
+                "name": "targetZ",
+                "type": "float"
+            },
+            {
+                "name": "distanceToShoot",
+                "type": "float"
+            },
+            {
+                "name": "pedAccuracy",
+                "type": "int"
+            },
+            {
+                "name": "p8",
+                "type": "BOOL"
+            },
+            {
+                "name": "firingPattern",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nExample:\r\nTASK::TASK_DRIVE_BY(l_467[1/*22*/], PLAYER::PLAYER_PED_ID(), 0, 0.0, 0.0, 2.0, 300.0, 100, 0, ${firing_pattern_burst_fire_driveby});\r\nNeeds working example. Doesn't seem to do anything.\r\nI marked p2 as targetVehicle as all these shooting related tasks seem to have that in common.\r\nI marked p6 as distanceToShoot as if you think of GTA's Logic with the native SET_VEHICLE_SHOOT natives, it won't shoot till it gets within a certain distance of the target.\r\nI marked p7 as pedAccuracy as it seems it's mostly 100 (Completely Accurate), 75, 90, etc. Although this could be the ammo count within the gun, but I highly doubt it. I will change this comment once I find out if it's ammo count or not.\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_DRIVE_BY](?\\_0x2F8AF0E82773A171).**",
+        "examples": [],
+        "hash": "0x2B84D1C4",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "0x13B6855D": {
+        "name": "FLAG_SERVER_AS_PRIVATE",
+        "params": [
+            {
+                "name": "private_",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x13B6855D",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

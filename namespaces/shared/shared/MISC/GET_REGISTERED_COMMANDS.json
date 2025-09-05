@@ -1,0 +1,13 @@
+{
+    "0xD4BEF069": {
+        "name": "GET_REGISTERED_COMMANDS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all commands that are registered in the command system.\r\nThe data returned adheres to the following layout:\n\n```\n[\r\n{\r\n\"name\": \"cmdlist\",\r\n\"resource\": \"resource\",\r\n\"arity\" = -1,\r\n},\r\n{\r\n\"name\": \"command1\"\r\n\"resource\": \"resource_2\",\r\n\"arity\" = -1,\r\n}\r\n]\n```",
+        "examples": [],
+        "hash": "0xD4BEF069",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "An object containing registered commands."
+    }
+}

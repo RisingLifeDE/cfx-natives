@@ -1,0 +1,20 @@
+{
+    "0x2E86DEA5": {
+        "name": "ADD_AUTHORIZED_PARACHUTE_PACK_MODEL",
+        "params": [
+            {
+                "name": "modelNameHash",
+                "type": "int",
+                "description": "Name hash of the model to allow to be used for the player ped's parachute pack"
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds the given model name hash to the list of valid models for the player ped's parachute pack.",
+        "examples": [],
+        "hash": "0x2E86DEA5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "None."
+    }
+}

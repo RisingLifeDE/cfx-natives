@@ -1,0 +1,19 @@
+{
+    "0xA273060E": {
+        "name": "GET_VEHICLE_TYPE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle's entity handle."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Returns the type of the passed vehicle.\n\nFor client scripts, reference the more detailed [GET_VEHICLE_TYPE_RAW](#\\_0xDE73BC10) native.\n\n### Vehicle types\n\n*   automobile\n*   bike\n*   boat\n*   heli\n*   plane\n*   submarine\n*   trailer\n*   train",
+        "examples": [],
+        "hash": "0xA273060E",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "If the entity is a vehicle, the vehicle type. If it is not a vehicle, the return value will be null."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0xBEFE93F4": {
+        "name": "IS_PLAYER_COMMERCE_INFO_LOADED",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Requests whether or not the commerce data for the specified player has loaded.",
+        "examples": [],
+        "hash": "0xBEFE93F4",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A boolean."
+    }
+}

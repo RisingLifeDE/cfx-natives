@@ -1,0 +1,13 @@
+{
+    "0x863F27B": {
+        "name": "GET_NUM_RESOURCES",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x863F27B",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0xBF847807": {
+        "name": "MUMBLE_CLEAR_VOICE_CHANNEL",
+        "params": [],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xBF847807",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

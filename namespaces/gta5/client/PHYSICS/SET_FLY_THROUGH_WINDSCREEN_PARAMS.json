@@ -1,0 +1,35 @@
+{
+    "0x4D3118ED": {
+        "name": "SET_FLY_THROUGH_WINDSCREEN_PARAMS",
+        "params": [
+            {
+                "name": "vehMinSpeed",
+                "type": "float",
+                "description": "Vehicle minimum speed (default 35.0)."
+            },
+            {
+                "name": "unkMinSpeed",
+                "type": "float",
+                "description": "Unknown minimum speed (default 40.0)."
+            },
+            {
+                "name": "unkModifier",
+                "type": "float",
+                "description": "Unknown modifier (default 17.0)."
+            },
+            {
+                "name": "minDamage",
+                "type": "float",
+                "description": "Minimum damage (default 2000.0)."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Sets some in-game parameters which is used for checks is ped needs to fly through windscreen after a crash.",
+        "examples": [],
+        "hash": "0x4D3118ED",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A bool indicating if parameters was set successfully."
+    }
+}

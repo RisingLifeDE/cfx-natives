@@ -1,0 +1,13 @@
+{
+    "0xA6FF71C9": {
+        "name": "GET_MINIMAP_TYPE",
+        "params": [],
+        "return_type": "int",
+        "description": "Get the minimap type:\n\n```\n0 = Off,\r\n1 = Regular,\r\n2 = Expanded,\r\n3 = Simple,\n```",
+        "examples": [],
+        "hash": "0xA6FF71C9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

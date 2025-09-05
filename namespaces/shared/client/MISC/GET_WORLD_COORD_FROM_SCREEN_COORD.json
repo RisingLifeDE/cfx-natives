@@ -1,0 +1,39 @@
+{
+    "0xC81D0659": {
+        "name": "GET_WORLD_COORD_FROM_SCREEN_COORD",
+        "params": [
+            {
+                "name": "screenX",
+                "type": "float",
+                "description": "A screen horizontal axis coordinate (0.0 - 1.0)."
+            },
+            {
+                "name": "screenY",
+                "type": "float",
+                "description": "A screen vertical axis coordinate (0.0 - 1.0)."
+            },
+            {
+                "name": "worldVector",
+                "type": "Vector3*",
+                "description": "The world coord vector pointer."
+            },
+            {
+                "name": "normalVector",
+                "type": "Vector3*",
+                "description": "The screen normal vector pointer."
+            }
+        ],
+        "return_type": "void",
+        "description": "Converts a screen coordinate into its relative world coordinate.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "CreateThread(function()\r\n  while true do\r\n    local screenX = GetDisabledControlNormal(0, 239)\r\n    local screenY = GetDisabledControlNormal(0, 240)\r\n\r\n    local world, normal = GetWorldCoordFromScreenCoord(screenX, screenY)\r\n\r\n    local depth = 10\r\n\r\n    local target = world + normal * depth\r\n\r\n    DrawSphere(target.x, target.y, target.z, 0.5, 255, 0, 0, 0.5)\r\n\r\n    Wait(0)\r\n  end\r\nend)"
+            }
+        ],
+        "hash": "0xC81D0659",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A Vector3 representing the world coordinates relative to the specified screen coordinates and a screen plane normal Vector3 (normalised)."
+    }
+}

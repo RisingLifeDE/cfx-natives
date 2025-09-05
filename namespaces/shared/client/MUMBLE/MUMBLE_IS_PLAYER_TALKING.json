@@ -1,0 +1,19 @@
+{
+    "0x33EEF97F": {
+        "name": "MUMBLE_IS_PLAYER_TALKING",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "The target player."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x33EEF97F",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Whether or not the player is talking."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x65C16D57": {
+        "name": "FREEZE_ENTITY_POSITION",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to freeze/unfreeze."
+            },
+            {
+                "name": "toggle",
+                "type": "BOOL",
+                "description": "Freeze or unfreeze entity."
+            }
+        ],
+        "return_type": "void",
+        "description": "Freezes or unfreezes an entity preventing its coordinates to change by the player if set to `true`. You can still change the entity position using [`SET_ENTITY_COORDS`](#\\_0x06843DA7060A026B).\n\n**This is the server-side RPC native equivalent of the client native [FREEZE_ENTITY_POSITION](?\\_0x428CA6DBD1094446).**",
+        "examples": [],
+        "hash": "0x65C16D57",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

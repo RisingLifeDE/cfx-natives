@@ -1,0 +1,25 @@
+{
+    "0xA47B860F": {
+        "name": "GET_PED_EYE_COLOR",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for [\\_SET_PED_EYE_COLOR](#\\_0x50B56988B170AFDF). Returns -1 if fails to get.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local pedEyeColour = GetPedEyeColor(PlayerPedId())\r\nif pedEyeColour == 7 then\r\n  print(\"Gray eyes!\")\r\nend"
+            }
+        ],
+        "hash": "0xA47B860F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped's eye colour, or -1 if fails to get."
+    }
+}

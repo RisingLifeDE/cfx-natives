@@ -1,0 +1,49 @@
+{
+    "0xAB65ACEE": {
+        "name": "SET_RUNTIME_TEXTURE_PIXEL",
+        "params": [
+            {
+                "name": "tex",
+                "type": "long",
+                "description": "A handle to the runtime texture."
+            },
+            {
+                "name": "x",
+                "type": "int",
+                "description": "The X position of the pixel to change."
+            },
+            {
+                "name": "y",
+                "type": "int",
+                "description": "The Y position of the pixel to change."
+            },
+            {
+                "name": "r",
+                "type": "int",
+                "description": "The new R value (0-255)."
+            },
+            {
+                "name": "g",
+                "type": "int",
+                "description": "The new G value (0-255)."
+            },
+            {
+                "name": "b",
+                "type": "int",
+                "description": "The new B value (0-255)."
+            },
+            {
+                "name": "a",
+                "type": "int",
+                "description": "The new A value (0-255)."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a pixel in the specified runtime texture. This will have to be committed using `COMMIT_RUNTIME_TEXTURE` to have any effect.",
+        "examples": [],
+        "hash": "0xAB65ACEE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

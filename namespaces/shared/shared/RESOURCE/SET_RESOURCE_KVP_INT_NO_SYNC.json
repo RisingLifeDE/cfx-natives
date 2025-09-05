@@ -1,0 +1,23 @@
+{
+    "0x26AEB707": {
+        "name": "SET_RESOURCE_KVP_INT_NO_SYNC",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "int",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "Nonsynchronous [SET_RESOURCE_KVP_INT](#\\_0x6A2B1E8) operation; see [FLUSH_RESOURCE_KVP](#\\_0x5240DA5A).",
+        "examples": [],
+        "hash": "0x26AEB707",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

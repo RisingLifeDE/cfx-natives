@@ -1,0 +1,19 @@
+{
+    "0x1582C7F2": {
+        "name": "REMOVE_TEXTURE",
+        "params": [
+            {
+                "name": "textureId",
+                "type": "int",
+                "description": "texture id created by `0xC5E7204F322E49EB`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes the specified texture and remove it from the ped.\r\nUnlike `0x6BEFAA907B076859` which only marks the texture as \"can be reused\" (and keeps it until will be reused), this function deletes it right away. Can fix some sync issues. `DOES_TEXTURE_EXIST` can be use to wait until fully unloaded by game\n\n```lua\nRemoveTexture(textureId)\r\nwhile DoesTextureExist(textureId) do \r\n    Wait(0)\r\nend\n```",
+        "examples": [],
+        "hash": "0x1582C7F2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

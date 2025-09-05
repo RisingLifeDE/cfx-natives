@@ -1,0 +1,19 @@
+{
+    "0xFFEEF513": {
+        "name": "NETWORK_GET_VOICE_PROXIMITY_OVERRIDE_FOR_PLAYER",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "",
+        "examples": [],
+        "hash": "0xFFEEF513",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

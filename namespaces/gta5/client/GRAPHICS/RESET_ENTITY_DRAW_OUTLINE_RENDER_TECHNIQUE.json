@@ -1,0 +1,13 @@
+{
+    "0x8EB6EC38": {
+        "name": "RESET_ENTITY_DRAW_OUTLINE_RENDER_TECHNIQUE",
+        "params": [],
+        "return_type": "void",
+        "description": "This function undoes changes made by [`SET_ENTITY_DRAW_OUTLINE_RENDER_TECHNIQUE`](#\\_0x68DFF2DD), restoring the original outline rendering behavior. The default render technique group is `unlit`.",
+        "examples": [],
+        "hash": "0x8EB6EC38",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

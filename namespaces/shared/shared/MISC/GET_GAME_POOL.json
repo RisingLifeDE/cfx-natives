@@ -1,0 +1,24 @@
+{
+    "0x2B9D4F50": {
+        "name": "GET_GAME_POOL",
+        "params": [
+            {
+                "name": "poolName",
+                "type": "const char*",
+                "description": "The pool name to get a list of entities from."
+            }
+        ],
+        "return_type": "Object",
+        "description": "Returns a list of entity handles (script GUID) for all entities in the specified pool - the data returned is an array as\r\nfollows:\n\n```json\n[ 770, 1026, 1282, 1538, 1794, 2050, 2306, 2562, 2818, 3074, 3330, 3586, 3842, 4098, 4354, 4610, ...]\n```\n\n### Supported pools\n\n*   `CPed`: Peds (including animals) and players.\n*   `CObject`: Objects (props), doors, and projectiles.\n*   `CNetObject`: Networked objects\n*   `CVehicle`: Vehicles.\n*   `CPickup`: Pickups.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehiclePool = GetGamePool('CVehicle') -- Get the list of vehicles (entities) from the pool\r\nfor i = 1, #vehiclePool do -- loop through each vehicle (entity)\r\n    if GetPedInVehicleSeat(vehiclePool[i], -1) == 0 then\r\n        DeleteEntity(vehiclePool[i]) -- Delete vehicles (entities) that don't have a driver\r\n    end\r\nend"
+            }
+        ],
+        "hash": "0x2B9D4F50",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "An array containing entity handles for each entity in the named pool."
+    }
+}

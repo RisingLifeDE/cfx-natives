@@ -1,0 +1,24 @@
+{
+    "0x3F3EB3F7": {
+        "name": "OVERRIDE_REACTION_TO_VEHICLE_SIREN",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Toggle on or off"
+            },
+            {
+                "name": "reaction",
+                "type": "int",
+                "description": "Decide how they should react"
+            }
+        ],
+        "return_type": "void",
+        "description": "Setting the state to true and a value between 0 and 2 will cause pedestrian vehicles to react accordingly to sirens.\n\n```cpp\nenum Reactions {\r\n    Left = 0,\r\n    Right = 1,\r\n    Stop = 2\r\n}\n```",
+        "examples": [],
+        "hash": "0x3F3EB3F7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

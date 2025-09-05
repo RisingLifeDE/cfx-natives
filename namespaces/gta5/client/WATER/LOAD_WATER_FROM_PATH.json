@@ -1,0 +1,30 @@
+{
+    "0xF5102568": {
+        "name": "LOAD_WATER_FROM_PATH",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The name of the resource containing your modified water definition"
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "The name of the file"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Define the xml in a resources fxmanifest, under the file(s) section.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = LoadWaterFromPath('my-resource-name', 'water-all-over-the-place.xml')"
+            }
+        ],
+        "hash": "0xF5102568",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

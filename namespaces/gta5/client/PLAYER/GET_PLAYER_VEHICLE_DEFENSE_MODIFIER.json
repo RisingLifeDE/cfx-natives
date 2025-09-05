@@ -1,0 +1,20 @@
+{
+    "0x8326E7CD": {
+        "name": "GET_PLAYER_VEHICLE_DEFENSE_MODIFIER",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_PLAYER_VEHICLE_DEFENSE_MODIFIER](#\\_0x4C60E6EFDAFF2462).",
+        "examples": [],
+        "hash": "0x8326E7CD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The value of player vehicle defense modifier."
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "0x6BC189AC": {
+        "name": "EXPERIMENTAL_LOAD_CLONE_SYNC",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            },
+            {
+                "name": "data",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "This native is not implemented.",
+        "examples": [],
+        "hash": "0x6BC189AC",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

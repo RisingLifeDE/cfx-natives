@@ -1,0 +1,20 @@
+{
+    "0xD979143": {
+        "name": "GET_WEAPON_DAMAGE_MODIFIER",
+        "params": [
+            {
+                "name": "weaponHash",
+                "type": "Hash",
+                "description": "Weapon name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [\\_SET_WEAPON_DAMAGE_MODIFIER](#\\_0x4757F00BC6323CFE).",
+        "examples": [],
+        "hash": "0xD979143",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A weapon damage modifier."
+    }
+}

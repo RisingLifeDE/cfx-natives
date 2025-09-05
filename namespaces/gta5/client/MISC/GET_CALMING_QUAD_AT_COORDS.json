@@ -1,0 +1,30 @@
+{
+    "0x870E8B40": {
+        "name": "GET_CALMING_QUAD_AT_COORDS",
+        "params": [
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The X coordinate"
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The Y coordinate"
+            }
+        ],
+        "return_type": "int",
+        "description": "This native returns the index of a calming quad if the given point is inside its bounds.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local currentPedPosition = GetEntityCoords(PlayerPedId())\r\nlocal calmingQuadIndex = GetCalmingQuadAtCoords(currentPedPosition.x, currentPedPosition.y)"
+            }
+        ],
+        "hash": "0x870E8B40",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The calming quad index at the given position. Returns -1 if there isn't any there."
+    }
+}

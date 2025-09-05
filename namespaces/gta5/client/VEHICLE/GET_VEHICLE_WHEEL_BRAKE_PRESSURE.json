@@ -1,0 +1,22 @@
+{
+    "0x70FE2EFF": {
+        "name": "GET_VEHICLE_WHEEL_BRAKE_PRESSURE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets brake pressure of a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.\r\nNormal values around 1.0f when braking.",
+        "examples": [],
+        "hash": "0x70FE2EFF",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

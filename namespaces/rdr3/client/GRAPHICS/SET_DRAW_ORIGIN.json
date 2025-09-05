@@ -1,0 +1,30 @@
+{
+    "0xE10198D5": {
+        "name": "SET_DRAW_ORIGIN",
+        "params": [
+            {
+                "name": "x",
+                "type": "float"
+            },
+            {
+                "name": "y",
+                "type": "float"
+            },
+            {
+                "name": "z",
+                "type": "float"
+            },
+            {
+                "name": "is2d",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the on-screen drawing origin for draw-functions in world coordinates.\n\nThe effect can be reset by calling [`CLEAR_DRAW_ORIGIN`](#\\_0xDD76B263) and is limited to 32 different origins each frame.",
+        "examples": [],
+        "hash": "0xE10198D5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

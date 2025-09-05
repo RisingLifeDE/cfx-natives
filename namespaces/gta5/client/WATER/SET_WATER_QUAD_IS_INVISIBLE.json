@@ -1,0 +1,30 @@
+{
+    "0xA387D917": {
+        "name": "SET_WATER_QUAD_IS_INVISIBLE",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "isInvisible",
+                "type": "BOOL",
+                "description": "Unknown effect"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadIsInvisible(0, true)"
+            }
+        ],
+        "hash": "0xA387D917",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

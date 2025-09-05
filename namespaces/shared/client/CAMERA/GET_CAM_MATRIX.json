@@ -1,0 +1,33 @@
+{
+    "0x8F57A89D": {
+        "name": "GET_CAM_MATRIX",
+        "params": [
+            {
+                "name": "camera",
+                "type": "Cam"
+            },
+            {
+                "name": "rightVector",
+                "type": "const Vector3*"
+            },
+            {
+                "name": "forwardVector",
+                "type": "const Vector3*"
+            },
+            {
+                "name": "upVector",
+                "type": "const Vector3*"
+            },
+            {
+                "name": "position",
+                "type": "const Vector3*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Returns the world matrix of the specified camera. To turn this into a view matrix, calculate the inverse.",
+        "examples": [],
+        "hash": "0x8F57A89D",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

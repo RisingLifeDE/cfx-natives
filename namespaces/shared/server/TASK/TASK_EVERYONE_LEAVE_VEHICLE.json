@@ -1,0 +1,17 @@
+{
+    "0xC1971F30": {
+        "name": "TASK_EVERYONE_LEAVE_VEHICLE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "void",
+        "description": "TASK_EVERYONE_LEAVE_VEHICLE\n\n**This is the server-side RPC native equivalent of the client native [TASK_EVERYONE_LEAVE_VEHICLE](?\\_0x7F93691AB4B92272).**",
+        "examples": [],
+        "hash": "0xC1971F30",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

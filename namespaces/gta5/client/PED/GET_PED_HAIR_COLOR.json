@@ -1,0 +1,25 @@
+{
+    "0xA3EA2893": {
+        "name": "GET_PED_HAIR_COLOR",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for [\\_SET_PED_HAIR_COLOR](#\\_0x4CFFC65454C93A49). Returns -1 if fails to get.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local primaryColour = GetPedHairColor(PlayerPedId())\r\nif primaryColour == 18 then\r\n  print(\"You have red hair!\")\r\nend"
+            }
+        ],
+        "hash": "0xA3EA2893",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped's primary hair colour."
+    }
+}

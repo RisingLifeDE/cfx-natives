@@ -1,0 +1,37 @@
+{
+    "0x601C22E3": {
+        "name": "TASK_SHOOT_AT_COORD",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "x",
+                "type": "float"
+            },
+            {
+                "name": "y",
+                "type": "float"
+            },
+            {
+                "name": "z",
+                "type": "float"
+            },
+            {
+                "name": "duration",
+                "type": "int"
+            },
+            {
+                "name": "firingPattern",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nFiring Pattern Hash Information: https://pastebin.com/Px036isB\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_SHOOT_AT_COORD](?\\_0x46A6CC01E0826106).**",
+        "examples": [],
+        "hash": "0x601C22E3",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

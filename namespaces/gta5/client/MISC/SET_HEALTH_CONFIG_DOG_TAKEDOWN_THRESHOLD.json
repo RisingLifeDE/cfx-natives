@@ -1,0 +1,24 @@
+{
+    "0x9A995E96": {
+        "name": "SET_HEALTH_CONFIG_DOG_TAKEDOWN_THRESHOLD",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            },
+            {
+                "name": "newValue",
+                "type": "float",
+                "description": "Value"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets default dog takedown threshold value for specific health config.",
+        "examples": [],
+        "hash": "0x9A995E96",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

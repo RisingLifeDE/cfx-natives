@@ -1,0 +1,24 @@
+{
+    "0xDD379006": {
+        "name": "START_FIND_KVP",
+        "params": [
+            {
+                "name": "prefix",
+                "type": "const char*",
+                "description": "A prefix match"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetResourceKvp('mollis:2', 'should be taken with alcohol')\r\nSetResourceKvp('mollis:1', 'vesuvius citrate')\r\nSetResourceKvp('mollis:manufacturer', 'Betta Pharmaceuticals')\r\n\r\nlocal kvpHandle = StartFindKvp('mollis:')\r\n\r\nif kvpHandle ~= -1 then \r\n\tlocal key\r\n\t\r\n\trepeat\r\n\t\tkey = FindKvp(kvpHandle)\r\n\r\n\t\tif key then\r\n\t\t\tprint(('%s: %s'):format(key, GetResourceKvpString(key)))\r\n\t\tend\r\n\tuntil not key\r\n\r\n\tEndFindKvp(kvpHandle)\r\nelse\r\n\tprint('No KVPs found')\r\nend"
+            }
+        ],
+        "hash": "0xDD379006",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "A KVP find handle to use with [FIND_KVP](#\\_0xBD7BEBC5) and close with [END_FIND_KVP](#\\_0xB3210203)"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x81DAD03E": {
+        "name": "SET_FUEL_CONSUMPTION_STATE",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "True to turn on. False to turn off."
+            }
+        ],
+        "return_type": "void",
+        "description": "Turns on and off fuel consumption in all vehicles operated by a player. NPC operated vehicles will not consume fuel to avoid traffic disruptions.\n\nThe default Gta5 behaviour is fuel consumption turned off.",
+        "examples": [],
+        "hash": "0x81DAD03E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

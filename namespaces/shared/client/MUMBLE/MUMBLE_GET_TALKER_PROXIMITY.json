@@ -1,0 +1,13 @@
+{
+    "0x84E02A32": {
+        "name": "MUMBLE_GET_TALKER_PROXIMITY",
+        "params": [],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x84E02A32",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Talker proximity value."
+    }
+}

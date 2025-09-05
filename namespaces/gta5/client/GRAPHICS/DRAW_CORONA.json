@@ -1,0 +1,104 @@
+{
+    "0xFF44780E": {
+        "name": "DRAW_CORONA",
+        "params": [
+            {
+                "name": "posX",
+                "type": "float",
+                "description": "The X position of the corona origin."
+            },
+            {
+                "name": "posY",
+                "type": "float",
+                "description": "The Y position of the corona origin."
+            },
+            {
+                "name": "posZ",
+                "type": "float",
+                "description": "The Z position of the corona origin."
+            },
+            {
+                "name": "size",
+                "type": "float",
+                "description": "The size of the corona."
+            },
+            {
+                "name": "red",
+                "type": "int",
+                "description": "The red component of the marker color, on a scale from 0-255."
+            },
+            {
+                "name": "green",
+                "type": "int",
+                "description": "The green component of the marker color, on a scale from 0-255."
+            },
+            {
+                "name": "blue",
+                "type": "int",
+                "description": "The blue component of the marker color, on a scale from 0-255."
+            },
+            {
+                "name": "alpha",
+                "type": "int",
+                "description": "The alpha component of the marker color, on a scale from 0-255."
+            },
+            {
+                "name": "intensity",
+                "type": "float",
+                "description": "The intensity of the corona."
+            },
+            {
+                "name": "zBias",
+                "type": "float",
+                "description": "zBias slightly shifts the depth of surfaces to make sure they don\u00e2\u20ac\u2122t overlap or cause visual glitches when they are very close together. The zBias value are usually in the range of 0.0 to 1.0."
+            },
+            {
+                "name": "dirX",
+                "type": "float",
+                "description": "The X direction of the corona."
+            },
+            {
+                "name": "dirY",
+                "type": "float",
+                "description": "The Y direction of the corona."
+            },
+            {
+                "name": "dirZ",
+                "type": "float",
+                "description": "The Z direction of the corona."
+            },
+            {
+                "name": "viewThreshold",
+                "type": "float",
+                "description": "The view threshold is to determine the fading of the corona based on the distance."
+            },
+            {
+                "name": "innerAngle",
+                "type": "float",
+                "description": "The inner angle of the corona."
+            },
+            {
+                "name": "outerAngle",
+                "type": "float",
+                "description": "The outer angle of the corona."
+            },
+            {
+                "name": "flags",
+                "type": "int",
+                "description": "The corona flags."
+            }
+        ],
+        "return_type": "void",
+        "description": "Allows drawing advanced light effects, known as coronas, which support flares, volumetric lighting, and customizable glow properties.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local pedCoords = GetEntityCoords(PlayerPedId())\r\nCitizen.CreateThread(function()\r\n    while true do\r\n        DrawCorona(pedCoords.x, pedCoords.y, pedCoords.z, 5.0, 255, 255, 255, 255, 4.0, 0.2, pedCoords.x, pedCoords.y, pedCoords.z, 1.0, 0.0, 90.0, 2)\r\n        Wait(0)\r\n    end\r\nend)"
+            }
+        ],
+        "hash": "0xFF44780E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

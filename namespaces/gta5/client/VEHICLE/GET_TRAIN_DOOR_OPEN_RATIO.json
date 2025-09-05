@@ -1,0 +1,34 @@
+{
+    "0x40B16551": {
+        "name": "GET_TRAIN_DOOR_OPEN_RATIO",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train to obtain the door ratio for."
+            },
+            {
+                "name": "doorIndex",
+                "type": "int",
+                "description": "Zero-based door index."
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the ratio that a door is open for on a train.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local doorCount = GetTrainDoorCount(train)\r\nfor doorIndex = 0, doorCount - 1 do\r\n    local ratio = GetTrainDoorOpenRatio(train, doorIndex)\r\n    print(\"Door \" .. tostring(doorIndex) .. \" is open by a ratio of \" .. tostring(ratio))\r\nend"
+            },
+            {
+                "lang": "cs",
+                "code": "int doorCount = API.GetTrainDoorCount(train);\r\nfor (int doorIndex = 0; doorIndex < doorCount; doorIndex++)\r\n{\r\n    float ratio = API.GetTrainDoorOpenRatio(train, doorIndex);\r\n    Debug.WriteLine($\"Door {doorIndex} is open by a ratio of {ratio}\");\r\n}"
+            }
+        ],
+        "hash": "0x40B16551",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A value between 0.0 (fully closed) and 1.0 (fully open)."
+    }
+}

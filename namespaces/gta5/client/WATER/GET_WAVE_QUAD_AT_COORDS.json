@@ -1,0 +1,30 @@
+{
+    "0x3F5A61A7": {
+        "name": "GET_WAVE_QUAD_AT_COORDS",
+        "params": [
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The X coordinate"
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The Y coordinate"
+            }
+        ],
+        "return_type": "int",
+        "description": "This native returns the index of a wave quad if the given point is inside its bounds.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local currentPedPosition = GetEntityCoords(PlayerPedId())\r\nlocal waveQuadIndex = GetWaveQuadAtCoords(currentPedPosition.x, currentPedPosition.y)"
+            }
+        ],
+        "hash": "0x3F5A61A7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The wave quad index at the given position. Returns -1 if there isn't any there."
+    }
+}

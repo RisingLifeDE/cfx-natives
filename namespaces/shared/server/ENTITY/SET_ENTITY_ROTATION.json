@@ -1,0 +1,43 @@
+{
+    "0xA345EFE": {
+        "name": "SET_ENTITY_ROTATION",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to rotate."
+            },
+            {
+                "name": "pitch",
+                "type": "float",
+                "description": "The pitch (X-axis) rotation in degrees."
+            },
+            {
+                "name": "roll",
+                "type": "float",
+                "description": "The roll (Y-axis) rotation in degrees."
+            },
+            {
+                "name": "yaw",
+                "type": "float",
+                "description": "The yaw (Z-axis) rotation in degrees."
+            },
+            {
+                "name": "rotationOrder",
+                "type": "int",
+                "description": "Specifies the order in which yaw, pitch, and roll are applied, see [`GET_ENTITY_ROTATION`](#\\_0xAFBD61CC738D9EB9) for the available rotation orders."
+            },
+            {
+                "name": "bDeadCheck",
+                "type": "BOOL",
+                "description": "Usually set to `true`. Determines whether to check if the entity is dead before applying the rotation."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the rotation of a specified entity in the game world.\n\n```\nNativeDB Introduced: v323\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_ENTITY_ROTATION](?\\_0x8524A8B0171D5E07).**",
+        "examples": [],
+        "hash": "0xA345EFE",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

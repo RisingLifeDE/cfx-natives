@@ -1,0 +1,22 @@
+{
+    "0xD1D07351": {
+        "name": "GET_VEHICLE_THROTTLE_OFFSET",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xD1D07351",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "aliases": [
+            "GET_VEHICLE_CURRENT_ACCELERATION"
+        ],
+        "resultsDescription": "A float among -1 and 1 according if the vehicle is moving forwards or backwards"
+    }
+}

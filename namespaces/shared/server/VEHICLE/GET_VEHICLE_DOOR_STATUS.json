@@ -1,0 +1,27 @@
+{
+    "0x6E35C49C": {
+        "name": "GET_VEHICLE_DOOR_STATUS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            },
+            {
+                "name": "doorIndex",
+                "type": "int",
+                "annotations": {
+                    "cs_split": true
+                },
+                "description": "Index of door to check (0-6)."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the open position of the specified door on the target vehicle.",
+        "examples": [],
+        "hash": "0x6E35C49C",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A number from 0 to 7."
+    }
+}

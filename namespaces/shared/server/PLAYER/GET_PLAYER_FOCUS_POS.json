@@ -1,0 +1,19 @@
+{
+    "0x586F80FF": {
+        "name": "GET_PLAYER_FOCUS_POS",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player to get the focus position of"
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "Gets the focus position (i.e. the position of the active camera in the game world) of a player.",
+        "examples": [],
+        "hash": "0x586F80FF",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns a `Vector3` containing the focus position of the player."
+    }
+}

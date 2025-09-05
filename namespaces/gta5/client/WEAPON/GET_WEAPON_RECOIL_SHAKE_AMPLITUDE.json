@@ -1,0 +1,20 @@
+{
+    "0x5E1AF5F": {
+        "name": "GET_WEAPON_RECOIL_SHAKE_AMPLITUDE",
+        "params": [
+            {
+                "name": "weaponHash",
+                "type": "Hash",
+                "description": "Weapon name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for the recoil shake amplitude of a weapon.",
+        "examples": [],
+        "hash": "0x5E1AF5F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The recoil shake amplitude of a weapon."
+    }
+}

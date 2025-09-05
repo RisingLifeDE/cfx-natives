@@ -1,0 +1,18 @@
+{
+    "0x9C9A3BE0": {
+        "name": "HAS_ENTITY_BEEN_MARKED_AS_NO_LONGER_NEEDED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x9C9A3BE0",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

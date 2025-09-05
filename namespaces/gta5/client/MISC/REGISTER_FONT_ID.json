@@ -1,0 +1,20 @@
+{
+    "0xACF6D8EE": {
+        "name": "REGISTER_FONT_ID",
+        "params": [
+            {
+                "name": "fontName",
+                "type": "const char*",
+                "description": "The name of the font in the GFx font library."
+            }
+        ],
+        "return_type": "int",
+        "description": "Registers a specified font name for use with text draw commands.",
+        "examples": [],
+        "hash": "0xACF6D8EE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An index to use with [SET_TEXT_FONT](#\\_0x66E0276CC5F6B9DA) and similar natives."
+    }
+}

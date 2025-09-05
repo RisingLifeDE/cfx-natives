@@ -1,0 +1,30 @@
+{
+    "0x6292F7A8": {
+        "name": "SET_WATER_QUAD_LEVEL",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "level",
+                "type": "float",
+                "description": "The water level inside the water quad"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadLevel(0, 55.0)"
+            }
+        ],
+        "hash": "0x6292F7A8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

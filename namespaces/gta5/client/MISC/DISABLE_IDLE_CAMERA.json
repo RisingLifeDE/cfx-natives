@@ -1,0 +1,19 @@
+{
+    "0x3D5AB7F0": {
+        "name": "DISABLE_IDLE_CAMERA",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "On/Off"
+            }
+        ],
+        "return_type": "void",
+        "description": "Disables the game's afk camera that starts panning around after 30 seconds of inactivity.",
+        "examples": [],
+        "hash": "0x3D5AB7F0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

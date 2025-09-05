@@ -1,0 +1,23 @@
+{
+    "0xF761D9F3": {
+        "name": "SET_DUI_URL",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            },
+            {
+                "name": "url",
+                "type": "const char*",
+                "description": "The new URL."
+            }
+        ],
+        "return_type": "void",
+        "description": "Navigates the specified DUI browser to a different URL.",
+        "examples": [],
+        "hash": "0xF761D9F3",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

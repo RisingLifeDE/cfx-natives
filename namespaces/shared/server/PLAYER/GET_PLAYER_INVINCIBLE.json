@@ -1,0 +1,19 @@
+{
+    "0x680C90EE": {
+        "name": "GET_PLAYER_INVINCIBLE",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x680C90EE",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A boolean to tell if the player is invincible."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0x523BA3DA": {
+        "name": "DELETE_TRAIN",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The carriage to delete."
+            }
+        ],
+        "return_type": "void",
+        "description": "Deletes the specified `entity` and any carriage its attached to, or that is attached to it.",
+        "examples": [],
+        "hash": "0x523BA3DA",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

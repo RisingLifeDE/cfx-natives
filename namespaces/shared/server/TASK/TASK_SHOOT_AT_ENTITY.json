@@ -1,0 +1,29 @@
+{
+    "0xAC0631C9": {
+        "name": "TASK_SHOOT_AT_ENTITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            },
+            {
+                "name": "target",
+                "type": "Entity"
+            },
+            {
+                "name": "duration",
+                "type": "int"
+            },
+            {
+                "name": "firingPattern",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\n//this part of the code is to determine at which entity the player is aiming, for example if you want to create a mod where you give orders to peds\r\nEntity aimedentity;\r\nPlayer player = PLAYER::PLAYER_ID();\r\nPLAYER::_GET_AIMED_ENTITY(player, &aimedentity);\r\n//bg is an array of peds\r\nTASK::TASK_SHOOT_AT_ENTITY(bg[i], aimedentity, 5000, MISC::GET_HASH_KEY(\"FIRING_PATTERN_FULL_AUTO\"));\r\nin practical usage, getting the entity the player is aiming at and then task the peds to shoot at the entity, at a button press event would be better.\r\nFiring Pattern Hash Information: https://pastebin.com/Px036isB\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_SHOOT_AT_ENTITY](?\\_0x08DA95E8298AE772).**",
+        "examples": [],
+        "hash": "0xAC0631C9",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

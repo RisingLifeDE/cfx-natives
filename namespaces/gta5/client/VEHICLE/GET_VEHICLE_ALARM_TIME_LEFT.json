@@ -1,0 +1,19 @@
+{
+    "0xC62AAC98": {
+        "name": "GET_VEHICLE_ALARM_TIME_LEFT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xC62AAC98",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

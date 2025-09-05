@@ -1,0 +1,29 @@
+{
+    "0x7E8EBFE5": {
+        "name": "GET_CONVAR_BOOL",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The console variable to look up."
+            },
+            {
+                "name": "defaultValue",
+                "type": "BOOL",
+                "description": "The default value to set if none is found."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Can be used to get a console variable casted back to `bool`.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if GetConvarBool('dev_mode', false) then\r\n    print(\"Dev Mode is eanbled, load dev mode menus\")\r\nend"
+            }
+        ],
+        "hash": "0x7E8EBFE5",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns the convar value if it can be found, otherwise it returns the assigned `default`."
+    }
+}

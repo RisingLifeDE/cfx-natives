@@ -1,0 +1,14 @@
+{
+    "0x77C598B2": {
+        "name": "GET_SCENARIO_PED_DENSITY_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_SCENARIO_PED_DENSITY_MULTIPLIER_THIS_FRAME](#\\_0x7A556143A1C03898).",
+        "examples": [],
+        "hash": "0x77C598B2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns scenario ped density multiplier value."
+    }
+}

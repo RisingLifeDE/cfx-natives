@@ -1,0 +1,20 @@
+{
+    "0xCA0A085F": {
+        "name": "GET_RUNTIME_TEXTURE_PITCH",
+        "params": [
+            {
+                "name": "tex",
+                "type": "long",
+                "description": "A handle to the runtime texture."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the row pitch of the specified runtime texture, for use when creating data for `SET_RUNTIME_TEXTURE_ARGB_DATA`.",
+        "examples": [],
+        "hash": "0xCA0A085F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The row pitch in bytes."
+    }
+}

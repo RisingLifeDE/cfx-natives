@@ -1,0 +1,25 @@
+{
+    "0xB8278882": {
+        "name": "SET_CURRENT_PED_WEAPON",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            },
+            {
+                "name": "bForceInHand",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_CURRENT_PED_WEAPON\n\n**This is the server-side RPC native equivalent of the client native [SET_CURRENT_PED_WEAPON](?\\_0xADF692B254977C0C).**",
+        "examples": [],
+        "hash": "0xB8278882",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

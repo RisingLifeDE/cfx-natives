@@ -1,0 +1,20 @@
+{
+    "0x69E81E3D": {
+        "name": "GET_PED_MOVEMENT_CLIPSET",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x69E81E3D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The current movement clipset hash."
+    }
+}

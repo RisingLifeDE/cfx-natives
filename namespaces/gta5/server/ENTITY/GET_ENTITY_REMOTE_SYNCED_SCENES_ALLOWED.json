@@ -1,0 +1,20 @@
+{
+    "0x91B38FB6": {
+        "name": "GET_ENTITY_REMOTE_SYNCED_SCENES_ALLOWED",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the flag for."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x91B38FB6",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns if the entity is allowed to participate in network-synchronized scenes initiated by clients that do not own the entity."
+    }
+}

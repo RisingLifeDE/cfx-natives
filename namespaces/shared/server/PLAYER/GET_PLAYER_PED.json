@@ -1,0 +1,24 @@
+{
+    "0x6E31E993": {
+        "name": "GET_PLAYER_PED",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player source, passed as a string."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Used to get the player's Ped Entity ID when a valid `playerSrc` is passed.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- Let's assume source is a valid ID\r\nlocal pedId = GetPlayerPed(source);\r\n\r\n-- If pedId is valid (not equal to 0)\r\nif pedId ~= 0 then\r\n    -- Do something with this ped!\r\nend"
+            }
+        ],
+        "hash": "0x6E31E993",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns a valid Ped Entity ID if the passed `playerSrc` is valid, `0` if not."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0xACB7E68F": {
+        "name": "GET_WEAPON_COMPONENT_CAMERA_HASH",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for `CameraHash` in a weapon scope component.",
+        "examples": [],
+        "hash": "0xACB7E68F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The hash of the scope camera."
+    }
+}

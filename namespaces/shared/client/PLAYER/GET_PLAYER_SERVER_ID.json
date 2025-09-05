@@ -1,0 +1,18 @@
+{
+    "0x4D97BCC7": {
+        "name": "GET_PLAYER_SERVER_ID",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x4D97BCC7",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0x8E86238D": {
+        "name": "GET_HELI_THROTTLE_CONTROL",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x8E86238D",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns a value representing the throttle control of the helicopter. The value ranges from `0.0` (no throttle) to `2.0` (full throttle)."
+    }
+}

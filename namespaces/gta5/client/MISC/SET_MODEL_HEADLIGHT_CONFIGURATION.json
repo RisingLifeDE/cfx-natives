@@ -1,0 +1,30 @@
+{
+    "0x7F6B8D75": {
+        "name": "SET_MODEL_HEADLIGHT_CONFIGURATION",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash"
+            },
+            {
+                "name": "ratePerSecond",
+                "type": "float"
+            },
+            {
+                "name": "headlightRotation",
+                "type": "float"
+            },
+            {
+                "name": "invertRotation",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "**This native is deprecated and does nothing!**",
+        "examples": [],
+        "hash": "0x7F6B8D75",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

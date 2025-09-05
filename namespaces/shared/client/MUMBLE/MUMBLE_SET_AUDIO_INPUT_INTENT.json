@@ -1,0 +1,23 @@
+{
+    "0x6383526B": {
+        "name": "MUMBLE_SET_AUDIO_INPUT_INTENT",
+        "params": [
+            {
+                "name": "intentHash",
+                "type": "Hash",
+                "description": "The intent hash."
+            }
+        ],
+        "return_type": "void",
+        "description": "Use this native to disable noise suppression and high pass filters.\n\nThe possible intents for this are as follows (backticks are used to represent hashes):\n\n| Index | Description |\r\n|-|-|\r\n| \\`speech\\` | Default intent |\r\n| \\`music\\` | Disable noise suppression and high pass filter |",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- disable noise suppression and high pass filter\r\nMumbleSetAudioInputIntent(`music`)\r\n\r\n-- set the default intent (enable noise suppression and high pass filter)\r\nMumbleSetAudioInputIntent(`speech`)"
+            }
+        ],
+        "hash": "0x6383526B",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

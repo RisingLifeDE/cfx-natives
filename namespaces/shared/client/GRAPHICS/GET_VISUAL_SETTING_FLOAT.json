@@ -1,0 +1,19 @@
+{
+    "0x15346B4D": {
+        "name": "GET_VISUAL_SETTING_FLOAT",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The name of the value to get, such as `pedLight.color.red`."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_VISUAL_SETTING_FLOAT](#\\_0xD1D31681).",
+        "examples": [],
+        "hash": "0x15346B4D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns the floating point value of the specified visual setting on success."
+    }
+}

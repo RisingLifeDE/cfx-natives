@@ -1,0 +1,21 @@
+{
+    "0x24877D84": {
+        "name": "SET_VEHICLE_ALARM",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "state",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_VEHICLE_ALARM\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_ALARM](?\\_0xCDE5E70C1DDB954C).**",
+        "examples": [],
+        "hash": "0x24877D84",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "0x63ED2E7": {
+        "name": "GET_WEAPON_ANIMATION_OVERRIDE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "Hash",
+        "description": "A getter for [SET_WEAPON_ANIMATION_OVERRIDE](#\\_0x1055AC3A667F09D9).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local weaponAnimation = GetWeaponAnimationOverride(PlayerPedId())"
+            }
+        ],
+        "hash": "0x63ED2E7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The weapon animation override."
+    }
+}

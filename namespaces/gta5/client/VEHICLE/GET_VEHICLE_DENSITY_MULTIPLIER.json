@@ -1,0 +1,14 @@
+{
+    "0xEF7C6538": {
+        "name": "GET_VEHICLE_DENSITY_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME](#\\_0x245A6883D966D537).",
+        "examples": [],
+        "hash": "0xEF7C6538",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns vehicle density multiplier value."
+    }
+}

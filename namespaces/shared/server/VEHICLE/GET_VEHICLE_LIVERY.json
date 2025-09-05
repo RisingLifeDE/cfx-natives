@@ -1,0 +1,18 @@
+{
+    "0xEC82A51D": {
+        "name": "GET_VEHICLE_LIVERY",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xEC82A51D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

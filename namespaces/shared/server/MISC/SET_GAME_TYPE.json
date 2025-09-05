@@ -1,0 +1,17 @@
+{
+    "0xF90B7469": {
+        "name": "SET_GAME_TYPE",
+        "params": [
+            {
+                "name": "gametypeName",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xF90B7469",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

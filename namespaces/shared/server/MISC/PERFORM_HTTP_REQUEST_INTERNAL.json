@@ -1,0 +1,22 @@
+{
+    "0x8E8CC653": {
+        "name": "PERFORM_HTTP_REQUEST_INTERNAL",
+        "params": [
+            {
+                "name": "requestData",
+                "type": "const char*"
+            },
+            {
+                "name": "requestDataLength",
+                "type": "int"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x8E8CC653",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

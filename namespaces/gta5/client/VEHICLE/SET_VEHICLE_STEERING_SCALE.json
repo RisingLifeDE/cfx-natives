@@ -1,0 +1,22 @@
+{
+    "0xEB46596F": {
+        "name": "SET_VEHICLE_STEERING_SCALE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "scale",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xEB46596F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

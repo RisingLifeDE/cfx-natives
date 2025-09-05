@@ -1,0 +1,47 @@
+{
+    "0x9B7AB83C": {
+        "name": "GET_INTERIOR_PORTAL_ENTITY_POSITION",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "entityIndex",
+                "type": "int",
+                "description": "Portal entity index."
+            },
+            {
+                "name": "posX",
+                "type": "float*"
+            },
+            {
+                "name": "posY",
+                "type": "float*"
+            },
+            {
+                "name": "posZ",
+                "type": "float*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal portalIndex = 0\r\n\r\nif interiorId ~= 0 then\r\n  local count = GetInteriorPortalEntityCount(interiorId, portalIndex)\r\n  for i=0, count-1 do\r\n    local x, y, z = GetInteriorPortalEntityPosition(interiorId, portalIndex, i)\r\n    print(\"portal \" .. portalIndex ..\" entity \" .. i .. \" position is: \" .. vec3(x, y, z))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0x9B7AB83C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal entity position."
+    }
+}

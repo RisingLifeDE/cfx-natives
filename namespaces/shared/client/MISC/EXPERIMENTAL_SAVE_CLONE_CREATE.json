@@ -1,0 +1,18 @@
+{
+    "0x9D65CAD2": {
+        "name": "EXPERIMENTAL_SAVE_CLONE_CREATE",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "This native is not implemented.",
+        "examples": [],
+        "hash": "0x9D65CAD2",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

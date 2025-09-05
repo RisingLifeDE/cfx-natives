@@ -1,0 +1,18 @@
+{
+    "0x2703D582": {
+        "name": "SET_WEATHER_OWNED_BY_NETWORK",
+        "params": [
+            {
+                "name": "network",
+                "type": "BOOL",
+                "description": "true to let the network control weather, false to not use network weather behavior."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether or not the weather should be owned by the network subsystem.\n\nTo be able to use [\\_SET_WEATHER_TYPE_TRANSITION](#\\_0x578C752848ECFA0C), this has to be set to false.",
+        "examples": [],
+        "hash": "0x2703D582",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

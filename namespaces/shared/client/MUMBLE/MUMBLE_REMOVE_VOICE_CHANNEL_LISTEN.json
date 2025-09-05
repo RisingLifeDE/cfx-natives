@@ -1,0 +1,18 @@
+{
+    "0x231523B7": {
+        "name": "MUMBLE_REMOVE_VOICE_CHANNEL_LISTEN",
+        "params": [
+            {
+                "name": "channel",
+                "type": "int",
+                "description": "A game voice channel ID."
+            }
+        ],
+        "return_type": "void",
+        "description": "Stops listening to the specified channel.",
+        "examples": [],
+        "hash": "0x231523B7",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

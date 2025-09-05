@@ -1,0 +1,12 @@
+{
+    "0xEEB9B76A": {
+        "name": "ACTIVATE_TIMECYCLE_EDITOR",
+        "params": [],
+        "return_type": "void",
+        "description": "Activates built-in timecycle editing tool.",
+        "examples": [],
+        "hash": "0xEEB9B76A",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

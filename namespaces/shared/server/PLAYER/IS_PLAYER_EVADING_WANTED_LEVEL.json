@@ -1,0 +1,19 @@
+{
+    "0x89A3881A": {
+        "name": "IS_PLAYER_EVADING_WANTED_LEVEL",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The target player"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "```\nThis will return true if the player is evading wanted level, meaning that the wanted level stars are blink.\r\nOtherwise will return false.\r\n\r\nIf the player is not wanted, it simply returns false.\n```",
+        "examples": [],
+        "hash": "0x89A3881A",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "boolean value, depending if the player is evading his wanted level or not."
+    }
+}

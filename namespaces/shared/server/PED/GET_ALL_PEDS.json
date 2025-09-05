@@ -1,0 +1,18 @@
+{
+    "0xB8584FEF": {
+        "name": "GET_ALL_PEDS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all peds handles known to the server.\r\nThe data returned adheres to the following layout:\n\n```\n[127, 42, 13, 37]\n```",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- This example prints information of every ped that has an owner.\r\n\r\nfor i, ped in ipairs(GetAllPeds()) do\r\n    local pedOwner = NetworkGetEntityOwner(ped)\r\n    if pedOwner > 0 then\r\n       local playerName = GetPlayerName(pedOwner)\r\n       local pedModel = GetEntityModel(ped)\r\n       local pedArmour = GetPedArmour(ped)\r\n       print(\"Ped : \"..ped..\" | Owner name : \"..playerName..\" | Model : \"..pedModel..\" | Armour : \"..pedArmour)\r\n    end\r\nend"
+            }
+        ],
+        "hash": "0xB8584FEF",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "An object containing a list of peds handles."
+    }
+}

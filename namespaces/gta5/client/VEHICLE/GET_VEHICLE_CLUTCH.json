@@ -1,0 +1,19 @@
+{
+    "0x1DAD4583": {
+        "name": "GET_VEHICLE_CLUTCH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x1DAD4583",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "0x8DF9F9BC": {
+        "name": "SET_VEHICLE_CUSTOM_PRIMARY_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "r",
+                "type": "int"
+            },
+            {
+                "name": "g",
+                "type": "int"
+            },
+            {
+                "name": "b",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\np1, p2, p3 are RGB values for color (255,0,0 for Red, ect)\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_CUSTOM_PRIMARY_COLOUR](?\\_0x7141766F91D15BEA).**",
+        "examples": [],
+        "hash": "0x8DF9F9BC",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0x6C93C4A9": {
+        "name": "SET_VEHICLE_ENGINE_TEMPERATURE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "temperature",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x6C93C4A9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

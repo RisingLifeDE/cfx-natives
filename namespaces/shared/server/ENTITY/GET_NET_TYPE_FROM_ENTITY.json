@@ -1,0 +1,19 @@
+{
+    "0x23B2A641": {
+        "name": "GET_NET_TYPE_FROM_ENTITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the specific type of."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the specific entity type (as an integer), which can be one of the following defined down below:\n\n#### FiveM:\n\n```cpp\nenum eNetObjEntityType\r\n{\r\n    Automobile = 0,\r\n    Bike = 1,\r\n    Boat = 2,\r\n    Door = 3,\r\n    Heli = 4,\r\n    Object = 5,\r\n    Ped = 6,\r\n    Pickup = 7,\r\n    PickupPlacement = 8,\r\n    Plane = 9,\r\n    Submarine = 10,\r\n    Player = 11,\r\n    Trailer = 12,\r\n    Train = 13\r\n};\n```\n\n#### RedM:\n\n```cpp\nenum eNetObjEntityType\r\n{\r\n    Animal = 0,\r\n    Automobile = 1,\r\n    Bike = 2,\r\n    Boat = 3,\r\n    Door = 4,\r\n    Heli = 5,\r\n    Object = 6,\r\n    Ped = 7,\r\n    Pickup = 8,\r\n    PickupPlacement = 9,\r\n    Plane = 10,\r\n    Submarine = 11,\r\n    Player = 12,\r\n    Trailer = 13,\r\n    Train = 14,\r\n    DraftVeh = 15,\r\n    StatsTracker = 16,\r\n    PropSet = 17,\r\n    AnimScene = 18,\r\n    GroupScenario = 19,\r\n    Herd = 20,\r\n    Horse = 21,\r\n    WorldState = 22,\r\n    WorldProjectile = 23,\r\n    Incident = 24,\r\n    Guardzone = 25,\r\n    PedGroup = 26,\r\n    CombatDirector = 27,\r\n    PedSharedTargeting = 28,\r\n    Persistent = 29\r\n};\n```",
+        "examples": [],
+        "hash": "0x23B2A641",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The specific entity type returned as an integer value or -1 if the entity is invalid."
+    }
+}

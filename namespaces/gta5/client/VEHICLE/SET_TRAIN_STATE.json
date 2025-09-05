@@ -1,0 +1,25 @@
+{
+    "0x61CB74A0": {
+        "name": "SET_TRAIN_STATE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            },
+            {
+                "name": "state",
+                "type": "int",
+                "description": "The trains new state"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x61CB74A0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The trains current state, refer to [GET_TRAIN_STATE](#\\_0x81B50033)"
+    }
+}

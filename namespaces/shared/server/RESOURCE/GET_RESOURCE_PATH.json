@@ -1,0 +1,19 @@
+{
+    "0x61DCF017": {
+        "name": "GET_RESOURCE_PATH",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The name of the resource."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Returns the physical on-disk path of the specified resource.",
+        "examples": [],
+        "hash": "0x61DCF017",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The resource directory name, possibly without trailing slash."
+    }
+}

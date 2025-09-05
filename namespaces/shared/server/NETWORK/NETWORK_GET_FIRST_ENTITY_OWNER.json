@@ -1,0 +1,19 @@
+{
+    "0x1E546224": {
+        "name": "NETWORK_GET_FIRST_ENTITY_OWNER",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the first owner for."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the first owner ID of the specified entity.",
+        "examples": [],
+        "hash": "0x1E546224",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The server ID of the first entity owner."
+    }
+}

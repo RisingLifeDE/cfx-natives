@@ -1,0 +1,38 @@
+{
+    "0x78935A27": {
+        "name": "_SET_PED_HEAD_OVERLAY_COLOR",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped entity"
+            },
+            {
+                "name": "overlayID",
+                "type": "int",
+                "description": "An integer representing the overlay id"
+            },
+            {
+                "name": "colorType",
+                "type": "int",
+                "description": "1 for eyebrows, beards, makeup, and chest hair; 2 for blush and lipstick; and 0 otherwise, though not called in those cases."
+            },
+            {
+                "name": "colorID",
+                "type": "int",
+                "description": "An integer representing the primary color id"
+            },
+            {
+                "name": "secondColorID",
+                "type": "int",
+                "description": "An integer representing the secondary color id"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nUsed for freemode (online) characters.\r\nCalled after SET_PED_HEAD_OVERLAY().\n```\n\n**Note:**\r\nYou may need to call [`SetPedHeadBlendData`](#\\_0x9414E18B9434C2FE) prior to calling this native in order for it to work.\n\n**This is the server-side RPC native equivalent of the client native [\\_SET_PED_HEAD_OVERLAY_COLOR](?\\_0x497BF74A7B9CB952).**",
+        "examples": [],
+        "hash": "0x78935A27",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

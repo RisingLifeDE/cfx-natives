@@ -1,0 +1,24 @@
+{
+    "0x557B586A": {
+        "name": "GET_RESOURCE_KVP_INT",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to fetch"
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for [SET_RESOURCE_KVP_INT](#\\_0x6A2B1E8).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local kvpValue = GetResourceKvpInt('bananabread') \r\nif kvpValue ~= 0 then\r\n\t-- do something!\r\nend"
+            }
+        ],
+        "hash": "0x557B586A",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The integer value stored under the specified key, or 0 if not found."
+    }
+}

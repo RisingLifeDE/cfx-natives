@@ -1,0 +1,19 @@
+{
+    "0x78D864C7": {
+        "name": "GET_STATE_BAG_KEYS",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*",
+                "description": "The name of the bag."
+            }
+        ],
+        "return_type": "Object",
+        "description": "",
+        "examples": [],
+        "hash": "0x78D864C7",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns an array containing all keys for which the state bag has associated values."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x8B25BC20": {
+        "name": "DOES_TEXTURE_EXIST",
+        "params": [
+            {
+                "name": "textureId",
+                "type": "int",
+                "description": "texture id created by `0xC5E7204F322E49EB`."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "In compare to `0x31DC8D3F216D8509` return true if texture its created when `0x31DC8D3F216D8509` return true if you put there any id in valid range",
+        "examples": [],
+        "hash": "0x8B25BC20",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

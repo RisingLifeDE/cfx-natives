@@ -1,0 +1,19 @@
+{
+    "0xB1884159": {
+        "name": "GET_WATER_QUAD_COUNT",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local waterQuadCount = GetWaterQuadCount()"
+            }
+        ],
+        "hash": "0xB1884159",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns the amount of water quads loaded."
+    }
+}

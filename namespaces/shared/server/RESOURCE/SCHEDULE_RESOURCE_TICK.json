@@ -1,0 +1,18 @@
+{
+    "0xB88A73AD": {
+        "name": "SCHEDULE_RESOURCE_TICK",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource to tick."
+            }
+        ],
+        "return_type": "void",
+        "description": "Schedules the specified resource to run a tick as soon as possible, bypassing the server's fixed tick rate.",
+        "examples": [],
+        "hash": "0xB88A73AD",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0x7BDCBD45": {
+        "name": "SET_RICH_PRESENCE",
+        "params": [
+            {
+                "name": "presenceState",
+                "type": "const char*",
+                "description": "The rich presence string to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the player's rich presence detail state for social platform providers to a specified string.",
+        "examples": [],
+        "hash": "0x7BDCBD45",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

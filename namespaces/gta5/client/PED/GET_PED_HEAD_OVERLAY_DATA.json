@@ -1,0 +1,55 @@
+{
+    "0xC46EE605": {
+        "name": "GET_PED_HEAD_OVERLAY_DATA",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "Overlay index"
+            },
+            {
+                "name": "overlayValue",
+                "type": "int*",
+                "description": "Overlay value pointer"
+            },
+            {
+                "name": "colourType",
+                "type": "int*",
+                "description": "Colour type pointer"
+            },
+            {
+                "name": "firstColour",
+                "type": "int*",
+                "description": "First colour pointer"
+            },
+            {
+                "name": "secondColour",
+                "type": "int*",
+                "description": "Second colour pointer"
+            },
+            {
+                "name": "overlayOpacity",
+                "type": "float*",
+                "description": "Opacity pointer"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "A getter for [SET_PED_HEAD_OVERLAY](#\\_0x48F44967FA05CC1E) and [\\_SET_PED_HEAD_OVERLAY_COLOR](#\\_0x497BF74A7B9CB952) natives.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- getting beard overlay data\r\nlocal success, overlayValue, colourType, firstColour, secondColour, overlayOpacity = GetPedHeadOverlayData(PlayerPedId(), 1)\r\nif success then\r\n  -- incrementing value\r\n  SetPedHeadOverlay(PlayerPedId(), 1, overlayValue + 1, overlayOpacity)\r\nend"
+            }
+        ],
+        "hash": "0xC46EE605",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped's head overlay data."
+    }
+}

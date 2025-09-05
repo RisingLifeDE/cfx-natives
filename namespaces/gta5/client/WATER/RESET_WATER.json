@@ -1,0 +1,18 @@
+{
+    "0x1DA4791": {
+        "name": "RESET_WATER",
+        "params": [],
+        "return_type": "void",
+        "description": "Resets the water to the games default water.xml.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "ResetWater()"
+            }
+        ],
+        "hash": "0x1DA4791",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

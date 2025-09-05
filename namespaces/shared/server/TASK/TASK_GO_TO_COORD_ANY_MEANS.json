@@ -1,0 +1,58 @@
+{
+    "0xF91DF93B": {
+        "name": "TASK_GO_TO_COORD_ANY_MEANS",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The `Ped` Handle."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The goto target coordinate."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The goto target coordinate."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "The goto target coordinate."
+            },
+            {
+                "name": "fMoveBlendRatio",
+                "type": "float",
+                "description": "0.0 = still, 1.0 = walk, 2.0 = run, 3.0 = sprint."
+            },
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "If defined, the pedestrian will only move if said vehicle exists. If you don't want any sort of association, just set it to `0`."
+            },
+            {
+                "name": "bUseLongRangeVehiclePathing",
+                "type": "BOOL",
+                "description": "Setting to `true` tells the vehicle to use longrange vehicle pathing."
+            },
+            {
+                "name": "drivingFlags",
+                "type": "int",
+                "description": "See `eDrivingMode` enum."
+            },
+            {
+                "name": "fMaxRangeToShootTargets",
+                "type": "float",
+                "description": "Determines the maximum distance at which the `Ped` will engage in combat with threatening targets."
+            }
+        ],
+        "return_type": "void",
+        "description": "Tells a ped to go to a coord by any means.\n\n```cpp\nenum eDrivingMode {\r\nDF_StopForCars = 1,\r\nDF_StopForPeds = 2,\r\nDF_SwerveAroundAllCars = 4,\r\nDF_SteerAroundStationaryCars = 8,\r\nDF_SteerAroundPeds = 16,\r\nDF_SteerAroundObjects = 32,\r\nDF_DontSteerAroundPlayerPed = 64,\r\nDF_StopAtLights = 128,\r\nDF_GoOffRoadWhenAvoiding = 256,\r\nDF_DriveIntoOncomingTraffic = 512,\r\nDF_DriveInReverse = 1024,\r\n// If pathfinding fails, cruise randomly instead of going on a straight line\r\nDF_UseWanderFallbackInsteadOfStraightLine = 2048,\r\nDF_AvoidRestrictedAreas = 4096,\r\n// These only work on MISSION_CRUISE\r\nDF_PreventBackgroundPathfinding = 8192,\r\nDF_AdjustCruiseSpeedBasedOnRoadSpeed = 16384,\r\nDF_UseShortCutLinks =  262144,\r\nDF_ChangeLanesAroundObstructions = 524288,\r\n// cruise tasks ignore this anyway--only used for goto's\r\nDF_UseSwitchedOffNodes =  2097152,\r\n// if you're going to be primarily driving off road\r\nDF_PreferNavmeshRoute =  4194304,\r\n// Only works for planes using MISSION_GOTO, will cause them to drive along the ground instead of fly\r\nDF_PlaneTaxiMode =  8388608,\r\nDF_ForceStraightLine = 16777216,\r\nDF_UseStringPullingAtJunctions = 33554432,\r\nDF_AvoidHighways = 536870912,\r\nDF_ForceJoinInRoadDirection = 1073741824,\r\n// Standard driving mode. stops for cars, peds, and lights, goes around stationary obstructions\r\nDRIVINGMODE_STOPFORCARS = 786603, // DF_StopForCars|DF_StopForPeds|DF_SteerAroundObjects|DF_SteerAroundStationaryCars|DF_StopAtLights|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions,\t\t// Obey lights too\r\n// Like the above, but doesn't steer around anything in its way - will only wait instead.\r\nDRIVINGMODE_STOPFORCARS_STRICT = 262275, // DF_StopForCars|DF_StopForPeds|DF_StopAtLights|DF_UseShortCutLinks, // Doesn't deviate an inch.\r\n// Default \"alerted\" driving mode. drives around everything, doesn't obey lights\r\nDRIVINGMODE_AVOIDCARS = 786469, // DF_SwerveAroundAllCars|DF_SteerAroundObjects|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions|DF_StopForCars,\r\n// Very erratic driving. difference between this and AvoidCars is that it doesn't use the brakes at ALL to help with steering\r\nDRIVINGMODE_AVOIDCARS_RECKLESS = 786468, // DF_SwerveAroundAllCars|DF_SteerAroundObjects|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions,\r\n// Smashes through everything\r\nDRIVINGMODE_PLOUGHTHROUGH = 262144, // DF_UseShortCutLinks\r\n// Drives normally except for the fact that it ignores lights\r\nDRIVINGMODE_STOPFORCARS_IGNORELIGHTS = 786475, // DF_StopForCars|DF_SteerAroundStationaryCars|DF_StopForPeds|DF_SteerAroundObjects|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions\r\n// Try to swerve around everything, but stop for lights if necessary\r\nDRIVINGMODE_AVOIDCARS_OBEYLIGHTS = 786597, // DF_SwerveAroundAllCars|DF_StopAtLights|DF_SteerAroundObjects|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions|DF_StopForCars\r\n// Swerve around cars, be careful around peds, and stop for lights\r\nDRIVINGMODE_AVOIDCARS_STOPFORPEDS_OBEYLIGHTS = 786599 // DF_SwerveAroundAllCars|DF_StopAtLights|DF_StopForPeds|DF_SteerAroundObjects|DF_UseShortCutLinks|DF_ChangeLanesAroundObstructions|DF_StopForCars\r\n};\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_GO_TO_COORD_ANY_MEANS](?\\_0x5BC448CB78FA3E88).**",
+        "examples": [],
+        "hash": "0xF91DF93B",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

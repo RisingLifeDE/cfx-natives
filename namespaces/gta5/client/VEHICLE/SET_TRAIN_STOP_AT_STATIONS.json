@@ -1,0 +1,24 @@
+{
+    "0xECB8B577": {
+        "name": "SET_TRAIN_STOP_AT_STATIONS",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            },
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "True to make the train stop at stations. False to make the train not stop at stations"
+            }
+        ],
+        "return_type": "void",
+        "description": "Toggles a train's ability to stop at stations",
+        "examples": [],
+        "hash": "0xECB8B577",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

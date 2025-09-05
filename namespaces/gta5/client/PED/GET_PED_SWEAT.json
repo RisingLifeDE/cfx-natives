@@ -1,0 +1,25 @@
+{
+    "0x44B91E94": {
+        "name": "GET_PED_SWEAT",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_PED_SWEAT](#\\_0x27B0405F59637D1F).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local sweat = GetPedSweat(PlayerPedId())"
+            }
+        ],
+        "hash": "0x44B91E94",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped's sweat."
+    }
+}

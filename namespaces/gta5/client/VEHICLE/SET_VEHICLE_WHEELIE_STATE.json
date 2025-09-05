@@ -1,0 +1,29 @@
+{
+    "0xEAB8DB65": {
+        "name": "SET_VEHICLE_WHEELIE_STATE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "Vehicle"
+            },
+            {
+                "name": "state",
+                "type": "int",
+                "description": "Wheelie state"
+            }
+        ],
+        "return_type": "void",
+        "description": "Example script: https://pastebin.com/J6XGbkCW\n\nList of known states:\n\n```\n1: Not wheeling.\r\n65: Vehicle is ready to do wheelie (burnouting).\r\n129: Vehicle is doing wheelie.\n```",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "Citizen.CreateThread(function()\r\n  while true do\r\n    Wait(1)\r\n\r\n    local ped = PlayerPedId()\r\n    local veh = GetVehiclePedIsUsing(ped)\r\n\r\n    if veh ~= 0 then\r\n      -- is vehicle a musclecar\r\n      if GetVehicleClass(veh) == 4 then\r\n        -- is ped a driver\r\n        if GetPedInVehicleSeat(veh, -1) == ped then\r\n          -- don't let vehicle to do wheelie\r\n          SetVehicleWheelieState(veh, 1)\r\n        end\r\n      end\r\n    end\r\n  end\r\nend)"
+            }
+        ],
+        "hash": "0xEAB8DB65",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "0xD6BBA48B": {
+        "name": "GET_PED_COLLECTION_NAME_FROM_DRAWABLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "componentId",
+                "type": "int",
+                "description": "One of the components from [SET_PED_COMPONENT_VARIATION](#\\_0x262B14F48D29DE80)"
+            },
+            {
+                "name": "drawableId",
+                "type": "int",
+                "description": "Global drawable ID. Same as set in [SET_PED_COMPONENT_VARIATION](#\\_0x262B14F48D29DE80). Global drawable ID points to drawables as if drawables from all collections for the given component are placed into one continuous array."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Gets collection name for the given global drawable ID. Together with [GET_PED_COLLECTION_LOCAL_INDEX_FROM_DRAWABLE](#\\_0x94EB1FE4) is used to get collection and local index (inside the given collection) of the drawable. The collection name and index are used in functions like [SET_PED_COLLECTION_COMPONENT_VARIATION](#\\_0x88711BBA).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local ped = PlayerPedId()\r\n-- Top for mp_f_freemode_01. From female_freemode_beach collection under index 1.\r\n-- Global index is 17 because there is 16 top variations in the base game collection that goes before the female_freemode_beach collection.\r\nlocal name = GetPedDrawableCollectionName(ped, 11, 17)\r\nlocal index = GetPedDrawableCollectionLocalIndex(ped, 11, 17)\r\n-- Equivalent to SetPedComponentVariation(ped, 11, 17, 0, 0)\r\nSetPedCollectionComponentVariation(ped, 11, name, index, 0, 0)"
+            }
+        ],
+        "hash": "0xD6BBA48B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Name of the collection that the given global drawable ID corresponds to. Base game collection is an empty string. Returns null if Ped is not found or the global index is out of bounds."
+    }
+}

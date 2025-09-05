@@ -1,0 +1,30 @@
+{
+    "0x2C3CDA93": {
+        "name": "GET_MAPDATA_ENTITY_MATRIX",
+        "params": [
+            {
+                "name": "mapDataHash",
+                "type": "int",
+                "description": "A mapdata hash from `mapDataLoaded` event."
+            },
+            {
+                "name": "entityInternalIdx",
+                "type": "int",
+                "description": "An internal entity's index."
+            },
+            {
+                "name": "matrixPtr",
+                "type": "long",
+                "description": "A mutable pointer to a 64-byte buffer of floating-point values, representing an XMFLOAT4X4 in layout."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns mapdata's entity matrix. This function supports SDK infrastructure and is not intended to be used directly from your code.\n\nThis should be used from JavaScript or another language supporting mutable buffers like ArrayBuffer.\n\nMatrix layout is as follows:\n\n*   Element \\[0], \\[1] and \\[2] should represent the right vector.\n*   Element \\[4], \\[5] and \\[6] should represent the forward vector.\n*   Element \\[8], \\[9] and \\[10] should represent the up vector.\n*   Element \\[12], \\[13] and \\[14] should represent X, Y and Z translation coordinates.\n*   All other elements should be \\[0, 0, 0, 1].",
+        "examples": [],
+        "hash": "0x2C3CDA93",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Whether or not the matrix was retrieved."
+    }
+}

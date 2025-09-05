@@ -1,0 +1,20 @@
+{
+    "0xA41BC13D": {
+        "name": "GET_HELI_TAIL_ROTOR_HEALTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "float",
+        "description": "**Note**: This native is deprecated, please use [`GET_HELI_REAR_ROTOR_HEALTH`](#\\_0x33EE6E2B) instead.",
+        "examples": [],
+        "hash": "0xA41BC13D",
+        "ns": "CFX",
+        "game": "gta5",
+        "apiset": "server",
+        "resultsDescription": "Return the health of the rear rotor of the helicopter, not the tail rotor."
+    }
+}

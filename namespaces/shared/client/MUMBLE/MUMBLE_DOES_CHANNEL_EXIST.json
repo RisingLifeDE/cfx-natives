@@ -1,0 +1,19 @@
+{
+    "0xCC8CA25": {
+        "name": "MUMBLE_DOES_CHANNEL_EXIST",
+        "params": [
+            {
+                "name": "channel",
+                "type": "int",
+                "description": "A game voice channel ID."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Check whether specified channel exists on the Mumble server.",
+        "examples": [],
+        "hash": "0xCC8CA25",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "True if the specific channel exists. False otherwise."
+    }
+}

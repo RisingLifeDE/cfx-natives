@@ -1,0 +1,21 @@
+{
+    "0x4111BA46": {
+        "name": "SET_PED_RANDOM_COMPONENT_VARIATION",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "p1",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\np1 is always 0 in R* scripts; and a quick disassembly seems to indicate that p1 is unused.\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_RANDOM_COMPONENT_VARIATION](?\\_0xC8A9481A01E63C28).**",
+        "examples": [],
+        "hash": "0x4111BA46",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

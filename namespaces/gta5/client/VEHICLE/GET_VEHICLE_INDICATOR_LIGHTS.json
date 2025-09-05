@@ -1,0 +1,19 @@
+{
+    "0x83070354": {
+        "name": "GET_VEHICLE_INDICATOR_LIGHTS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the vehicle indicator light state. 0 = off, 1 = left, 2 = right, 3 = both",
+        "examples": [],
+        "hash": "0x83070354",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An integer."
+    }
+}

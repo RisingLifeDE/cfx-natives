@@ -1,0 +1,19 @@
+{
+    "0x30822554": {
+        "name": "ADD_BLIP_FOR_ENTITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity handle to create the blip."
+            }
+        ],
+        "return_type": "Blip",
+        "description": "Create a blip that by default is red (enemy), you can use [SET_BLIP_AS_FRIENDLY](#\\_0xC6F43D0E) to make it blue (friend).\\\nCan be used for objects, vehicles and peds.\r\nExample of enemy:\r\n![enemy](https://i.imgur.com/fl78svv.png)\r\nExample of friend:\r\n![friend](https://i.imgur.com/Q16ho5d.png)\n\n**This is the server-side RPC native equivalent of the client native [ADD_BLIP_FOR_ENTITY](?\\_0x5CDE92C702A8FCE7).**",
+        "examples": [],
+        "hash": "0x30822554",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A blip handle."
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "0xF213AE8D": {
+        "name": "REGISTER_ROPE_DATA",
+        "params": [
+            {
+                "name": "numSections",
+                "type": "int"
+            },
+            {
+                "name": "radius",
+                "type": "float"
+            },
+            {
+                "name": "diffuseTextureName",
+                "type": "const char*"
+            },
+            {
+                "name": "normalMapName",
+                "type": "const char*"
+            },
+            {
+                "name": "distanceMappingScale",
+                "type": "float"
+            },
+            {
+                "name": "uvScaleX",
+                "type": "float"
+            },
+            {
+                "name": "uvScaleY",
+                "type": "float"
+            },
+            {
+                "name": "specularFresnel",
+                "type": "float"
+            },
+            {
+                "name": "specularFalloff",
+                "type": "float"
+            },
+            {
+                "name": "specularIntensity",
+                "type": "float"
+            },
+            {
+                "name": "bumpiness",
+                "type": "float"
+            },
+            {
+                "name": "color",
+                "type": "int"
+            }
+        ],
+        "return_type": "int",
+        "description": "Registers a custom rope data with the game. For guidance on what these values should be use common:/data/ropedata.xml as a reference.\r\nReturns a rope type which can be passed into [ADD_ROPE](#\\_0xE832D760399EB220) to use a custom rope design.\r\nOnce a rope data is registered it can be used indefinitely and you should take caution not too register too many as to exceed the games limit.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- Create a thick steel cable rope above the players head\r\nlocal ropeType = RegisterRopeData(6, 0.15, \"steel_cable\", \"steel_cable_n\", 1.0, 1.0, 8.775, 0.97, 30.0, 0.25, 1.775, 0x00FFFF00)\r\nif ropeType ~= -1 then\r\n    local coords = GetEntityCoords(PlayerPedId()) + vector3(0.0, 0.0, 5.0)\r\n\tAddRope(coords.x, coords.y, coords.z, 0.0, 0.0, 0.0, 25.0, ropeType, 10.0, 0.0, 1.0, false, false, false, 1.0, false, 0)\r\n    RopeLoadTextures()\r\nend"
+            }
+        ],
+        "hash": "0xF213AE8D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns a non-negative value on success, or -1 if the rope data could not be registered or an invalid argument is passed."
+    }
+}

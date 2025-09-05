@@ -1,0 +1,18 @@
+{
+    "0x7DC6D022": {
+        "name": "GET_IS_VEHICLE_ENGINE_RUNNING",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x7DC6D022",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

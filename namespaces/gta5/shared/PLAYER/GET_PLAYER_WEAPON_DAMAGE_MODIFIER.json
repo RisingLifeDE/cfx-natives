@@ -1,0 +1,20 @@
+{
+    "0x2A3D7CDA": {
+        "name": "GET_PLAYER_WEAPON_DAMAGE_MODIFIER",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_PLAYER_WEAPON_DAMAGE_MODIFIER](#\\_0xCE07B9F7817AADA3).",
+        "examples": [],
+        "hash": "0x2A3D7CDA",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "The value of player weapon damage modifier."
+    }
+}

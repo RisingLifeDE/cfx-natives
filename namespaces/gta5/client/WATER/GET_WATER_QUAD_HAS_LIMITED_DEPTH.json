@@ -1,0 +1,29 @@
+{
+    "0x22EA3BD8": {
+        "name": "GET_WATER_QUAD_HAS_LIMITED_DEPTH",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "hasLimitedDepth",
+                "type": "int*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, hasLimitedDepth = GetWaterQuadHasLimitedDepth(0)"
+            }
+        ],
+        "hash": "0x22EA3BD8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns if the given water quad has a limited depth."
+    }
+}

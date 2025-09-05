@@ -1,0 +1,13 @@
+{
+    "0x332169F5": {
+        "name": "GET_ALL_VEHICLES",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all vehicle handles known to the server.\r\nThe data returned adheres to the following layout:\n\n```\n[127, 42, 13, 37]\n```",
+        "examples": [],
+        "hash": "0x332169F5",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "An object containing a list of vehicle handles."
+    }
+}

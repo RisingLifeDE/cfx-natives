@@ -1,0 +1,19 @@
+{
+    "0xF849ED67": {
+        "name": "IS_VEHICLE_PREVIOUSLY_OWNED_BY_PLAYER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xF849ED67",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

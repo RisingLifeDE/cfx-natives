@@ -1,0 +1,20 @@
+{
+    "0x47B870F5": {
+        "name": "GET_ENTITY_ARCHETYPE_NAME",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "An entity handle."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Returns entity's archetype name, if available.",
+        "examples": [],
+        "hash": "0x47B870F5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Entity's archetype name"
+    }
+}

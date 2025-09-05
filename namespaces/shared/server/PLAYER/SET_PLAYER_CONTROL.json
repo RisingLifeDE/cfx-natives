@@ -1,0 +1,25 @@
+{
+    "0xD17AFCD8": {
+        "name": "SET_PLAYER_CONTROL",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player"
+            },
+            {
+                "name": "bHasControl",
+                "type": "BOOL"
+            },
+            {
+                "name": "flags",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nFlags:\r\nSPC_AMBIENT_SCRIPT = (1 << 1),\r\nSPC_CLEAR_TASKS = (1 << 2),\r\nSPC_REMOVE_FIRES = (1 << 3),\r\nSPC_REMOVE_EXPLOSIONS = (1 << 4),\r\nSPC_REMOVE_PROJECTILES = (1 << 5),\r\nSPC_DEACTIVATE_GADGETS = (1 << 6),\r\nSPC_REENABLE_CONTROL_ON_DEATH = (1 << 7),\r\nSPC_LEAVE_CAMERA_CONTROL_ON = (1 << 8),\r\nSPC_ALLOW_PLAYER_DAMAGE = (1 << 9),\r\nSPC_DONT_STOP_OTHER_CARS_AROUND_PLAYER = (1 << 10),\r\nSPC_PREVENT_EVERYBODY_BACKOFF = (1 << 11),\r\nSPC_ALLOW_PAD_SHAKE = (1 << 12)\r\nSee: https://alloc8or.re/gta5/doc/enums/eSetPlayerControlFlag.txt\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PLAYER_CONTROL](?\\_0x8D32347D6D4C40A2).**",
+        "examples": [],
+        "hash": "0xD17AFCD8",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

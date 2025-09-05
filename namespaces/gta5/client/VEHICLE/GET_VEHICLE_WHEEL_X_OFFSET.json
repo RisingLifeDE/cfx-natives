@@ -1,0 +1,23 @@
+{
+    "0xCC90CBCA": {
+        "name": "GET_VEHICLE_WHEEL_X_OFFSET",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Returns the offset of the specified wheel relative to the wheel's axle center.",
+        "examples": [],
+        "hash": "0xCC90CBCA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

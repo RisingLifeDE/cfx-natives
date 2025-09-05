@@ -1,0 +1,18 @@
+{
+    "0xFB012961": {
+        "name": "FIND_FIRST_PED",
+        "params": [
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xFB012961",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

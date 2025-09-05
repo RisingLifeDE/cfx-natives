@@ -1,0 +1,23 @@
+{
+    "0x4CDD35D0": {
+        "name": "SET_VEHICLE_DOORS_LOCKED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle whose doors are to be locked."
+            },
+            {
+                "name": "doorLockStatus",
+                "type": "int",
+                "description": "The lock state to apply to the vehicle's doors, see `eVehicleLockState`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Locks the doors of a specified vehicle to a defined lock state, affecting how players and NPCs can interact with the vehicle.\n\n```\nNativeDB Introduced: v323\n```\n\n```cpp\nenum eVehicleLockState {\r\n// No specific lock state, vehicle behaves according to the game's default settings.\r\nVEHICLELOCK_NONE = 0,\r\n// Vehicle is fully unlocked, allowing free entry by players and NPCs.\r\nVEHICLELOCK_UNLOCKED = 1,\r\n// Vehicle is locked, preventing entry by players and NPCs.\r\nVEHICLELOCK_LOCKED = 2,\r\n// Vehicle locks out only players, allowing NPCs to enter.\r\nVEHICLELOCK_LOCKOUT_PLAYER_ONLY = 3,\r\n// Vehicle is locked once a player enters, preventing others from entering.\r\nVEHICLELOCK_LOCKED_PLAYER_INSIDE = 4,\r\n// Vehicle starts in a locked state, but may be unlocked through game events.\r\nVEHICLELOCK_LOCKED_INITIALLY = 5,\r\n// Forces the vehicle's doors to shut and lock.\r\nVEHICLELOCK_FORCE_SHUT_DOORS = 6,\r\n// Vehicle is locked but can still be damaged.\r\nVEHICLELOCK_LOCKED_BUT_CAN_BE_DAMAGED = 7,\r\n// Vehicle is locked, but its trunk/boot remains unlocked.\r\nVEHICLELOCK_LOCKED_BUT_BOOT_UNLOCKED = 8,\r\n// Vehicle is locked and does not allow passengers, except for the driver.\r\nVEHICLELOCK_LOCKED_NO_PASSENGERS = 9,\r\n// Vehicle is completely locked, preventing entry entirely, even if previously inside.\r\nVEHICLELOCK_CANNOT_ENTER = 10\r\n};\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_DOORS_LOCKED](?\\_0xB664292EAECF7FA6).**",
+        "examples": [],
+        "hash": "0x4CDD35D0",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

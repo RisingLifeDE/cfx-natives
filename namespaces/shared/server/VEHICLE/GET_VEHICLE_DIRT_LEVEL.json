@@ -1,0 +1,18 @@
+{
+    "0xFD15C065": {
+        "name": "GET_VEHICLE_DIRT_LEVEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xFD15C065",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

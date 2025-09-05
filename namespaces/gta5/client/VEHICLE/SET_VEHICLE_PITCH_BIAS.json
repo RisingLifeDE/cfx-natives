@@ -1,0 +1,24 @@
+{
+    "0x2A6CC9F2": {
+        "name": "SET_VEHICLE_PITCH_BIAS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "Target vehicle."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "Pitch bias value."
+            }
+        ],
+        "return_type": "void",
+        "description": "Set the vehicle's pitch bias. Only works on planes.",
+        "examples": [],
+        "hash": "0x2A6CC9F2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

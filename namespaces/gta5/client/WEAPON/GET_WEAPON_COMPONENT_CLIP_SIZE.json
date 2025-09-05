@@ -1,0 +1,20 @@
+{
+    "0xE14CF665": {
+        "name": "GET_WEAPON_COMPONENT_CLIP_SIZE",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for `ClipSize` in a weapon component.",
+        "examples": [],
+        "hash": "0xE14CF665",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A weapon component clip size."
+    }
+}

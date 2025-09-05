@@ -1,0 +1,19 @@
+{
+    "0xF1D1D689": {
+        "name": "GET_VEHICLE_HIGH_GEAR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xF1D1D689",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

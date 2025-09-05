@@ -1,0 +1,39 @@
+{
+    "0x8349CD76": {
+        "name": "SET_INTERIOR_PORTAL_ENTITY_FLAG",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "entityIndex",
+                "type": "int",
+                "description": "Portal entity index."
+            },
+            {
+                "name": "flag",
+                "type": "int",
+                "description": "New flag value."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal portalIndex = 0\r\n\r\nif interiorId ~= 0 then\r\n  local count = GetInteriorPortalEntityCount(interiorId, portalIndex)\r\n  for i=0, count-1 do\r\n    SetInteriorPortalEntityFlag(interiorId, portalIndex, i, 0)\r\n  end\r\n  RefreshInterior(interiorId)\r\nend"
+            }
+        ],
+        "hash": "0x8349CD76",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

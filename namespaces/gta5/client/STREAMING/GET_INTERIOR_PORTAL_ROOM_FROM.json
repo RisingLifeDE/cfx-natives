@@ -1,0 +1,30 @@
+{
+    "0xAA9C141D": {
+        "name": "GET_INTERIOR_PORTAL_ROOM_FROM",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local roomIndex = 0\r\n\r\n  local portalRoomFrom = GetInteriorPortalRoomFrom(interiorId, 0)\r\n  print(\"portal \" .. roomIndex .. \" room FROM is: \" .. portalRoomFrom)\r\nend"
+            }
+        ],
+        "hash": "0xAA9C141D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal's room FROM index."
+    }
+}

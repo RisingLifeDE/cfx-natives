@@ -1,0 +1,19 @@
+{
+    "0xB90BBC6E": {
+        "name": "SET_REACTION_TO_VEHICLE_WITH_SIREN_DISABLED",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Toggle on or off."
+            }
+        ],
+        "return_type": "void",
+        "description": "This completely disables pedestrian vehicles from reacting to sirens. They will not try to do any maneuver to evade.",
+        "examples": [],
+        "hash": "0xB90BBC6E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

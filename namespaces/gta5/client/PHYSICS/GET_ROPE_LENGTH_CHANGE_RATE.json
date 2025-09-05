@@ -1,0 +1,20 @@
+{
+    "0x66D70EA3": {
+        "name": "GET_ROPE_LENGTH_CHANGE_RATE",
+        "params": [
+            {
+                "name": "rope",
+                "type": "int",
+                "description": "The rope to get the length change rate for."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x66D70EA3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The rope's length change rate."
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "0x9227415A": {
+        "name": "END_FIND_VEHICLE",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x9227415A",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

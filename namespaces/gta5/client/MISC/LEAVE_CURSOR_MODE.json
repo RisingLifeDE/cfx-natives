@@ -1,0 +1,13 @@
+{
+    "0xADECF19E": {
+        "name": "LEAVE_CURSOR_MODE",
+        "params": [],
+        "return_type": "void",
+        "description": "Leaves cursor mode. This function supports SDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0xADECF19E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

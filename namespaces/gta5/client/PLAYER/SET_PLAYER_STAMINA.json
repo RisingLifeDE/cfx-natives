@@ -1,0 +1,25 @@
+{
+    "0xA9EC16C7": {
+        "name": "SET_PLAYER_STAMINA",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index"
+            },
+            {
+                "name": "stamina",
+                "type": "float",
+                "description": "The value you want to set"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xA9EC16C7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Did you manage to set the value."
+    }
+}

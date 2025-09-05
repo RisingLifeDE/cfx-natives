@@ -1,0 +1,42 @@
+{
+    "0xB8689B4E": {
+        "name": "TASK_ENTER_VEHICLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "timeout",
+                "type": "int"
+            },
+            {
+                "name": "seatIndex",
+                "type": "int",
+                "description": "See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#\\_0x22AC59A870E6A669)."
+            },
+            {
+                "name": "speed",
+                "type": "float"
+            },
+            {
+                "name": "flag",
+                "type": "int"
+            },
+            {
+                "name": "p6",
+                "type": "Any"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nspeed 1.0 = walk, 2.0 = run\r\np5 1 = normal, 3 = teleport to vehicle, 8 = normal/carjack ped from seat, 16 = teleport directly into vehicle\r\np6 is always 0\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_ENTER_VEHICLE](?\\_0xC20E50AA46D09CA8).**",
+        "examples": [],
+        "hash": "0xB8689B4E",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

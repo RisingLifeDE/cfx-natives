@@ -1,0 +1,19 @@
+{
+    "0x821F2D2C": {
+        "name": "GET_PLAYER_WANTED_CENTRE_POSITION",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The target player"
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "Gets the current known coordinates for the specified player from cops perspective. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0x821F2D2C",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The player's position known by police. Vector zero if the player has no wanted level."
+    }
+}

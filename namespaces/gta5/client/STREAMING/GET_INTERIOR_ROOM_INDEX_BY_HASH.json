@@ -1,0 +1,30 @@
+{
+    "0xE0EE05F8": {
+        "name": "GET_INTERIOR_ROOM_INDEX_BY_HASH",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "roomHash",
+                "type": "int",
+                "description": "Interior room hash."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal roomHash = GetRoomKeyFromEntity(playerPed)\r\nlocal roomId = GetInteriorRoomIndexByHash(interiorId, roomHash)\r\n\r\nif roomId ~= -1 then\r\n  print(\"current room index is: \" .. roomId)\r\nend"
+            }
+        ],
+        "hash": "0xE0EE05F8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Room index, -1 if failed."
+    }
+}

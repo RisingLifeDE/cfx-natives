@@ -1,0 +1,23 @@
+{
+    "0x32C5355A": {
+        "name": "MUMBLE_ADD_VOICE_TARGET_PLAYER",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "A game player index."
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds the specified player to the target list for the specified Mumble voice target ID.",
+        "examples": [],
+        "hash": "0x32C5355A",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

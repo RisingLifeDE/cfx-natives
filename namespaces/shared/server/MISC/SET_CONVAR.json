@@ -1,0 +1,21 @@
+{
+    "0x341B16D2": {
+        "name": "SET_CONVAR",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*"
+            },
+            {
+                "name": "value",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x341B16D2",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

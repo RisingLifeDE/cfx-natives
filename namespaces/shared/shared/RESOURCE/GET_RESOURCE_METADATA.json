@@ -1,0 +1,29 @@
+{
+    "0x964BAB1D": {
+        "name": "GET_RESOURCE_METADATA",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource name."
+            },
+            {
+                "name": "metadataKey",
+                "type": "const char*",
+                "description": "The key in the resource manifest."
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "The value index, in a range from \\[0..GET_NUM_RESOURCE_METDATA-1]."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Gets the metadata value at a specified key/index from a resource's manifest.\r\nSee also: [Resource manifest](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/)",
+        "examples": [],
+        "hash": "0x964BAB1D",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

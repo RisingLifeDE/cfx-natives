@@ -1,0 +1,30 @@
+{
+    "0x82BA3F88": {
+        "name": "GET_INTERIOR_ROOM_TIMECYCLE",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "roomIndex",
+                "type": "int",
+                "description": "Interior room index."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal roomHash = GetRoomKeyFromEntity(playerPed)\r\nlocal roomId = GetInteriorRoomIndexByHash(interiorId, roomHash)\r\n\r\nif roomId ~= -1 then\r\n  local roomTimecycle = GetInteriorRoomTimecycle(interiorId, roomId)\r\n  print(\"current room timecycle hash is: \" .. roomTimecycle)\r\nend"
+            }
+        ],
+        "hash": "0x82BA3F88",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Room's timecycle hash."
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "0xDF70B41B": {
+        "name": "SET_ENTITY_COORDS",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to change coordinates for."
+            },
+            {
+                "name": "xPos",
+                "type": "float",
+                "description": "The X coordinate."
+            },
+            {
+                "name": "yPos",
+                "type": "float",
+                "description": "The Y coordinate."
+            },
+            {
+                "name": "zPos",
+                "type": "float",
+                "description": "The Z coordinate, ground level."
+            },
+            {
+                "name": "alive",
+                "type": "BOOL",
+                "description": "Unused by the game, potentially used by debug builds of GTA in order to assert whether or not an entity was alive."
+            },
+            {
+                "name": "deadFlag",
+                "type": "BOOL",
+                "description": "Whether to disable physics for dead peds, too, and not just living peds."
+            },
+            {
+                "name": "ragdollFlag",
+                "type": "BOOL",
+                "description": "A special flag used for ragdolling peds."
+            },
+            {
+                "name": "clearArea",
+                "type": "BOOL",
+                "description": "Whether to clear any entities in the target area."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the coordinates (world position) for a specified entity, offset by the radius of the entity on the Z axis.\n\n**This is the server-side RPC native equivalent of the client native [SET_ENTITY_COORDS](?\\_0x06843DA7060A026B).**",
+        "examples": [],
+        "hash": "0xDF70B41B",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

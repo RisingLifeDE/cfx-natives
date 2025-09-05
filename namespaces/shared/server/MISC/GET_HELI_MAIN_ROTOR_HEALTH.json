@@ -1,0 +1,19 @@
+{
+    "0xF01E2AAB": {
+        "name": "GET_HELI_MAIN_ROTOR_HEALTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xF01E2AAB",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "See the client-side [GET_HELI_MAIN_ROTOR_HEALTH](#\\_0xE4CB7541F413D2C5) for the return value."
+    }
+}

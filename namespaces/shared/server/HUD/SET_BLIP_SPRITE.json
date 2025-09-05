@@ -1,0 +1,23 @@
+{
+    "0x8DBBB0B9": {
+        "name": "SET_BLIP_SPRITE",
+        "params": [
+            {
+                "name": "blip",
+                "type": "Blip",
+                "description": "The blip to change."
+            },
+            {
+                "name": "spriteId",
+                "type": "int",
+                "description": "The sprite ID to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the displayed sprite for a specific blip.\r\nThere's a [list of sprites](https://docs.fivem.net/game-references/blips/) on the FiveM documentation site.\n\n**This is the server-side RPC native equivalent of the client native [SET_BLIP_SPRITE](?\\_0xDF735600A4696DAF).**",
+        "examples": [],
+        "hash": "0x8DBBB0B9",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

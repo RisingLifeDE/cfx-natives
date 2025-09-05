@@ -1,0 +1,21 @@
+{
+    "0xBDBA226F": {
+        "name": "GET_NUI_CURSOR_POSITION",
+        "params": [
+            {
+                "name": "x",
+                "type": "int*"
+            },
+            {
+                "name": "y",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xBDBA226F",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

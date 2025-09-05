@@ -1,0 +1,18 @@
+{
+    "0x3734AAFF": {
+        "name": "SET_NUI_ZINDEX",
+        "params": [
+            {
+                "name": "zIndex",
+                "type": "int",
+                "description": "New z-index value."
+            }
+        ],
+        "return_type": "void",
+        "description": "Set the z-index of the NUI resource.",
+        "examples": [],
+        "hash": "0x3734AAFF",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

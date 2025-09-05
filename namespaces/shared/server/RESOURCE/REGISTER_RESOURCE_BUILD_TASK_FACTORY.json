@@ -1,0 +1,23 @@
+{
+    "0x285B43CA": {
+        "name": "REGISTER_RESOURCE_BUILD_TASK_FACTORY",
+        "params": [
+            {
+                "name": "factoryId",
+                "type": "const char*",
+                "description": "The identifier for the build task."
+            },
+            {
+                "name": "factoryFn",
+                "type": "Function",
+                "description": "The factory function."
+            }
+        ],
+        "return_type": "void",
+        "description": "Registers a build task factory for resources.\r\nThe function should return an object (msgpack map) with the following fields:\n\n```\n{\r\n// returns whether the specific resource should be built\r\nshouldBuild = func(resourceName: string): bool,\r\n\r\n// asynchronously start building the specific resource.\r\n// call cb when completed\r\nbuild = func(resourceName: string, cb: func(success: bool, status: string): void): void\r\n}\n```",
+        "examples": [],
+        "hash": "0x285B43CA",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

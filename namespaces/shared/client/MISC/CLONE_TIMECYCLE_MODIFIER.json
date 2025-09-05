@@ -1,0 +1,29 @@
+{
+    "0x54D636B3": {
+        "name": "CLONE_TIMECYCLE_MODIFIER",
+        "params": [
+            {
+                "name": "sourceModifierName",
+                "type": "const char*",
+                "description": "The source timecycle name."
+            },
+            {
+                "name": "clonedModifierName",
+                "type": "const char*",
+                "description": "The clone timecycle name, must be unique."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local sourceName = \"underwater\"\r\nlocal cloneName = \"my_awesome_timecycle\"\r\n\r\nlocal clonedIndex = CloneTimecycleModifier(sourceName, cloneName)\r\nif clonedIndex ~= -1 then\r\n  SetTimecycleModifier(cloneName)\r\nend"
+            }
+        ],
+        "hash": "0x54D636B3",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The cloned timecycle modifier index, or -1 if failed."
+    }
+}

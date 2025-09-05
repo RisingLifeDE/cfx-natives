@@ -1,0 +1,23 @@
+{
+    "0xE0FF064D": {
+        "name": "SET_ENTITY_HEADING",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to set the heading for."
+            },
+            {
+                "name": "heading",
+                "type": "float",
+                "description": "The heading in degrees."
+            }
+        ],
+        "return_type": "void",
+        "description": "Set the heading of an entity in degrees also known as \"Yaw\".\n\n**This is the server-side RPC native equivalent of the client native [SET_ENTITY_HEADING](?\\_0x8E2530AA8ADA980E).**",
+        "examples": [],
+        "hash": "0xE0FF064D",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

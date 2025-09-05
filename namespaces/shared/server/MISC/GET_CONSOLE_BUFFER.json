@@ -1,0 +1,13 @@
+{
+    "0xE57429FA": {
+        "name": "GET_CONSOLE_BUFFER",
+        "params": [],
+        "return_type": "const char*",
+        "description": "Returns the current console output buffer.",
+        "examples": [],
+        "hash": "0xE57429FA",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The most recent game console output, as a string."
+    }
+}

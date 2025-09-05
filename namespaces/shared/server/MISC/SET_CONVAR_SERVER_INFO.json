@@ -1,0 +1,21 @@
+{
+    "0x9338D547": {
+        "name": "SET_CONVAR_SERVER_INFO",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*"
+            },
+            {
+                "name": "value",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x9338D547",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

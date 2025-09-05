@@ -1,0 +1,23 @@
+{
+    "0xFE3A3054": {
+        "name": "MUMBLE_SET_SUBMIX_FOR_SERVER_ID",
+        "params": [
+            {
+                "name": "serverId",
+                "type": "int",
+                "description": "The player's server ID."
+            },
+            {
+                "name": "submixId",
+                "type": "int",
+                "description": "The submix ID."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the audio submix ID for a specified player using Mumble 'Native Audio' functionality.",
+        "examples": [],
+        "hash": "0xFE3A3054",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

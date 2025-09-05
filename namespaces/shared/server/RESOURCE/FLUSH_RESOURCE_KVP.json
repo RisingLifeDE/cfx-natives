@@ -1,0 +1,17 @@
+{
+    "0xE27C97A0": {
+        "name": "FLUSH_RESOURCE_KVP",
+        "params": [],
+        "return_type": "void",
+        "description": "Nonsynchronous operations will not wait for a disk/filesystem flush before returning from a write or delete call. They will be much faster than their synchronous counterparts (e.g., bulk operations), however, a system crash may lose the data to some recent operations.\n\nThis native ensures all `_NO_SYNC` operations are synchronized with the disk/filesystem.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- Bulk write many <key, value> pairs to the resource KVP.\r\nlocal key = \"bug_%d\"\r\nlocal value = \"unintended_feature_%d\"\r\nfor i=1,10000 do\r\n\tSetResourceKvpNoSync(key:format(i), value:format(i))\r\nend\r\n\r\n-- Ensure all data is synchronized to the filesystem\r\nFlushResourceKvp()"
+            }
+        ],
+        "hash": "0xE27C97A0",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0xFE1589F9": {
+        "name": "GET_ENTITY_ATTACHED_TO",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to check."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Gets the entity that this entity is attached to.",
+        "examples": [],
+        "hash": "0xFE1589F9",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The attached entity handle. 0 returned if the entity is not attached."
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "0x83CB5052": {
+        "name": "SET_PED_TO_RAGDOLL",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped to ragdoll."
+            },
+            {
+                "name": "minTime",
+                "type": "int",
+                "description": "Time(ms) Ped is in ragdoll mode; only applies to ragdoll types 0 and not 1."
+            },
+            {
+                "name": "maxTime",
+                "type": "int"
+            },
+            {
+                "name": "ragdollType",
+                "type": "int"
+            },
+            {
+                "name": "bAbortIfInjured",
+                "type": "BOOL",
+                "description": "unused"
+            },
+            {
+                "name": "bAbortIfDead",
+                "type": "BOOL",
+                "description": "unused"
+            },
+            {
+                "name": "bForceScriptControl",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "p4/p5: Unusued in TU27\n\n### Ragdoll Types\n\n**0**: CTaskNMRelax\r\n**1**: CTaskNMScriptControl: Hardcoded not to work in networked environments.\r\n**Else**: CTaskNMBalance\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_TO_RAGDOLL](?\\_0xAE99FB955581844A).**",
+        "examples": [],
+        "hash": "0x83CB5052",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

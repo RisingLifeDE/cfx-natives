@@ -1,0 +1,24 @@
+{
+    "0x54C06897": {
+        "name": "GET_PLAYER_TOKEN",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "A player."
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "Index between 0 and GET_NUM_PLAYER_TOKENS."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Gets a player's token. Tokens can be used to enhance banning logic, however are specific to a server.",
+        "examples": [],
+        "hash": "0x54C06897",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A token value."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xEAC49841": {
+        "name": "REMOVE_CONVAR_CHANGE_LISTENER",
+        "params": [
+            {
+                "name": "cookie",
+                "type": "int",
+                "description": "The cookie returned from [ADD_CONVAR_CHANGE_LISTENER](#\\_0xAB7F7241)"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xEAC49841",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

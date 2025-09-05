@@ -1,0 +1,19 @@
+{
+    "0xB1BD08D": {
+        "name": "GET_ENTITY_TYPE",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the type of."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the entity type (as an integer), which can be one of the following defined down below:\n\n**The following entities will return type `1`:**\n\n*   Ped\n*   Player\n*   Animal (Red Dead Redemption 2)\n*   Horse (Red Dead Redemption 2)\n\n**The following entities will return type `2`:**\n\n*   Automobile\n*   Bike\n*   Boat\n*   Heli\n*   Plane\n*   Submarine\n*   Trailer\n*   Train\n*   DraftVeh (Red Dead Redemption 2)\n\n**The following entities will return type `3`:**\n\n*   Object\n*   Door\n*   Pickup\n\nOtherwise, a value of `0` will be returned.",
+        "examples": [],
+        "hash": "0xB1BD08D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The entity type returned as an integer value."
+    }
+}

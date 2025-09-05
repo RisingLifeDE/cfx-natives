@@ -1,0 +1,38 @@
+{
+    "0x829F2E2": {
+        "name": "SET_PED_PROP_INDEX",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped handle."
+            },
+            {
+                "name": "componentId",
+                "type": "int",
+                "description": "The component that you want to set. Refer to [SET_PED_COMPONENT_VARIATION](#\\_0x262B14F48D29DE80)."
+            },
+            {
+                "name": "drawableId",
+                "type": "int",
+                "description": "The drawable id that is going to be set. Refer to [GET_NUMBER_OF_PED_PROP_DRAWABLE_VARIATIONS](#\\_0x5FAF9754E789FB47)."
+            },
+            {
+                "name": "textureId",
+                "type": "int",
+                "description": "The texture id of the drawable. Refer to [GET_NUMBER_OF_PED_PROP_TEXTURE_VARIATIONS](#\\_0xA6E7F1CEB523E171)."
+            },
+            {
+                "name": "attach",
+                "type": "BOOL",
+                "description": "Attached or not."
+            }
+        ],
+        "return_type": "void",
+        "description": "This native is used to set prop variation on a ped. Components, drawables and textures IDs are related to the ped model.\n\n### MP Freemode list of props\n\n**0**: Hats\r\n**1**: Glasses\r\n**2**: Ears\r\n**6**: Watches\r\n**7**: Bracelets\r\nList of Prop IDs\n\n```cpp\nenum eAnchorPoints\r\n{\r\nANCHOR_HEAD = 0, // \"p_head\"\r\nANCHOR_EYES = 1, // \"p_eyes\"\r\nANCHOR_EARS = 2, // \"p_ears\"\r\nANCHOR_MOUTH = 3, // \"p_mouth\"\r\nANCHOR_LEFT_HAND = 4, // \"p_lhand\"\r\nANCHOR_RIGHT_HAND = 5, // \"p_rhand\"\r\nANCHOR_LEFT_WRIST = 6, // \"p_lwrist\"\r\nANCHOR_RIGHT_WRIST = 7, // \"p_rwrist\"\r\nANCHOR_HIP = 8, // \"p_lhip\"\r\nANCHOR_LEFT_FOOT = 9, // \"p_lfoot\"\r\nANCHOR_RIGHT_FOOT = 10, // \"p_rfoot\"\r\nANCHOR_PH_L_HAND = 11, // \"ph_lhand\"\r\nANCHOR_PH_R_HAND = 12, // \"ph_rhand\"\r\nNUM_ANCHORS = 13,\r\n};\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_PROP_INDEX](?\\_0x93376B65A266EB5F).**",
+        "examples": [],
+        "hash": "0x829F2E2",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

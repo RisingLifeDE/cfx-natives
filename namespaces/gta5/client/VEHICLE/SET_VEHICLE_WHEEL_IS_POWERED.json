@@ -1,0 +1,39 @@
+{
+    "0xBD5291A0": {
+        "name": "SET_VEHICLE_WHEEL_IS_POWERED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "powered",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether the wheel is powered.\r\nOn all wheel drive cars this works to change which wheels receive power, but if a car's fDriveBiasFront doesn't send power to that wheel, it won't get power anyway. This can be fixed by changing the fDriveBiasFront with SET_VEHICLE_HANDLING_FLOAT.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.\r\nThis is a shortcut to a flag in SET_VEHICLE_WHEEL_FLAGS.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetVehicleWheelIsPowered(vehicle, 0, true);"
+            },
+            {
+                "lang": "js",
+                "code": "SetVehicleWheelIsPowered(vehicle, 0, true);"
+            },
+            {
+                "lang": "cs",
+                "code": "using static CitizenFX.Core.API;\r\n// ...\r\n// The elusive Left Wheel Drive\r\nVehicle veh = Game.PlayerPed.CurrentVehicle;\r\nfor(int i = 0; i < veh.Wheels.Count; i++){\r\n    SetVehicleWheelIsPowered(veh.Handle, i, i % 2 == 0);\r\n}"
+            }
+        ],
+        "hash": "0xBD5291A0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

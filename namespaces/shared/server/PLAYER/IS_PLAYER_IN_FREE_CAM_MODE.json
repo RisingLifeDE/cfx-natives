@@ -1,0 +1,19 @@
+{
+    "0x1F14F2AC": {
+        "name": "IS_PLAYER_IN_FREE_CAM_MODE",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player to get the free camera mode status of"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x1F14F2AC",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns if the player is in free camera mode."
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "0xC383871D": {
+        "name": "ENABLE_EDITOR_RUNTIME",
+        "params": [],
+        "return_type": "void",
+        "description": "Enables the editor runtime mode, changing game behavior to track entity metadata.\r\nThis function supports SDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0xC383871D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

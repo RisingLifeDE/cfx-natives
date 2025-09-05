@@ -1,0 +1,39 @@
+{
+    "0x1683E7F0": {
+        "name": "SET_VEHICLE_XENON_LIGHTS_CUSTOM_COLOR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "red",
+                "type": "int",
+                "description": "Red color (0-255)."
+            },
+            {
+                "name": "green",
+                "type": "int",
+                "description": "Green color (0-255)."
+            },
+            {
+                "name": "blue",
+                "type": "int",
+                "description": "Blue color (0-255)."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets custom vehicle xenon lights color, allowing to use RGB palette. The game will ignore lights color set by [\\_SET_VEHICLE_XENON_LIGHTS_COLOR](#\\_0xE41033B25D003A07) when custom color is active. This native is not synced between players. Requires xenon lights mod to be set on vehicle.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsUsing(PlayerPedId())\r\nif DoesEntityExist(vehicle) then\r\n  -- Toggle xenon lights mod.\r\n  ToggleVehicleMod(vehicle, 22, true)\r\n\r\n  -- Set pink lights color.\r\n  SetVehicleXenonLightsCustomColor(vehicle, 244, 5, 82)\r\nend"
+            }
+        ],
+        "hash": "0x1683E7F0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

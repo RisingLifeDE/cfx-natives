@@ -1,0 +1,13 @@
+{
+    "0x58382A19": {
+        "name": "WAS_EVENT_CANCELED",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "Returns whether or not the currently executing event was canceled.",
+        "examples": [],
+        "hash": "0x58382A19",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "A boolean."
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "0xCEAD2D4B": {
+        "name": "REGISTER_STREAMING_FILE_FROM_CACHE",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource to add the asset to."
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "A file name in the resource."
+            },
+            {
+                "name": "cacheString",
+                "type": "const char*",
+                "description": "The string returned from `REGISTER_RESOURCE_ASSET` on the server."
+            }
+        ],
+        "return_type": "void",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRegisters a dynamic streaming asset from the server with the GTA streaming module system.",
+        "examples": [],
+        "hash": "0xCEAD2D4B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

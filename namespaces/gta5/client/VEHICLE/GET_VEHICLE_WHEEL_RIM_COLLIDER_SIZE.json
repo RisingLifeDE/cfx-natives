@@ -1,0 +1,25 @@
+{
+    "0xCEE21AB2": {
+        "name": "GET_VEHICLE_WHEEL_RIM_COLLIDER_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "Index of wheel, 0-3."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xCEE21AB2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Float representing size of the rim collider. Not sure what it is used for, probably to detect whether bullets hit rim or tire and puncture it (and to determine size of the wheel when tire is fully blown)."
+    }
+}

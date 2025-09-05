@@ -1,0 +1,17 @@
+{
+    "0x54EA5BCC": {
+        "name": "CLEAR_PLAYER_WANTED_LEVEL",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nThis executes at the same as speed as PLAYER::SET_PLAYER_WANTED_LEVEL(player, 0, false);\r\nPLAYER::GET_PLAYER_WANTED_LEVEL(player); executes in less than half the time. Which means that it's worth first checking if the wanted level needs to be cleared before clearing. However, this is mostly about good code practice and can important in other situations. The difference in time in this example is negligible.\n```\n\n**This is the server-side RPC native equivalent of the client native [CLEAR_PLAYER_WANTED_LEVEL](?\\_0xB302540597885499).**",
+        "examples": [],
+        "hash": "0x54EA5BCC",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

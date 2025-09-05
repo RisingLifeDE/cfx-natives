@@ -1,0 +1,29 @@
+{
+    "0xC6F43D0E": {
+        "name": "ADD_BLIP_FOR_COORD",
+        "params": [
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The X coordinate to create the blip on."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The Y coordinate."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "The Z coordinate."
+            }
+        ],
+        "return_type": "Blip",
+        "description": "Creates a blip for the specified coordinates. You can use `SET_BLIP_` natives to change the blip.\n\n**This is the server-side RPC native equivalent of the client native [ADD_BLIP_FOR_COORD](?\\_0x5A039BB0BCA604B6).**",
+        "examples": [],
+        "hash": "0xC6F43D0E",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A blip handle."
+    }
+}

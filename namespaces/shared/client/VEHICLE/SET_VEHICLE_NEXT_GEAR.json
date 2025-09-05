@@ -1,0 +1,23 @@
+{
+    "0x3A4566F4": {
+        "name": "SET_VEHICLE_NEXT_GEAR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "nextGear",
+                "type": "int",
+                "description": "The vehicles next gear."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x3A4566F4",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

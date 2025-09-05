@@ -1,0 +1,29 @@
+{
+    "0xCF1BC668": {
+        "name": "IS_VEHICLE_WHEEL_BROKEN_OFF",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "The wheel index."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Getter for [BREAK_OFF_VEHICLE_WHEEL](?\\_0xA274CADB).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsIn(PlayerPedId())\r\n\r\nif DoesEntityExist(vehicle) then\r\n  local isWheelBroken = IsVehicleWheelBrokenOff(vehicle, 1)\r\n  print(\"Is wheel 1 broken? \", isWheelBroken)\r\nend"
+            }
+        ],
+        "hash": "0xCF1BC668",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

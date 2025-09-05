@@ -1,0 +1,17 @@
+{
+    "0xCD03CDA9": {
+        "name": "REGISTER_NUI_CALLBACK_TYPE",
+        "params": [
+            {
+                "name": "callbackType",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xCD03CDA9",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

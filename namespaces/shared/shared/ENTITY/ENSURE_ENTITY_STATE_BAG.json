@@ -1,0 +1,17 @@
+{
+    "0x3BB78F05": {
+        "name": "ENSURE_ENTITY_STATE_BAG",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "void",
+        "description": "Internal function for ensuring an entity has a state bag.",
+        "examples": [],
+        "hash": "0x3BB78F05",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

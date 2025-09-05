@@ -1,0 +1,30 @@
+{
+    "0xBA352ADD": {
+        "name": "GET_PED_FACE_FEATURE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "Face feature index"
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [\\_SET_PED_FACE_FEATURE](#\\_0x71A5C1DBA060049E). Returns 0.0 if fails to get.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local noseWidth = GetPedFaceFeature(PlayerPedId(), 0)\r\nif noseWidth == 1.0 then\r\n  print(\"You have big nose!\")\r\nend"
+            }
+        ],
+        "hash": "0xBA352ADD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped's face feature value, or 0.0 if fails to get."
+    }
+}

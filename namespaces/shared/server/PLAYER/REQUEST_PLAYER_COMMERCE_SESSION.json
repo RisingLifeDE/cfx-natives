@@ -1,0 +1,23 @@
+{
+    "0x96F93CCE": {
+        "name": "REQUEST_PLAYER_COMMERCE_SESSION",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            },
+            {
+                "name": "skuId",
+                "type": "int",
+                "description": "The ID of the SKU."
+            }
+        ],
+        "return_type": "void",
+        "description": "Requests the specified player to buy the passed SKU. This'll pop up a prompt on the client, which upon acceptance\r\nwill open the browser prompting further purchase details.",
+        "examples": [],
+        "hash": "0x96F93CCE",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

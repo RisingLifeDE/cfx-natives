@@ -1,0 +1,22 @@
+{
+    "0xDFB9A2A2": {
+        "name": "SET_PLAYER_INVINCIBLE",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "The player index."
+            },
+            {
+                "name": "bInvincible",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "Make the player impervious to all forms of damage.\n\n**This is the server-side RPC native equivalent of the client native [SET_PLAYER_INVINCIBLE](?\\_0x239528EACDC3E7DE).**",
+        "examples": [],
+        "hash": "0xDFB9A2A2",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "0xC3FF42FF": {
+        "name": "SET_WATER_QUAD_NO_STENCIL",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "noStencil",
+                "type": "BOOL",
+                "description": "Unknown effect"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadNoStencil(0, true)"
+            }
+        ],
+        "hash": "0xC3FF42FF",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

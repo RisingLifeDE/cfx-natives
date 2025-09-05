@@ -1,0 +1,18 @@
+{
+    "0x619E4A3D": {
+        "name": "GET_NUM_PLAYER_TOKENS",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x619E4A3D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

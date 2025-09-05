@@ -1,0 +1,20 @@
+{
+    "0xE134FB8D": {
+        "name": "GET_WEAPON_COMPONENT_RANGE_DAMAGE_MODIFIER",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for `CWeaponFallOffModifier` damage modifier value in a weapon component.",
+        "examples": [],
+        "hash": "0xE134FB8D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A weapon component damage modifier."
+    }
+}

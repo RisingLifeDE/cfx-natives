@@ -1,0 +1,18 @@
+{
+    "0xD233A168": {
+        "name": "REGISTER_RESOURCE_AS_EVENT_HANDLER",
+        "params": [
+            {
+                "name": "eventName",
+                "type": "const char*",
+                "description": "An event name, or \"\\*\" to disable HLL event filtering for this resource."
+            }
+        ],
+        "return_type": "void",
+        "description": "An internal function which allows the current resource's HLL script runtimes to receive state for the specified event.",
+        "examples": [],
+        "hash": "0xD233A168",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

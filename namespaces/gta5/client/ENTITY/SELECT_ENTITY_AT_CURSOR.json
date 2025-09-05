@@ -1,0 +1,25 @@
+{
+    "0x3DD8130F": {
+        "name": "SELECT_ENTITY_AT_CURSOR",
+        "params": [
+            {
+                "name": "hitFlags",
+                "type": "int",
+                "description": "A bit mask of entity types to match."
+            },
+            {
+                "name": "precise",
+                "type": "BOOL",
+                "description": "Whether to do a *precise* test, i.e. of visual coordinates, too."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Gets the selected entity at the current mouse cursor position, and changes the current selection depth. This function supports SDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0x3DD8130F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An entity handle, or zero."
+    }
+}

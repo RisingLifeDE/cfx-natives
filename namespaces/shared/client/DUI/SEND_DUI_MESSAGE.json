@@ -1,0 +1,23 @@
+{
+    "0xCD380DA9": {
+        "name": "SEND_DUI_MESSAGE",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            },
+            {
+                "name": "jsonString",
+                "type": "const char*",
+                "description": "The message, encoded as JSON."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sends a message to the specific DUI root page. This is similar to SEND_NUI_MESSAGE.",
+        "examples": [],
+        "hash": "0xCD380DA9",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

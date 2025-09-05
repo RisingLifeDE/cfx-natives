@@ -1,0 +1,19 @@
+{
+    "0x535DB43F": {
+        "name": "GET_PED_SOURCE_OF_DAMAGE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Get the last entity that damaged the ped. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0x535DB43F",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The entity id. Returns 0 if the ped has not been damaged recently."
+    }
+}

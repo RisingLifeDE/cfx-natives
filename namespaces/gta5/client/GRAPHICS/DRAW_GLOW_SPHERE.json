@@ -1,0 +1,64 @@
+{
+    "0xBD25EC89": {
+        "name": "DRAW_GLOW_SPHERE",
+        "params": [
+            {
+                "name": "posX",
+                "type": "float",
+                "description": "Position X."
+            },
+            {
+                "name": "posY",
+                "type": "float",
+                "description": "Position Y."
+            },
+            {
+                "name": "posZ",
+                "type": "float",
+                "description": "Position Z."
+            },
+            {
+                "name": "radius",
+                "type": "float",
+                "description": "Sphere radius."
+            },
+            {
+                "name": "colorR",
+                "type": "int",
+                "description": "Red."
+            },
+            {
+                "name": "colorG",
+                "type": "int",
+                "description": "Green."
+            },
+            {
+                "name": "colorB",
+                "type": "int",
+                "description": "Blue."
+            },
+            {
+                "name": "intensity",
+                "type": "float",
+                "description": "Intensity."
+            },
+            {
+                "name": "invert",
+                "type": "BOOL",
+                "description": "Invert rendering."
+            },
+            {
+                "name": "marker",
+                "type": "BOOL",
+                "description": "Draw as a marker, otherwise as an overlay."
+            }
+        ],
+        "return_type": "void",
+        "description": "Draw a glow sphere this frame. Up to 256 per single frame.",
+        "examples": [],
+        "hash": "0xBD25EC89",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

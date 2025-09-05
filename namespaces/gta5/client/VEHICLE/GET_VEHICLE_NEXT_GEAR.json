@@ -1,0 +1,19 @@
+{
+    "0xDDB298AE": {
+        "name": "GET_VEHICLE_NEXT_GEAR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xDDB298AE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

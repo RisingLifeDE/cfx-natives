@@ -1,0 +1,18 @@
+{
+    "0xE4E83A5B": {
+        "name": "HAS_VEHICLE_BEEN_OWNED_BY_PLAYER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xE4E83A5B",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

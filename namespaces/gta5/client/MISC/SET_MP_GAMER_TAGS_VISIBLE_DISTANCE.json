@@ -1,0 +1,19 @@
+{
+    "0xD61676B3": {
+        "name": "SET_MP_GAMER_TAGS_VISIBLE_DISTANCE",
+        "params": [
+            {
+                "name": "distance",
+                "type": "float",
+                "description": "The visible distance. Default is 100.0f."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the maximum distance at which all tags will be visible and which beyond will not be displayed. Distance is measured from the camera position.",
+        "examples": [],
+        "hash": "0xD61676B3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

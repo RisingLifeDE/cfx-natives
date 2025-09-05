@@ -1,0 +1,19 @@
+{
+    "0xBDCDD163": {
+        "name": "GET_PLAYER_WANTED_LEVEL",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The target player"
+            }
+        ],
+        "return_type": "int",
+        "description": "```\nReturns given players wanted level server-side.\n```",
+        "examples": [],
+        "hash": "0xBDCDD163",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The wanted level"
+    }
+}

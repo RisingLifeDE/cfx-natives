@@ -1,0 +1,54 @@
+{
+    "0xF9E795DD": {
+        "name": "GET_INTERIOR_ROOM_EXTENTS",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "roomIndex",
+                "type": "int",
+                "description": "Interior room index."
+            },
+            {
+                "name": "bbMinX",
+                "type": "float*"
+            },
+            {
+                "name": "bbMinY",
+                "type": "float*"
+            },
+            {
+                "name": "bbMinZ",
+                "type": "float*"
+            },
+            {
+                "name": "bbMaxX",
+                "type": "float*"
+            },
+            {
+                "name": "bbMaxY",
+                "type": "float*"
+            },
+            {
+                "name": "bbMaxZ",
+                "type": "float*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal roomHash = GetRoomKeyFromEntity(playerPed)\r\nlocal roomId = GetInteriorRoomIndexByHash(interiorId, roomHash)\r\n\r\nif roomId ~= -1 then\r\n  local minX, minY, minZ, maxX, maxY, maxZ = GetInteriorRoomExtents(interiorId, roomId)\r\n  print(\"current room extents is: \" .. vec(minX, minY, minZ) ..\" / \" .. vec(maxX, maxY, maxZ))\r\nend"
+            }
+        ],
+        "hash": "0xF9E795DD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Room extents."
+    }
+}

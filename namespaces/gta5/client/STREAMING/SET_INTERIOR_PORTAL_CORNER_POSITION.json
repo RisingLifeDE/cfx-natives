@@ -1,0 +1,46 @@
+{
+    "0x87F43553": {
+        "name": "SET_INTERIOR_PORTAL_CORNER_POSITION",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "cornerIndex",
+                "type": "int",
+                "description": "Interior corner index."
+            },
+            {
+                "name": "posX",
+                "type": "float"
+            },
+            {
+                "name": "posY",
+                "type": "float"
+            },
+            {
+                "name": "posZ",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local portalCount = GetInteriorPortalCount(interiorId)\r\n\r\n  -- rip portals\r\n  for portalIndex = 0, portalCount - 1 do\r\n    for cornerIndex = 0, 3 do -- 4 corners\r\n      SetInteriorPortalCornerPosition(interiorId, portalIndex, cornerIndex, 0.0, 0.0, 0.0)\r\n    end\r\n  end\r\n  \r\n  RefreshInterior(interiorId)\r\nend"
+            }
+        ],
+        "hash": "0x87F43553",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

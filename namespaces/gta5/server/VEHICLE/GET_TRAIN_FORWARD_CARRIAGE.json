@@ -1,0 +1,20 @@
+{
+    "0x24DC88D9": {
+        "name": "GET_TRAIN_FORWARD_CARRIAGE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x24DC88D9",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "The handle of the carriage in front of this train in the chain. Otherwise returns 0 if the train has no carriage in front of it"
+    }
+}

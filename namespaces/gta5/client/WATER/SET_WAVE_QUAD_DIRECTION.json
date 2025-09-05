@@ -1,0 +1,35 @@
+{
+    "0xFC9341A3": {
+        "name": "SET_WAVE_QUAD_DIRECTION",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "directionX",
+                "type": "float",
+                "description": "The minX coordinate"
+            },
+            {
+                "name": "directionY",
+                "type": "float",
+                "description": "The minY coordinate"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "directionX/Y should be constrained between -1.0 and 1.0\r\nA positive value will create the wave starting at min and rolling towards max\r\nA negative value will create the wave starting at max and rolling towards min\r\nApplying both values allows you to make diagonal waves",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaveQuadDirection(0, 0.3, 0.1)"
+            }
+        ],
+        "hash": "0xFC9341A3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

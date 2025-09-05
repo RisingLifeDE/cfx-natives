@@ -1,0 +1,19 @@
+{
+    "0x7635B349": {
+        "name": "SET_FLASH_LIGHT_KEEP_ON_WHILE_MOVING",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "On/Off"
+            }
+        ],
+        "return_type": "void",
+        "description": "Allows Weapon-Flashlight beams to stay visible while moving. Normally it only stays on while aiming.",
+        "examples": [],
+        "hash": "0x7635B349",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

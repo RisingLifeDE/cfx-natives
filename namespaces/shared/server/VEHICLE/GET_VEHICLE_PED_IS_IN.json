@@ -1,0 +1,24 @@
+{
+    "0xAFE92319": {
+        "name": "GET_VEHICLE_PED_IS_IN",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "lastVehicle",
+                "type": "BOOL",
+                "description": "False = CurrentVehicle, True = LastVehicle"
+            }
+        ],
+        "return_type": "Vehicle",
+        "description": "Gets the vehicle the specified Ped is/was in depending on bool value. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0xAFE92319",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The vehicle id. Returns 0 if the ped is/was not in a vehicle."
+    }
+}

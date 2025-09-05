@@ -1,0 +1,29 @@
+{
+    "0xFF5A1988": {
+        "name": "SET_ENTITY_VELOCITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            },
+            {
+                "name": "x",
+                "type": "float"
+            },
+            {
+                "name": "y",
+                "type": "float"
+            },
+            {
+                "name": "z",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nNote that the third parameter(denoted as z) is \"up and down\" with positive numbers encouraging upwards movement.\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_ENTITY_VELOCITY](?\\_0x1C99BB7B6E96D16F).**",
+        "examples": [],
+        "hash": "0xFF5A1988",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

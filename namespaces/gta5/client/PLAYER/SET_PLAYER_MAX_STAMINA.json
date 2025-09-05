@@ -1,0 +1,25 @@
+{
+    "0x35594F67": {
+        "name": "SET_PLAYER_MAX_STAMINA",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index"
+            },
+            {
+                "name": "maxStamina",
+                "type": "float",
+                "description": "The value you want to set"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x35594F67",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Did you manage to set the value."
+    }
+}

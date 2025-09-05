@@ -1,0 +1,30 @@
+{
+    "0xC74DA47C": {
+        "name": "GET_INTERIOR_PORTAL_FLAG",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local portalFlag = GetInteriorPortalFlag(interiorId, 0)\r\n  print(\"portal 0 flag is: \" .. portalRoomFrom)\r\nend"
+            }
+        ],
+        "hash": "0xC74DA47C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal's flag."
+    }
+}

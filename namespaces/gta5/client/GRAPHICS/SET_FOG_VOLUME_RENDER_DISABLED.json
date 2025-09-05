@@ -1,0 +1,19 @@
+{
+    "0xFBC64DA3": {
+        "name": "SET_FOG_VOLUME_RENDER_DISABLED",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Toggle on or off."
+            }
+        ],
+        "return_type": "void",
+        "description": "This completely disables rendering of fog volumes (vfxfogvolumeinfo.ymt).",
+        "examples": [],
+        "hash": "0xFBC64DA3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

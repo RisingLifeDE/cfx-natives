@@ -1,0 +1,20 @@
+{
+    "0x1E2E3177": {
+        "name": "NETWORK_DOES_ENTITY_EXIST_WITH_NETWORK_ID",
+        "params": [
+            {
+                "name": "netId",
+                "type": "int",
+                "description": "The network id to check"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x1E2E3177",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3",
+        "resultsDescription": "Returns `true` if both the network id exist, and the network id has a game object."
+    }
+}

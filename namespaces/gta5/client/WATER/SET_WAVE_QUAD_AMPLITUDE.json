@@ -1,0 +1,30 @@
+{
+    "0xE4174B7B": {
+        "name": "SET_WAVE_QUAD_AMPLITUDE",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "amplitude",
+                "type": "float",
+                "description": "The amplitude value"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaveQuadAmplitude(0, 1.0)"
+            }
+        ],
+        "hash": "0xE4174B7B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

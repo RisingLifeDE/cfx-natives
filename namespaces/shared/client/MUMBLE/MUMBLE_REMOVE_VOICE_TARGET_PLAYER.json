@@ -1,0 +1,23 @@
+{
+    "0x88CD646F": {
+        "name": "MUMBLE_REMOVE_VOICE_TARGET_PLAYER",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "The player index to remove from the target."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes the specified player from the user's voice targets.\n\nPerforms the opposite operation of [MUMBLE_ADD_VOICE_TARGET_PLAYER](#\\_0x32C5355A)",
+        "examples": [],
+        "hash": "0x88CD646F",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

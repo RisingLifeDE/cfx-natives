@@ -1,0 +1,19 @@
+{
+    "0xCEBFC42": {
+        "name": "GET_CALMING_QUAD_COUNT",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local calmingQuadCount = GetCalmingQuadCount()"
+            }
+        ],
+        "hash": "0xCEBFC42",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns the amount of calming quads loaded."
+    }
+}

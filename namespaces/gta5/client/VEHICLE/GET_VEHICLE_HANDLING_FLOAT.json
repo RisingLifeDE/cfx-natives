@@ -1,0 +1,30 @@
+{
+    "0x642FC12F": {
+        "name": "GET_VEHICLE_HANDLING_FLOAT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "class_",
+                "type": "const char*",
+                "description": "The handling class to get. Only \"CHandlingData\" is supported at this time."
+            },
+            {
+                "name": "fieldName",
+                "type": "const char*",
+                "description": "The field name to get. These match the keys in `handling.meta`."
+            }
+        ],
+        "return_type": "float",
+        "description": "Returns the effective handling data of a vehicle as a floating-point value.\r\nExample: `local fSteeringLock = GetVehicleHandlingFloat(vehicle, 'CHandlingData', 'fSteeringLock')`",
+        "examples": [],
+        "hash": "0x642FC12F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A floating-point value."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0xE6EB2CD8": {
+        "name": "MUMBLE_SET_SERVER_ADDRESS",
+        "params": [
+            {
+                "name": "address",
+                "type": "const char*",
+                "description": "The address of the mumble server."
+            },
+            {
+                "name": "port",
+                "type": "int",
+                "description": "The port of the mumble server."
+            }
+        ],
+        "return_type": "void",
+        "description": "Changes the Mumble server address to connect to, and reconnects to the new address.\n\nSetting the address to an empty string and the port to -1 will reset to the built in FXServer Mumble Implementation.",
+        "examples": [],
+        "hash": "0xE6EB2CD8",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

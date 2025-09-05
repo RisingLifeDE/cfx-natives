@@ -1,0 +1,23 @@
+{
+    "0xCF9A2FF": {
+        "name": "SET_RESOURCE_KVP_NO_SYNC",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "const char*",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "Nonsynchronous [SET_RESOURCE_KVP](#\\_0x21C7A35B) operation; see [FLUSH_RESOURCE_KVP](#\\_0x5240DA5A).",
+        "examples": [],
+        "hash": "0xCF9A2FF",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

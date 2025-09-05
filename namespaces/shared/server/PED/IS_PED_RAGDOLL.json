@@ -1,0 +1,19 @@
+{
+    "0xC833BBE1": {
+        "name": "IS_PED_RAGDOLL",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xC833BBE1",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Whether or not the ped is ragdolling."
+    }
+}

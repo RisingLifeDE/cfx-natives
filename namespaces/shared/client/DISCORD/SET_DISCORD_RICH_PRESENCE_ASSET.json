@@ -1,0 +1,18 @@
+{
+    "0x53DFD530": {
+        "name": "SET_DISCORD_RICH_PRESENCE_ASSET",
+        "params": [
+            {
+                "name": "assetName",
+                "type": "const char*",
+                "description": "The name of a valid asset registered on Discordapp's developer dashboard. note that the asset has to be registered under the same discord API application set using the SET_DISCORD_APP_ID native."
+            }
+        ],
+        "return_type": "void",
+        "description": "This native sets the image asset for the discord rich presence implementation.",
+        "examples": [],
+        "hash": "0x53DFD530",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

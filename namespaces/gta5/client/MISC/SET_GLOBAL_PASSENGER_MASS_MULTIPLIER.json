@@ -1,0 +1,19 @@
+{
+    "0x1C47F6AC": {
+        "name": "SET_GLOBAL_PASSENGER_MASS_MULTIPLIER",
+        "params": [
+            {
+                "name": "massMul",
+                "type": "float",
+                "description": "Weight of each passenger (not counting the driver) as a percentage of vehicle mass. Is applied to all vehicles. Default value is 0.05"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x1C47F6AC",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

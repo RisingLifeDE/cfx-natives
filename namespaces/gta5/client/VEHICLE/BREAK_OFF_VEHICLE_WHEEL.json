@@ -1,0 +1,49 @@
+{
+    "0xA274CADB": {
+        "name": "BREAK_OFF_VEHICLE_WHEEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "The wheel index."
+            },
+            {
+                "name": "leaveDebrisTrail",
+                "type": "BOOL",
+                "description": "Start \"veh_debris_trail\" ptfx."
+            },
+            {
+                "name": "deleteWheel",
+                "type": "BOOL",
+                "description": "True to delete wheel, otherwise detach."
+            },
+            {
+                "name": "unknownFlag",
+                "type": "BOOL",
+                "description": "Unknown flag."
+            },
+            {
+                "name": "putOnFire",
+                "type": "BOOL",
+                "description": "Set wheel on fire once detached."
+            }
+        ],
+        "return_type": "void",
+        "description": "Break off vehicle wheel by index. The `leaveDebrisTrail` flag requires `putOnFire` to be true.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsIn(PlayerPedId())\r\n\r\nif DoesEntityExist(vehicle) then\r\n  for i = 0, 3 do\r\n    BreakOffVehicleWheel(vehicle, i, true, false, true, false)\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0xA274CADB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "0x80E4659B": {
+        "name": "GET_VEHICLE_EXTRA_COLOURS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "pearlescentColor",
+                "type": "int*"
+            },
+            {
+                "name": "wheelColor",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x80E4659B",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

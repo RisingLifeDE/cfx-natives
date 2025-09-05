@@ -1,0 +1,13 @@
+{
+    "0x6B6ADAFA": {
+        "name": "GET_VEHICLE_DASHBOARD_TEMP",
+        "params": [],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x6B6ADAFA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x95070FA": {
+        "name": "GET_TRAIN_CARRIAGE_ENGINE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The entity handle."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x95070FA",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The train engine carriage."
+    }
+}

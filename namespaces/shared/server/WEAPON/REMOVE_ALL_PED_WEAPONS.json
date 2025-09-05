@@ -1,0 +1,22 @@
+{
+    "0xA44CE817": {
+        "name": "REMOVE_ALL_PED_WEAPONS",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped entity"
+            },
+            {
+                "name": "p1",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "Parameter `p1` does not seem to be used or referenced in game binaries.\\\n**Note:** When called for networked entities, a `CRemoveAllWeaponsEvent` will be created per request.\n\n**This is the server-side RPC native equivalent of the client native [REMOVE_ALL_PED_WEAPONS](?\\_0xF25DF915FA38C5F3).**",
+        "examples": [],
+        "hash": "0xA44CE817",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

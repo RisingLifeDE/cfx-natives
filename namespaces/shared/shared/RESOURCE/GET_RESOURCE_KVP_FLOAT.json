@@ -1,0 +1,24 @@
+{
+    "0x35BDCEEA": {
+        "name": "GET_RESOURCE_KVP_FLOAT",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to fetch"
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_RESOURCE_KVP_FLOAT](#\\_0x9ADD2938).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local kvpValue = GetResourceKvpFloat('mollis')\r\nif kvpValue ~= 0.0 then\r\n\t-- do something!\r\nend"
+            }
+        ],
+        "hash": "0x35BDCEEA",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The floating-point value stored under the specified key, or 0.0 if not found."
+    }
+}

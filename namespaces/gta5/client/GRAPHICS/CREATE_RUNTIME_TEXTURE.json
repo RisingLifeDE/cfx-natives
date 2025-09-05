@@ -1,0 +1,35 @@
+{
+    "0xFEC3766D": {
+        "name": "CREATE_RUNTIME_TEXTURE",
+        "params": [
+            {
+                "name": "txd",
+                "type": "long",
+                "description": "A handle to the runtime TXD to create the runtime texture in."
+            },
+            {
+                "name": "txn",
+                "type": "const char*",
+                "description": "The name for the texture in the runtime texture dictionary."
+            },
+            {
+                "name": "width",
+                "type": "int",
+                "description": "The width of the new texture."
+            },
+            {
+                "name": "height",
+                "type": "int",
+                "description": "The height of the new texture."
+            }
+        ],
+        "return_type": "long",
+        "description": "Creates a blank runtime texture.",
+        "examples": [],
+        "hash": "0xFEC3766D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A runtime texture handle."
+    }
+}

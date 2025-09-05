@@ -1,0 +1,18 @@
+{
+    "0x427E8E6A": {
+        "name": "GET_PLAYER_LAST_MSG",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x427E8E6A",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0xE02B51D7": {
+        "name": "GET_VEHICLE_TURBO_PRESSURE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xE02B51D7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

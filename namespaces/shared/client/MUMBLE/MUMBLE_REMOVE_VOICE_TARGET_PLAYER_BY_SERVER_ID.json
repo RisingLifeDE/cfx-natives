@@ -1,0 +1,23 @@
+{
+    "0x930BD34B": {
+        "name": "MUMBLE_REMOVE_VOICE_TARGET_PLAYER_BY_SERVER_ID",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "serverId",
+                "type": "int",
+                "description": "The player's server id to remove from the target."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes the specified player from the user's voice targets.\n\nPerforms the opposite operation of [MUMBLE_ADD_VOICE_TARGET_PLAYER_BY_SERVER_ID](#\\_0x25F2B65F)",
+        "examples": [],
+        "hash": "0x930BD34B",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

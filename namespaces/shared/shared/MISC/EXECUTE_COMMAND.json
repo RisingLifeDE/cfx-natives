@@ -1,0 +1,22 @@
+{
+    "0x561C060B": {
+        "name": "EXECUTE_COMMAND",
+        "params": [
+            {
+                "name": "commandString",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Depending on your use case you may need to use `add_acl resource.<your_resource_name> command.<command_name> allow` to use this native in your resource.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "Citizen.CreateThread(function()\r\n  -- stop the server after 1 minute\r\n  Citizen.Wait(60000)\r\n  ExecuteCommand(\"quit Shortlived\")\r\nend)"
+            }
+        ],
+        "hash": "0x561C060B",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

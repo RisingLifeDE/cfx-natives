@@ -1,0 +1,49 @@
+{
+    "0xDD75460A": {
+        "name": "CREATE_VEHICLE",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "The model of vehicle to spawn."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "Spawn coordinate X component."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "Spawn coordinate Y component."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "Spawn coordinate Z component."
+            },
+            {
+                "name": "heading",
+                "type": "float",
+                "description": "Heading to face towards, in degrees."
+            },
+            {
+                "name": "isNetwork",
+                "type": "BOOL",
+                "description": "Whether to create a network object for the vehicle. If false, the vehicle exists only locally."
+            },
+            {
+                "name": "netMissionEntity",
+                "type": "BOOL",
+                "description": "Whether to register the vehicle as pinned to the script host in the R\\* network model."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Creates a vehicle with the specified model at the specified position. This vehicle will initially be owned by the creating\r\nscript as a mission entity, and the model should be loaded already (e.g. using REQUEST_MODEL).\n\n```\nNativeDB Added Parameter 8: BOOL p7\n```\n\n**This is the server-side RPC native equivalent of the client native [CREATE_VEHICLE](?\\_0xAF35D0D2583051B0).**",
+        "examples": [],
+        "hash": "0xDD75460A",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A script handle (fwScriptGuid index) for the vehicle, or `0` if the vehicle failed to be created."
+    }
+}

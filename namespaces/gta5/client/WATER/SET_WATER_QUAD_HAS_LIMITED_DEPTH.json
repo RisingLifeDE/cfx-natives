@@ -1,0 +1,30 @@
+{
+    "0xD1FDCFC1": {
+        "name": "SET_WATER_QUAD_HAS_LIMITED_DEPTH",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "hasLimitedDepth",
+                "type": "BOOL",
+                "description": "Unknown effect"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadHasLimitedDepth(0, true)"
+            }
+        ],
+        "hash": "0xD1FDCFC1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

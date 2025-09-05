@@ -1,0 +1,23 @@
+{
+    "0xAC6E290D": {
+        "name": "ADD_AUDIO_SUBMIX_OUTPUT",
+        "params": [
+            {
+                "name": "submixId",
+                "type": "int",
+                "description": "The input submix."
+            },
+            {
+                "name": "outputSubmixId",
+                "type": "int",
+                "description": "The output submix. Use `0` for the master game submix."
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds an output for the specified audio submix.",
+        "examples": [],
+        "hash": "0xAC6E290D",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

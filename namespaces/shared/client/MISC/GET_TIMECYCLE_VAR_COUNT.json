@@ -1,0 +1,18 @@
+{
+    "0x838B34D8": {
+        "name": "GET_TIMECYCLE_VAR_COUNT",
+        "params": [],
+        "return_type": "int",
+        "description": "Returns the amount of variables available to be applied on timecycle modifiers.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local varCount = GetTimecycleVarCount()\r\n\r\nif varCount ~= 0 then\r\n  for index = 0, varCount - 1 do\r\n    local varName = GetTimecycleVarNameByIndex(index)\r\n    local varDefault = GetTimecycleVarDefaultValueByIndex(index)\r\n\r\n    print(string.format(\"[%d] %s (%f)\", index, varName, varDefault))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0x838B34D8",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The amount of available variables for timecycle modifiers."
+    }
+}

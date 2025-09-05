@@ -1,0 +1,19 @@
+{
+    "0x1655D41D": {
+        "name": "GET_DUI_HANDLE",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Returns the NUI window handle for a specified DUI browser object.",
+        "examples": [],
+        "hash": "0x1655D41D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The NUI window handle, for use in e.g. CREATE_RUNTIME_TEXTURE_FROM_DUI_HANDLE."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0x120B4ED5": {
+        "name": "IS_ENTITY_VISIBLE",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This native checks if the given entity is visible.",
+        "examples": [],
+        "hash": "0x120B4ED5",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns `true` if the entity is visible, `false` otherwise."
+    }
+}

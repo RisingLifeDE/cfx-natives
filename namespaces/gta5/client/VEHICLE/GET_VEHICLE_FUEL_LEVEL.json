@@ -1,0 +1,19 @@
+{
+    "0x5F739BB8": {
+        "name": "GET_VEHICLE_FUEL_LEVEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x5F739BB8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

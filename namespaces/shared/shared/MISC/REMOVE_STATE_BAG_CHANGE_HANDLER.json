@@ -1,0 +1,18 @@
+{
+    "0xD36BE661": {
+        "name": "REMOVE_STATE_BAG_CHANGE_HANDLER",
+        "params": [
+            {
+                "name": "cookie",
+                "type": "int",
+                "description": "The cookie."
+            }
+        ],
+        "return_type": "void",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRemoves a handler for changes to a state bag.",
+        "examples": [],
+        "hash": "0xD36BE661",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0xEF30A696": {
+        "name": "DOES_VEHICLE_USE_FUEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Checks whether the vehicle consumes fuel. The check is done based on petrol tank volume and vehicle type. Bicycles and vehicles with petrol tank volume equal to zero (only bicycles by default) do not use fuel. All other vehicles do.\n\nYou can customize petrol tank volume using [`SET_HANDLING_FLOAT`](#\\_0x90DD01C)/[`SET_VEHICLE_HANDLING_FLOAT`](#\\_0x488C86D2) natives with `fieldName` equal to `fPetrolTankVolume`.",
+        "examples": [],
+        "hash": "0xEF30A696",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "True if the vehicle uses fuel to move. False otherwise."
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0xF7535F32": {
+        "name": "HAS_MINIMAP_OVERLAY_LOADED",
+        "params": [
+            {
+                "name": "id",
+                "type": "int",
+                "description": "A minimap overlay ID."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns whether or not the specific minimap overlay has loaded.",
+        "examples": [],
+        "hash": "0xF7535F32",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A boolean indicating load status."
+    }
+}

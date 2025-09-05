@@ -1,0 +1,25 @@
+{
+    "0x4C89C0ED": {
+        "name": "CALL_MINIMAP_SCALEFORM_FUNCTION",
+        "params": [
+            {
+                "name": "miniMap",
+                "type": "int",
+                "description": "The minimap overlay ID."
+            },
+            {
+                "name": "fnName",
+                "type": "const char*",
+                "description": "A function in the overlay's TIMELINE."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This is similar to the PushScaleformMovieFunction natives, except it calls in the `TIMELINE` of a minimap overlay.",
+        "examples": [],
+        "hash": "0x4C89C0ED",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "0xD2CB95A3": {
+        "name": "EXPERIMENTAL_LOAD_CLONE_CREATE",
+        "params": [
+            {
+                "name": "data",
+                "type": "const char*"
+            },
+            {
+                "name": "objectId",
+                "type": "int"
+            },
+            {
+                "name": "tree",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "Entity",
+        "description": "This native is not implemented.",
+        "examples": [],
+        "hash": "0xD2CB95A3",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

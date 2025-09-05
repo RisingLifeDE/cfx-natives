@@ -1,0 +1,18 @@
+{
+    "0x63458C27": {
+        "name": "GET_PED_CAUSE_OF_DEATH",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "Hash",
+        "description": "",
+        "examples": [],
+        "hash": "0x63458C27",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

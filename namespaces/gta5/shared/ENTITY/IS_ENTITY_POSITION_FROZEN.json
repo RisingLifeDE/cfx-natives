@@ -1,0 +1,29 @@
+{
+    "0xEDBE6ADD": {
+        "name": "IS_ENTITY_POSITION_FROZEN",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to check for"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "A getter for [FREEZE_ENTITY_POSITION](#\\_0x428CA6DBD1094446).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local isFrozen = IsEntityPositionFrozen(PlayerPedId())"
+            },
+            {
+                "lang": "js",
+                "code": "const isFrozen = IsEntityPositionFrozen(PlayerPedId());"
+            }
+        ],
+        "hash": "0xEDBE6ADD",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "Boolean stating if it is frozen or not."
+    }
+}

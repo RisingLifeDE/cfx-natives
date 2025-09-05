@@ -1,0 +1,25 @@
+{
+    "0x537B449D": {
+        "name": "SET_TRACK_JUNCTION_ACTIVE",
+        "params": [
+            {
+                "name": "junctionIndex",
+                "type": "int",
+                "description": "The junctions index"
+            },
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Toggles the state of the junction"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Sets the state of a track junction.",
+        "examples": [],
+        "hash": "0x537B449D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns if it succeeds setting the junctions state or not"
+    }
+}

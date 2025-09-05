@@ -1,0 +1,19 @@
+{
+    "0xD5C39EE6": {
+        "name": "IS_BOAT_ANCHORED_AND_FROZEN",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xD5C39EE6",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns whether or not the boat is anchored and frozen."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x44B0E5E2": {
+        "name": "GET_PED_SCRIPT_TASK_STAGE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the stage of the peds scripted task.",
+        "examples": [],
+        "hash": "0x44B0E5E2",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The stage of the ped's scripted task. A value of 3 denotes no script task is assigned."
+    }
+}

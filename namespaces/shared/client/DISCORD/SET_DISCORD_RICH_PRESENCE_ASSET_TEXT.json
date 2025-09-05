@@ -1,0 +1,18 @@
+{
+    "0xB029D2FA": {
+        "name": "SET_DISCORD_RICH_PRESENCE_ASSET_TEXT",
+        "params": [
+            {
+                "name": "text",
+                "type": "const char*",
+                "description": "Text to be displayed when hovering over image asset. Note that you must also set a valid image asset using the SET_DISCORD_RICH_PRESENCE_ASSET native."
+            }
+        ],
+        "return_type": "void",
+        "description": "This native sets the hover text of the image asset for the discord rich presence implementation.",
+        "examples": [],
+        "hash": "0xB029D2FA",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x79A12861": {
+        "name": "RESET_PED_MODEL_PERSONALITY",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "Ped's model."
+            }
+        ],
+        "return_type": "void",
+        "description": "Restores an overridden ped model personality type to the default value.",
+        "examples": [],
+        "hash": "0x79A12861",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

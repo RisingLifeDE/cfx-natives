@@ -1,0 +1,33 @@
+{
+    "0xD28DBA90": {
+        "name": "SET_PED_HEAD_OVERLAY",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped entity"
+            },
+            {
+                "name": "overlayID",
+                "type": "int",
+                "description": "The overlay id displayed up above."
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "An integer representing the index (from 0 to `_GET_NUM_OVERLAY_VALUES(overlayID)-1`)"
+            },
+            {
+                "name": "opacity",
+                "type": "float",
+                "description": "A float ranging from 0.0 to 1.0"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nOverlayID ranges from 0 to 12, index from 0 to _GET_NUM_OVERLAY_VALUES(overlayID)-1, and opacity from 0.0 to 1.0.\r\noverlayID       Part                  Index, to disable\r\n0               Blemishes             0 - 23, 255\r\n1               Facial Hair           0 - 28, 255\r\n2               Eyebrows              0 - 33, 255\r\n3               Ageing                0 - 14, 255\r\n4               Makeup                0 - 74, 255\r\n5               Blush                 0 - 6, 255\r\n6               Complexion            0 - 11, 255\r\n7               Sun Damage            0 - 10, 255\r\n8               Lipstick              0 - 9, 255\r\n9               Moles/Freckles        0 - 17, 255\r\n10              Chest Hair            0 - 16, 255\r\n11              Body Blemishes        0 - 11, 255\r\n12              Add Body Blemishes    0 - 1, 255\n```\n\n**Note:**\r\nYou may need to call [`SetPedHeadBlendData`](#\\_0x9414E18B9434C2FE) prior to calling this native in order for it to work.\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_HEAD_OVERLAY](?\\_0x48F44967FA05CC1E).**",
+        "examples": [],
+        "hash": "0xD28DBA90",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

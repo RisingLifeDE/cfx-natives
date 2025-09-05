@@ -1,0 +1,19 @@
+{
+    "0x36CA2554": {
+        "name": "SET_MILLISECONDS_PER_GAME_MINUTE",
+        "params": [
+            {
+                "name": "value",
+                "type": "int",
+                "description": "Milliseconds."
+            }
+        ],
+        "return_type": "void",
+        "description": "Overrides how many real ms are equal to one game minute.\r\nA setter for [`GetMillisecondsPerGameMinute`](#\\_0x2F8B4D1C595B11DB).",
+        "examples": [],
+        "hash": "0x36CA2554",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

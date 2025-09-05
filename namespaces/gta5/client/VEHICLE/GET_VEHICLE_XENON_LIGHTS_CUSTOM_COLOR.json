@@ -1,0 +1,35 @@
+{
+    "0xC715F730": {
+        "name": "GET_VEHICLE_XENON_LIGHTS_CUSTOM_COLOR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            },
+            {
+                "name": "red",
+                "type": "int*",
+                "description": "Red color (0-255)."
+            },
+            {
+                "name": "green",
+                "type": "int*",
+                "description": "Green color (0-255)."
+            },
+            {
+                "name": "blue",
+                "type": "int*",
+                "description": "Blue color (0-255)."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns vehicle xenon lights custom RGB color values. Do note this native doesn't return non-RGB colors that was set with [\\_SET_VEHICLE_XENON_LIGHTS_COLOR](#\\_0xE41033B25D003A07).",
+        "examples": [],
+        "hash": "0xC715F730",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A boolean indicating if vehicle have custom xenon lights RGB color."
+    }
+}

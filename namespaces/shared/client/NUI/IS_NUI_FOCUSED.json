@@ -1,0 +1,13 @@
+{
+    "0x98545E6D": {
+        "name": "IS_NUI_FOCUSED",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "Returns the current NUI focus state previously set with `SET_NUI_FOCUS`.",
+        "examples": [],
+        "hash": "0x98545E6D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "True or false."
+    }
+}

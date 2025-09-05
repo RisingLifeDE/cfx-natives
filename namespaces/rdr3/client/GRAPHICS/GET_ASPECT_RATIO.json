@@ -1,0 +1,13 @@
+{
+    "0x2CA8F641": {
+        "name": "GET_ASPECT_RATIO",
+        "params": [],
+        "return_type": "float",
+        "description": "Gets the current aspect ratio\n\n```lua\nlocal ratio = GetAspectRatio()\r\nprint(string.format(\"%.2f\", ratio))\n```",
+        "examples": [],
+        "hash": "0x2CA8F641",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

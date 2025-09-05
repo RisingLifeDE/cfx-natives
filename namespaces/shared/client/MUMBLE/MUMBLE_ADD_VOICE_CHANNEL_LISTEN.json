@@ -1,0 +1,18 @@
+{
+    "0xC79F44BF": {
+        "name": "MUMBLE_ADD_VOICE_CHANNEL_LISTEN",
+        "params": [
+            {
+                "name": "channel",
+                "type": "int",
+                "description": "A game voice channel ID."
+            }
+        ],
+        "return_type": "void",
+        "description": "Starts listening to the specified channel, when available.",
+        "examples": [],
+        "hash": "0xC79F44BF",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

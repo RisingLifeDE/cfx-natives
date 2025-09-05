@@ -1,0 +1,18 @@
+{
+    "0xC8A9CE08": {
+        "name": "GET_PLAYER_FROM_INDEX",
+        "params": [
+            {
+                "name": "index",
+                "type": "int"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [],
+        "hash": "0xC8A9CE08",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

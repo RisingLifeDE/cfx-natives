@@ -1,0 +1,45 @@
+{
+    "0xF49797EB": {
+        "name": "SET_WATER_QUAD_ALPHA",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "a0",
+                "type": "int",
+                "description": "The a0 level"
+            },
+            {
+                "name": "a1",
+                "type": "int",
+                "description": "The a1 level"
+            },
+            {
+                "name": "a2",
+                "type": "int",
+                "description": "The a2 level"
+            },
+            {
+                "name": "a3",
+                "type": "int",
+                "description": "The a3 level"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadAlpha(0, 5, 5, 5, 5)"
+            }
+        ],
+        "hash": "0xF49797EB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

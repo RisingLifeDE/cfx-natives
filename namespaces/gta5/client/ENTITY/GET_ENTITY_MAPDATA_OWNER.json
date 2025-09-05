@@ -1,0 +1,30 @@
+{
+    "0xF6B815C5": {
+        "name": "GET_ENTITY_MAPDATA_OWNER",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "An entity owned by map data."
+            },
+            {
+                "name": "mapdataHandle",
+                "type": "int*",
+                "description": "The output map data handle."
+            },
+            {
+                "name": "entityHandle",
+                "type": "int*",
+                "description": "The output entity handle."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Retrieves the map data and entity handles from a specific entity.\r\nThis function supports SDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0xF6B815C5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "True if successful, false if not."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xA9C92CDC": {
+        "name": "DISABLE_WORLDHORIZON_RENDERING",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "On/Off"
+            }
+        ],
+        "return_type": "void",
+        "description": "Disables the game's world horizon lods rendering (see `farlods.#dd`).\r\nUsing the island hopper natives might also affect this state.",
+        "examples": [],
+        "hash": "0xA9C92CDC",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

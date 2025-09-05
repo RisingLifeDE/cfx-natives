@@ -1,0 +1,27 @@
+{
+    "0xD2B9E90D": {
+        "name": "SET_VEHICLE_WHEEL_FLAGS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "flags",
+                "type": "int",
+                "description": "bit flags"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the flags of a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0xD2B9E90D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

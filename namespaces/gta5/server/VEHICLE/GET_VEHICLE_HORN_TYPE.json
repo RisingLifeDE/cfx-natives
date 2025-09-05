@@ -1,0 +1,20 @@
+{
+    "0xDEA49773": {
+        "name": "GET_VEHICLE_HORN_TYPE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to check the horn type."
+            }
+        ],
+        "return_type": "Hash",
+        "description": "This is a getter for the client-side native [`START_VEHICLE_HORN`](#\\_0x9C8C6504B5B63D2C), which allows you to return the horn type of the vehicle.\n\n**Note**: This native only gets the hash value set with `START_VEHICLE_HORN`. If a wrong hash is passed into `START_VEHICLE_HORN`, it will return this wrong hash.\n\n```cpp\nenum eHornTypes\r\n{\r\n    NORMAL = 1330140148,\r\n    HELDDOWN = -2087385909,\r\n    AGGRESSIVE = -92810745\r\n}\n```",
+        "examples": [],
+        "hash": "0xDEA49773",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns the vehicle horn type hash, or `0` if one is not set."
+    }
+}

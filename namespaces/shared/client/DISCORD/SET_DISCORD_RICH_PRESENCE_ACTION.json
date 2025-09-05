@@ -1,0 +1,28 @@
+{
+    "0xCBBC3FAC": {
+        "name": "SET_DISCORD_RICH_PRESENCE_ACTION",
+        "params": [
+            {
+                "name": "index",
+                "type": "int",
+                "description": "The button index, either 0 or 1."
+            },
+            {
+                "name": "label",
+                "type": "const char*",
+                "description": "The text to display on the button."
+            },
+            {
+                "name": "url",
+                "type": "const char*",
+                "description": "The URL to open when clicking the button. This has to start with `fivem://connect/` or `https://`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a clickable button to be displayed in a player's Discord rich presence.",
+        "examples": [],
+        "hash": "0xCBBC3FAC",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

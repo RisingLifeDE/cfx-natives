@@ -1,0 +1,19 @@
+{
+    "0x62FC38D0": {
+        "name": "GET_AIR_DRAG_MULTIPLIER_FOR_PLAYERS_VEHICLE",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x62FC38D0",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

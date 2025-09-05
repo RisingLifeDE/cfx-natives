@@ -1,0 +1,19 @@
+{
+    "0x2867ED8C": {
+        "name": "CLEAR_VEHICLE_XENON_LIGHTS_CUSTOM_COLOR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle handle."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes vehicle xenon lights custom RGB color.",
+        "examples": [],
+        "hash": "0x2867ED8C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

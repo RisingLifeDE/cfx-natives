@@ -1,0 +1,23 @@
+{
+    "0x7389B5DF": {
+        "name": "DELETE_RESOURCE_KVP",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to delete"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "DeleteResourceKvp('liberty_city')"
+            }
+        ],
+        "hash": "0x7389B5DF",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

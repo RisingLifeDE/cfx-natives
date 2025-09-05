@@ -1,0 +1,19 @@
+{
+    "0x98D244": {
+        "name": "GET_PLAYER_FAKE_WANTED_LEVEL",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The target player"
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the current fake wanted level for a specified player. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0x98D244",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The fake wanted level"
+    }
+}

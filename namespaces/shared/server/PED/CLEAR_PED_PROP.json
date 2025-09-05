@@ -1,0 +1,23 @@
+{
+    "0x2D23D743": {
+        "name": "CLEAR_PED_PROP",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped handle."
+            },
+            {
+                "name": "propId",
+                "type": "int",
+                "description": "The prop id you want to clear from the ped. Refer to [SET_PED_PROP_INDEX](#\\_0x93376B65A266EB5F)."
+            }
+        ],
+        "return_type": "void",
+        "description": "CLEAR_PED_PROP\n\n**This is the server-side RPC native equivalent of the client native [CLEAR_PED_PROP](?\\_0x0943E5B8E078E76E).**",
+        "examples": [],
+        "hash": "0x2D23D743",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

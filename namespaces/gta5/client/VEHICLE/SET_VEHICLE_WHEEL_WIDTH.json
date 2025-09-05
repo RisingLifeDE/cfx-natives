@@ -1,0 +1,25 @@
+{
+    "0x64C3F1C0": {
+        "name": "SET_VEHICLE_WHEEL_WIDTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set data for."
+            },
+            {
+                "name": "width",
+                "type": "float",
+                "description": "Width of the wheels (usually between 0.1 and 1.5 is reasonable)."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Sets vehicle's wheels' width (width is the same for all the wheels, cannot get/set specific wheel of vehicle).\r\nOnly works on non-default wheels.\r\nReturns whether change was successful (can be false if trying to set width for non-default wheels).",
+        "examples": [],
+        "hash": "0x64C3F1C0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Bool - whether change was successful or not"
+    }
+}

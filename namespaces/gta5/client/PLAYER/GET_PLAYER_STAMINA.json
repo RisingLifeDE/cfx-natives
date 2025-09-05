@@ -1,0 +1,20 @@
+{
+    "0xE415EC5C": {
+        "name": "GET_PLAYER_STAMINA",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xE415EC5C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The value of player stamina."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xFF7F66AB": {
+        "name": "GET_NUM_PLAYER_IDENTIFIERS",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xFF7F66AB",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

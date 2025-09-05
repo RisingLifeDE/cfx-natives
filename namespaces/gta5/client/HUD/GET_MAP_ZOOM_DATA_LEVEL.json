@@ -1,0 +1,45 @@
+{
+    "0x1363A998": {
+        "name": "GET_MAP_ZOOM_DATA_LEVEL",
+        "params": [
+            {
+                "name": "index",
+                "type": "int",
+                "description": "Zoom level index."
+            },
+            {
+                "name": "zoomScale",
+                "type": "float*",
+                "description": "fZoomScale value."
+            },
+            {
+                "name": "zoomSpeed",
+                "type": "float*",
+                "description": "fZoomSpeed value."
+            },
+            {
+                "name": "scrollSpeed",
+                "type": "float*",
+                "description": "fScrollSpeed value."
+            },
+            {
+                "name": "tilesX",
+                "type": "float*",
+                "description": "vTiles X."
+            },
+            {
+                "name": "tilesY",
+                "type": "float*",
+                "description": "vTiles Y."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns the zoom level data by index from mapzoomdata.meta file.",
+        "examples": [],
+        "hash": "0x1363A998",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A boolean indicating TRUE if the data was received successfully."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0x5B912C3F": {
+        "name": "NETWORK_GET_ENTITY_FROM_NETWORK_ID",
+        "params": [
+            {
+                "name": "netId",
+                "type": "int"
+            }
+        ],
+        "return_type": "Entity",
+        "description": "",
+        "examples": [],
+        "hash": "0x5B912C3F",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

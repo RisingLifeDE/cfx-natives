@@ -1,0 +1,30 @@
+{
+    "0xC68021B": {
+        "name": "GET_INTERIOR_PORTAL_ENTITY_COUNT",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal portalIndex = 0\r\n\r\nif interiorId ~= 0 then\r\n  local count = GetInteriorPortalEntityCount(interiorId, portalIndex)\r\n  print(\"portal \" .. portalIndex ..\" entity count is: \" .. count)\r\nend"
+            }
+        ],
+        "hash": "0xC68021B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal entity count."
+    }
+}

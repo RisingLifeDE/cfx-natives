@@ -1,0 +1,19 @@
+{
+    "0x429461C3": {
+        "name": "CAN_PLAYER_START_COMMERCE_SESSION",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns whether or not the specified player has enough information to start a commerce session for.",
+        "examples": [],
+        "hash": "0x429461C3",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "True or false."
+    }
+}

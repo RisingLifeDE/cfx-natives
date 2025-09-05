@@ -1,0 +1,59 @@
+{
+    "0xB856A90": {
+        "name": "DRAW_LINE_2D",
+        "params": [
+            {
+                "name": "x1",
+                "type": "float",
+                "description": "First x."
+            },
+            {
+                "name": "y1",
+                "type": "float",
+                "description": "First y."
+            },
+            {
+                "name": "x2",
+                "type": "float",
+                "description": "Second x."
+            },
+            {
+                "name": "y2",
+                "type": "float",
+                "description": "Second y."
+            },
+            {
+                "name": "width",
+                "type": "float",
+                "description": "Width of line."
+            },
+            {
+                "name": "r",
+                "type": "int",
+                "description": "Red."
+            },
+            {
+                "name": "g",
+                "type": "int",
+                "description": "Green."
+            },
+            {
+                "name": "b",
+                "type": "int",
+                "description": "Blue."
+            },
+            {
+                "name": "a",
+                "type": "int",
+                "description": "Alpha."
+            }
+        ],
+        "return_type": "void",
+        "description": "Like DRAW_RECT, but it's a line.",
+        "examples": [],
+        "hash": "0xB856A90",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0x8DAF79B6": {
+        "name": "GET_TRAIN_DIRECTION",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets the direction the train is facing",
+        "examples": [],
+        "hash": "0x8DAF79B6",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "True if the train is moving forward on the track, False otherwise"
+    }
+}

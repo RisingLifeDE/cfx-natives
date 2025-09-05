@@ -1,0 +1,19 @@
+{
+    "0x658D2BC8": {
+        "name": "CREATE_AUDIO_SUBMIX",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The audio submix name."
+            }
+        ],
+        "return_type": "int",
+        "description": "Creates an audio submix with the specified name, or gets the existing audio submix by that name.",
+        "examples": [],
+        "hash": "0x658D2BC8",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A submix ID, or -1 if the submix could not be created."
+    }
+}

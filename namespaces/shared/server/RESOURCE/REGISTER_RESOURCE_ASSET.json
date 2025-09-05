@@ -1,0 +1,24 @@
+{
+    "0x9862B266": {
+        "name": "REGISTER_RESOURCE_ASSET",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource to add the asset to."
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "A file name in the resource."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRegisters a cached resource asset with the resource system, similar to the automatic scanning of the `stream/` folder.",
+        "examples": [],
+        "hash": "0x9862B266",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A cache string to pass to `REGISTER_STREAMING_FILE_FROM_CACHE` on the client."
+    }
+}

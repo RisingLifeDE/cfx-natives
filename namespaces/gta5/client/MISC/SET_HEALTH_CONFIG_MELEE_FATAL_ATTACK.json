@@ -1,0 +1,24 @@
+{
+    "0xDD443E53": {
+        "name": "SET_HEALTH_CONFIG_MELEE_FATAL_ATTACK",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            },
+            {
+                "name": "newValue",
+                "type": "BOOL",
+                "description": "Value"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets default melee cardinal fatal attack value for specific health config.",
+        "examples": [],
+        "hash": "0xDD443E53",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

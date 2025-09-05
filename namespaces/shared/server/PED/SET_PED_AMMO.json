@@ -1,0 +1,25 @@
+{
+    "0xBF90DF1A": {
+        "name": "SET_PED_AMMO",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            },
+            {
+                "name": "ammo",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nNativeDB Added Parameter 4: BOOL p3\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_AMMO](?\\_0x14E56BC5B5DB6A19).**",
+        "examples": [],
+        "hash": "0xBF90DF1A",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

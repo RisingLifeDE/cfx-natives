@@ -1,0 +1,20 @@
+{
+    "0x4046B66": {
+        "name": "GET_VEHICLE_WHEEL_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            }
+        ],
+        "return_type": "float",
+        "description": "Returns vehicle's wheels' size (size is the same for all the wheels, cannot get/set specific wheel of vehicle).\r\nOnly works on non-default wheels (returns 0 in case of default wheels).",
+        "examples": [],
+        "hash": "0x4046B66",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Float representing size of the wheel (usually between 0.5 and 1.5)"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0x46F6B38B": {
+        "name": "SET_PED_MODEL_PERSONALITY",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "Ped's model."
+            },
+            {
+                "name": "personalityHash",
+                "type": "Hash",
+                "description": "Personality hash."
+            }
+        ],
+        "return_type": "void",
+        "description": "Overrides a ped model personality type.",
+        "examples": [],
+        "hash": "0x46F6B38B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

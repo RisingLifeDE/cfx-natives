@@ -1,0 +1,22 @@
+{
+    "0x2A01A8FC": {
+        "name": "SET_VEHICLE_CURRENT_RPM",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "rpm",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x2A01A8FC",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

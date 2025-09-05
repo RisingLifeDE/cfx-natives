@@ -1,0 +1,23 @@
+{
+    "0xFC02CAF6": {
+        "name": "SET_PLAYER_TALKING_OVERRIDE",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "The target player."
+            },
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Overriding state."
+            }
+        ],
+        "return_type": "void",
+        "description": "the status of default voip system. It affects on `NETWORK_IS_PLAYER_TALKING` and `mp_facial` animation.\r\nThis function doesn't need to be called every frame, it works like a switcher.",
+        "examples": [],
+        "hash": "0xFC02CAF6",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

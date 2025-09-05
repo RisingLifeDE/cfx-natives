@@ -1,0 +1,13 @@
+{
+    "0xDD76B263": {
+        "name": "CLEAR_DRAW_ORIGIN",
+        "params": [],
+        "return_type": "void",
+        "description": "Resets the screen's draw-origin which was changed by the function [`SET_DRAW_ORIGIN`](#\\_0xE10198D5) back to `x=0, y=0`. See [`SET_DRAW_ORIGIN`](#\\_0xE10198D5) for further information.",
+        "examples": [],
+        "hash": "0xDD76B263",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "0xD2C15D7": {
+        "name": "GET_NUMBER_OF_PED_COLLECTION_TEXTURE_VARIATIONS",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "componentId",
+                "type": "int",
+                "description": "One of the components from [SET_PED_COMPONENT_VARIATION](#\\_0x262B14F48D29DE80)"
+            },
+            {
+                "name": "collection",
+                "type": "const char*",
+                "description": "Name of the collection. Empty string for the base game collection. See [GET_PED_COLLECTION_NAME](#\\_0xFED5D83A) in order to list all available collections."
+            },
+            {
+                "name": "drawableId",
+                "type": "int",
+                "description": "Local drawable Id inside the given collection. Refer to [GET_NUMBER_OF_PED_COLLECTION_DRAWABLE_VARIATIONS](#\\_0x310D0271)."
+            }
+        ],
+        "return_type": "int",
+        "description": "An alternative to [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#\\_0x8F7156A3142A6BAD) that uses local collection indexing instead of the global one.",
+        "examples": [],
+        "hash": "0xD2C15D7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Number of texture variations available for the given drawable component. Returns 0 if ped or collection does not exist or index is out of bounds."
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0xB300F03": {
+        "name": "SET_PED_TURNING_THRESHOLDS",
+        "params": [
+            {
+                "name": "min",
+                "type": "float",
+                "description": "Leftside angle on the above diagram"
+            },
+            {
+                "name": "max",
+                "type": "float",
+                "description": "Rightside angle on the above diagram"
+            }
+        ],
+        "return_type": "void",
+        "description": "Purpose: The game's default values for these make shooting while traveling Left quite a bit slower than shooting while traveling right (This could be a game-balance thing?)\n\nDefault Min: -45 Degrees\r\nDefault Max: 135 Degrees\n\n```\n   \\ ,- ~ ||~ - ,\r\n, ' \\    x   x    ' ,\n```\n\n,      \\    x    x   x  ,\r\n,         \\  x     x      ,\r\n,            \\     x    x  ,\r\n,              \\      x    ,\r\n,                \\   x     ,\r\n,                 \\   x x ,\r\n,                  \\  x ,\r\n,                 , '\r\n' - , \\_ \\_ \\_ ,  '  \\\\\n\nIf the transition angle is within the shaded portion (x), there will be no transition(Quicker)\r\nThe angle corresponds to where you are looking(North on the circle) vs. the heading of your Ped.\r\nNote: For some reason,\n\nYou can set these values to whatever you'd like with this native, but keep in mind that the transitional spin is only clockwise for some reason.\n\nI'd personally recommend something like -135/135",
+        "examples": [],
+        "hash": "0xB300F03",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

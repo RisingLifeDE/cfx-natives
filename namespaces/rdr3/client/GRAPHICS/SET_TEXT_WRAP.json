@@ -1,0 +1,22 @@
+{
+    "0x6F60AB54": {
+        "name": "SET_TEXT_WRAP",
+        "params": [
+            {
+                "name": "start",
+                "type": "float"
+            },
+            {
+                "name": "end",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x6F60AB54",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

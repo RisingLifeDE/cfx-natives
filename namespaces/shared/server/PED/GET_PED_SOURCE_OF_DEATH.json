@@ -1,0 +1,19 @@
+{
+    "0x84ADF9EB": {
+        "name": "GET_PED_SOURCE_OF_DEATH",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Get the entity that killed the ped. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0x84ADF9EB",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The entity id. Returns 0 if the ped has no killer."
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x6504EB38": {
+        "name": "SET_PLAYER_ROUTING_BUCKET",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player to set the routing bucket for."
+            },
+            {
+                "name": "bucket",
+                "type": "int",
+                "description": "The bucket ID."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the routing bucket for the specified player.\n\nRouting buckets are also known as 'dimensions' or 'virtual worlds' in past echoes, however they are population-aware.",
+        "examples": [],
+        "hash": "0x6504EB38",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

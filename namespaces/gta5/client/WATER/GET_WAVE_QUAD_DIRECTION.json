@@ -1,0 +1,35 @@
+{
+    "0xCCE49A1C": {
+        "name": "GET_WAVE_QUAD_DIRECTION",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "directionX",
+                "type": "float*",
+                "description": "The wave quad X direction"
+            },
+            {
+                "name": "directionY",
+                "type": "float*",
+                "description": "The wave quad Y direction"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, directionX, directionY = GetWaveQuadDirection(1)"
+            }
+        ],
+        "hash": "0xCCE49A1C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Direction values are undefined on failure"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x149C9DA0": {
+        "name": "GET_VEHICLE_WHEEL_SPEED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets speed of a wheel at the tyre.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0x149C9DA0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An integer."
+    }
+}

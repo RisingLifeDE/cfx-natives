@@ -1,0 +1,53 @@
+{
+    "0x80A9E7A7": {
+        "name": "TASK_GO_STRAIGHT_TO_COORD",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped handle."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The x coordinate."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The y coordinate."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "The z coordinate."
+            },
+            {
+                "name": "speed",
+                "type": "float",
+                "description": "The ped movement speed."
+            },
+            {
+                "name": "timeout",
+                "type": "int",
+                "description": "\\-1 , other values appear to break the ped movement."
+            },
+            {
+                "name": "targetHeading",
+                "type": "float",
+                "description": "The heading you want the ped to be on x,y,z coord."
+            },
+            {
+                "name": "distanceToSlide",
+                "type": "float",
+                "description": "The distance from x,y,z where the ped will start sliding."
+            }
+        ],
+        "return_type": "void",
+        "description": "TASK_GO_STRAIGHT_TO_COORD\n\n**This is the server-side RPC native equivalent of the client native [TASK_GO_STRAIGHT_TO_COORD](?\\_0xD76B57B44F1E6F8B).**",
+        "examples": [],
+        "hash": "0x80A9E7A7",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

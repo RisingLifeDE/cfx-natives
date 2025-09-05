@@ -1,0 +1,23 @@
+{
+    "0x5D01F191": {
+        "name": "SEND_DUI_MOUSE_DOWN",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            },
+            {
+                "name": "button",
+                "type": "const char*",
+                "description": "Either `'left'`, `'middle'` or `'right'`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Injects a 'mouse down' event for a DUI object. Coordinates are expected to be set using SEND_DUI_MOUSE_MOVE.",
+        "examples": [],
+        "hash": "0x5D01F191",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0xE7490533": {
+        "name": "REQUEST_RESOURCE_FILE_SET",
+        "params": [
+            {
+                "name": "setName",
+                "type": "const char*",
+                "description": "The name of the file set as specified in `fxmanifest.lua`."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Requests a resource file set with the specified name to be downloaded and mounted on top of the current resource.\n\nResource file sets are specified in `fxmanifest.lua` with the following syntax:\n\n```lua\nfile_set 'addon_ui' {\r\n    'ui/addon/index.html',\r\n    'ui/addon/**.js',\r\n}\n```\n\nThis command will trigger a script error if the request failed.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- fxmanifest.lua\r\nfile_set 'dummies' {\r\n    'dummy/**.txt',\r\n    'potato.txt',\r\n}\r\n\r\n-- main script\r\nlocal function PrintTest()\r\n    local tests = { 'potato.txt', 'dummy/1.txt', 'dummy/b/2.txt' }\r\n\r\n    for _, v in ipairs(tests) do\r\n        local data = LoadResourceFile(GetCurrentResourceName(), v)\r\n        print(v, data)\r\n    end\r\nend\r\n\r\nRegisterCommand('fileset', function()\r\n    PrintTest()\r\n\r\n    while not RequestResourceFileSet('dummies') do\r\n        Wait(100)\r\n    end\r\n\r\n    PrintTest()\r\nend)"
+            }
+        ],
+        "hash": "0xE7490533",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "`TRUE` if the set is mounted, `FALSE` if the request is still pending."
+    }
+}

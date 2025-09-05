@@ -1,0 +1,19 @@
+{
+    "0xFE08CAD6": {
+        "name": "GET_PED_MODEL_PERSONALITY",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "Ped's model."
+            }
+        ],
+        "return_type": "Hash",
+        "description": "Gets a ped model's personality type.",
+        "examples": [],
+        "hash": "0xFE08CAD6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

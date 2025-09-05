@@ -1,0 +1,19 @@
+{
+    "0x8E3222B7": {
+        "name": "GET_ENTITY_HEALTH",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to check the health of"
+            }
+        ],
+        "return_type": "int",
+        "description": "Only works for vehicle and peds",
+        "examples": [],
+        "hash": "0x8E3222B7",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "If the entity is a vehicle it will return 0-1000\r\nIf the entity is a ped it will return 0-200\r\nIf the entity is an object it will return 0"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x8154E470": {
+        "name": "GET_PLAYER_MAX_HEALTH",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x8154E470",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

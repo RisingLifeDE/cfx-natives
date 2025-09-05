@@ -1,0 +1,19 @@
+{
+    "0x8BBE6CC0": {
+        "name": "SEND_LOADING_SCREEN_MESSAGE",
+        "params": [
+            {
+                "name": "jsonString",
+                "type": "const char*",
+                "description": "The JSON-encoded message."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Sends a message to the `loadingScreen` NUI frame, which contains the HTML page referenced in `loadscreen` resources.",
+        "examples": [],
+        "hash": "0x8BBE6CC0",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A success value."
+    }
+}

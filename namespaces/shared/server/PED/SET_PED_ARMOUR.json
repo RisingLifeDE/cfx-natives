@@ -1,0 +1,21 @@
+{
+    "0x4E3A0CC4": {
+        "name": "SET_PED_ARMOUR",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "amount",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nSets the armor of the specified ped.\r\nped: The Ped to set the armor of.\r\namount: A value between 0 and 100 indicating the value to set the Ped's armor to.\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_ARMOUR](?\\_0xCEA04D83135264CC).**",
+        "examples": [],
+        "hash": "0x4E3A0CC4",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

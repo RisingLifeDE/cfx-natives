@@ -1,0 +1,29 @@
+{
+    "0xF380E184": {
+        "name": "SET_VEHICLE_WHEEL_RIM_COLLIDER_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "Index of wheel, 0-3."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "Size of rim collider."
+            }
+        ],
+        "return_type": "void",
+        "description": "Not sure what this changes, probably determines physical rim size in case the tire is blown.",
+        "examples": [],
+        "hash": "0xF380E184",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

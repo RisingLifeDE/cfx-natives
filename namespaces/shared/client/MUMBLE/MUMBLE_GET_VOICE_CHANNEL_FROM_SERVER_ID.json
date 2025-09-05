@@ -1,0 +1,19 @@
+{
+    "0x221C09F1": {
+        "name": "MUMBLE_GET_VOICE_CHANNEL_FROM_SERVER_ID",
+        "params": [
+            {
+                "name": "serverId",
+                "type": "int",
+                "description": "The player's server id."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the mumble voice channel from a player's server id.",
+        "examples": [],
+        "hash": "0x221C09F1",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Int representing the identifier of the voice channel."
+    }
+}

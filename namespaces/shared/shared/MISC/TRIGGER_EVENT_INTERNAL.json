@@ -1,0 +1,25 @@
+{
+    "0x91310870": {
+        "name": "TRIGGER_EVENT_INTERNAL",
+        "params": [
+            {
+                "name": "eventName",
+                "type": "const char*"
+            },
+            {
+                "name": "eventPayload",
+                "type": "const char*"
+            },
+            {
+                "name": "payloadLength",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "The backing function for TriggerEvent.",
+        "examples": [],
+        "hash": "0x91310870",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

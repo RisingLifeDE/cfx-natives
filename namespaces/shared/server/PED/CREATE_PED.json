@@ -1,0 +1,54 @@
+{
+    "0x389EF71": {
+        "name": "CREATE_PED",
+        "params": [
+            {
+                "name": "pedType",
+                "type": "int",
+                "description": "Unused. Peds get set to CIVMALE/CIVFEMALE/etc. no matter the value specified."
+            },
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "The model of ped to spawn."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "Spawn coordinate X component."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "Spawn coordinate Y component."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "Spawn coordinate Z component."
+            },
+            {
+                "name": "heading",
+                "type": "float",
+                "description": "Heading to face towards, in degrees."
+            },
+            {
+                "name": "isNetwork",
+                "type": "BOOL",
+                "description": "Whether to create a network object for the ped. If false, the ped exists only locally."
+            },
+            {
+                "name": "bScriptHostPed",
+                "type": "BOOL",
+                "description": "Whether to register the ped as pinned to the script host in the R\\* network model."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Creates a ped (biped character, pedestrian, actor) with the specified model at the specified position and heading.\r\nThis ped will initially be owned by the creating script as a mission entity, and the model should be loaded already\r\n(e.g. using REQUEST_MODEL).\n\n**This is the server-side RPC native equivalent of the client native [CREATE_PED](?\\_0xD49F9B0955C367DE).**",
+        "examples": [],
+        "hash": "0x389EF71",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A script handle (fwScriptGuid index) for the ped, or `0` if the ped failed to be created."
+    }
+}

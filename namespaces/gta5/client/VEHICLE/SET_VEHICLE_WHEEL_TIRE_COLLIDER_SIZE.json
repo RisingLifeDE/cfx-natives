@@ -1,0 +1,29 @@
+{
+    "0xB962D05C": {
+        "name": "SET_VEHICLE_WHEEL_TIRE_COLLIDER_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "Index of wheel, 0-3."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "Radius of tire collider."
+            }
+        ],
+        "return_type": "void",
+        "description": "Use along with SetVehicleWheelSize to resize the wheels (this native sets the collider size affecting physics while SetVehicleWheelSize will change visual size).",
+        "examples": [],
+        "hash": "0xB962D05C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

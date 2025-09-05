@@ -1,0 +1,23 @@
+{
+    "0xD1D31681": {
+        "name": "SET_VISUAL_SETTING_FLOAT",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The name of the value to set, such as `pedLight.color.red`."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "The value to write."
+            }
+        ],
+        "return_type": "void",
+        "description": "Overrides a floating point value from `visualsettings.dat` temporarily.",
+        "examples": [],
+        "hash": "0xD1D31681",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

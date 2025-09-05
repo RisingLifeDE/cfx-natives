@@ -1,0 +1,19 @@
+{
+    "0x1493DCC1": {
+        "name": "REGISTER_STREAMING_FILE_FROM_KVS",
+        "params": [
+            {
+                "name": "kvsKey",
+                "type": "const char*",
+                "description": "The KVP key in the current resource to register as an asset."
+            }
+        ],
+        "return_type": "void",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRegisters a KVP value as an asset with the GTA streaming module system. This function currently won't work.",
+        "examples": [],
+        "hash": "0x1493DCC1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

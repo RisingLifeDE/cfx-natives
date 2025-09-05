@@ -1,0 +1,18 @@
+{
+    "0xFEE404F9": {
+        "name": "GET_PLAYER_ENDPOINT",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [],
+        "hash": "0xFEE404F9",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

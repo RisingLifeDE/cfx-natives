@@ -1,0 +1,49 @@
+{
+    "0xDFFBA12F": {
+        "name": "GET_ENTITIES_IN_RADIUS",
+        "params": [
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The X coordinate."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The Y coordinate."
+            },
+            {
+                "name": "z",
+                "type": "float",
+                "description": "The Z coordinate."
+            },
+            {
+                "name": "radius",
+                "type": "float",
+                "description": "Max distance from coordinate to entity"
+            },
+            {
+                "name": "entityType",
+                "type": "int",
+                "description": "Entity types see list below"
+            },
+            {
+                "name": "sortByDistance",
+                "type": "BOOL",
+                "description": "Sort output entites by distance from nearest to farthest"
+            },
+            {
+                "name": "models",
+                "type": "Object",
+                "description": "List of allowed models its also optional"
+            }
+        ],
+        "return_type": "Object",
+        "description": "### Supported types\n\n*   \\[1] : Peds (including animals) and players.\n*   \\[2] : Vehicles.\n*   \\[3] : Objects (props), doors, and projectiles.\n\n### Coordinates need to be send unpacked (x,y,z)\n\n```lua\n\r\n-- Define the allowed model hashes\r\nlocal allowedModelHashes = { GetHashKey(\"p_crate03x\"), GetHashKey(\"p_crate22x\") }\r\n\r\n-- Get the player's current coordinates\r\nlocal playerCoords = GetEntityCoords(PlayerPedId())\r\n\r\n-- Retrieve all entities of type Object (type 3) within a radius of 10.0 units\r\n-- that match the allowed model hashes\r\n-- and sort output entities by distance\r\nlocal entities = GetEntitiesInRadius(playerCoords.x, playerCoords.y, playerCoords.z, 10.0, 3, true, allowedModelHashes)\r\n\r\n-- Iterate through the list of entities and print their ids\r\nfor i = 1, #entities do\r\n    local entity = entities[i]\r\n    print(entity)\r\nend\r\n\n```",
+        "examples": [],
+        "hash": "0xDFFBA12F",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "An array containing entity handles for each entity."
+    }
+}

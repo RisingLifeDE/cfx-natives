@@ -1,0 +1,47 @@
+{
+    "0xD9319DCB": {
+        "name": "GET_VEHICLE_NEON_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to check."
+            },
+            {
+                "name": "red",
+                "type": "int*",
+                "description": "Pointer to an integer where the red component of the neon color will be stored."
+            },
+            {
+                "name": "green",
+                "type": "int*",
+                "description": "Pointer to an integer where the green component of the neon color will be stored."
+            },
+            {
+                "name": "blue",
+                "type": "int*",
+                "description": "Pointer to an integer where the blue component of the neon color will be stored."
+            }
+        ],
+        "return_type": "void",
+        "description": "Getter to check the neon colour of a vehicle. This native is the server side getter of [GET_VEHICLE_NEON_LIGHTS_COLOUR](#\\_0x7619EEE8C886757F).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false) -- 1 is the source here\r\nlocal red, green, blue = GetVehicleNeonColour(vehicle)\r\nprint(red, green, blue)"
+            },
+            {
+                "lang": "js",
+                "code": "const vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false); // 1 is the source here\r\nconst [red, green, blue] = GetVehicleNeonColour(vehicle);\r\nconsole.log(red, green, blue);"
+            },
+            {
+                "lang": "cs",
+                "code": "using static CitizenFX.Core.Native.API;\r\n\r\nint vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false); // 1 is the source here\r\nint red, green, blue;\r\nGetVehicleNeonColour(vehicle, out red, out green, out blue);\r\nDebug.WriteLine($\"{red}, {green}, {blue}\");"
+            }
+        ],
+        "hash": "0xD9319DCB",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "None. The neon color values are retrieved and stored in the `red`, `green`, and `blue` pointers. Make sure to store the returned values in variables for further use."
+    }
+}

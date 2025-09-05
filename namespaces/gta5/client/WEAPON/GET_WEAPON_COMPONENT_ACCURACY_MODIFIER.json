@@ -1,0 +1,20 @@
+{
+    "0xC693E278": {
+        "name": "GET_WEAPON_COMPONENT_ACCURACY_MODIFIER",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for `CWeaponAccuracyModifier` in a weapon component.",
+        "examples": [],
+        "hash": "0xC693E278",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A weapon component accuracy modifier."
+    }
+}

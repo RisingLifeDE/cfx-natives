@@ -1,0 +1,24 @@
+{
+    "0x5240DA5A": {
+        "name": "GET_RESOURCE_KVP_STRING",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to fetch"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "A getter for [SET_RESOURCE_KVP](#\\_0x21C7A35B).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local kvpValue = GetResourceKvpString('codfish') \r\nif kvpValue then\r\n\t-- do something!\r\nend"
+            }
+        ],
+        "hash": "0x5240DA5A",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The string value stored under the specified key, or nil/null if not found."
+    }
+}

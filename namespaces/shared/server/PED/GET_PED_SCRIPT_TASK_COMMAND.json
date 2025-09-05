@@ -1,0 +1,19 @@
+{
+    "0x84FE084": {
+        "name": "GET_PED_SCRIPT_TASK_COMMAND",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "Hash",
+        "description": "Gets the script task command currently assigned to the ped.",
+        "examples": [],
+        "hash": "0x84FE084",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The script task command currently assigned to the ped. A value of 0x811E343C denotes no script task is assigned."
+    }
+}

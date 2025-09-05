@@ -1,0 +1,204 @@
+{
+  "type": "object",
+  "patternProperties": {
+    "^([A-Z_]+[A-Z0-9_]*|0x[0-9A-F]{5,16})$": {
+      "type": "object",
+      "patternProperties": {
+        "^0x[0-9A-Fa-f]{5,9}$": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "$ref": "#/$defs/native_name"
+            },
+            "ns": {
+              "type": "string"
+            },
+            "game": {
+              "type": "string"
+            },
+            "apiset": {
+              "type": "string"
+            },
+            "hash": {
+              "type": "string"
+            },
+            "jhash": {
+              "type": "string"
+            },
+            "resultsDescription": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "params": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "$ref": "#/$defs/param_type"
+                  },
+                  "name": {
+                    "type": "string",
+                    "pattern": "^([A-Za-z_]+[A-Za-z0-9_]*|\\.\\.\\.)$"
+                  },
+                  "description": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "type",
+                  "name"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "return_type": {
+              "$ref": "#/$defs/return_type"
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "lang": {
+                    "type": "string"
+                  },
+                  "code": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "old_names": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "variadic": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "params",
+            "return_type"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "native_name": {
+      "type": "string",
+      "pattern": "^([A-Z_]+[A-Z0-9_]*|0x[0-9A-F]{5,16})$"
+    },
+    "param_type": {
+      "type": "string",
+      "enum": [
+        "",
+        "int",
+        "int*",
+        "const int*",
+        "float",
+        "float*",
+        "long",
+        "long*",
+        "BOOL",
+        "BOOL*",
+        "char*",
+        "const char*",
+        "Any",
+        "Any*",
+        "Blip",
+        "Blip*",
+        "const Blip*",
+        "Cam",
+        "Cam*",
+        "const Cam*",
+        "Entity",
+        "Entity*",
+        "const Entity*",
+        "FireId",
+        "FireId*",
+        "Hash",
+        "Hash*",
+        "Interior",
+        "Interior*",
+        "ItemSet",
+        "ItemSet*",
+        "Object",
+        "Object*",
+        "const Object*",
+        "Ped",
+        "Ped*",
+        "const Ped*",
+        "Pickup",
+        "Pickup*",
+        "Player",
+        "Player*",
+        "const Player*",
+        "ScrHandle",
+        "ScrHandle*",
+        "Vector3",
+        "Vector3*",
+        "const Vector3*",
+        "Vehicle",
+        "Vehicle*",
+        "const Vehicle*",
+        "AnimScene",
+        "AnimScene*",
+        "PersChar",
+        "PersChar*",
+        "PopZone",
+        "PopZone*",
+        "Prompt",
+        "Prompt*",
+        "PropSet",
+        "PropSet*",
+        "Volume",
+        "Volume*",
+        "Function"
+      ]
+    },
+    "return_type": {
+      "type": "string",
+      "enum": [
+        "void",
+        "int",
+        "float",
+        "long",
+        "BOOL",
+        "const char*",
+        "Any",
+        "Any*",
+        "Blip",
+        "Cam",
+        "Entity",
+        "FireId",
+        "Hash",
+        "Interior",
+        "ItemSet",
+        "Object",
+        "Ped",
+        "Pickup",
+        "Player",
+        "ScrHandle",
+        "Vector3",
+        "Vehicle",
+        "AnimScene",
+        "PersChar",
+        "PopZone",
+        "Prompt",
+        "PropSet",
+        "Volume"
+      ]
+    }
+  }
+}

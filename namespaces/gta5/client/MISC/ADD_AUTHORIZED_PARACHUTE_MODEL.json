@@ -1,0 +1,20 @@
+{
+    "0x8AC7AE9": {
+        "name": "ADD_AUTHORIZED_PARACHUTE_MODEL",
+        "params": [
+            {
+                "name": "modelNameHash",
+                "type": "int",
+                "description": "Name hash of the model to allow to be used for the player ped's parachute"
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds the given model name hash to the list of valid models for the player ped's parachute.",
+        "examples": [],
+        "hash": "0x8AC7AE9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "None."
+    }
+}

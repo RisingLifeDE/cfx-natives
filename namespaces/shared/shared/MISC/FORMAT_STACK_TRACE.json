@@ -1,0 +1,18 @@
+{
+    "0xD70C3BCA": {
+        "name": "FORMAT_STACK_TRACE",
+        "params": [
+            {
+                "name": "traceData",
+                "type": "Object"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "An internal function for converting a stack trace object to a string.",
+        "examples": [],
+        "hash": "0xD70C3BCA",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

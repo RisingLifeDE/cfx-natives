@@ -1,0 +1,20 @@
+{
+    "0xF9AB9297": {
+        "name": "GET_WEAPON_COMPONENT_RETICULE_HASH",
+        "params": [
+            {
+                "name": "componentHash",
+                "type": "Hash",
+                "description": "Weapon component name hash."
+            }
+        ],
+        "return_type": "int",
+        "description": "A getter for `ReticuleHash` in a weapon scope component.",
+        "examples": [],
+        "hash": "0xF9AB9297",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The hash of the reticule camera."
+    }
+}

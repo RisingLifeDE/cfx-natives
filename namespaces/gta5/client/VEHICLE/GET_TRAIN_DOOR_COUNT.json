@@ -1,0 +1,20 @@
+{
+    "0x99974721": {
+        "name": "GET_TRAIN_DOOR_COUNT",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train to obtain the door count for."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the door count for the specified train.",
+        "examples": [],
+        "hash": "0x99974721",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The door count."
+    }
+}

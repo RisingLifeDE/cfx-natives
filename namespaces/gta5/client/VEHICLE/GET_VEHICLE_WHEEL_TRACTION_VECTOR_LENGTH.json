@@ -1,0 +1,22 @@
+{
+    "0x3BCFEE14": {
+        "name": "GET_VEHICLE_WHEEL_TRACTION_VECTOR_LENGTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the traction vector length of a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0x3BCFEE14",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

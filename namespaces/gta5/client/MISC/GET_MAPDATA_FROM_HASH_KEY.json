@@ -1,0 +1,20 @@
+{
+    "0xD29D8EDD": {
+        "name": "GET_MAPDATA_FROM_HASH_KEY",
+        "params": [
+            {
+                "name": "mapdataHandle",
+                "type": "Hash",
+                "description": "The input map data handle."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the transient map data index for a specified hash.\r\nThis function supports SDK infrastructure and is not intended to be used directly from your code.",
+        "examples": [],
+        "hash": "0xD29D8EDD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A transient (non-persistable) index to the requested mapdata, or -1."
+    }
+}

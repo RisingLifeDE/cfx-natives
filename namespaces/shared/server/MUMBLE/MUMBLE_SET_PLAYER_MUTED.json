@@ -1,0 +1,23 @@
+{
+    "0xCC6C2EB1": {
+        "name": "MUMBLE_SET_PLAYER_MUTED",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "int",
+                "description": "The player to set the mute state of"
+            },
+            {
+                "name": "toggle",
+                "type": "BOOL",
+                "description": "Whether to mute or unmute the player"
+            }
+        ],
+        "return_type": "void",
+        "description": "Mutes or unmutes the specified player",
+        "examples": [],
+        "hash": "0xCC6C2EB1",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

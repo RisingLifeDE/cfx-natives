@@ -1,0 +1,21 @@
+{
+    "0x289DA860": {
+        "name": "ADD_TEXT_ENTRY_BY_HASH",
+        "params": [
+            {
+                "name": "entryKey",
+                "type": "const Hash"
+            },
+            {
+                "name": "entryText",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x289DA860",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

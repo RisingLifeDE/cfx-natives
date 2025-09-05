@@ -1,0 +1,19 @@
+{
+    "0xFC30DDFF": {
+        "name": "GET_ENTITY_POPULATION_TYPE",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "the entity to obtain the population type from"
+            }
+        ],
+        "return_type": "int",
+        "description": "This native gets an entity's population type.",
+        "examples": [],
+        "hash": "0xFC30DDFF",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns the population type ID, defined by the below enumeration:```cpp\nenum ePopulationType\r\n{\r\n\tPOPTYPE_UNKNOWN = 0,\r\n\tPOPTYPE_RANDOM_PERMANENT,\r\n\tPOPTYPE_RANDOM_PARKED,\r\n\tPOPTYPE_RANDOM_PATROL,\r\n\tPOPTYPE_RANDOM_SCENARIO,\r\n\tPOPTYPE_RANDOM_AMBIENT,\r\n\tPOPTYPE_PERMANENT,\r\n\tPOPTYPE_MISSION,\r\n\tPOPTYPE_REPLAY,\r\n\tPOPTYPE_CACHE,\r\n\tPOPTYPE_TOOL\r\n};\n```"
+    }
+}

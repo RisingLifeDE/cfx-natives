@@ -1,0 +1,13 @@
+{
+    "0x500FFE9D": {
+        "name": "GET_VEHICLE_DASHBOARD_LIGHTS",
+        "params": [],
+        "return_type": "int",
+        "description": "Gets the state of the player vehicle's dashboard lights as a bit set\r\nindicator_left = 1\r\nindicator_right = 2\r\nhandbrakeLight = 4\r\nengineLight = 8\r\nABSLight = 16\r\ngasLight = 32\r\noilLight = 64\r\nheadlights = 128\r\nhighBeam = 256\r\nbatteryLight = 512",
+        "examples": [],
+        "hash": "0x500FFE9D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

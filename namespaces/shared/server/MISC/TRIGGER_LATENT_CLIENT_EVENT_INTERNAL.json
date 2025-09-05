@@ -1,0 +1,33 @@
+{
+    "0x70B35890": {
+        "name": "TRIGGER_LATENT_CLIENT_EVENT_INTERNAL",
+        "params": [
+            {
+                "name": "eventName",
+                "type": "const char*"
+            },
+            {
+                "name": "eventTarget",
+                "type": "const char*"
+            },
+            {
+                "name": "eventPayload",
+                "type": "const char*"
+            },
+            {
+                "name": "payloadLength",
+                "type": "int"
+            },
+            {
+                "name": "bps",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "The backing function for TriggerLatentClientEvent.",
+        "examples": [],
+        "hash": "0x70B35890",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

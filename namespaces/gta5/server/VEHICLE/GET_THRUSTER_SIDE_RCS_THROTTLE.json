@@ -1,0 +1,20 @@
+{
+    "0x1C939E87": {
+        "name": "GET_THRUSTER_SIDE_RCS_THROTTLE",
+        "params": [
+            {
+                "name": "jetpack",
+                "type": "Vehicle",
+                "description": "The jetpack to check."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x1C939E87",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns a value representing the side RCS (Reaction Control System) throttle of the jetpack. The values range from `0.0` (no throttle) to `1.0` (full throttle)."
+    }
+}

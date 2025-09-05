@@ -1,0 +1,25 @@
+{
+    "0x59FC24A7": {
+        "name": "GET_CLOSEST_TRACK_NODES",
+        "params": [
+            {
+                "name": "position",
+                "type": "Vector3",
+                "description": "Get track nodes at position"
+            },
+            {
+                "name": "radius",
+                "type": "float",
+                "description": "Get track nodes within radius"
+            }
+        ],
+        "return_type": "Object",
+        "description": "Get all track nodes and their track ids within the radius of the specified coordinates.",
+        "examples": [],
+        "hash": "0x59FC24A7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns a list of tracks and node entries: a trackNode and a trackIdThe data returned adheres to the following layout:    [{trackNode1, trackId1}, ..., {trackNodeN, trackIdN}]"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xCB0241B5": {
+        "name": "SET_KEY_MAPPING_HIDE_RESOURCES",
+        "params": [
+            {
+                "name": "hide",
+                "type": "BOOL",
+                "description": "`true` will disable the display of resource names, and `false` will enable it."
+            }
+        ],
+        "return_type": "void",
+        "description": "Toggles the visibility of resource names in the FiveM key mapping page.",
+        "examples": [],
+        "hash": "0xCB0241B5",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

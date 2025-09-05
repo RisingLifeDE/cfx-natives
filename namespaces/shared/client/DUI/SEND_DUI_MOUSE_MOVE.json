@@ -1,0 +1,28 @@
+{
+    "0xD9D7A0AA": {
+        "name": "SEND_DUI_MOUSE_MOVE",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            },
+            {
+                "name": "x",
+                "type": "int",
+                "description": "The mouse X position."
+            },
+            {
+                "name": "y",
+                "type": "int",
+                "description": "The mouse Y position."
+            }
+        ],
+        "return_type": "void",
+        "description": "Injects a 'mouse move' event for a DUI object. Coordinates are in browser space.",
+        "examples": [],
+        "hash": "0xD9D7A0AA",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

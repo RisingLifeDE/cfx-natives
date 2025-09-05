@@ -1,0 +1,24 @@
+{
+    "0xDEF0480B": {
+        "name": "DOES_PLAYER_OWN_SKU_EXT",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            },
+            {
+                "name": "skuId",
+                "type": "int",
+                "description": "The package ID on Tebex."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Requests whether or not the player owns the specified package.",
+        "examples": [],
+        "hash": "0xDEF0480B",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A boolean."
+    }
+}

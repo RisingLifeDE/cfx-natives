@@ -1,0 +1,28 @@
+{
+    "0xAAA94D53": {
+        "name": "SET_AUDIO_SUBMIX_EFFECT_RADIO_FX",
+        "params": [
+            {
+                "name": "submixId",
+                "type": "int",
+                "description": "The submix."
+            },
+            {
+                "name": "effectSlot",
+                "type": "int",
+                "description": "The effect slot for the submix."
+            }
+        ],
+        "return_type": "void",
+        "description": "Assigns a RadioFX effect to a submix effect slot.\n\nThe parameter values for this effect are as follows (backticks are used to represent hashes):\n\n| Index | Type | Description |\r\n|-|-|-|\r\n| \\`enabled\\` | int | Enables or disables RadioFX on this DSP. |\r\n| \\`default\\` | int | Sets default parameters for the RadioFX DSP and enables it. |\r\n| \\`freq_low\\` | float |  |\r\n| \\`freq_hi\\` | float |  |\r\n| \\`fudge\\` | float |  |\r\n| \\`rm_mod_freq\\` | float |  |\r\n| \\`rm_mix\\` | float |  |\r\n| \\`o_freq_lo\\` | float |  |\r\n| \\`o_freq_hi\\` | float |  |",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- we want to change the master output\r\nlocal submix = 0\r\n\r\n-- add a RadioFX effect to slot 0\r\nSetAudioSubmixEffectRadioFx(submix, 0)\r\n\r\n-- set the default values\r\nSetAudioSubmixEffectParamInt(submix, 0, `default`, 1)"
+            }
+        ],
+        "hash": "0xAAA94D53",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

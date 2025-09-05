@@ -1,0 +1,65 @@
+{
+    "0x5AB552C6": {
+        "name": "TASK_PLAY_ANIM",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped you want to play the animation"
+            },
+            {
+                "name": "animDictionary",
+                "type": "const char*",
+                "description": "The animation dictionary"
+            },
+            {
+                "name": "animationName",
+                "type": "const char*",
+                "description": "The animation name"
+            },
+            {
+                "name": "blendInSpeed",
+                "type": "float",
+                "description": "The speed at which the animation blends in. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant"
+            },
+            {
+                "name": "blendOutSpeed",
+                "type": "float",
+                "description": "The speed at which the animation blends out. Lower is slower and higher is faster, 1.0 is normal, 8.0 is basically instant"
+            },
+            {
+                "name": "duration",
+                "type": "int",
+                "description": "The duration of the animation in milliseconds. -1 will play the animation until canceled"
+            },
+            {
+                "name": "flag",
+                "type": "int",
+                "description": "The animation flags (see enum)"
+            },
+            {
+                "name": "playbackRate",
+                "type": "float",
+                "description": "The playback rate (between 0.0 and 1.0)"
+            },
+            {
+                "name": "lockX",
+                "type": "BOOL"
+            },
+            {
+                "name": "lockY",
+                "type": "BOOL"
+            },
+            {
+                "name": "lockZ",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "[Animations list](https://alexguirre.github.io/animations-list/)\n\n```cpp\nenum eScriptedAnimFlags\r\n{\r\nAF_LOOPING = 1,\r\nAF_HOLD_LAST_FRAME = 2,\r\nAF_REPOSITION_WHEN_FINISHED = 4,\r\nAF_NOT_INTERRUPTABLE = 8,\r\nAF_UPPERBODY = 16,\r\nAF_SECONDARY = 32,\r\nAF_REORIENT_WHEN_FINISHED = 64,\r\nAF_ABORT_ON_PED_MOVEMENT = 128,\r\nAF_ADDITIVE = 256,\r\nAF_TURN_OFF_COLLISION = 512,\r\nAF_OVERRIDE_PHYSICS = 1024,\r\nAF_IGNORE_GRAVITY = 2048,\r\nAF_EXTRACT_INITIAL_OFFSET = 4096,\r\nAF_EXIT_AFTER_INTERRUPTED = 8192,\r\nAF_TAG_SYNC_IN = 16384,\r\nAF_TAG_SYNC_OUT = 32768,\r\nAF_TAG_SYNC_CONTINUOUS = 65536,\r\nAF_FORCE_START = 131072,\r\nAF_USE_KINEMATIC_PHYSICS = 262144,\r\nAF_USE_MOVER_EXTRACTION = 524288,\r\nAF_HIDE_WEAPON = 1048576,\r\nAF_ENDS_IN_DEAD_POSE = 2097152,\r\nAF_ACTIVATE_RAGDOLL_ON_COLLISION = 4194304,\r\nAF_DONT_EXIT_ON_DEATH = 8388608,\r\nAF_ABORT_ON_WEAPON_DAMAGE = 16777216,\r\nAF_DISABLE_FORCED_PHYSICS_UPDATE = 33554432,\r\nAF_PROCESS_ATTACHMENTS_ON_START = 67108864,\r\nAF_EXPAND_PED_CAPSULE_FROM_SKELETON = 134217728,\r\nAF_USE_ALTERNATIVE_FP_ANIM = 268435456,\r\nAF_BLENDOUT_WRT_LAST_FRAME = 536870912,\r\nAF_USE_FULL_BLENDING = 1073741824\r\n}\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_PLAY_ANIM](?\\_0xEA47FE3719165B94).**",
+        "examples": [],
+        "hash": "0x5AB552C6",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

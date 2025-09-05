@@ -1,0 +1,19 @@
+{
+    "0x4B8285CF": {
+        "name": "GET_TRAIN_CARRIAGE_INDEX",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The entity handle."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x4B8285CF",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The carriage index. -1 returned if invalid result."
+    }
+}

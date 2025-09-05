@@ -1,0 +1,45 @@
+{
+    "0x1FCC1FAF": {
+        "name": "SET_WAVE_QUAD_BOUNDS",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "minX",
+                "type": "int",
+                "description": "The minX coordinate"
+            },
+            {
+                "name": "minY",
+                "type": "int",
+                "description": "The minY coordinate"
+            },
+            {
+                "name": "maxX",
+                "type": "int",
+                "description": "The maxX coordinate"
+            },
+            {
+                "name": "maxY",
+                "type": "int",
+                "description": "The maxY coordinate"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This native allows you to update the bounds of a specified water quad index.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaveQuadBounds(0, -5000, -5000, 5000, 5000)"
+            }
+        ],
+        "hash": "0x1FCC1FAF",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "0x8D50E33A": {
+        "name": "SET_STATE_BAG_VALUE",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*"
+            },
+            {
+                "name": "keyName",
+                "type": "const char*"
+            },
+            {
+                "name": "valueData",
+                "type": "const char*"
+            },
+            {
+                "name": "valueLength",
+                "type": "int"
+            },
+            {
+                "name": "replicated",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "Internal function for setting a state bag value.",
+        "examples": [],
+        "hash": "0x8D50E33A",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

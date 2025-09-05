@@ -1,0 +1,17 @@
+{
+    "0x1E86F206": {
+        "name": "DELETE_FUNCTION_REFERENCE",
+        "params": [
+            {
+                "name": "referenceIdentity",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x1E86F206",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0x8839120D": {
+        "name": "FIND_NEXT_VEHICLE",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            },
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x8839120D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

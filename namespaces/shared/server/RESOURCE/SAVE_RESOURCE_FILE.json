@@ -1,0 +1,34 @@
+{
+    "0xA09E7E7B": {
+        "name": "SAVE_RESOURCE_FILE",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The name of the resource."
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "The name of the file."
+            },
+            {
+                "name": "data",
+                "type": "const char*",
+                "description": "The data to write to the file."
+            },
+            {
+                "name": "dataLength",
+                "type": "int",
+                "description": "The length of the written data."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Writes the specified data to a file in the specified resource.\r\nUsing a length of `-1` will automatically detect the length assuming the data is a C string.",
+        "examples": [],
+        "hash": "0xA09E7E7B",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A value indicating if the write succeeded."
+    }
+}

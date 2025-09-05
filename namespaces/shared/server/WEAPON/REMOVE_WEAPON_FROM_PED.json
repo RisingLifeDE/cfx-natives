@@ -1,0 +1,21 @@
+{
+    "0x9C37F220": {
+        "name": "REMOVE_WEAPON_FROM_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nThis native removes a specified weapon from your selected ped.\r\nWeapon Hashes: pastebin.com/0wwDZgkF\r\nExample:\r\nC#:\r\nFunction.Call(Hash.REMOVE_WEAPON_FROM_PED, Game.Player.Character, 0x99B507EA);\r\nC++:\r\nWEAPON::REMOVE_WEAPON_FROM_PED(PLAYER::PLAYER_PED_ID(), 0x99B507EA);\r\nThe code above removes the knife from the player.\n```\n\n**This is the server-side RPC native equivalent of the client native [REMOVE_WEAPON_FROM_PED](?\\_0x4899CB088EDF59B8).**",
+        "examples": [],
+        "hash": "0x9C37F220",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

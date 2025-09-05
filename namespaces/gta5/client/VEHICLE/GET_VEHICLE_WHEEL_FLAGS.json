@@ -1,0 +1,23 @@
+{
+    "0xC70FA0C7": {
+        "name": "GET_VEHICLE_WHEEL_FLAGS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the flags of a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0xC70FA0C7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An unsigned int containing bit flags."
+    }
+}

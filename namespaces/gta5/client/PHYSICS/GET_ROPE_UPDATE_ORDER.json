@@ -1,0 +1,20 @@
+{
+    "0x2AB2E0F6": {
+        "name": "GET_ROPE_UPDATE_ORDER",
+        "params": [
+            {
+                "name": "rope",
+                "type": "int",
+                "description": "The rope to get the update order for."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x2AB2E0F6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The rope's update order."
+    }
+}

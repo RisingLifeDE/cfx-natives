@@ -1,0 +1,44 @@
+{
+    "0xEB1C6DD": {
+        "name": "CREATE_DRY_VOLUME",
+        "params": [
+            {
+                "name": "xMin",
+                "type": "float",
+                "description": "The min X component of the AABB volume where water does not affect the player."
+            },
+            {
+                "name": "yMin",
+                "type": "float",
+                "description": "The min Y component for the AABB volume."
+            },
+            {
+                "name": "zMin",
+                "type": "float",
+                "description": "The min Z component for the AABB volume."
+            },
+            {
+                "name": "xMax",
+                "type": "float",
+                "description": "The max X component for the AABB volume."
+            },
+            {
+                "name": "yMax",
+                "type": "float",
+                "description": "The max Y component for the AABB volume."
+            },
+            {
+                "name": "zMax",
+                "type": "float",
+                "description": "The max Z component for the AABB volume."
+            }
+        ],
+        "return_type": "int",
+        "description": "Creates a volume where water effects do not apply.\r\nUseful for preventing water collisions from flooding areas underneath them.\r\nThis has no effect on waterquads, only water created from drawables and collisions.\r\nDon't create volumes when your local ped is swimming (e.g. use IS_PED_SWIMMING in your scripts before you call this)",
+        "examples": [],
+        "hash": "0xEB1C6DD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

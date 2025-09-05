@@ -1,0 +1,17 @@
+{
+    "0x3C407D53": {
+        "name": "END_FIND_PICKUP",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x3C407D53",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

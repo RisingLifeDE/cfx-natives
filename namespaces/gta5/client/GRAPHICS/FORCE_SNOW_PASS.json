@@ -1,0 +1,19 @@
+{
+    "0xE6E16170": {
+        "name": "FORCE_SNOW_PASS",
+        "params": [
+            {
+                "name": "enabled",
+                "type": "BOOL",
+                "description": "Whether or not to force rendering to use a snow pass."
+            }
+        ],
+        "return_type": "void",
+        "description": "Forces the game snow pass to render.",
+        "examples": [],
+        "hash": "0xE6E16170",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

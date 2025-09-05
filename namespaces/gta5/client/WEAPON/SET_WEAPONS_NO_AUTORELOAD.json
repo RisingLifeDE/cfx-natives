@@ -1,0 +1,19 @@
+{
+    "0x311150E5": {
+        "name": "SET_WEAPONS_NO_AUTORELOAD",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "On/Off"
+            }
+        ],
+        "return_type": "void",
+        "description": "Disables the game's built-in auto-reloading.",
+        "examples": [],
+        "hash": "0x311150E5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

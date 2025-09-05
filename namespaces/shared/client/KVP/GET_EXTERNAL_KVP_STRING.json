@@ -1,0 +1,29 @@
+{
+    "0x9080363A": {
+        "name": "GET_EXTERNAL_KVP_STRING",
+        "params": [
+            {
+                "name": "resource",
+                "type": "const char*",
+                "description": "The resource to fetch from."
+            },
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to fetch"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "A getter for [SET_RESOURCE_KVP](#\\_0x21C7A35B), but for a specified resource.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local kvpValue = GetExternalKvpString('food', 'codfish') \r\nif kvpValue then\r\n\t-- do something!\r\nend"
+            }
+        ],
+        "hash": "0x9080363A",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A string that contains the value stored in the Kvp or nil/null if none."
+    }
+}

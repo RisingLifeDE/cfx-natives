@@ -1,0 +1,30 @@
+{
+    "0x786D8BC3": {
+        "name": "CREATE_RUNTIME_TEXTURE_FROM_IMAGE",
+        "params": [
+            {
+                "name": "txd",
+                "type": "long",
+                "description": "A handle to the runtime TXD to create the runtime texture in."
+            },
+            {
+                "name": "txn",
+                "type": "const char*",
+                "description": "The name for the texture in the runtime texture dictionary."
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "The file name of an image to load or a base64 data URL. This should preferably be a PNG, and has to be specified as a `file` in the resource manifest."
+            }
+        ],
+        "return_type": "long",
+        "description": "Creates a runtime texture from the specified file in the current resource or a base64 data URL.",
+        "examples": [],
+        "hash": "0x786D8BC3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A runtime texture handle."
+    }
+}

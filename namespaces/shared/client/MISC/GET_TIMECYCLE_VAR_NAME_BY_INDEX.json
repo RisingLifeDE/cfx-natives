@@ -1,0 +1,24 @@
+{
+    "0xC6C55AAF": {
+        "name": "GET_TIMECYCLE_VAR_NAME_BY_INDEX",
+        "params": [
+            {
+                "name": "varIndex",
+                "type": "int",
+                "description": "The index of variable."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "See [GET_TIMECYCLE_VAR_COUNT](#\\_0x838B34D8).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local varCount = GetTimecycleVarCount()\r\n\r\nif varCount ~= 0 then\r\n  for index = 0, varCount - 1 do\r\n    local varName = GetTimecycleVarNameByIndex(index)\r\n    local varDefault = GetTimecycleVarDefaultValueByIndex(index)\r\n\r\n    print(string.format(\"[%d] %s (%f)\", index, varName, varDefault))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0xC6C55AAF",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The name of a timecycle variable."
+    }
+}

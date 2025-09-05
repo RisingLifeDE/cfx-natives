@@ -1,0 +1,45 @@
+{
+    "0xF86136DB": {
+        "name": "GET_WAVE_QUAD_BOUNDS",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "minX",
+                "type": "int*",
+                "description": "The minX coordinate"
+            },
+            {
+                "name": "minY",
+                "type": "int*",
+                "description": "The minY coordinate"
+            },
+            {
+                "name": "maxX",
+                "type": "int*",
+                "description": "The maxX coordinate"
+            },
+            {
+                "name": "maxY",
+                "type": "int*",
+                "description": "The maxY coordinate"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, minX, minY, maxX, maxY = GetWaveQuadBounds(1)"
+            }
+        ],
+        "hash": "0xF86136DB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Bounds are undefined on failure"
+    }
+}

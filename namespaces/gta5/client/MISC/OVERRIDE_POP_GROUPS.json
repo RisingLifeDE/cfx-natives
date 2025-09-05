@@ -1,0 +1,24 @@
+{
+    "0xD3BC438F": {
+        "name": "OVERRIDE_POP_GROUPS",
+        "params": [
+            {
+                "name": "path",
+                "type": "const char*",
+                "description": "The file path to load (`popgroups`, `@resource/popgroups`), or `null` to reload the default population groups file."
+            }
+        ],
+        "return_type": "void",
+        "description": "Replaces the `popgroups` (CPopGroupList) meta file with the file in the specified path.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- fxmanifest.lua:\r\nfile 'popgroups_dlc.xml'\r\n\r\n-- client.lua:\r\nOverridePopGroups('popgroups_dlc.xml')\r\n\r\n-- restore the original after five minutes\r\nWait(1000 * 60 * 5)\r\nOverridePopGroups(nil)"
+            }
+        ],
+        "hash": "0xD3BC438F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

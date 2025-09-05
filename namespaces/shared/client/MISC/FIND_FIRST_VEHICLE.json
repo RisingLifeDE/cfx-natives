@@ -1,0 +1,18 @@
+{
+    "0x15E55694": {
+        "name": "FIND_FIRST_VEHICLE",
+        "params": [
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x15E55694",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

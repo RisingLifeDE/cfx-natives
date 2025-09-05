@@ -1,0 +1,19 @@
+{
+    "0x5261A01A": {
+        "name": "SET_ENTITY_DRAW_OUTLINE_SHADER",
+        "params": [
+            {
+                "name": "shader",
+                "type": "int",
+                "description": "An outline shader variant."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets variant of shader that will be used to draw entity outline.\n\nVariants are:\n\n*   **0**: Default value, gauss shader.\n*   **1**: 2px wide solid color outline.\n*   **2**: Fullscreen solid color except for entity.",
+        "examples": [],
+        "hash": "0x5261A01A",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "0x40D82D88": {
+        "name": "GET_VEHICLE_COLOURS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "colorPrimary",
+                "type": "int*"
+            },
+            {
+                "name": "colorSecondary",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x40D82D88",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

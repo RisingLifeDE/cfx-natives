@@ -1,0 +1,19 @@
+{
+    "0xA42A3DBF": {
+        "name": "SET_AIM_COOLDOWN",
+        "params": [
+            {
+                "name": "value",
+                "type": "int",
+                "description": "Number of milliseconds between allowed aiming"
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds a cooldown between instances of moving and then aiming.\r\nCan be optionally used to hinder 'speedboosting'\r\nTo turn off, set value to 0",
+        "examples": [],
+        "hash": "0xA42A3DBF",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

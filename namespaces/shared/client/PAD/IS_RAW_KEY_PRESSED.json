@@ -1,0 +1,24 @@
+{
+    "0x69F7C29E": {
+        "name": "IS_RAW_KEY_PRESSED",
+        "params": [
+            {
+                "name": "rawKeyIndex",
+                "type": "int",
+                "description": "Index of raw key from keyboard."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets if the specified `rawKeyIndex` is pressed on the keyboard.\n\nThis will not be triggered if the key is disabled with [DISABLE_RAW_KEY_THIS_FRAME](#\\_0x8BCF0014)\n\nVirtual key codes can be found [here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if IsRawKeyPressed(32) then -- KEY_SPACE\r\n    print(\"Spacebar pressed\")\r\nend"
+            }
+        ],
+        "hash": "0x69F7C29E",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns bool value of pressed state."
+    }
+}

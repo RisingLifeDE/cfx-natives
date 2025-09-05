@@ -1,0 +1,21 @@
+{
+    "0xBA0613E1": {
+        "name": "DROP_PLAYER",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            },
+            {
+                "name": "reason",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xBA0613E1",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

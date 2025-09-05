@@ -1,0 +1,18 @@
+{
+    "0xB7F70784": {
+        "name": "GET_ENTITY_SCRIPT",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [],
+        "hash": "0xB7F70784",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

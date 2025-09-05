@@ -1,0 +1,25 @@
+{
+    "0x8A7A8DAC": {
+        "name": "SET_CURSOR_LOCATION",
+        "params": [
+            {
+                "name": "x",
+                "type": "float",
+                "description": "X position."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "Y position."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x8A7A8DAC",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3",
+        "resultsDescription": "A boolean."
+    }
+}

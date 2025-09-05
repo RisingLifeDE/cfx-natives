@@ -1,0 +1,22 @@
+{
+    "0xA896B20A": {
+        "name": "REMOVE_REPLACE_TEXTURE",
+        "params": [
+            {
+                "name": "origTxd",
+                "type": "const char*"
+            },
+            {
+                "name": "origTxn",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Experimental natives, please do not use in a live environment.",
+        "examples": [],
+        "hash": "0xA896B20A",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

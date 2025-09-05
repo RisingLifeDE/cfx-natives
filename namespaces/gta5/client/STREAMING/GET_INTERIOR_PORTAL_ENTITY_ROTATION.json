@@ -1,0 +1,51 @@
+{
+    "0x9F9CEB63": {
+        "name": "GET_INTERIOR_PORTAL_ENTITY_ROTATION",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "entityIndex",
+                "type": "int",
+                "description": "Portal entity index."
+            },
+            {
+                "name": "rotX",
+                "type": "float*"
+            },
+            {
+                "name": "rotY",
+                "type": "float*"
+            },
+            {
+                "name": "rotZ",
+                "type": "float*"
+            },
+            {
+                "name": "rotW",
+                "type": "float*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\nlocal portalIndex = 0\r\n\r\nif interiorId ~= 0 then\r\n  local count = GetInteriorPortalEntityCount(interiorId, portalIndex)\r\n  for i=0, count-1 do\r\n    local x, y, z, w = GetInteriorPortalEntityRotation(interiorId, portalIndex, i)\r\n    print(\"portal \" .. portalIndex ..\" entity \" .. i .. \" rotation is: \" .. vec4(x, y, z, w))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0x9F9CEB63",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal entity rotation."
+    }
+}

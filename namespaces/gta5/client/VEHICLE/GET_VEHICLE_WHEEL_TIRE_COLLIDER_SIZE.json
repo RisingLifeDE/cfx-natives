@@ -1,0 +1,25 @@
+{
+    "0xE0BA9FE6": {
+        "name": "GET_VEHICLE_WHEEL_TIRE_COLLIDER_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain data for."
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int",
+                "description": "Index of wheel, 0-3."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xE0BA9FE6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Float representing size of the wheel collider."
+    }
+}

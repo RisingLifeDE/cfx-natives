@@ -1,0 +1,19 @@
+{
+    "0x30CE39D8": {
+        "name": "ONESYNC_ENABLE_REMOTE_ATTACHMENT_SANITIZATION",
+        "params": [
+            {
+                "name": "enable",
+                "type": "BOOL",
+                "description": "Whether to enable sanitization."
+            }
+        ],
+        "return_type": "void",
+        "description": "Toggles a check that prevents attaching (networked) entities to remotely owned peds. This is disabled by default.",
+        "examples": [],
+        "hash": "0x30CE39D8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

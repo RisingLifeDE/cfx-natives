@@ -1,0 +1,19 @@
+{
+    "0x354F283C": {
+        "name": "GET_PED_RELATIONSHIP_GROUP_HASH",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "Hash",
+        "description": "Gets the current relationship group hash of a ped.",
+        "examples": [],
+        "hash": "0x354F283C",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The relationship group hash."
+    }
+}

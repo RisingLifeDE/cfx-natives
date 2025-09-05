@@ -1,0 +1,30 @@
+{
+    "0x50131EB2": {
+        "name": "SET_WATER_QUAD_TYPE",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "type",
+                "type": "int",
+                "description": "The water quad type"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This native allows you to update the water quad type.\n\nValid type definitions:\n\n*   **0** Square\n*   **1** Right triangle where the 90 degree angle is at maxX, minY\n*   **2** Right triangle where the 90 degree angle is at minX, minY\n*   **3** Right triangle where the 90 degree angle is at minX, maxY\n*   **4** Right triangle where the 90 degree angle is at maxY, maxY",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetWaterQuadType(0, 0)"
+            }
+        ],
+        "hash": "0x50131EB2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

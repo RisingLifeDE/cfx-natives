@@ -1,0 +1,26 @@
+{
+    "0x2EA4AFFE": {
+        "name": "GET_VEHICLE_WHEEL_Y_ROTATION",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x2EA4AFFE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "aliases": [
+            "GET_VEHICLE_WHEEL_XROT"
+        ],
+        "resultsDescription": ""
+    }
+}

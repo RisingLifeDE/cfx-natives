@@ -1,0 +1,23 @@
+{
+    "0xA557AEAD": {
+        "name": "SET_VEHICLE_COLOUR_COMBINATION",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to modify."
+            },
+            {
+                "name": "colorCombination",
+                "type": "int",
+                "description": "One of the default color values of the vehicle."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the selected vehicle's colors to their default value (specific variant specified using the colorCombination parameter).\r\nRange of possible values for colorCombination is currently unknown, I couldn't find where these values are stored either (Disquse's guess was vehicles.meta but I haven't seen it in there.)\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_COLOUR_COMBINATION](?\\_0x33E8CD3322E2FE31).**",
+        "examples": [],
+        "hash": "0xA557AEAD",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

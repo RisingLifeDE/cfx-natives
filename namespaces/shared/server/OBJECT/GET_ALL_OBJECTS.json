@@ -1,0 +1,13 @@
+{
+    "0x6886C3FE": {
+        "name": "GET_ALL_OBJECTS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all object handles known to the server.\r\nThe data returned adheres to the following layout:\n\n```\n[127, 42, 13, 37]\n```",
+        "examples": [],
+        "hash": "0x6886C3FE",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "An object containing a list of object handles."
+    }
+}

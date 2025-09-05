@@ -1,0 +1,25 @@
+{
+    "0x412AA00D": {
+        "name": "REMOVE_WEAPON_COMPONENT_FROM_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            },
+            {
+                "name": "componentHash",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "REMOVE_WEAPON_COMPONENT_FROM_PED\n\n**This is the server-side RPC native equivalent of the client native [REMOVE_WEAPON_COMPONENT_FROM_PED](?\\_0x1E8BE90C74FB4C09).**",
+        "examples": [],
+        "hash": "0x412AA00D",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

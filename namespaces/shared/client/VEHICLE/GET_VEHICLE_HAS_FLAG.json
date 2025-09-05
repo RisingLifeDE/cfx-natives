@@ -1,0 +1,24 @@
+{
+    "0xD85C9F57": {
+        "name": "GET_VEHICLE_HAS_FLAG",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to obtain flags for."
+            },
+            {
+                "name": "flagIndex",
+                "type": "int",
+                "description": "Flag index."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "**Note**: Flags are not the same based on your `gamebuild`. Please see [here](https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-flags) to see a complete list of all vehicle flags.\n\nGet vehicle.meta flag by index. Useful examples include `FLAG_LAW_ENFORCEMENT` (31), `FLAG_RICH_CAR` (36), `FLAG_IS_ELECTRIC` (43), `FLAG_IS_OFFROAD_VEHICLE` (48).",
+        "examples": [],
+        "hash": "0xD85C9F57",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A boolean for whether the flag is set.### Example```lua\nlocal vehicleFlags = {\r\n    FLAG_SMALL_WORKER = 0,\r\n    FLAG_BIG = 1,\r\n    FLAG_NO_BOOT = 2,\r\n    FLAG_ONLY_DURING_OFFICE_HOURS = 3\r\n    -- This is just a example, see fivem-docs to see all flags.\r\n}\r\n\r\nlocal function getAllVehicleFlags(vehicle)\r\n    local flags = {}\r\n    for i = 0, 256 do\r\n        if GetVehicleHasFlag(vehicle, i) then\r\n            flags[#flags+1] = i\r\n        end\r\n    end\r\n    return flags\r\nend\r\n\r\nlocal flagsVehicle = GetVehiclePedIsIn(PlayerPedId(), false)\r\nprint(getAllVehicleFlags)\n``````javascript\nconst VEHICLE_FLAGS = {\r\n    FLAG_SMALL_WORKER: 0,\r\n    FLAG_BIG: 1,\r\n    FLAG_NO_BOOT: 2,\r\n    FLAG_ONLY_DURING_OFFICE_HOURS: 3\r\n    // This is just a example, see fivem-docs to see all flags.\r\n};\r\n\r\nfunction getAllVehicleFlags(mVehicle = GetVehiclePedIsIn(PlayerPedId(), false)) {\r\n    const flags = [];\r\n    for (let i = 0; i < 204; i++) {\r\n        if (GetVehicleHasFlag(mVehicle, i)) {\r\n            flags.push(i);\r\n        }\r\n    }\r\n    return flags;\r\n}\r\n\r\nlet flagsVehicle = GetVehiclePedIsIn(PlayerPedId(), false);\r\nconsole.log(getAllVehicleFlags);\n```"
+    }
+}

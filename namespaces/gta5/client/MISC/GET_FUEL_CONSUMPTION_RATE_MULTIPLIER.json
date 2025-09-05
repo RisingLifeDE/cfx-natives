@@ -1,0 +1,14 @@
+{
+    "0x5550BF9F": {
+        "name": "GET_FUEL_CONSUMPTION_RATE_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x5550BF9F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Current fuel consumption rate multiplier. 0 means that fuel is not consumed."
+    }
+}

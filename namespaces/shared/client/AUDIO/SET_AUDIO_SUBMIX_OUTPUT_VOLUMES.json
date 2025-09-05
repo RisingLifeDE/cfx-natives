@@ -1,0 +1,53 @@
+{
+    "0x825DC0D1": {
+        "name": "SET_AUDIO_SUBMIX_OUTPUT_VOLUMES",
+        "params": [
+            {
+                "name": "submixId",
+                "type": "int",
+                "description": "The submix."
+            },
+            {
+                "name": "outputSlot",
+                "type": "int",
+                "description": "The output slot index."
+            },
+            {
+                "name": "frontLeftVolume",
+                "type": "float",
+                "description": "The volume for the front left channel."
+            },
+            {
+                "name": "frontRightVolume",
+                "type": "float",
+                "description": "The volume for the front right channel."
+            },
+            {
+                "name": "rearLeftVolume",
+                "type": "float",
+                "description": "The volume for the rear left channel."
+            },
+            {
+                "name": "rearRightVolume",
+                "type": "float",
+                "description": "The volume for the rear right channel."
+            },
+            {
+                "name": "channel5Volume",
+                "type": "float",
+                "description": "The volume for channel 5."
+            },
+            {
+                "name": "channel6Volume",
+                "type": "float",
+                "description": "The volume for channel 6."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the volumes for the sound channels in a submix effect.\r\nValues can be between 0.0 and 1.0.\r\nChannel 5 and channel 6 are not used in voice chat but are believed to be center and LFE channels.\r\nOutput slot starts at 0 for the first ADD_AUDIO_SUBMIX_OUTPUT call then incremented by 1 on each subsequent call.",
+        "examples": [],
+        "hash": "0x825DC0D1",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

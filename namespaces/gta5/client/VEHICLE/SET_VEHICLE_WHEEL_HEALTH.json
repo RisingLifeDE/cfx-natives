@@ -1,0 +1,26 @@
+{
+    "0xB22ECEFD": {
+        "name": "SET_VEHICLE_WHEEL_HEALTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "health",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xB22ECEFD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

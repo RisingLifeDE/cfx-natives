@@ -1,0 +1,18 @@
+{
+    "0x6B171E87": {
+        "name": "PERFORM_HTTP_REQUEST_INTERNAL_EX",
+        "params": [
+            {
+                "name": "requestData",
+                "type": "Object"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x6B171E87",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

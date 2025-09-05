@@ -1,0 +1,13 @@
+{
+    "0x9F1C4383": {
+        "name": "GET_INSTANCE_ID",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x9F1C4383",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

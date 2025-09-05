@@ -1,0 +1,13 @@
+{
+    "0xB816370A": {
+        "name": "MUMBLE_IS_CONNECTED",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "This native will return true if the user succesfully connected to the voice server.\r\nIf the user disabled the voice-chat setting it will return false.",
+        "examples": [],
+        "hash": "0xB816370A",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "True if the player is connected to a mumble server."
+    }
+}

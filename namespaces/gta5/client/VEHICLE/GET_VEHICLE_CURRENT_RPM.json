@@ -1,0 +1,19 @@
+{
+    "0xE7B12B54": {
+        "name": "GET_VEHICLE_CURRENT_RPM",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xE7B12B54",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

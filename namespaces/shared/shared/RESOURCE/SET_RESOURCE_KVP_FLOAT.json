@@ -1,0 +1,28 @@
+{
+    "0x9ADD2938": {
+        "name": "SET_RESOURCE_KVP_FLOAT",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "A setter for [GET_RESOURCE_KVP_FLOAT](#\\_0x35BDCEEA).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local lickMy = 42.5\r\nSetResourceKvpFloat('bananabread', lickMy)"
+            }
+        ],
+        "hash": "0x9ADD2938",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

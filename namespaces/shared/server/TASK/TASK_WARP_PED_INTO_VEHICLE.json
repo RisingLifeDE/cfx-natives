@@ -1,0 +1,28 @@
+{
+    "0x65D4A35D": {
+        "name": "TASK_WARP_PED_INTO_VEHICLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The Ped to be warped into the vehicle."
+            },
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle into which the ped will be warped."
+            },
+            {
+                "name": "seatIndex",
+                "type": "int",
+                "description": "See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#\\_0x22AC59A870E6A669)."
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nNativeDB Introduced: v323\n```\n\nWarp a ped into a vehicle.\r\n**Note**: It's better to use [`TASK_ENTER_VEHICLE`](#\\_0xC20E50AA46D09CA8) with the flag \"warp\" flag instead of this native.\n\n**This is the server-side RPC native equivalent of the client native [TASK_WARP_PED_INTO_VEHICLE](?\\_0x9A7D091411C5F684).**",
+        "examples": [],
+        "hash": "0x65D4A35D",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

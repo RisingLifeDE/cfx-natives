@@ -1,0 +1,18 @@
+{
+    "0xD8C3C1CD": {
+        "name": "REMOVE_BLIP",
+        "params": [
+            {
+                "name": "blip",
+                "type": "const Blip*",
+                "description": "Blip handle to remove."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes the blip from your map.\r\n**Note:** This function only works on the script that created the blip, if you wish to remove blips created by other scripts, see [`SET_THIS_SCRIPT_CAN_REMOVE_BLIPS_CREATED_BY_ANY_SCRIPT`](#\\_0x86A652570E5F25DD).\n\n**This is the server-side RPC native equivalent of the client native [REMOVE_BLIP](?\\_0x86A652570E5F25DD).**",
+        "examples": [],
+        "hash": "0xD8C3C1CD",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

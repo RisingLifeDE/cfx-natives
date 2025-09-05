@@ -1,0 +1,24 @@
+{
+    "0x776E864": {
+        "name": "GET_NUM_RESOURCE_METADATA",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource name."
+            },
+            {
+                "name": "metadataKey",
+                "type": "const char*",
+                "description": "The key to look up in the resource manifest."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the amount of metadata values with the specified key existing in the specified resource's manifest.\r\nSee also: [Resource manifest](https://docs.fivem.net/docs/scripting-reference/resource-manifest/resource-manifest/)",
+        "examples": [],
+        "hash": "0x776E864",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

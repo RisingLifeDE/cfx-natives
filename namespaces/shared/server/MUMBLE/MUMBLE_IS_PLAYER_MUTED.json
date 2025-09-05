@@ -1,0 +1,19 @@
+{
+    "0x1D5D50C2": {
+        "name": "MUMBLE_IS_PLAYER_MUTED",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "int",
+                "description": "The player to get the mute state for"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Checks if the player is currently muted",
+        "examples": [],
+        "hash": "0x1D5D50C2",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Whether or not the player is muted"
+    }
+}

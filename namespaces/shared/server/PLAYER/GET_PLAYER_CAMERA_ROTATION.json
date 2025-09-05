@@ -1,0 +1,19 @@
+{
+    "0x433C765D": {
+        "name": "GET_PLAYER_CAMERA_ROTATION",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle."
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "Gets the current camera rotation for a specified player. This native is used server side when using OneSync.",
+        "examples": [],
+        "hash": "0x433C765D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The player's camera rotation. Values are in radians."
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "0xA8AE9C2F": {
+        "name": "REGISTER_RAW_NUI_CALLBACK",
+        "params": [
+            {
+                "name": "callbackType",
+                "type": "const char*"
+            },
+            {
+                "name": "callback",
+                "type": "Function"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xA8AE9C2F",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

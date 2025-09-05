@@ -1,0 +1,22 @@
+{
+    "0xBA970511": {
+        "name": "SET_VEHICLE_FUEL_LEVEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "level",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xBA970511",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

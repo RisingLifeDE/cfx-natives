@@ -1,0 +1,49 @@
+{
+    "0x3E882B23": {
+        "name": "SET_MINIMAP_COMPONENT_POSITION",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*",
+                "description": "The name of the minimap component to override."
+            },
+            {
+                "name": "alignX",
+                "type": "const char*",
+                "description": "Equivalent to the `alignX` field in `frontend.xml`."
+            },
+            {
+                "name": "alignY",
+                "type": "const char*",
+                "description": "Equivalent to the `alignY` field in `frontend.xml`."
+            },
+            {
+                "name": "posX",
+                "type": "float",
+                "description": "Equivalent to the `posX` field in `frontend.xml`."
+            },
+            {
+                "name": "posY",
+                "type": "float",
+                "description": "Equivalent to the `posY` field in `frontend.xml`."
+            },
+            {
+                "name": "sizeX",
+                "type": "float",
+                "description": "Equivalent to the `sizeX` field in `frontend.xml`."
+            },
+            {
+                "name": "sizeY",
+                "type": "float",
+                "description": "Equivalent to the `sizeY` field in `frontend.xml`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Overrides the minimap component data (from `common:/data/ui/frontend.xml`) for a specified component.",
+        "examples": [],
+        "hash": "0x3E882B23",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

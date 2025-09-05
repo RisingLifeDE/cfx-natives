@@ -1,0 +1,28 @@
+{
+    "0x6C8D4458": {
+        "name": "_SET_PED_FACE_FEATURE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped entity"
+            },
+            {
+                "name": "index",
+                "type": "int",
+                "description": "An integer ranging from 0 to 19"
+            },
+            {
+                "name": "scale",
+                "type": "float",
+                "description": "A float ranging from -1.0 to 1.0"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the various freemode face features, e.g. nose length, chin shape.\r\n**Indexes (From 0 to 19):**\r\nParentheses indicate morph scale/direction as in (-1.0 to 1.0)\n\n*   **0**: Nose Width (Thin/Wide)\n*   **1**: Nose Peak (Up/Down)\n*   **2**: Nose Length (Long/Short)\n*   **3**: Nose Bone Curveness (Crooked/Curved)\n*   **4**: Nose Tip (Up/Down)\n*   **5**: Nose Bone Twist (Left/Right)\n*   **6**: Eyebrow (Up/Down)\n*   **7**: Eyebrow (In/Out)\n*   **8**: Cheek Bones (Up/Down)\n*   **9**: Cheek Sideways Bone Size (In/Out)\n*   **10**: Cheek Bones Width (Puffed/Gaunt)\n*   **11**: Eye Opening (Both) (Wide/Squinted)\n*   **12**: Lip Thickness (Both) (Fat/Thin)\n*   **13**: Jaw Bone Width (Narrow/Wide)\n*   **14**: Jaw Bone Shape (Round/Square)\n*   **15**: Chin Bone (Up/Down)\n*   **16**: Chin Bone Length (In/Out or Backward/Forward)\n*   **17**: Chin Bone Shape (Pointed/Square)\n*   **18**: Chin Hole (Chin Bum)\n*   **19**: Neck Thickness (Thin/Thick)\r\n    **Note:**\r\n    You may need to call [`SetPedHeadBlendData`](#\\_0x9414E18B9434C2FE) prior to calling this native in order for it to work.\n\n**This is the server-side RPC native equivalent of the client native [\\_SET_PED_FACE_FEATURE](?\\_0x71A5C1DBA060049E).**",
+        "examples": [],
+        "hash": "0x6C8D4458",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

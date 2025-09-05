@@ -1,0 +1,13 @@
+{
+    "0xA4EA0691": {
+        "name": "GET_GAME_TIMER",
+        "params": [],
+        "return_type": "long",
+        "description": "Gets the current game timer in milliseconds.",
+        "examples": [],
+        "hash": "0xA4EA0691",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The game time."
+    }
+}

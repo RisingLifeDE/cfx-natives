@@ -1,0 +1,14 @@
+{
+    "0x2CAFD5E9": {
+        "name": "GET_NETWORK_WALK_MODE",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x2CAFD5E9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "ny",
+        "resultsDescription": ""
+    }
+}

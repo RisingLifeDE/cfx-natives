@@ -1,0 +1,34 @@
+{
+    "0x4626756C": {
+        "name": "ADD_BLIP_FOR_RADIUS",
+        "params": [
+            {
+                "name": "posX",
+                "type": "float",
+                "description": "The x position of the blip (you can also send a vector3 instead of the bulk coordinates)"
+            },
+            {
+                "name": "posY",
+                "type": "float",
+                "description": "The y position of the blip (you can also send a vector3 instead of the bulk coordinates)"
+            },
+            {
+                "name": "posZ",
+                "type": "float",
+                "description": "The z position of the blip (you can also send a vector3 instead of the bulk coordinates)"
+            },
+            {
+                "name": "radius",
+                "type": "float",
+                "description": "The number that defines the radius of the blip circle"
+            }
+        ],
+        "return_type": "Blip",
+        "description": "Create a blip with a radius for the specified coordinates (it doesnt create the blip sprite, so you need to use [AddBlipCoords](#\\_0xC6F43D0E))\r\nExample image:\r\n![example](https://i.imgur.com/9hQl3DB.png)\n\n**This is the server-side RPC native equivalent of the client native [ADD_BLIP_FOR_RADIUS](?\\_0x46818D79B1F7499A).**",
+        "examples": [],
+        "hash": "0x4626756C",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The blip handle that can be manipulated with every `SetBlip` natives"
+    }
+}

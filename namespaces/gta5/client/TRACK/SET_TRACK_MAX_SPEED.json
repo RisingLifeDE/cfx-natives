@@ -1,0 +1,24 @@
+{
+    "0x37BFC732": {
+        "name": "SET_TRACK_MAX_SPEED",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            },
+            {
+                "name": "newSpeed",
+                "type": "int",
+                "description": "The tracks new speed"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the max speed for the train tracks. Used by ambient trains and for station calculations",
+        "examples": [],
+        "hash": "0x37BFC732",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

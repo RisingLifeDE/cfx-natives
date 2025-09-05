@@ -1,0 +1,13 @@
+{
+    "0xCF143FB9": {
+        "name": "GET_ACTIVE_PLAYERS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all player indices for 'active' physical players known to the client.\r\nThe data returned adheres to the following layout:\n\n```\n[127, 42, 13, 37]\n```",
+        "examples": [],
+        "hash": "0xCF143FB9",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "An object containing a list of player indices."
+    }
+}

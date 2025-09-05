@@ -1,0 +1,20 @@
+{
+    "0x3574AACE": {
+        "name": "GET_RUNTIME_TEXTURE_HEIGHT",
+        "params": [
+            {
+                "name": "tex",
+                "type": "long",
+                "description": "A handle to the runtime texture."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the height of the specified runtime texture.",
+        "examples": [],
+        "hash": "0x3574AACE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The height in pixels."
+    }
+}

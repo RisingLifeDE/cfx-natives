@@ -1,0 +1,13 @@
+{
+    "0x19B0B2CE": {
+        "name": "GET_VEHICLE_DASHBOARD_FUEL",
+        "params": [],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x19B0B2CE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

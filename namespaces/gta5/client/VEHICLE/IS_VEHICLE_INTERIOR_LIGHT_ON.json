@@ -1,0 +1,19 @@
+{
+    "0xA411F72C": {
+        "name": "IS_VEHICLE_INTERIOR_LIGHT_ON",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xA411F72C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

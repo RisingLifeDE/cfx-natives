@@ -1,0 +1,20 @@
+{
+    "0x456E34A": {
+        "name": "GET_TRAIN_BACKWARD_CARRIAGE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x456E34A",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "The handle of the carriage behind this train in the chain. Otherwise returns 0 if the train is the caboose of the chain."
+    }
+}

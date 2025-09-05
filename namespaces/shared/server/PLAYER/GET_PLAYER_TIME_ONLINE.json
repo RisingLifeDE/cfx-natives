@@ -1,0 +1,24 @@
+{
+    "0x67D2E605": {
+        "name": "GET_PLAYER_TIME_ONLINE",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "A player."
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the current time online for a specified player.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local function ShowTimeOnline()\r\n    local player = source\r\n    local secondsTotalOnline = GetPlayerTimeOnline(player)\r\n\r\n    print((\"Time online : %f H %f min %f\"):format(\r\n        (secondsTotalOnline / 3600),\r\n        ((secondsTotalOnline / 60) % 60),\r\n        (secondsTotalOnline % 60)\r\n    ))\r\nend\r\n\r\nRegisterNetEvent(\"myTimeOnline\", ShowTimeOnline)"
+            }
+        ],
+        "hash": "0x67D2E605",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The current time online in seconds."
+    }
+}

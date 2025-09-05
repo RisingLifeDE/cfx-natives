@@ -1,0 +1,24 @@
+{
+    "0x4A9EEDE6": {
+        "name": "SET_HEALTH_CONFIG_INVINCIBLE",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            },
+            {
+                "name": "newValue",
+                "type": "BOOL",
+                "description": "Value"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets default invincible value for specific health config.",
+        "examples": [],
+        "hash": "0x4A9EEDE6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

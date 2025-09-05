@@ -1,0 +1,19 @@
+{
+    "0x7AAC3B4C": {
+        "name": "IS_DUI_AVAILABLE",
+        "params": [
+            {
+                "name": "duiObject",
+                "type": "long",
+                "description": "The DUI browser handle."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns whether or not a browser is created for a specified DUI browser object.",
+        "examples": [],
+        "hash": "0x7AAC3B4C",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A boolean indicating TRUE if the browser is created."
+    }
+}

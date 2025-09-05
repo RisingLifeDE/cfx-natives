@@ -1,0 +1,13 @@
+{
+    "0xE820BC10": {
+        "name": "MUMBLE_IS_ACTIVE",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xE820BC10",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "True if the player has enabled voice chat."
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xBC045625": {
+        "name": "CLEAR_PED_TASKS_IMMEDIATELY",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "Ped id."
+            }
+        ],
+        "return_type": "void",
+        "description": "Immediately stops the pedestrian from whatever it's doing. The difference between this and [CLEAR_PED_TASKS](#\\_0xE1EF3C1216AFF2CD) is that this one teleports the ped but does not change the position of the ped.\n\n**This is the server-side RPC native equivalent of the client native [CLEAR_PED_TASKS_IMMEDIATELY](?\\_0xAAA34F8A7CB32098).**",
+        "examples": [],
+        "hash": "0xBC045625",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

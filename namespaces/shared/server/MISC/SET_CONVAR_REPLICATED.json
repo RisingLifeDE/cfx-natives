@@ -1,0 +1,28 @@
+{
+    "0xF292858C": {
+        "name": "SET_CONVAR_REPLICATED",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The console variable name."
+            },
+            {
+                "name": "value",
+                "type": "const char*",
+                "description": "The value to set for the given console variable."
+            }
+        ],
+        "return_type": "void",
+        "description": "Used to replicate a server variable onto clients.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetConvarReplicated('voice_useNativeAudio', 'true')"
+            }
+        ],
+        "hash": "0xF292858C",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

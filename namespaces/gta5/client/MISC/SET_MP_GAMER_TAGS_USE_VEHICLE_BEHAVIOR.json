@@ -1,0 +1,19 @@
+{
+    "0x7A27BC93": {
+        "name": "SET_MP_GAMER_TAGS_USE_VEHICLE_BEHAVIOR",
+        "params": [
+            {
+                "name": "enabled",
+                "type": "BOOL",
+                "description": "Whether tags should use normal game behavior. Default is true."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether all tags should group (normal game behavior) or should remain independent and above each ped's respective head when in a vehicle.",
+        "examples": [],
+        "hash": "0x7A27BC93",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

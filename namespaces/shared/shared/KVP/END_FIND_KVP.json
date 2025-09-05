@@ -1,0 +1,19 @@
+{
+    "0xB3210203": {
+        "name": "END_FIND_KVP",
+        "params": [
+            {
+                "name": "handle",
+                "type": "int",
+                "description": "The KVP find handle returned from [START_FIND_KVP](#\\_0xDD379006)"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xB3210203",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "None."
+    }
+}

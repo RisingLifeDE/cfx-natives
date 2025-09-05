@@ -1,0 +1,24 @@
+{
+    "0x9B00FD77": {
+        "name": "SET_HEALTH_CONFIG_DYING_THRESHOLD",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            },
+            {
+                "name": "newValue",
+                "type": "float",
+                "description": "Value"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets default dying health threshold value for specific health config.",
+        "examples": [],
+        "hash": "0x9B00FD77",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

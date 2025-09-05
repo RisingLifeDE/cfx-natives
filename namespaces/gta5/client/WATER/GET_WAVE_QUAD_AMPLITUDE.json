@@ -1,0 +1,29 @@
+{
+    "0x865139A3": {
+        "name": "GET_WAVE_QUAD_AMPLITUDE",
+        "params": [
+            {
+                "name": "waveQuad",
+                "type": "int",
+                "description": "The wave quad index"
+            },
+            {
+                "name": "waveQuadAmplitude",
+                "type": "float*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, amplitude = GetWaveQuadAmplitude(1)"
+            }
+        ],
+        "hash": "0x865139A3",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Amplitude is undefined on failure"
+    }
+}

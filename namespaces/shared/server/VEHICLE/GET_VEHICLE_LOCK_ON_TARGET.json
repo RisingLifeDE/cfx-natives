@@ -1,0 +1,19 @@
+{
+    "0x4A557117": {
+        "name": "GET_VEHICLE_LOCK_ON_TARGET",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to check."
+            }
+        ],
+        "return_type": "Vehicle",
+        "description": "Gets the vehicle that is locked on to for the specified vehicle.",
+        "examples": [],
+        "hash": "0x4A557117",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The vehicle that is locked on. 0 returned if no vehicle is locked on."
+    }
+}

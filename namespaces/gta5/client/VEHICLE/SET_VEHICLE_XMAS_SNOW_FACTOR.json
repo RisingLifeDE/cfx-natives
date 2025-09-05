@@ -1,0 +1,19 @@
+{
+    "0x80CC4C9E": {
+        "name": "SET_VEHICLE_XMAS_SNOW_FACTOR",
+        "params": [
+            {
+                "name": "gripFactor",
+                "type": "float",
+                "description": "amount of grip strength vehicle wheels have when xmas weather is active, 0.0 being normal weather grip. 0.2 is the default."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x80CC4C9E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

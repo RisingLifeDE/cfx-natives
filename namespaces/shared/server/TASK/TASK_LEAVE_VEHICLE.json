@@ -1,0 +1,25 @@
+{
+    "0x7B1141C6": {
+        "name": "TASK_LEAVE_VEHICLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "flags",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nFlags from decompiled scripts:\r\n0 = normal exit and closes door.\r\n1 = normal exit and closes door.\r\n16 = teleports outside, door kept closed.  (This flag does not seem to work for the front seats in buses, NPCs continue to exit normally)\r\n64 = normal exit and closes door, maybe a bit slower animation than 0.\r\n256 = normal exit but does not close the door.\r\n4160 = ped is throwing himself out, even when the vehicle is still.\r\n262144 = ped moves to passenger seat first, then exits normally\r\nOthers to be tried out: 320, 512, 131072.\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_LEAVE_VEHICLE](?\\_0xD3DBCE61A490BE02).**",
+        "examples": [],
+        "hash": "0x7B1141C6",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

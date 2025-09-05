@@ -1,0 +1,18 @@
+{
+    "0xD932A3F3": {
+        "name": "MUMBLE_SET_ACTIVE",
+        "params": [
+            {
+                "name": "state",
+                "type": "BOOL",
+                "description": "Voice chat state."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xD932A3F3",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

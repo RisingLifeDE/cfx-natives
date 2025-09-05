@@ -1,0 +1,29 @@
+{
+    "0xD264D4E1": {
+        "name": "SET_WEATHER_CYCLE_ENTRY",
+        "params": [
+            {
+                "name": "index",
+                "type": "int",
+                "description": "The index of the entry to set. Must be between 0 and 255"
+            },
+            {
+                "name": "typeName",
+                "type": "const char*",
+                "description": "The name of the weather type for this cycle"
+            },
+            {
+                "name": "timeMult",
+                "type": "int",
+                "description": "The relative duration of this cycle, which is multiplied by `msPerCycle` during ['APPLY_WEATHER_CYCLES'](#\\_0x3422291C). Must be between 1 and 255"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xD264D4E1",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns true if all parameters were valid, otherwise false."
+    }
+}

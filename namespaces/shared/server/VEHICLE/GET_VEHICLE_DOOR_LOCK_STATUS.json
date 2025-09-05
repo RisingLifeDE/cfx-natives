@@ -1,0 +1,19 @@
+{
+    "0xD72CEF2": {
+        "name": "GET_VEHICLE_DOOR_LOCK_STATUS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "A vehicle handle."
+            }
+        ],
+        "return_type": "int",
+        "description": "```lua\nenum_VehicleLockStatus = {\r\n    None = 0,\r\n    Locked = 2,\r\n    LockedForPlayer = 3,\r\n    StickPlayerInside = 4, -- Doesn't allow players to exit the vehicle with the exit vehicle key.\r\n    CanBeBrokenInto = 7, -- Can be broken into the car. If the glass is broken, the value will be set to 1\r\n    CanBeBrokenIntoPersist = 8, -- Can be broken into persist\r\n    CannotBeTriedToEnter = 10, -- Cannot be tried to enter (Nothing happens when you press the vehicle enter key).\r\n}\n```\n\nIt should be [noted](https://forum.cfx.re/t/4863241) that while the [client-side command](#\\_0x25BC98A59C2EA962) and its\r\nsetter distinguish between states 0 (unset) and 1 (unlocked), the game will synchronize both as state 0, so the server-side\r\ncommand will return only '0' if unlocked.",
+        "examples": [],
+        "hash": "0xD72CEF2",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The door lock status for the specified vehicle."
+    }
+}

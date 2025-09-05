@@ -1,0 +1,18 @@
+{
+    "0x38D19210": {
+        "name": "EXPERIMENTAL_SAVE_CLONE_SYNC",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "This native is not implemented.",
+        "examples": [],
+        "hash": "0x38D19210",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x3517BFBE": {
+        "name": "SET_RESOURCE_KVP_FLOAT_NO_SYNC",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "Nonsynchronous [SET_RESOURCE_KVP_FLOAT](#\\_0x9ADD2938) operation; see [FLUSH_RESOURCE_KVP](#\\_0x5240DA5A).",
+        "examples": [],
+        "hash": "0x3517BFBE",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

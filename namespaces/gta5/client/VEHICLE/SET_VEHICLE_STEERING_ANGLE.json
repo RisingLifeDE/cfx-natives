@@ -1,0 +1,22 @@
+{
+    "0xFFCCC2EA": {
+        "name": "SET_VEHICLE_STEERING_ANGLE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "angle",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xFFCCC2EA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

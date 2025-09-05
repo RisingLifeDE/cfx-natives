@@ -1,0 +1,24 @@
+{
+    "0x598DD6AE": {
+        "name": "SET_WEAPON_ACCURACY_SPREAD",
+        "params": [
+            {
+                "name": "weaponHash",
+                "type": "Hash",
+                "description": "Weapon name hash."
+            },
+            {
+                "name": "spread",
+                "type": "float",
+                "description": "Accuracy spread"
+            }
+        ],
+        "return_type": "void",
+        "description": "A setter for the accuracy spread of a weapon.",
+        "examples": [],
+        "hash": "0x598DD6AE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

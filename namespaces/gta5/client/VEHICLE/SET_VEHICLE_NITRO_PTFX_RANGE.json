@@ -1,0 +1,19 @@
+{
+    "0xA40CB822": {
+        "name": "SET_VEHICLE_NITRO_PTFX_RANGE",
+        "params": [
+            {
+                "name": "range",
+                "type": "float",
+                "description": "The visible distance. Default is 50.0f."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the maximum distance in which [\\_SET_VEHICLE_NITRO_ENABLED](#\\_0xC8E9B6B71B8E660D) PTFX are rendered. Distance is measured from the camera position.",
+        "examples": [],
+        "hash": "0xA40CB822",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

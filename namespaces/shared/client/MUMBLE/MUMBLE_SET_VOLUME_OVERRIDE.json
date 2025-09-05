@@ -1,0 +1,23 @@
+{
+    "0x61C309E3": {
+        "name": "MUMBLE_SET_VOLUME_OVERRIDE",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "A game player index."
+            },
+            {
+                "name": "volume",
+                "type": "float",
+                "description": "The volume, ranging from 0.0 to 1.0 (or above)."
+            }
+        ],
+        "return_type": "void",
+        "description": "Overrides the output volume for a particular player on Mumble. This will also bypass 3D audio and distance calculations. -1.0 to reset the override.\n\nSet to -1.0 to reset the Volume override.",
+        "examples": [],
+        "hash": "0x61C309E3",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

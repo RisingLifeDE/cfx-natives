@@ -1,0 +1,24 @@
+{
+    "0xEAA50861": {
+        "name": "IS_RAW_KEY_RELEASED",
+        "params": [
+            {
+                "name": "rawKeyIndex",
+                "type": "int",
+                "description": "Index of raw key from keyboard."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets if the specified `rawKeyIndex` was just released on the keyboard.\n\nThis will not be triggered if the key is disabled with [DISABLE_RAW_KEY_THIS_FRAME](#\\_0x8BCF0014)\n\nVirtual key codes can be found [here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if IsRawKeyReleased(32) then -- KEY_SPACE\r\n    print(\"Spacebar released\")\r\nend"
+            }
+        ],
+        "hash": "0xEAA50861",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns bool value of released state."
+    }
+}

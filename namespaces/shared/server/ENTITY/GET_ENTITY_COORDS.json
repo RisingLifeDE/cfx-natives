@@ -1,0 +1,32 @@
+{
+    "0x1647F1CB": {
+        "name": "GET_ENTITY_COORDS",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the coordinates from."
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "Gets the current coordinates for a specified entity. This native is used server side when using OneSync.\n\nSee [GET_ENTITY_COORDS](#\\_0x3FEF770D40960D5A) for client side.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local function ShowCoordinates()\r\n    local player = source\r\n    local ped = GetPlayerPed(player)\r\n    local playerCoords = GetEntityCoords(ped)\r\n\r\n    print(playerCoords) -- vector3(...)\r\nend\r\n\r\nRegisterNetEvent(\"myCoordinates\")\r\nAddEventHandler(\"myCoordinates\", ShowCoordinates)"
+            },
+            {
+                "lang": "js",
+                "code": "onNet('myCoordinates', () => {\r\n  const player = global.source; // use (global as any).source for Typescript\r\n  const ped = GetPlayerPed(player);\r\n  const [playerX, playerY, playerZ] = GetEntityCoords(ped);\r\n\r\n  console.log(`${playerX}, ${playerY}, ${playerZ}`);\r\n});"
+            },
+            {
+                "lang": "cs",
+                "code": "using static CitizenFX.Core.Native.API;\r\n// ...\r\n\r\n// In class constructor\r\nEventHandlers[\"myCoordinates\"] += new Action<Player>(ShowCoordinates);\r\n\r\n// Delegate method\r\nprivate void ShowCoordinates([FromSource]Player player) {\r\n    Vector3 playerCoords = GetEntityCoords(player.Character);\r\n\r\n    // or the preferred use of C# wrapper\r\n    Vector3 playerCoords = player.Character.Position;\r\n\r\n    Debug.WriteLine($\"{playerCoords}\");\r\n}\r\n"
+            }
+        ],
+        "hash": "0x1647F1CB",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The current entity coordinates."
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "0xFA29D35D": {
+        "name": "CANCEL_EVENT",
+        "params": [],
+        "return_type": "void",
+        "description": "Cancels the currently executing event.",
+        "examples": [],
+        "hash": "0xFA29D35D",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

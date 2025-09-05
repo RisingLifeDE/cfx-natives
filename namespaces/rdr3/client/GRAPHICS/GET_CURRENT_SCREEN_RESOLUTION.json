@@ -1,0 +1,22 @@
+{
+    "0x337F0116": {
+        "name": "GET_CURRENT_SCREEN_RESOLUTION",
+        "params": [
+            {
+                "name": "width",
+                "type": "int*"
+            },
+            {
+                "name": "height",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Gets the current screen resolution.\n\n```lua\nlocal  width, height = GetCurrentScreenResolution()\r\nprint(string.format(\"Current screen resolution: %dx%d\", width, height))\r\n\n```",
+        "examples": [],
+        "hash": "0x337F0116",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

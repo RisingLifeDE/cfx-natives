@@ -1,0 +1,18 @@
+{
+    "0x9BF8A73F": {
+        "name": "GET_ENTITY_ROTATION_VELOCITY",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity"
+            }
+        ],
+        "return_type": "Vector3",
+        "description": "",
+        "examples": [],
+        "hash": "0x9BF8A73F",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

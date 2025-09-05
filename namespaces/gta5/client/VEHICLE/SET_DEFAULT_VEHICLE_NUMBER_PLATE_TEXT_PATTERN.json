@@ -1,0 +1,29 @@
+{
+    "0x79780FD2": {
+        "name": "SET_DEFAULT_VEHICLE_NUMBER_PLATE_TEXT_PATTERN",
+        "params": [
+            {
+                "name": "plateIndex",
+                "type": "int",
+                "description": "A plate index, or `-1` to set a default for any indices that do not have a specific value."
+            },
+            {
+                "name": "pattern",
+                "type": "const char*",
+                "description": "A number plate pattern string, or a null value to reset to default."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the default number plate text pattern for vehicles seen on the local client with the specified plate index as their *default* index (`plateProbabilities` from carvariations).\n\nFor consistency, this should be used with the same value on all clients, since vehicles *without* custom text will use a seeded random number generator with this pattern to determine the default plate text.\n\nThe default value is `11AAA111`, and using this or a NULL string will revert to the default game RNG.\n\n### Pattern string format\n\n*   `1` will lead to a random number from 0-9.\n*   `A` will lead to a random letter from A-Z.\n*   `.` will lead to a random letter *or* number, with 50% probability of being either.\n*   `^1` will lead to a literal `1` being emitted.\n*   `^A` will lead to a literal `A` being emitted.\n*   Any other character will lead to said character being emitted.\n*   A string shorter than 8 characters will be padded on the right.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetDefaultVehicleNumberPlateTextPattern(-1, ' AAA111 ')\r\nSetDefaultVehicleNumberPlateTextPattern(4 , ' AAAAAA ')\r\n\r\n-- fixed characters: plate will be FAYUM69C for example\r\nSetDefaultVehicleNumberPlateTextPattern(-1, 'F^AYUM11A')"
+            }
+        ],
+        "hash": "0x79780FD2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

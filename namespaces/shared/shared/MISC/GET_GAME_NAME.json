@@ -1,0 +1,13 @@
+{
+    "0xE8EAA18B": {
+        "name": "GET_GAME_NAME",
+        "params": [],
+        "return_type": "const char*",
+        "description": "Returns the current game being executed.\n\nPossible values:\n\n| Return value | Meaning                        |\r\n| ------------ | ------------------------------ |\r\n| `fxserver`   | Server-side code ('Duplicity') |\r\n| `fivem`      | FiveM for GTA V                |\r\n| `libertym`   | LibertyM for GTA IV            |\r\n| `redm`       | RedM for Red Dead Redemption 2 |",
+        "examples": [],
+        "hash": "0xE8EAA18B",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The game the script environment is running in."
+    }
+}

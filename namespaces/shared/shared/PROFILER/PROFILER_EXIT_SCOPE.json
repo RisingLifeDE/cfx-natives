@@ -1,0 +1,12 @@
+{
+    "0xB39CA35C": {
+        "name": "PROFILER_EXIT_SCOPE",
+        "params": [],
+        "return_type": "void",
+        "description": "Scope exit for profiler.",
+        "examples": [],
+        "hash": "0xB39CA35C",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "0xD4F7B05C": {
+        "name": "SET_PED_COMPONENT_VARIATION",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped handle."
+            },
+            {
+                "name": "componentId",
+                "type": "int",
+                "description": "The component that you want to set."
+            },
+            {
+                "name": "drawableId",
+                "type": "int",
+                "description": "The drawable id that is going to be set. Refer to [GET_NUMBER_OF_PED_DRAWABLE_VARIATIONS](#\\_0x27561561732A7842)."
+            },
+            {
+                "name": "textureId",
+                "type": "int",
+                "description": "The texture id of the drawable. Refer to [GET_NUMBER_OF_PED_TEXTURE_VARIATIONS](#\\_0x8F7156A3142A6BAD)."
+            },
+            {
+                "name": "paletteId",
+                "type": "int",
+                "description": "0 to 3."
+            }
+        ],
+        "return_type": "void",
+        "description": "This native is used to set component variation on a ped. Components, drawables and textures IDs are related to the ped model.\n\n### MP Freemode list of components\n\n**0**: Face\r\n**1**: Mask\r\n**2**: Hair\r\n**3**: Torso\r\n**4**: Leg\r\n**5**: Parachute / bag\r\n**6**: Shoes\r\n**7**: Accessory\r\n**8**: Undershirt\r\n**9**: Kevlar\r\n**10**: Badge\r\n**11**: Torso 2\r\nList of Component IDs\n\n```cpp\n// Components\r\nenum ePedVarComp\r\n{\r\nPV_COMP_INVALID = 0xFFFFFFFF,\r\nPV_COMP_HEAD = 0, // \"HEAD\"\r\nPV_COMP_BERD = 1, // \"BEARD\"\r\nPV_COMP_HAIR = 2, // \"HAIR\"\r\nPV_COMP_UPPR = 3, // \"UPPER\"\r\nPV_COMP_LOWR = 4, // \"LOWER\"\r\nPV_COMP_HAND = 5, // \"HAND\"\r\nPV_COMP_FEET = 6, // \"FEET\"\r\nPV_COMP_TEEF = 7, // \"TEETH\"\r\nPV_COMP_ACCS = 8, // \"ACCESSORIES\"\r\nPV_COMP_TASK = 9, // \"TASK\"\r\nPV_COMP_DECL = 10, // \"DECL\"\r\nPV_COMP_JBIB = 11, // \"JBIB\"\r\nPV_COMP_MAX = 12,\r\n};\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_COMPONENT_VARIATION](?\\_0x262B14F48D29DE80).**",
+        "examples": [],
+        "hash": "0xD4F7B05C",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

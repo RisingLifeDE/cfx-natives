@@ -1,0 +1,18 @@
+{
+    "0xC44C2F44": {
+        "name": "SET_BACKFACECULLING",
+        "params": [
+            {
+                "name": "toggle",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xC44C2F44",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

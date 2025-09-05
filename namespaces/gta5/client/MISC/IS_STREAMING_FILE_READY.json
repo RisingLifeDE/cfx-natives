@@ -1,0 +1,20 @@
+{
+    "0xA194934D": {
+        "name": "IS_STREAMING_FILE_READY",
+        "params": [
+            {
+                "name": "registerAs",
+                "type": "const char*",
+                "description": "The file name to check, for example `asset.ydr`."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nReturns whether an asynchronous streaming file registration completed.",
+        "examples": [],
+        "hash": "0xA194934D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Whether or not the streaming file has been registered."
+    }
+}

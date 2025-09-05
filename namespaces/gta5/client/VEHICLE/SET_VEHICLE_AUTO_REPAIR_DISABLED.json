@@ -1,0 +1,24 @@
+{
+    "0x5F3A3574": {
+        "name": "SET_VEHICLE_AUTO_REPAIR_DISABLED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set disable auto vehicle repair."
+            },
+            {
+                "name": "value",
+                "type": "BOOL",
+                "description": "Setting the value to  true prevents the vehicle from being repaired when a extra is enabled. Setting the value to false allows the vehicle from being repaired when a extra is enabled."
+            }
+        ],
+        "return_type": "void",
+        "description": "Disables the vehicle from being repaired when a vehicle extra is enabled.",
+        "examples": [],
+        "hash": "0x5F3A3574",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

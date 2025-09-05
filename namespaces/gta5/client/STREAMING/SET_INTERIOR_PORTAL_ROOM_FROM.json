@@ -1,0 +1,34 @@
+{
+    "0x298FC783": {
+        "name": "SET_INTERIOR_PORTAL_ROOM_FROM",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "roomFrom",
+                "type": "int",
+                "description": "New value."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local portalIndex = 0\r\n\r\n  SetInteriorPortalRoomFrom(interiorId, portalIndex, 0)\r\n  RefreshInterior(interiorId)\r\nend"
+            }
+        ],
+        "hash": "0x298FC783",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

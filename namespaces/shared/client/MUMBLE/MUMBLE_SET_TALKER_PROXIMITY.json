@@ -1,0 +1,18 @@
+{
+    "0x74E927B0": {
+        "name": "MUMBLE_SET_TALKER_PROXIMITY",
+        "params": [
+            {
+                "name": "value",
+                "type": "float",
+                "description": "Proximity value."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x74E927B0",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

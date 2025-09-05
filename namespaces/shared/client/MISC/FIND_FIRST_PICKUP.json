@@ -1,0 +1,18 @@
+{
+    "0x3FF9D340": {
+        "name": "FIND_FIRST_PICKUP",
+        "params": [
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x3FF9D340",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

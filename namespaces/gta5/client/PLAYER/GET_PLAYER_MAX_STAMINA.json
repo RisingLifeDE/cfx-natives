@@ -1,0 +1,20 @@
+{
+    "0xD014AB79": {
+        "name": "GET_PLAYER_MAX_STAMINA",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xD014AB79",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The value of player max stamina."
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "0xA7DD3209": {
+        "name": "SET_SNAKEOIL_FOR_ENTRY",
+        "params": [
+            {
+                "name": "name",
+                "type": "const char*"
+            },
+            {
+                "name": "path",
+                "type": "const char*"
+            },
+            {
+                "name": "data",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xA7DD3209",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "0x9FCD2EE6": {
+        "name": "SET_WATER_AREA_CLIP_RECT",
+        "params": [
+            {
+                "name": "minX",
+                "type": "int"
+            },
+            {
+                "name": "minY",
+                "type": "int"
+            },
+            {
+                "name": "maxX",
+                "type": "int"
+            },
+            {
+                "name": "maxY",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets world clip boundaries for water quads file (water.xml, water_heistisland.xml)\r\nUsed internally by LOAD_GLOBAL_WATER_FILE",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "SetWaterAreaClipRect(-4000, -4000, 4500, 8000)"
+            }
+        ],
+        "hash": "0x9FCD2EE6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0xA4921EF5": {
+        "name": "GET_TRAIN_CRUISE_SPEED",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the trains desired speed.",
+        "examples": [],
+        "hash": "0xA4921EF5",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "The desired cruise speed of the train. Not the speed the train is currently traveling at"
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "0x2468DBE8": {
+        "name": "SET_TRAIN_DOOR_OPEN_RATIO",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train to set the door ratio for."
+            },
+            {
+                "name": "doorIndex",
+                "type": "int",
+                "description": "Zero-based door index."
+            },
+            {
+                "name": "ratio",
+                "type": "float",
+                "description": "A value between 0.0 (fully closed) and 1.0 (fully open)."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the ratio that a door is open for on a train.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "-- open all doors on a train\r\nlocal doorCount = GetTrainDoorCount(train)\r\nfor doorIndex = 0, doorCount - 1 do\r\n    SetTrainDoorOpenRatio(train, doorIndex, 1.0)\r\nend"
+            },
+            {
+                "lang": "cs",
+                "code": "// open all doors on a train\r\nint doorCount = API.GetTrainDoorCount(train);\r\nfor (int doorIndex = 0; doorIndex < doorCount; doorIndex++)\r\n{\r\n    API.SetTrainDoorOpenRatio(train, doorIndex, 1.0f);\r\n}"
+            }
+        ],
+        "hash": "0x2468DBE8",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

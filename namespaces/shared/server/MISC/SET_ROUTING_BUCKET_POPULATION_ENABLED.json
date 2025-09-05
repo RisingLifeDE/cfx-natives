@@ -1,0 +1,23 @@
+{
+    "0xCE51AC2C": {
+        "name": "SET_ROUTING_BUCKET_POPULATION_ENABLED",
+        "params": [
+            {
+                "name": "bucketId",
+                "type": "int",
+                "description": "The routing bucket ID to adjust."
+            },
+            {
+                "name": "mode",
+                "type": "BOOL",
+                "description": "`true` to enable population, `false` to disable population."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether or not the specified routing bucket has automatically-created population enabled.",
+        "examples": [],
+        "hash": "0xCE51AC2C",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

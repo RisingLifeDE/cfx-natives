@@ -1,0 +1,47 @@
+{
+    "0xF772BB2C": {
+        "name": "GET_INTERIOR_PORTAL_CORNER_POSITION",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            },
+            {
+                "name": "portalIndex",
+                "type": "int",
+                "description": "Interior portal index."
+            },
+            {
+                "name": "cornerIndex",
+                "type": "int",
+                "description": "Portal's corner index."
+            },
+            {
+                "name": "posX",
+                "type": "float*"
+            },
+            {
+                "name": "posY",
+                "type": "float*"
+            },
+            {
+                "name": "posZ",
+                "type": "float*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local portalIndex = 0\r\n  local cornerIndex = 0\r\n\r\n  local x, y, z = GetInteriorPortalCornerPosition(interiorId, portalIndex, cornerIndex)\r\n  print(\"position of portal \" .. portalIndex .. \"corner index \" .. cornerIndex .. \" is: \" .. vec(x, y, z))\r\nend"
+            }
+        ],
+        "hash": "0xF772BB2C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Portal corner position."
+    }
+}

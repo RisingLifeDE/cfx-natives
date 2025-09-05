@@ -1,0 +1,18 @@
+{
+    "0x74C597D9": {
+        "name": "MUMBLE_SET_AUDIO_OUTPUT_DISTANCE",
+        "params": [
+            {
+                "name": "distance",
+                "type": "float",
+                "description": "The output distance."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the current output distance. The player will be able to hear other players talking within this distance.",
+        "examples": [],
+        "hash": "0x74C597D9",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

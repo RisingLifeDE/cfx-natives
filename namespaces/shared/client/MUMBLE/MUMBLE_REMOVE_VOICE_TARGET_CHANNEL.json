@@ -1,0 +1,23 @@
+{
+    "0x268DB867": {
+        "name": "MUMBLE_REMOVE_VOICE_TARGET_CHANNEL",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "channel",
+                "type": "int",
+                "description": "The game voice channel ID to remove from the target."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes the specified voice channel from the user's voice targets.\n\nPerforms the opposite operation of [MUMBLE_ADD_VOICE_TARGET_CHANNEL](#\\_0x4D386C9E)",
+        "examples": [],
+        "hash": "0x268DB867",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "0x1E35DBBA": {
+        "name": "TEMP_BAN_PLAYER",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            },
+            {
+                "name": "reason",
+                "type": "char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x1E35DBBA",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

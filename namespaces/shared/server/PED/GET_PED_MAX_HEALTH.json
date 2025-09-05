@@ -1,0 +1,18 @@
+{
+    "0xA45B6C8D": {
+        "name": "GET_PED_MAX_HEALTH",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xA45B6C8D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

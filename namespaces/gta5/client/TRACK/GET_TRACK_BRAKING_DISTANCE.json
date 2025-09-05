@@ -1,0 +1,20 @@
+{
+    "0xBF482A5E": {
+        "name": "GET_TRACK_BRAKING_DISTANCE",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xBF482A5E",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The braking distance of the track. Used by trains to determine the point to slow down at when entering a station."
+    }
+}

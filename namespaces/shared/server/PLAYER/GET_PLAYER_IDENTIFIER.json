@@ -1,0 +1,22 @@
+{
+    "0x7302DBCF": {
+        "name": "GET_PLAYER_IDENTIFIER",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            },
+            {
+                "name": "identiferIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "To get the number of identifiers, use [GET_NUM_PLAYER_IDENTIFIERS](#\\_0xFF7F66AB)\n\nTo get a specific type of identifier, use [GET_PLAYER_IDENTIFIER_BY_TYPE](#\\_0xA61C8FC6)",
+        "examples": [],
+        "hash": "0x7302DBCF",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns the identifier at the specific index, if out of bounds returns `null`"
+    }
+}

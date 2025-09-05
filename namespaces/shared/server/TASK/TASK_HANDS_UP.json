@@ -1,0 +1,33 @@
+{
+    "0x8DCC19C5": {
+        "name": "TASK_HANDS_UP",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "duration",
+                "type": "int"
+            },
+            {
+                "name": "facingPed",
+                "type": "Ped"
+            },
+            {
+                "name": "p3",
+                "type": "int"
+            },
+            {
+                "name": "p4",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nIn the scripts, p3 was always -1.\r\np3 seems to be duration or timeout of turn animation.\r\nAlso facingPed can be 0 or -1 so ped will just raise hands up.\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_HANDS_UP](?\\_0xF2EAB31979A7F910).**",
+        "examples": [],
+        "hash": "0x8DCC19C5",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "0x636F097F": {
+        "name": "SCAN_RESOURCE_ROOT",
+        "params": [
+            {
+                "name": "rootPath",
+                "type": "const char*",
+                "description": "The resource directory to scan."
+            },
+            {
+                "name": "callback",
+                "type": "Function",
+                "description": "A callback that will receive an object with results."
+            }
+        ],
+        "return_type": "void",
+        "description": "Scans the resources in the specified resource root. This function is only available in the 'monitor mode' process and is\r\nnot available for user resources.",
+        "examples": [],
+        "hash": "0x636F097F",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

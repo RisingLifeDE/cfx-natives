@@ -1,0 +1,14 @@
+{
+    "0xE5AF7A82": {
+        "name": "GET_PAUSE_MAP_POINTER_WORLD_POSITION",
+        "params": [],
+        "return_type": "Vector3",
+        "description": "Returns the world position the pointer is hovering on the pause map.",
+        "examples": [],
+        "hash": "0xE5AF7A82",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "A Vector3 with the pause map pointer world position X and Y values."
+    }
+}

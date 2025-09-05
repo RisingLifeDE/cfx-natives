@@ -1,0 +1,20 @@
+{
+    "0x986B65FF": {
+        "name": "GET_PLAYER_WEAPON_DEFENSE_MODIFIER_2",
+        "params": [
+            {
+                "name": "playerId",
+                "type": "Player",
+                "description": "The player index."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [\\_SET_PLAYER_WEAPON_DEFENSE_MODIFIER\\_2](#\\_0xBCFDE9EDE4CF27DC).",
+        "examples": [],
+        "hash": "0x986B65FF",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": "The value of player weapon defense modifier 2."
+    }
+}

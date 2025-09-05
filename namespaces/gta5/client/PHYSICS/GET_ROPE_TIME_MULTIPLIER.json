@@ -1,0 +1,20 @@
+{
+    "0xF341E6CA": {
+        "name": "GET_ROPE_TIME_MULTIPLIER",
+        "params": [
+            {
+                "name": "rope",
+                "type": "int",
+                "description": "The rope to get the time multiplier for."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xF341E6CA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The rope's time multiplier."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x85A10FFD": {
+        "name": "SET_IGNORE_VEHICLE_OWNERSHIP_FOR_STOWING",
+        "params": [
+            {
+                "name": "ignore",
+                "type": "BOOL",
+                "description": "true to let the local player stow carriables on any hunting wagon, false to use the default behaviour."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether or not ownership checks should be performed while trying to stow a carriable on a hunting wagon.",
+        "examples": [],
+        "hash": "0x85A10FFD",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

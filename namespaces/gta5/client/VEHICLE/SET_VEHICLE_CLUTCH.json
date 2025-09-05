@@ -1,0 +1,22 @@
+{
+    "0x2F70ACED": {
+        "name": "SET_VEHICLE_CLUTCH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "clutch",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x2F70ACED",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

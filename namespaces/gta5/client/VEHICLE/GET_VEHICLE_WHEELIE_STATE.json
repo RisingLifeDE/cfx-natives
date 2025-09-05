@@ -1,0 +1,25 @@
+{
+    "0x137260D1": {
+        "name": "GET_VEHICLE_WHEELIE_STATE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "List of known states:\n\n```\n1: Not wheeling.\r\n65: Vehicle is ready to do wheelie (burnouting).\r\n129: Vehicle is doing wheelie.\n```",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "Citizen.CreateThread(function()\r\n  while true do\r\n    Wait(1)\r\n\r\n    local veh = GetVehiclePedIsUsing(PlayerPedId())\r\n    if veh ~= 0 then\r\n      local wheelieState = GetVehicleWheelieState(veh)\r\n      if wheelieState == 1 then\r\n        print(\"Nothing\")\r\n      elseif wheelieState == 65 then\r\n        print(\"Ready to wheelie!\")\r\n      elseif wheelieState == 129 then\r\n        print(\"Doing wheelie!\")\r\n      end\r\n    end\r\n  end\r\nend)"
+            }
+        ],
+        "hash": "0x137260D1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Vehicle's current wheelie state."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0xD203287": {
+        "name": "GET_VEHICLE_WHEEL_POWER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets power being sent to a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0xD203287",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

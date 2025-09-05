@@ -1,0 +1,28 @@
+{
+    "0x63AE1A34": {
+        "name": "SET_VEHICLE_FLAG",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set flag for."
+            },
+            {
+                "name": "flagIndex",
+                "type": "int",
+                "description": "Flag index."
+            },
+            {
+                "name": "value",
+                "type": "BOOL",
+                "description": "`true` to enable the flag, `false` to disable it."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This native is a setter for [`GET_VEHICLE_HAS_FLAG`](#\\_0xD85C9F57).",
+        "examples": [],
+        "hash": "0x63AE1A34",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

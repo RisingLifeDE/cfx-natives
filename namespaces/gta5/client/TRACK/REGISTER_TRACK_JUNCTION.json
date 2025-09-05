@@ -1,0 +1,40 @@
+{
+    "0x35F743B5": {
+        "name": "REGISTER_TRACK_JUNCTION",
+        "params": [
+            {
+                "name": "trackIndex",
+                "type": "int",
+                "description": "The track index a train should be on"
+            },
+            {
+                "name": "trackNode",
+                "type": "int",
+                "description": "The node a train should be on"
+            },
+            {
+                "name": "newIndex",
+                "type": "int",
+                "description": "The new track index for a train to be placed on"
+            },
+            {
+                "name": "newNode",
+                "type": "int",
+                "description": "The new track node for a train to be placed on"
+            },
+            {
+                "name": "direction",
+                "type": "BOOL",
+                "description": "The direction a train should be traveling for this junction"
+            }
+        ],
+        "return_type": "int",
+        "description": "Registers a track junction that when enabled will cause a train on the defined trackIndex, node and direction to change its current track index and begin traveling on the new node",
+        "examples": [],
+        "hash": "0x35F743B5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The track junction's handle or -1 if invalid."
+    }
+}

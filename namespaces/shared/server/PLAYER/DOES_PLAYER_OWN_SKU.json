@@ -1,0 +1,24 @@
+{
+    "0x167ABA27": {
+        "name": "DOES_PLAYER_OWN_SKU",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            },
+            {
+                "name": "skuId",
+                "type": "int",
+                "description": "The ID of the SKU."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Requests whether or not the player owns the specified SKU.",
+        "examples": [],
+        "hash": "0x167ABA27",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A boolean."
+    }
+}

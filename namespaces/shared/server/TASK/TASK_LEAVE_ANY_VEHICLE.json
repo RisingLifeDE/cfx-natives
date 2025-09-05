@@ -1,0 +1,25 @@
+{
+    "0xDBDD79FA": {
+        "name": "TASK_LEAVE_ANY_VEHICLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "p1",
+                "type": "int"
+            },
+            {
+                "name": "flags",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "Flags are the same flags used in [`TASK_LEAVE_VEHICLE`](#\\_0xD3DBCE61A490BE02)\n\n**This is the server-side RPC native equivalent of the client native [TASK_LEAVE_ANY_VEHICLE](?\\_0x504D54DF3F6F2247).**",
+        "examples": [],
+        "hash": "0xDBDD79FA",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

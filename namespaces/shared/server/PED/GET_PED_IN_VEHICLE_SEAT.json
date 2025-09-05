@@ -1,0 +1,24 @@
+{
+    "0x388FDE9A": {
+        "name": "GET_PED_IN_VEHICLE_SEAT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            },
+            {
+                "name": "seatIndex",
+                "type": "int",
+                "description": "See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#\\_0x22AC59A870E6A669)."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "",
+        "examples": [],
+        "hash": "0x388FDE9A",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The ped in the specified seat of the passed vehicle. Returns 0 if the specified seat is not occupied."
+    }
+}

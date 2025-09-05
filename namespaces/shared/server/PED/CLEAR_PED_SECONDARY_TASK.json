@@ -1,0 +1,17 @@
+{
+    "0xA635F451": {
+        "name": "CLEAR_PED_SECONDARY_TASK",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "void",
+        "description": "CLEAR_PED_SECONDARY_TASK\n\n**This is the server-side RPC native equivalent of the client native [CLEAR_PED_SECONDARY_TASK](?\\_0x176CECF6F920D707).**",
+        "examples": [],
+        "hash": "0xA635F451",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

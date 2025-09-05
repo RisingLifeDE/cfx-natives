@@ -1,0 +1,26 @@
+{
+    "0xC6146043": {
+        "name": "SET_VEHICLE_WHEEL_POWER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "power",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets power being sent to a wheel.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.",
+        "examples": [],
+        "hash": "0xC6146043",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

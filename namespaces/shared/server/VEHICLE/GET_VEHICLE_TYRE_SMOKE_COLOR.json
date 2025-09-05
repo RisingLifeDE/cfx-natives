@@ -1,0 +1,30 @@
+{
+    "0x75280015": {
+        "name": "GET_VEHICLE_TYRE_SMOKE_COLOR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "r",
+                "type": "int*"
+            },
+            {
+                "name": "g",
+                "type": "int*"
+            },
+            {
+                "name": "b",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x75280015",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

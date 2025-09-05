@@ -1,0 +1,44 @@
+{
+    "0x6A48B3CA": {
+        "name": "SET_MINIMAP_OVERLAY_DISPLAY",
+        "params": [
+            {
+                "name": "miniMap",
+                "type": "int",
+                "description": "The minimap overlay ID."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "The X position for the overlay. This is equivalent to a game coordinate X."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "The Y position for the overlay. This is equivalent to a game coordinate Y, except that it's inverted (gfxY = -gameY)."
+            },
+            {
+                "name": "xScale",
+                "type": "float",
+                "description": "The X scale for the overlay. This is equivalent to the Flash \\_xscale property, therefore 100 = 100%."
+            },
+            {
+                "name": "yScale",
+                "type": "float",
+                "description": "The Y scale for the overlay. This is equivalent to the Flash \\_yscale property."
+            },
+            {
+                "name": "alpha",
+                "type": "float",
+                "description": "The alpha value for the overlay. This is equivalent to the Flash \\_alpha property, therefore 100 = 100%."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the display info for a minimap overlay.",
+        "examples": [],
+        "hash": "0x6A48B3CA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

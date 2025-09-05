@@ -1,0 +1,24 @@
+{
+    "0x3C2F9037": {
+        "name": "REGISTER_ARCHETYPES",
+        "params": [
+            {
+                "name": "factory",
+                "type": "Function",
+                "description": "A function returning a list of archetypes."
+            }
+        ],
+        "return_type": "void",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRegisters a set of archetypes with the game engine. These should match `CBaseArchetypeDef` class information from the game.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "RegisterArchetypes(function()\r\n\treturn {\r\n\t\t{\r\n\t\t\tflags = 32,\r\n\t\t\tbbMin = vector3(-39.99570000, -8.00155600, -2.56818800),\r\n\t\t\tbbMax = vector3(40.00439000, 7.99858000, 1.44575100),\r\n\t\t\tbsCentre = vector3(0.00434110, -0.00148870, -0.56121830),\r\n\t\t\tbsRadius = 40.84160000,\r\n\t\t\tname = 'my_asset',\r\n\t\t\ttextureDictionary = 'my_asset',\r\n\t\t\tphysicsDictionary = 'my_asset',\r\n\t\t\tassetName = 'my_asset',\r\n\t\t\tassetType = 'ASSET_TYPE_DRAWABLE',\r\n\t\t\tlodDist = 450.45,\r\n\t\t\tspecialAttribute = 0\r\n\t\t}\r\n\t}\r\nend)"
+            }
+        ],
+        "hash": "0x3C2F9037",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

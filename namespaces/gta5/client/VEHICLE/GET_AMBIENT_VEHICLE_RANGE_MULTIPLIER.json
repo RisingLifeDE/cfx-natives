@@ -1,0 +1,14 @@
+{
+    "0x667EC929": {
+        "name": "GET_AMBIENT_VEHICLE_RANGE_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME](#\\_0x90B6DA738A9A25DA).",
+        "examples": [],
+        "hash": "0x667EC929",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ambient vehicle range multiplier value."
+    }
+}

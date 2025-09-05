@@ -1,0 +1,22 @@
+{
+    "0xAB09B548": {
+        "name": "FIND_NEXT_PED",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            },
+            {
+                "name": "outEntity",
+                "type": "Entity*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xAB09B548",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": ""
+    }
+}

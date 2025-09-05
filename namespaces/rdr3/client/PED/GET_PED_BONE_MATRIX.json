@@ -1,0 +1,44 @@
+{
+    "0x9C5E7C9C": {
+        "name": "GET_PED_BONE_MATRIX",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "boneId",
+                "type": "int"
+            },
+            {
+                "name": "forwardVector",
+                "type": "Vector3*"
+            },
+            {
+                "name": "rightVector",
+                "type": "Vector3*"
+            },
+            {
+                "name": "upVector",
+                "type": "Vector3*"
+            },
+            {
+                "name": "position",
+                "type": "Vector3*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Returns the bone matrix of the specified bone id. usefull for entity attachment",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local fowardVector, rightVector, upVector, position = GetPedBoneMatrix(PlayerPedId(),boneId)"
+            }
+        ],
+        "hash": "0x9C5E7C9C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3",
+        "resultsDescription": "*   **forwardVector**:\n*   **rightVector**:\n*   **upVector**:\n*   **position**:"
+    }
+}

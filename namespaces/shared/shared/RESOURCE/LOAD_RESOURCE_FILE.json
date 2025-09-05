@@ -1,0 +1,24 @@
+{
+    "0x76A9EE1F": {
+        "name": "LOAD_RESOURCE_FILE",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The resource name."
+            },
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "The file in the resource."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Reads the contents of a text file in a specified resource.\r\nIf executed on the client, this file has to be included in `files` in the resource manifest.\r\nExample: `local data = LoadResourceFile(\"devtools\", \"data.json\")`",
+        "examples": [],
+        "hash": "0x76A9EE1F",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The file contents"
+    }
+}

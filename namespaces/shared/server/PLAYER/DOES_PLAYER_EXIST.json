@@ -1,0 +1,23 @@
+{
+    "0x12038599": {
+        "name": "DOES_PLAYER_EXIST",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Returns whether or not the player exists",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local deferralMessages = { \"Isn't this just magical!\", \"We can defer all day!\", \"You'll get in eventually\", \"You're totally not going to sit here forever\", \"The Fruit Tree is a lie\" }\r\nAddEventHandler(\"playerConnecting\", function(name, setKickReason, deferrals)\r\n    local source = source\r\n    deferrals.defer()\r\n\r\n    Wait(0)\r\n\r\n\r\n    local messageIndex = 0\r\n\r\n    repeat\r\n        Wait(2000)\r\n        if messageIndex >= #deferralMessages then\r\n            deferrals.done()\r\n        else\r\n            messageIndex = messageIndex + 1\r\n        end\r\n        deferrals.update(deferralMessages[messageIndex])\r\n    until not DoesPlayerExist(source)\r\nend)"
+            }
+        ],
+        "hash": "0x12038599",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "True if the player exists, false otherwise"
+    }
+}

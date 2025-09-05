@@ -1,0 +1,39 @@
+{
+    "0xD7664FD1": {
+        "name": "REGISTER_KEY_MAPPING",
+        "params": [
+            {
+                "name": "commandString",
+                "type": "const char*",
+                "description": "The command to execute, and the identifier of the binding."
+            },
+            {
+                "name": "description",
+                "type": "const char*",
+                "description": "A description for in the settings menu."
+            },
+            {
+                "name": "defaultMapper",
+                "type": "const char*",
+                "description": "The [mapper ID](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/) to use for the default binding, e.g. `keyboard`."
+            },
+            {
+                "name": "defaultParameter",
+                "type": "const char*",
+                "description": "The [IO parameter ID](https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/) to use for the default binding, e.g. `f3`."
+            }
+        ],
+        "return_type": "void",
+        "description": "Registers a key mapping for the current resource.\n\nSee the related [cookbook post](https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/) for more information.\n\nBelow you can find some examples on how to create these keybindings as well as the alternate keybinding syntax, which is preceded by `~!` to indicate that it's an alternate key.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local handsUp = false\r\nCreateThread(function()\r\n    while true do\r\n        Wait(0)\r\n        if handsUp then\r\n            TaskHandsUp(PlayerPedId(), 250, PlayerPedId(), -1, true)\r\n        end\r\n    end\r\nend)\r\nRegisterCommand('+handsup', function()\r\n    handsUp = true\r\nend, false)\r\nRegisterCommand('-handsup', function()\r\n    handsUp = false\r\nend, false)\r\n\r\nRegisterKeyMapping('+handsup', 'Hands Up', 'keyboard', 'i')\r\n\r\n-- Alternate keybinding syntax\r\nRegisterKeyMapping('~!+handsup', 'Hands Up - Alternate Key', 'keyboard', 'o')"
+            }
+        ],
+        "hash": "0xD7664FD1",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

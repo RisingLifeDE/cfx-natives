@@ -1,0 +1,25 @@
+{
+    "0x57F24253": {
+        "name": "SET_VEHICLE_COLOURS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "colorPrimary",
+                "type": "int"
+            },
+            {
+                "name": "colorSecondary",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "colorPrimary & colorSecondary are the paint indexes for the vehicle.\r\nFor a list of valid paint indexes, view: pastebin.com/pwHci0xK\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_COLOURS](?\\_0x4F1D4BE3A7F24601).**",
+        "examples": [],
+        "hash": "0x57F24253",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

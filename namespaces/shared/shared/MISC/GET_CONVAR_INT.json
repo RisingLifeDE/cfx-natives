@@ -1,0 +1,29 @@
+{
+    "0x935C0AB2": {
+        "name": "GET_CONVAR_INT",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The console variable to look up."
+            },
+            {
+                "name": "default_",
+                "type": "int",
+                "description": "The default value to set if none is found (variable not set using [SET_CONVAR](#\\_0x341B16D2), or not accessible)."
+            }
+        ],
+        "return_type": "int",
+        "description": "Can be used to get a console variable casted back to `int` (an integer value).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if GetConvarInt('remainingRounds', 0) < 900 then\r\n    Citizen.Trace(\"Less than 900 rounds remaining...\")\r\nend"
+            }
+        ],
+        "hash": "0x935C0AB2",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns the convar value if it can be found, otherwise it returns the assigned `default`."
+    }
+}

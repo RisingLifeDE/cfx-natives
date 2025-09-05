@@ -1,0 +1,13 @@
+{
+    "0xEA11BFBA": {
+        "name": "GET_CURRENT_SERVER_ENDPOINT",
+        "params": [],
+        "return_type": "const char*",
+        "description": "Returns the peer address of the remote game server that the user is currently connected to.",
+        "examples": [],
+        "hash": "0xEA11BFBA",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The peer address of the game server (e.g. `127.0.0.1:30120`), or NULL if not available."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x55188D2D": {
+        "name": "SET_NETWORK_WALK_MODE",
+        "params": [
+            {
+                "name": "enabled",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x55188D2D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "ny",
+        "resultsDescription": ""
+    }
+}

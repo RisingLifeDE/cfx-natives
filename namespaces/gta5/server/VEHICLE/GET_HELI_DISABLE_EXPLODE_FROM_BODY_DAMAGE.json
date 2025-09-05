@@ -1,0 +1,20 @@
+{
+    "0x82AFC0A3": {
+        "name": "GET_HELI_DISABLE_EXPLODE_FROM_BODY_DAMAGE",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This is a getter for [SET_DISABLE_HELI_EXPLODE_FROM_BODY_DAMAGE](#\\_0xEDBC8405B3895CC9)",
+        "examples": [],
+        "hash": "0x82AFC0A3",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns `true` if the helicopter is set to be protected from exploding due to minor body damage, `false` otherwise."
+    }
+}

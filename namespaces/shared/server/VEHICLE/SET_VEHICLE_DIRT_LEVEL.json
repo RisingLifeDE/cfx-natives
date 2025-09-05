@@ -1,0 +1,23 @@
+{
+    "0x2B39128B": {
+        "name": "SET_VEHICLE_DIRT_LEVEL",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set."
+            },
+            {
+                "name": "dirtLevel",
+                "type": "float",
+                "description": "A number between 0.0 and 15.0 representing the vehicles dirt level."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the dirt level of the passed vehicle.\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_DIRT_LEVEL](?\\_0x79D3B596FE44EE8B).**",
+        "examples": [],
+        "hash": "0x2B39128B",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

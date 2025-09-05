@@ -1,0 +1,26 @@
+{
+    "0x7500C79": {
+        "name": "SET_PED_INTO_VEHICLE",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "seatIndex",
+                "type": "int",
+                "description": "See eSeatPosition declared in [`IS_VEHICLE_SEAT_FREE`](#\\_0x22AC59A870E6A669). -2 for the first available seat."
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_PED_INTO_VEHICLE\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_INTO_VEHICLE](?\\_0xF75B0D629E1C063D).**",
+        "examples": [],
+        "hash": "0x7500C79",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0xB3439A01": {
+        "name": "SET_VEHICLE_SUSPENSION_HEIGHT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "newHeight",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the height of the vehicle's suspension.\r\nThis changes the same value set by Suspension in the mod shop.\r\nNegatives values raise the car. Positive values lower the car.\n\nThis is change is visual only. The collision of the vehicle will not move.",
+        "examples": [],
+        "hash": "0xB3439A01",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

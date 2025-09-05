@@ -1,0 +1,29 @@
+{
+    "0x2F7A49E6": {
+        "name": "TRIGGER_CLIENT_EVENT_INTERNAL",
+        "params": [
+            {
+                "name": "eventName",
+                "type": "const char*"
+            },
+            {
+                "name": "eventTarget",
+                "type": "const char*"
+            },
+            {
+                "name": "eventPayload",
+                "type": "const char*"
+            },
+            {
+                "name": "payloadLength",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "The backing function for TriggerClientEvent.",
+        "examples": [],
+        "hash": "0x2F7A49E6",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

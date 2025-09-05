@@ -1,0 +1,18 @@
+{
+    "0x1B1052E2": {
+        "name": "MUMBLE_SET_AUDIO_INPUT_DISTANCE",
+        "params": [
+            {
+                "name": "distance",
+                "type": "float",
+                "description": "The input distance."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the current input distance. The player will be able to talk to other players within this distance.",
+        "examples": [],
+        "hash": "0x1B1052E2",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

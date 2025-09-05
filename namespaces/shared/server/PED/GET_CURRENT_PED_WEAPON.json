@@ -1,0 +1,19 @@
+{
+    "0xB0237302": {
+        "name": "GET_CURRENT_PED_WEAPON",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped."
+            }
+        ],
+        "return_type": "Hash",
+        "description": "Returns the hash of weapon the Ped is currently using.",
+        "examples": [],
+        "hash": "0xB0237302",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The weapon hash."
+    }
+}

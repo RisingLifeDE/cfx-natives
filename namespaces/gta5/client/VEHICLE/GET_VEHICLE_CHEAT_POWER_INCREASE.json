@@ -1,0 +1,20 @@
+{
+    "0xC3C93F28": {
+        "name": "GET_VEHICLE_CHEAT_POWER_INCREASE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "float",
+        "description": "A getter for [SET_VEHICLE_CHEAT_POWER_INCREASE](#\\_0xB59E4BD37AE292DB).",
+        "examples": [],
+        "hash": "0xC3C93F28",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns vehicle's cheat power increase modifier value."
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "0xA23FE32C": {
+        "name": "SET_PED_HAIR_TINT",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The Ped whose hair tint is to be set."
+            },
+            {
+                "name": "colorID",
+                "type": "int",
+                "description": "The tint index for the primary hair color."
+            },
+            {
+                "name": "highlightColorID",
+                "type": "int",
+                "description": "The tint index for the hair highlight color."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the tint index for the hair on the specified ped.\n\n```\nNativeDB Introduced: v323\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_HAIR_TINT](?\\_0x4CFFC65454C93A49).**",
+        "examples": [],
+        "hash": "0xA23FE32C",
+        "ns": "CFX",
+        "aliases": [
+            "_SET_PED_HAIR_COLOR"
+        ],
+        "apiset": "server"
+    }
+}

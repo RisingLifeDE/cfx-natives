@@ -1,0 +1,29 @@
+{
+    "0x6E38C1B9": {
+        "name": "REMAP_RAW_KEYMAP",
+        "params": [
+            {
+                "name": "keymapName",
+                "type": "const char*",
+                "description": "the name given to the keymap in [REGISTER_RAW_KEYMAP](#\\_0x49C1F6DC)"
+            },
+            {
+                "name": "newRawKeyIndex",
+                "type": "int",
+                "description": "Index of raw key from keyboard."
+            }
+        ],
+        "return_type": "void",
+        "description": "Remaps the keymap bound to `keymapName` to `newRawKeyIndex`\n\nVirtual key codes can be found [here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "\r\nfunction on_key_up()\r\n\tprint(\"key no longer pressed\")\r\nend\r\n\r\nfunction on_key_down()\r\n\tprint(\"key is pressed\")\r\nend\r\n\r\nlocal KEY_SPACE = 32\r\nlocal canBeDisabled = false\r\n\r\nlocal KEY_E = 69\r\n\r\nRegisterRawKeymap(\"our_keymap\", on_key_up, on_key_down, KEY_SPACE, canBeDisabled)\r\n\r\nRemapRawKeymap(\"our_keymap\", KEY_E)"
+            }
+        ],
+        "hash": "0x6E38C1B9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

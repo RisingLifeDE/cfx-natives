@@ -1,0 +1,25 @@
+{
+    "0xA2737C2C": {
+        "name": "GET_INTERIOR_ROOM_COUNT",
+        "params": [
+            {
+                "name": "interiorId",
+                "type": "int",
+                "description": "The target interior."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local playerPed = PlayerPedId()\r\nlocal interiorId = GetInteriorFromEntity(playerPed)\r\n\r\nif interiorId ~= 0 then\r\n  local count = GetInteriorRoomCount(interiorId)\r\n  print(\"interior \" .. interiorId .. \"has \" .. count .. \" rooms\")\r\nend"
+            }
+        ],
+        "hash": "0xA2737C2C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The amount of rooms in interior."
+    }
+}

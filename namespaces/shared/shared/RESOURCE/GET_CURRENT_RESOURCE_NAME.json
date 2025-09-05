@@ -1,0 +1,13 @@
+{
+    "0xE5E9EBBB": {
+        "name": "GET_CURRENT_RESOURCE_NAME",
+        "params": [],
+        "return_type": "const char*",
+        "description": "Returns the name of the currently executing resource.",
+        "examples": [],
+        "hash": "0xE5E9EBBB",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The name of the resource."
+    }
+}

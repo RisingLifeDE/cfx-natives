@@ -1,0 +1,18 @@
+{
+    "0x1DC50247": {
+        "name": "GET_VEHICLE_DOORS_LOCKED_FOR_PLAYER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "Currently it only works when set to \"all players\".",
+        "examples": [],
+        "hash": "0x1DC50247",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "0x2BA40795": {
+        "name": "SET_VEHICLE_HANDLING_FIELD",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set data for."
+            },
+            {
+                "name": "class_",
+                "type": "const char*",
+                "description": "The handling class to set. Only \"CHandlingData\" is supported at this time."
+            },
+            {
+                "name": "fieldName",
+                "type": "const char*",
+                "description": "The field name to set. These match the keys in `handling.meta`."
+            },
+            {
+                "name": "value",
+                "type": "Any",
+                "description": "The value to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a handling override for a specific vehicle. Certain handling flags can only be set globally using `SET_HANDLING_FIELD`, this might require some experimentation.\r\nExample: `SetVehicleHandlingField(vehicle, 'CHandlingData', 'fSteeringLock', 360.0)`",
+        "examples": [],
+        "hash": "0x2BA40795",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

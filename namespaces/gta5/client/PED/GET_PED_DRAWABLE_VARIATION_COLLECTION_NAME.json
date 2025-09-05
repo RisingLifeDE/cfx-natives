@@ -1,0 +1,25 @@
+{
+    "0xBCE0AB63": {
+        "name": "GET_PED_DRAWABLE_VARIATION_COLLECTION_NAME",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            },
+            {
+                "name": "componentId",
+                "type": "int",
+                "description": "One of the components from [SET_PED_COMPONENT_VARIATION](#\\_0x262B14F48D29DE80)"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "An analogue to [GET_PED_DRAWABLE_VARIATION](#\\_0x67F3780DD425D4FC) that returns collection name instead of the global drawable index.\n\nShould be used together with [GET_PED_DRAWABLE_VARIATION_COLLECTION_LOCAL_INDEX](#\\_0x9970386F).",
+        "examples": [],
+        "hash": "0xBCE0AB63",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Collection name to which the current drawable used in the given ped and component belongs to. Returns null if Ped is not found or index is out of bounds."
+    }
+}

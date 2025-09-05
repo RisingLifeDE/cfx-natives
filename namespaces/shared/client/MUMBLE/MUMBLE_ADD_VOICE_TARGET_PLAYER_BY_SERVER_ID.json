@@ -1,0 +1,23 @@
+{
+    "0x25F2B65F": {
+        "name": "MUMBLE_ADD_VOICE_TARGET_PLAYER_BY_SERVER_ID",
+        "params": [
+            {
+                "name": "targetId",
+                "type": "int",
+                "description": "A Mumble voice target ID, ranging from 1..30 (inclusive)."
+            },
+            {
+                "name": "serverId",
+                "type": "int",
+                "description": "The player's server id."
+            }
+        ],
+        "return_type": "void",
+        "description": "Adds the specified player to the target list for the specified Mumble voice target ID.",
+        "examples": [],
+        "hash": "0x25F2B65F",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

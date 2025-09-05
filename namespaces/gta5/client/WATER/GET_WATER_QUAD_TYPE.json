@@ -1,0 +1,29 @@
+{
+    "0xE2501B8B": {
+        "name": "GET_WATER_QUAD_TYPE",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "waterType",
+                "type": "int*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Valid type definitions:\n\n*   **0** Square\n*   **1** Right triangle where the 90 degree angle is at maxX, minY\n*   **2** Right triangle where the 90 degree angle is at minX, minY\n*   **3** Right triangle where the 90 degree angle is at minX, maxY\n*   **4** Right triangle where the 90 degree angle is at maxY, maxY",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, type = GetWaterQuadType(0)"
+            }
+        ],
+        "hash": "0xE2501B8B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success. Type is undefined on failure"
+    }
+}

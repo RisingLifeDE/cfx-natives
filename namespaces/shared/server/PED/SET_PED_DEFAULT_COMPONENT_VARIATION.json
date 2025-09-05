@@ -1,0 +1,17 @@
+{
+    "0xC866A984": {
+        "name": "SET_PED_DEFAULT_COMPONENT_VARIATION",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nSets Ped Default Clothes\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_DEFAULT_COMPONENT_VARIATION](?\\_0x45EEE61580806D63).**",
+        "examples": [],
+        "hash": "0xC866A984",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

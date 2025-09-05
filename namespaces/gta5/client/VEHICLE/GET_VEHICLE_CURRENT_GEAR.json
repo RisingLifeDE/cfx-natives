@@ -1,0 +1,19 @@
+{
+    "0xB4F4E566": {
+        "name": "GET_VEHICLE_CURRENT_GEAR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xB4F4E566",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

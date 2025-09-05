@@ -1,0 +1,29 @@
+{
+    "0x128737EA": {
+        "name": "TRIGGER_LATENT_SERVER_EVENT_INTERNAL",
+        "params": [
+            {
+                "name": "eventName",
+                "type": "const char*"
+            },
+            {
+                "name": "eventPayload",
+                "type": "const char*"
+            },
+            {
+                "name": "payloadLength",
+                "type": "int"
+            },
+            {
+                "name": "bps",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "The backing function for TriggerLatentServerEvent.",
+        "examples": [],
+        "hash": "0x128737EA",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "0x4B41E84C": {
+        "name": "SET_TRACK_ENABLED",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            },
+            {
+                "name": "enabled",
+                "type": "BOOL",
+                "description": "Should this track be enabled"
+            }
+        ],
+        "return_type": "void",
+        "description": "Toggles the track being active. If disabled mission trains will not be able to spawn on this track and will look for the next closest track to spawn",
+        "examples": [],
+        "hash": "0x4B41E84C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

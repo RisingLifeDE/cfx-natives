@@ -1,0 +1,28 @@
+{
+    "0xA56135E0": {
+        "name": "GET_PLAYER_FROM_STATE_BAG_NAME",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*",
+                "description": "An internal state bag ID from the argument to a state bag change handler."
+            }
+        ],
+        "return_type": "int",
+        "description": "On the server this will return the players source, on the client it will return the player handle.",
+        "examples": [
+            {
+                "lang": "js",
+                "code": "AddStateBagChangeHandler(\"isDead\", null, async (bagName, key, value /* boolean */) => {\r\n    const ply = GetPlayerFromStateBagName(bagName);\r\n    // The player doesn't exist!\r\n    if (ply === 0) return;\r\n    console.log(`Player: ${GetPlayerName(ply)} ${value ? 'died!' : 'is alive!'`)\r\n})"
+            },
+            {
+                "lang": "lua",
+                "code": "AddStateBagChangeHandler(\"isDead\", nil, function(bagName, key, value) \r\n    local ply = GetPlayerFromStateBagName(bagName)\r\n    -- The player doesn't exist!\r\n    if ply == 0 then return end\r\n    print(\"Player: \" .. GetPlayerName(ply) .. value and 'died!' or 'is alive!')\r\nend)"
+            }
+        ],
+        "hash": "0xA56135E0",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The player handle or 0 if the state bag name did not refer to a player, or the player does not exist."
+    }
+}

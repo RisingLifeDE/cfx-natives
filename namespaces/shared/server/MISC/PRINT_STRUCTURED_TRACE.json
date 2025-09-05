@@ -1,0 +1,18 @@
+{
+    "0x90892DED": {
+        "name": "PRINT_STRUCTURED_TRACE",
+        "params": [
+            {
+                "name": "jsonString",
+                "type": "const char*",
+                "description": "JSON data to submit as `payload` in the `script_structured_trace` event."
+            }
+        ],
+        "return_type": "void",
+        "description": "Prints 'structured trace' data to the server `file descriptor 3` channel. This is not generally useful outside of\r\nserver monitoring utilities.",
+        "examples": [],
+        "hash": "0x90892DED",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

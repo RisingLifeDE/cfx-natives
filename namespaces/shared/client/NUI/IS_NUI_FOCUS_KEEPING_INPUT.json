@@ -1,0 +1,13 @@
+{
+    "0x39C9DC92": {
+        "name": "IS_NUI_FOCUS_KEEPING_INPUT",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "Checks if keyboard input is enabled during NUI focus using `SET_NUI_FOCUS_KEEP_INPUT`.",
+        "examples": [],
+        "hash": "0x39C9DC92",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "True or false."
+    }
+}

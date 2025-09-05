@@ -1,0 +1,24 @@
+{
+    "0x387246B7": {
+        "name": "GET_RESOURCE_BY_FIND_INDEX",
+        "params": [
+            {
+                "name": "findIndex",
+                "type": "int",
+                "description": "The index of the resource (starting at 0)"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local resourceList = {}\r\nfor i = 0, GetNumResources(), 1 do\r\n  local resource_name = GetResourceByFindIndex(i)\r\n  if resource_name and GetResourceState(resource_name) == \"started\" then\r\n    table.insert(resourceList, resource_name)\r\n  end\r\nend\r\nprint(table.unpack(resourceList))"
+            }
+        ],
+        "hash": "0x387246B7",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The resource name as a `string`"
+    }
+}

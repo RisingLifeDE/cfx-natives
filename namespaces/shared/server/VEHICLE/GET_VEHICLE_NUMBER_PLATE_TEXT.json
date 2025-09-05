@@ -1,0 +1,18 @@
+{
+    "0xE8522D58": {
+        "name": "GET_VEHICLE_NUMBER_PLATE_TEXT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [],
+        "hash": "0xE8522D58",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

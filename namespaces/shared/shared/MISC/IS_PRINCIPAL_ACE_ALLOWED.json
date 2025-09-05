@@ -1,0 +1,22 @@
+{
+    "0x37CF52CE": {
+        "name": "IS_PRINCIPAL_ACE_ALLOWED",
+        "params": [
+            {
+                "name": "principal",
+                "type": "const char*"
+            },
+            {
+                "name": "object",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x37CF52CE",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": ""
+    }
+}

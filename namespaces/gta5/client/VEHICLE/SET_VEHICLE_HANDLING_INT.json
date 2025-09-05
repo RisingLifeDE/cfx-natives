@@ -1,0 +1,34 @@
+{
+    "0xC37F4CF9": {
+        "name": "SET_VEHICLE_HANDLING_INT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set data for."
+            },
+            {
+                "name": "class_",
+                "type": "const char*",
+                "description": "The handling class to set. Only \"CHandlingData\" is supported at this time."
+            },
+            {
+                "name": "fieldName",
+                "type": "const char*",
+                "description": "The field name to set. These match the keys in `handling.meta`."
+            },
+            {
+                "name": "value",
+                "type": "int",
+                "description": "The integer value to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a handling override for a specific vehicle. Certain handling flags can only be set globally using `SET_HANDLING_INT`, this might require some experimentation.",
+        "examples": [],
+        "hash": "0xC37F4CF9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

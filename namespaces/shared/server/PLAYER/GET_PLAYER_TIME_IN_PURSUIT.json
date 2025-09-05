@@ -1,0 +1,24 @@
+{
+    "0x7ADE63E1": {
+        "name": "GET_PLAYER_TIME_IN_PURSUIT",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The target player"
+            },
+            {
+                "name": "lastPursuit",
+                "type": "BOOL",
+                "description": "False = CurrentPursuit, True = LastPursuit"
+            }
+        ],
+        "return_type": "int",
+        "description": "```\nGets the amount of time player has spent evading the cops.\r\nCounter starts and increments only when cops are chasing the player.\r\nIf the player is evading, the timer will pause.\n```",
+        "examples": [],
+        "hash": "0x7ADE63E1",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns -1, if the player is not wanted or wasn't in pursuit before, depending on the lastPursuit parameter\r\nReturns 0, if lastPursuit == False and the player has a wanted level, but the pursuit has not started yet\r\nOtherwise, will return the milliseconds of the pursuit."
+    }
+}

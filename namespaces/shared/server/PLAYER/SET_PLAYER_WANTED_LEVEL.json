@@ -1,0 +1,28 @@
+{
+    "0xB7A0914B": {
+        "name": "SET_PLAYER_WANTED_LEVEL",
+        "params": [
+            {
+                "name": "player",
+                "type": "Player",
+                "description": "the target player"
+            },
+            {
+                "name": "wantedLevel",
+                "type": "int",
+                "description": "the wanted level 1-5"
+            },
+            {
+                "name": "delayedResponse",
+                "type": "BOOL",
+                "description": "false = 0-10sec police spawn response time, true = 10-20sec police spawn response time"
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_PLAYER_WANTED_LEVEL\n\n**This is the server-side RPC native equivalent of the client native [SET_PLAYER_WANTED_LEVEL](?\\_0x39FF19C64EF7DA5B).**",
+        "examples": [],
+        "hash": "0xB7A0914B",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

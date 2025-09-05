@@ -1,0 +1,19 @@
+{
+    "0xAD40AD55": {
+        "name": "GET_VEHICLE_FLIGHT_NOZZLE_POSITION",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to check."
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the flight nozzel position for the specified vehicle. See the client-side [\\_GET_VEHICLE_FLIGHT_NOZZLE_POSITION](#\\_0xDA62027C8BDB326E) native for usage examples.",
+        "examples": [],
+        "hash": "0xAD40AD55",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The flight nozzel position between 0.0 (flying normally) and 1.0 (VTOL mode)"
+    }
+}

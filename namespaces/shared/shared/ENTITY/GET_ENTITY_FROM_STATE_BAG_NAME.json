@@ -1,0 +1,28 @@
+{
+    "0x4BDF1867": {
+        "name": "GET_ENTITY_FROM_STATE_BAG_NAME",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*",
+                "description": "An internal state bag ID from the argument to a state bag change handler."
+            }
+        ],
+        "return_type": "Entity",
+        "description": "Returns the entity handle for the specified state bag name. For use with [ADD_STATE_BAG_CHANGE_HANDLER](#\\_0x5BA35AAF).",
+        "examples": [
+            {
+                "lang": "js",
+                "code": "AddStateBagChangeHandler(\"blockTasks\", null, async (bagName, key, value /* boolean */) => {\r\n    let entity = GetEntityFromStateBagName(bagName);\r\n    // Whoops, we were don't have a valid entity!\r\n    if (entity === 0) return;\r\n    // We don't want to freeze the entity position if the entity collision hasn't loaded yet\r\n    while (!HasCollisionLoadedAroundEntity(entity)) {\r\n        // The entity went out of our scope before the collision loaded\r\n        if (!DoesEntityExist(entity)) return;\r\n        await Delay(250);\r\n    }\r\n    SetEntityInvincible(entity, value)\r\n    FreezeEntityPosition(entity, value)\r\n    TaskSetBlockingOfNonTemporaryEvents(entity, value)\r\n})"
+            },
+            {
+                "lang": "lua",
+                "code": "AddStateBagChangeHandler(\"blockTasks\", nil, function(bagName, key, value) \r\n    local entity = GetEntityFromStateBagName(bagName)\r\n    -- Whoops, we don't have a valid entity!\r\n    if entity == 0 then return end\r\n    -- We don't want to freeze the entity position if the entity collision hasn't loaded yet\r\n    while not HasCollisionLoadedAroundEntity(entity) do\r\n        -- The entity went out of our scope before the collision loaded\r\n        if not DoesEntityExist(entity) then return end\r\n        Wait(250)\r\n    end\r\n    SetEntityInvincible(entity, value)\r\n    FreezeEntityPosition(entity, value)\r\n    TaskSetBlockingOfNonTemporaryEvents(entity, value)\r\nend)"
+            }
+        ],
+        "hash": "0x4BDF1867",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The entity handle or 0 if the state bag name did not refer to an entity, or the entity does not exist."
+    }
+}

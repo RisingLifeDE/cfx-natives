@@ -1,0 +1,24 @@
+{
+    "0x9E666D": {
+        "name": "GET_CONVAR_FLOAT",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The console variable to get"
+            },
+            {
+                "name": "defaultValue",
+                "type": "float",
+                "description": "The default value to set, if none are found."
+            }
+        ],
+        "return_type": "float",
+        "description": "This will have floating point inaccuracy.",
+        "examples": [],
+        "hash": "0x9E666D",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns the value set in varName, or `default` if none are specified"
+    }
+}

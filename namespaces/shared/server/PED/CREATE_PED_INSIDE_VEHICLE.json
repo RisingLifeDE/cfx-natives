@@ -1,0 +1,39 @@
+{
+    "0x3000F092": {
+        "name": "CREATE_PED_INSIDE_VEHICLE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "pedType",
+                "type": "int",
+                "description": "See [`CREATE_PED`](#\\_0xD49F9B0955C367DE)"
+            },
+            {
+                "name": "modelHash",
+                "type": "Hash"
+            },
+            {
+                "name": "seat",
+                "type": "int"
+            },
+            {
+                "name": "isNetwork",
+                "type": "BOOL"
+            },
+            {
+                "name": "bScriptHostPed",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "Entity",
+        "description": "CREATE_PED_INSIDE_VEHICLE\n\n**This is the server-side RPC native equivalent of the client native [CREATE_PED_INSIDE_VEHICLE](?\\_0x7DD959874C1FD534).**",
+        "examples": [],
+        "hash": "0x3000F092",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

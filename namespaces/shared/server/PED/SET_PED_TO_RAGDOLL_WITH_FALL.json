@@ -1,0 +1,81 @@
+{
+    "0xFA12E286": {
+        "name": "SET_PED_TO_RAGDOLL_WITH_FALL",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped to ragdoll."
+            },
+            {
+                "name": "minTime",
+                "type": "int"
+            },
+            {
+                "name": "maxTime",
+                "type": "int"
+            },
+            {
+                "name": "nFallType",
+                "type": "int",
+                "description": "The type of fall."
+            },
+            {
+                "name": "dirX",
+                "type": "float",
+                "description": "The x direction of the fall."
+            },
+            {
+                "name": "dirY",
+                "type": "float",
+                "description": "The y direction of the fall."
+            },
+            {
+                "name": "dirZ",
+                "type": "float",
+                "description": "The z direction of the fall."
+            },
+            {
+                "name": "fGroundHeight",
+                "type": "float",
+                "description": "The ground height (z)."
+            },
+            {
+                "name": "grab1X",
+                "type": "float",
+                "description": "unused"
+            },
+            {
+                "name": "grab1Y",
+                "type": "float",
+                "description": "unused"
+            },
+            {
+                "name": "grab1Z",
+                "type": "float",
+                "description": "unused"
+            },
+            {
+                "name": "grab2X",
+                "type": "float",
+                "description": "unused"
+            },
+            {
+                "name": "grab2Y",
+                "type": "float",
+                "description": "unused"
+            },
+            {
+                "name": "grab2Z",
+                "type": "float",
+                "description": "unused"
+            }
+        ],
+        "return_type": "void",
+        "description": "```cpp\nenum eNMFallType {\r\nTYPE_FROM_HIGH = 0,\r\nTYPE_OVER_WALL = 1,\r\nTYPE_DOWN_STAIRS = 2,\r\nTYPE_DIE_TYPES = 3,\r\nTYPE_DIE_FROM_HIGH = 4,\r\nTYPE_DIE_OVER_WALL = 5,\r\nTYPE_DIE_DOWN_STAIRS = 6\r\n}\n```\n\n```\nReturn variable is never used in R*'s scripts.\r\nNot sure what p2 does. It seems like it would be a time judging by it's usage in R*'s scripts, but didn't seem to affect anything in my testings.\r\nx, y, and z are coordinates, most likely to where the ped will fall.\r\np7 is probably the force of the fall, but untested, so I left the variable name the same.\r\np8 to p13 are always 0f in R*'s scripts.\r\n(Simplified) Example of the usage of the function from R*'s scripts:\r\nped::set_ped_to_ragdoll_with_fall(ped, 1500, 2000, 1, -entity::get_entity_forward_vector(ped), 1f, 0f, 0f, 0f, 0f, 0f, 0f);\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_TO_RAGDOLL_WITH_FALL](?\\_0xD76632D99E4966C8).**",
+        "examples": [],
+        "hash": "0xFA12E286",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x4039B485": {
+        "name": "GET_RESOURCE_STATE",
+        "params": [
+            {
+                "name": "resourceName",
+                "type": "const char*",
+                "description": "The name of the resource."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Returns the current state of the specified resource.",
+        "examples": [],
+        "hash": "0x4039B485",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "The resource state. One of `\"missing\", \"started\", \"starting\", \"stopped\", \"stopping\", \"uninitialized\" or \"unknown\"`."
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "0xDEDA4E50": {
+        "name": "END_FIND_OBJECT",
+        "params": [
+            {
+                "name": "findHandle",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xDEDA4E50",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "0xA66F8F75": {
+        "name": "ADD_REPLACE_TEXTURE",
+        "params": [
+            {
+                "name": "origTxd",
+                "type": "const char*"
+            },
+            {
+                "name": "origTxn",
+                "type": "const char*"
+            },
+            {
+                "name": "newTxd",
+                "type": "const char*"
+            },
+            {
+                "name": "newTxn",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "void",
+        "description": "Experimental natives, please do not use in a live environment.",
+        "examples": [],
+        "hash": "0xA66F8F75",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

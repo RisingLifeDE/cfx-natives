@@ -1,0 +1,30 @@
+{
+    "0x67977501": {
+        "name": "SET_CALMING_QUAD_DAMPENING",
+        "params": [
+            {
+                "name": "calmingQuad",
+                "type": "int",
+                "description": "The calming quad"
+            },
+            {
+                "name": "dampening",
+                "type": "float",
+                "description": "The dampening value"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success = SetCalmingQuadDampening(0, 1.0)"
+            }
+        ],
+        "hash": "0x67977501",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns true on success."
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "0x6CCD2564": {
+        "name": "GET_CONVAR",
+        "params": [
+            {
+                "name": "varName",
+                "type": "const char*",
+                "description": "The console variable to look up."
+            },
+            {
+                "name": "default_",
+                "type": "const char*",
+                "description": "The default value to set if none is found."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "Can be used to get a console variable of type `char*`, for example a string.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if GetConvar('voice_useNativeAudio', 'false') == 'true' then\r\n    Citizen.Trace('Native Audio is enabled.')\r\nend"
+            }
+        ],
+        "hash": "0x6CCD2564",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Returns the convar value if it can be found, otherwise it returns the assigned `default`."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x1B3A363": {
+        "name": "REGISTER_FONT_FILE",
+        "params": [
+            {
+                "name": "fileName",
+                "type": "const char*",
+                "description": "The name of the .gfx file, without extension."
+            }
+        ],
+        "return_type": "void",
+        "description": "Registers a specified .gfx file as GFx font library.\r\nThe .gfx file has to be registered with the streamer already.",
+        "examples": [],
+        "hash": "0x1B3A363",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

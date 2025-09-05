@@ -1,0 +1,13 @@
+{
+    "0xF8B7D7BB": {
+        "name": "PROFILER_IS_RECORDING",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "Returns true if the profiler is active.",
+        "examples": [],
+        "hash": "0xF8B7D7BB",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "True or false."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0xC108EE6F": {
+        "name": "SET_VEHICLE_ALARM_TIME_LEFT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "time",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xC108EE6F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

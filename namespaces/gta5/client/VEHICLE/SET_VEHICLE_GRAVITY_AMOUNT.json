@@ -1,0 +1,22 @@
+{
+    "0x1A963E58": {
+        "name": "SET_VEHICLE_GRAVITY_AMOUNT",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "gravity",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x1A963E58",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

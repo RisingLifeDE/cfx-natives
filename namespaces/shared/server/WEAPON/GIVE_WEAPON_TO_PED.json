@@ -1,0 +1,33 @@
+{
+    "0xC4D88A85": {
+        "name": "GIVE_WEAPON_TO_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            },
+            {
+                "name": "ammoCount",
+                "type": "int"
+            },
+            {
+                "name": "isHidden",
+                "type": "BOOL"
+            },
+            {
+                "name": "bForceInHand",
+                "type": "BOOL"
+            }
+        ],
+        "return_type": "void",
+        "description": "GIVE_WEAPON_TO_PED\n\n**This is the server-side RPC native equivalent of the client native [GIVE_WEAPON_TO_PED](?\\_0xBF0FD6E56C964FCB).**",
+        "examples": [],
+        "hash": "0xC4D88A85",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

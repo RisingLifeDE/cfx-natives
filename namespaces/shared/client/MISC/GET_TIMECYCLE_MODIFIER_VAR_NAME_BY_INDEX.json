@@ -1,0 +1,29 @@
+{
+    "0xE874AB1D": {
+        "name": "GET_TIMECYCLE_MODIFIER_VAR_NAME_BY_INDEX",
+        "params": [
+            {
+                "name": "modifierName",
+                "type": "const char*",
+                "description": "The name of timecycle modifier."
+            },
+            {
+                "name": "modifierVarIndex",
+                "type": "int",
+                "description": "The index of a variable on the specified timecycle modifier."
+            }
+        ],
+        "return_type": "const char*",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local varCount = GetTimecycleModifierVarCount(\"underwater\")\r\n\r\nif varCount ~= 0 then\r\n  for index = 0, varCount - 1 do\r\n    local varName = GetTimecycleModifierVarNameByIndex(index)\r\n\r\n    print(string.format(\"[%d] %s\", index, varName))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0xE874AB1D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The name of a variable by index."
+    }
+}

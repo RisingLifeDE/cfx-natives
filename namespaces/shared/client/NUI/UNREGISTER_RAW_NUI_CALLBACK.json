@@ -1,0 +1,18 @@
+{
+    "0x7FB46432": {
+        "name": "UNREGISTER_RAW_NUI_CALLBACK",
+        "params": [
+            {
+                "name": "callbackType",
+                "type": "const char*",
+                "description": "The callback type to target"
+            }
+        ],
+        "return_type": "void",
+        "description": "Will unregister and cleanup a registered NUI callback handler.\n\nUse along side the REGISTER_RAW_NUI_CALLBACK native.",
+        "examples": [],
+        "hash": "0x7FB46432",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

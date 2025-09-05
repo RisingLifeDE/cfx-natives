@@ -1,0 +1,29 @@
+{
+    "0x7644A9FA": {
+        "name": "SET_HUD_COMPONENT_SIZE",
+        "params": [
+            {
+                "name": "id",
+                "type": "int",
+                "description": "The hud component id."
+            },
+            {
+                "name": "x",
+                "type": "float",
+                "description": "New size X."
+            },
+            {
+                "name": "y",
+                "type": "float",
+                "description": "New size Y."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x7644A9FA",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

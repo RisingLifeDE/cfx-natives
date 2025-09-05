@@ -1,0 +1,29 @@
+{
+    "0xC6C2171F": {
+        "name": "SET_VEHICLE_WHEEL_Y_ROTATION",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "value",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xC6C2171F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "aliases": [
+            "SET_VEHICLE_WHEEL_XROT"
+        ]
+    }
+}

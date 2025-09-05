@@ -1,0 +1,22 @@
+{
+    "0x637F4C75": {
+        "name": "GET_STATE_BAG_VALUE",
+        "params": [
+            {
+                "name": "bagName",
+                "type": "const char*"
+            },
+            {
+                "name": "key",
+                "type": "const char*"
+            }
+        ],
+        "return_type": "Object",
+        "description": "Returns the value of a state bag key.",
+        "examples": [],
+        "hash": "0x637F4C75",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "Value."
+    }
+}

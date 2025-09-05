@@ -1,0 +1,19 @@
+{
+    "0xBB340D04": {
+        "name": "IS_VEHICLE_ENGINE_STARTING",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xBB340D04",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

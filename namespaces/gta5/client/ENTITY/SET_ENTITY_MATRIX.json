@@ -1,0 +1,67 @@
+{
+    "0xFB0639B": {
+        "name": "SET_ENTITY_MATRIX",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "A valid entity handle."
+            },
+            {
+                "name": "forwardX",
+                "type": "float"
+            },
+            {
+                "name": "forwardY",
+                "type": "float"
+            },
+            {
+                "name": "forwardZ",
+                "type": "float"
+            },
+            {
+                "name": "rightX",
+                "type": "float"
+            },
+            {
+                "name": "rightY",
+                "type": "float"
+            },
+            {
+                "name": "rightZ",
+                "type": "float"
+            },
+            {
+                "name": "upX",
+                "type": "float"
+            },
+            {
+                "name": "upY",
+                "type": "float"
+            },
+            {
+                "name": "upZ",
+                "type": "float"
+            },
+            {
+                "name": "atX",
+                "type": "float"
+            },
+            {
+                "name": "atY",
+                "type": "float"
+            },
+            {
+                "name": "atZ",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets an entity's matrix. Arguments are in the same order as with GET_ENTITY_MATRIX.",
+        "examples": [],
+        "hash": "0xFB0639B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

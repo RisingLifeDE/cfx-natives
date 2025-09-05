@@ -1,0 +1,20 @@
+{
+    "0x31E695CB": {
+        "name": "IS_TRACK_ENABLED",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Getter for [SET_TRACK_ENABLED](#\\_0x4B41E84C)",
+        "examples": [],
+        "hash": "0x31E695CB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "If this track is enabled."
+    }
+}

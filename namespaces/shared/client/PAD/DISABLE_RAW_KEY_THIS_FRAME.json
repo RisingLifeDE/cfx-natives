@@ -1,0 +1,24 @@
+{
+    "0x8BCF0014": {
+        "name": "DISABLE_RAW_KEY_THIS_FRAME",
+        "params": [
+            {
+                "name": "rawKeyIndex",
+                "type": "int",
+                "description": "Index of raw key from keyboard."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Disables the specified `rawKeyIndex`, making it not trigger the regular `IS_RAW_KEY_*` natives.\n\nVirtual key codes can be found [here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local KEY_SPACE = 32\r\nDisableRawKeyThisFrame(KEY_SPACE)\r\n-- This will not get triggered this frame\r\nif IsRawKeyDown(KEY_SPACE) then\r\n\tprint(\"unreachable :(\")\r\nend\r\n-- this will get triggered\r\nif IsDisabledRawKeyDown(KEY_SPACE) then\r\n    print(\"Spacebar is down\")\r\nend"
+            }
+        ],
+        "hash": "0x8BCF0014",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns bool value of down state."
+    }
+}

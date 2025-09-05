@@ -1,0 +1,20 @@
+{
+    "0x1944AC95": {
+        "name": "GET_HELI_PITCH_CONTROL",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x1944AC95",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns a value representing the pitch control of the helicopter. The values range from `-1.0` (nose down) to `1.0` (nose up), with `0.0` indicating no pitch input."
+    }
+}

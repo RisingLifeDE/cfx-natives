@@ -1,0 +1,18 @@
+{
+    "0xD7531645": {
+        "name": "GET_ALL_VEHICLE_MODELS",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all registered vehicle model names, including non-dlc vehicles and custom vehicles in no particular order.\n\n**Example output**\n\n```\n\t[\"dubsta\", \"dubsta2\", \"dubsta3\", \"myverycoolcar\", \"sultan\", \"sultanrs\", ...]\n```\n\nThis native will not return vehicles that are unregistered (i.e from a resource being stopped) during runtime.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "RegisterCommand(\"spawnrandomcar\", function()\r\n\tlocal vehicles = GetAllVehicleModels()\r\n\tlocal veh = vehicles[math.random(1, #vehicles)]\r\n\tRequestModel(veh)\r\n\trepeat Wait(0) until HasModelLoaded(veh)\r\n\tlocal veh = CreateVehicle(veh, GetEntityCoords(PlayerPedId()), GetEntityHeading(PlayerPedId()), true, false)\r\n\tSetPedIntoVehicle(PlayerPedId(), veh, -1)\r\nend)"
+            }
+        ],
+        "hash": "0xD7531645",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

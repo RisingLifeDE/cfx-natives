@@ -1,0 +1,19 @@
+{
+    "0xDE73BC10": {
+        "name": "GET_VEHICLE_TYPE_RAW",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle's entity handle."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the model type of the vehicle as defined by:\n\n```cpp\nenum VehicleType\r\n{\r\n\tVEHICLE_TYPE_NONE = -1,\r\n\tVEHICLE_TYPE_CAR = 0,\r\n\tVEHICLE_TYPE_PLANE = 1,\r\n\tVEHICLE_TYPE_TRAILER = 2,\r\n\tVEHICLE_TYPE_QUADBIKE = 3,\r\n\tVEHICLE_TYPE_DRAFT = 4,\r\n\tVEHICLE_TYPE_SUBMARINECAR = 5,\r\n\tVEHICLE_TYPE_AMPHIBIOUS_AUTOMOBILE = 6,\r\n\tVEHICLE_TYPE_AMPHIBIOUS_QUADBIKE = 7,\r\n\tVEHICLE_TYPE_HELI = 8,\r\n\tVEHICLE_TYPE_BLIMP = 9,\r\n\tVEHICLE_TYPE_AUTOGYRO = 10,\r\n\tVEHICLE_TYPE_BIKE = 11,\r\n\tVEHICLE_TYPE_BICYCLE = 12,\r\n\tVEHICLE_TYPE_BOAT = 13,\r\n\tVEHICLE_TYPE_TRAIN = 14,\r\n\tVEHICLE_TYPE_SUBMARINE = 15,\r\n};\n```",
+        "examples": [],
+        "hash": "0xDE73BC10",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns the vehicles model type"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "0xAF12A05D": {
+        "name": "SET_PED_MODEL_HEALTH_CONFIG",
+        "params": [
+            {
+                "name": "modelHash",
+                "type": "Hash",
+                "description": "Ped's model."
+            },
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Name of health config."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a ped model's health config.\r\nTakes effect only after setting player model with `SET_PLAYER_MODEL`.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local pedModel = `mp_f_freemode_01`\r\nSetPedModelHealthConfig(pedModel, \"Strong\")\r\n\r\nSetPlayerModel(PlayerId(), pedModel)\r\nSetPedDefaultComponentVariation(PlayerPedId())\r\n"
+            }
+        ],
+        "hash": "0xAF12A05D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

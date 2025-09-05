@@ -1,0 +1,14 @@
+{
+    "0x78951816": {
+        "name": "GET_GLOBAL_PASSENGER_MASS_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_GLOBAL_PASSENGER_MASS_MULTIPLIER](#\\_0x3422291C).",
+        "examples": [],
+        "hash": "0x78951816",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns the mass of each passenger (not counting the driver) as a percentage of vehicle mass. Default value is 0.05"
+    }
+}

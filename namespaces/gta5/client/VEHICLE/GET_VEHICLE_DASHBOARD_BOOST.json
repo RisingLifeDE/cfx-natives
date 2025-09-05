@@ -1,0 +1,13 @@
+{
+    "0xDFFABA2A": {
+        "name": "GET_VEHICLE_DASHBOARD_BOOST",
+        "params": [],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xDFFABA2A",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

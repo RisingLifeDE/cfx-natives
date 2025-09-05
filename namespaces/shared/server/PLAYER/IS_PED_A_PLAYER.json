@@ -1,0 +1,18 @@
+{
+    "0x404794CA": {
+        "name": "IS_PED_A_PLAYER",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This native checks if the given ped is a player.",
+        "examples": [],
+        "hash": "0x404794CA",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns `true` if the ped is a player, `false` otherwise."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0xD16EA02F": {
+        "name": "GET_ENTITY_ORPHAN_MODE",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the orphan mode of"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xD16EA02F",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns the entities current orphan mode, refer to enum in [SET_ENTITY_ORPHAN_MODE](#\\_0x489E9162)"
+    }
+}

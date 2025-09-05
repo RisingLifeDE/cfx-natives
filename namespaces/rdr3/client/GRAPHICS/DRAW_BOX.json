@@ -1,0 +1,54 @@
+{
+    "0xCD4D9DD5": {
+        "name": "DRAW_BOX",
+        "params": [
+            {
+                "name": "x1",
+                "type": "float"
+            },
+            {
+                "name": "y1",
+                "type": "float"
+            },
+            {
+                "name": "z1",
+                "type": "float"
+            },
+            {
+                "name": "x2",
+                "type": "float"
+            },
+            {
+                "name": "y2",
+                "type": "float"
+            },
+            {
+                "name": "z2",
+                "type": "float"
+            },
+            {
+                "name": "red",
+                "type": "int"
+            },
+            {
+                "name": "green",
+                "type": "int"
+            },
+            {
+                "name": "blue",
+                "type": "int"
+            },
+            {
+                "name": "alpha",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xCD4D9DD5",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

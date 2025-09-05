@@ -1,0 +1,14 @@
+{
+    "0xF5A904F9": {
+        "name": "GET_PED_DENSITY_MULTIPLIER",
+        "params": [],
+        "return_type": "float",
+        "description": "A getter for [SET_PED_DENSITY_MULTIPLIER_THIS_FRAME](#\\_0x95E3D6257B166CF2).",
+        "examples": [],
+        "hash": "0xF5A904F9",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns ped density multiplier value."
+    }
+}

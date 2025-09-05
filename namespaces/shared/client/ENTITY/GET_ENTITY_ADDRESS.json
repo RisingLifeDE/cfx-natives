@@ -1,0 +1,19 @@
+{
+    "0x9A3144BC": {
+        "name": "GET_ENTITY_ADDRESS",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The handle of the entity to get the address of."
+            }
+        ],
+        "return_type": "Any*",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nReturns the memory address of an entity.\n\nThis native is intended for singleplayer debugging, and may not be available during multiplayer.",
+        "examples": [],
+        "hash": "0x9A3144BC",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A pointer containing the memory address of the entity."
+    }
+}

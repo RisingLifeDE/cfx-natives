@@ -1,0 +1,29 @@
+{
+    "0x8E51EC29": {
+        "name": "SET_PED_MELEE_COMBAT_LIMITS",
+        "params": [
+            {
+                "name": "primaryCount",
+                "type": "int",
+                "description": "The number of peds that engage in combat (default: 1)"
+            },
+            {
+                "name": "secondaryCount",
+                "type": "int",
+                "description": "The number of peds that engage in taunting (default: 3)"
+            },
+            {
+                "name": "populationPedCount",
+                "type": "int",
+                "description": "The maximum number of population peds (ambient and scenario) that can engage in combat (default: 3)"
+            }
+        ],
+        "return_type": "void",
+        "description": "Override the limits on the number and types of melee combatants. The game is limited to at most ten combatants among the three types: primary, secondary, and observers.\n\nThis native infers the number of observers based on the primary and secondary counts.",
+        "examples": [],
+        "hash": "0x8E51EC29",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

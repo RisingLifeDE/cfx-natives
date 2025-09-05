@@ -1,0 +1,50 @@
+{
+    "0xEC37C168": {
+        "name": "DRAW_RECT_ROTATED",
+        "params": [
+            {
+                "name": "x",
+                "type": "float"
+            },
+            {
+                "name": "y",
+                "type": "float"
+            },
+            {
+                "name": "width",
+                "type": "float"
+            },
+            {
+                "name": "height",
+                "type": "float"
+            },
+            {
+                "name": "rotation",
+                "type": "float"
+            },
+            {
+                "name": "r",
+                "type": "int"
+            },
+            {
+                "name": "g",
+                "type": "int"
+            },
+            {
+                "name": "b",
+                "type": "int"
+            },
+            {
+                "name": "a",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "DRAW_RECT, but with a rotation. Seems to be broken.",
+        "examples": [],
+        "hash": "0xEC37C168",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

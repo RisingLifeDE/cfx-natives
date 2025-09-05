@@ -1,0 +1,42 @@
+{
+    "0x5BA35AAF": {
+        "name": "ADD_STATE_BAG_CHANGE_HANDLER",
+        "params": [
+            {
+                "name": "keyFilter",
+                "type": "const char*",
+                "description": "The key to check for, or null for no filter."
+            },
+            {
+                "name": "bagFilter",
+                "type": "const char*",
+                "description": "The bag ID to check for such as `entity:65535`, or null for no filter."
+            },
+            {
+                "name": "handler",
+                "type": "Function",
+                "description": "The handler function."
+            }
+        ],
+        "return_type": "int",
+        "description": "Adds a handler for changes to a state bag.\n\nThe function called expects to match the following signature:\n\n```ts\nfunction StateBagChangeHandler(bagName: string, key: string, value: any, reserved: number, replicated: boolean);\n```\n\n*   **bagName**: The internal bag ID for the state bag which changed. This is usually `player:Source`, `entity:NetID`\r\n    or `localEntity:Handle`.\n*   **key**: The changed key.\n*   **value**: The new value stored at key. The old value is still stored in the state bag at the time this callback executes.\n*   **reserved**: Currently unused.\n*   **replicated**: Whether the set is meant to be replicated.\n\nAt this time, the change handler can't opt to reject changes.\n\nIf bagName refers to an entity, use [GET_ENTITY_FROM_STATE_BAG_NAME](#\\_0x4BDF1867) to get the entity handle\r\nIf bagName refers to a player, use [GET_PLAYER_FROM_STATE_BAG_NAME](#\\_0xA56135E0) to get the player handle",
+        "examples": [
+            {
+                "lang": "js",
+                "code": "AddStateBagChangeHandler(\"blockTasks\", null, async (bagName, key, value /* boolean */) => {\r\n    let entity = GetEntityFromStateBagName(bagName);\r\n    // Whoops, we don't have a valid entity!\r\n    if (entity === 0) return;\r\n    // We don't want to freeze the entity position if the entity collision hasn't loaded yet\r\n    while (!HasCollisionLoadedAroundEntity(entity)) {\r\n        // The entity went out of our scope before the collision loaded\r\n        if (!DoesEntityExist(entity)) return;\r\n        await Delay(250);\r\n    }\r\n    SetEntityInvincible(entity, value)\r\n    FreezeEntityPosition(entity, value)\r\n    TaskSetBlockingOfNonTemporaryEvents(entity, value)\r\n})"
+            },
+            {
+                "lang": "lua",
+                "code": "AddStateBagChangeHandler(\"blockTasks\", nil, function(bagName, key, value) \r\n    local entity = GetEntityFromStateBagName(bagName)\r\n    -- Whoops, we don't have a valid entity!\r\n    if entity == 0 then return end\r\n    -- We don't want to freeze the entity position if the entity collision hasn't loaded yet\r\n    while not HasCollisionLoadedAroundEntity(entity) do\r\n        -- The entity went out of our scope before the collision loaded\r\n        if not DoesEntityExist(entity) then return end\r\n        Wait(250)\r\n    end\r\n    SetEntityInvincible(entity, value)\r\n    FreezeEntityPosition(entity, value)\r\n    TaskSetBlockingOfNonTemporaryEvents(entity, value)\r\nend)"
+            },
+            {
+                "lang": "cs",
+                "code": "AddStateBagChangeHandler(\"blockTasks\", null,\r\n    new Action<string, string, object, int, bool>\r\n    (async (bagName, key, value, res, rep) =>\r\n    {\r\n        bool val = (bool)value;\r\n\r\n        var entity = GetEntityFromStateBagName(bagName);\r\n        //-- Whoops, we don't have a valid entity!\r\n        if (entity == 0) return;\r\n        //-- We don't want to freeze the entity position if the entity collision hasn't loaded yet\r\n        while (!HasCollisionLoadedAroundEntity(entity))\r\n        {\r\n            //--The entity went out of our scope before the collision loaded\r\n            if (!DoesEntityExist(entity)) return;\r\n\r\n            await Delay(250);\r\n        }\r\n        SetEntityInvincible(entity, val);\r\n        FreezeEntityPosition(entity, val);\r\n        TaskSetBlockingOfNonTemporaryEvents(entity, val);\r\n    }));"
+            }
+        ],
+        "hash": "0x5BA35AAF",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "A cookie to remove the change handler."
+    }
+}

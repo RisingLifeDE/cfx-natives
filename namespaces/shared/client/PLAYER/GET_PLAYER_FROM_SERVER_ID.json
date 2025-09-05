@@ -1,0 +1,24 @@
+{
+    "0x344EA166": {
+        "name": "GET_PLAYER_FROM_SERVER_ID",
+        "params": [
+            {
+                "name": "serverId",
+                "type": "int",
+                "description": "The player's server ID."
+            }
+        ],
+        "return_type": "Player",
+        "description": "Gets a local client's Player ID from its server ID counterpart, assuming the passed `serverId` exists on the client.\n\nIf no matching client is found, or an invalid value is passed over as the `serverId` native's parameter, the native result will be `-1`.\n\nIt's worth noting that this native method can only retrieve information about clients that are culled to the connected client.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "--We will assume the serverId is '4' in this scenario and that it's a valid serverId.\r\n\r\n-- Passing invalid Player IDs such as 'nil' or IDs that don't exist will result in playerId being -1.\r\n\r\nlocal playerId = GetPlayerFromServerId(serverId);\r\n\r\n-- If the resulting playerId is not invalid (not equal to -1)\r\nif playerId ~= -1 then\r\n    -- Do our stuff on this player.\r\nend\r\n"
+            }
+        ],
+        "hash": "0x344EA166",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "A valid Player ID if one is found, `-1` if not."
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "0x20B1B3E6": {
+        "name": "SET_VEHICLE_HIGH_GEAR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "gear",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x20B1B3E6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

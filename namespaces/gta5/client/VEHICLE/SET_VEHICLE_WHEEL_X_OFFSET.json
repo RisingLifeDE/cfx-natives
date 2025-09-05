@@ -1,0 +1,26 @@
+{
+    "0xBD6357D": {
+        "name": "SET_VEHICLE_WHEEL_X_OFFSET",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            },
+            {
+                "name": "offset",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "Adjusts the offset of the specified wheel relative to the wheel's axle center.\r\nNeeds to be called every frame in order to function properly, as GTA will reset the offset otherwise.\r\nThis function can be especially useful to set the track width of a vehicle, for example:\n\n```\nfunction SetVehicleFrontTrackWidth(vehicle, width)\r\nSetVehicleWheelXOffset(vehicle, 0, -width/2)\r\nSetVehicleWheelXOffset(vehicle, 1, width/2)\r\nend\n```",
+        "examples": [],
+        "hash": "0xBD6357D",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

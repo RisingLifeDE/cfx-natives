@@ -1,0 +1,22 @@
+{
+    "0x3CCF1B49": {
+        "name": "GET_VEHICLE_WHEEL_IS_POWERED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "wheelIndex",
+                "type": "int"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets whether the wheel is powered.\r\nMax number of wheels can be retrieved with the native GET_VEHICLE_NUMBER_OF_WHEELS.\r\nThis is a shortcut to a flag in GET_VEHICLE_WHEEL_FLAGS.",
+        "examples": [],
+        "hash": "0x3CCF1B49",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

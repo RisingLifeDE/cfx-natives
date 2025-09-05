@@ -1,0 +1,24 @@
+{
+    "0x77EB78D0": {
+        "name": "SET_TRACK_BRAKING_DISTANCE",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            },
+            {
+                "name": "brakingDistance",
+                "type": "float",
+                "description": "The new braking distance"
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the braking distance of the track. Used by trains to determine the point to slow down when entering a station.",
+        "examples": [],
+        "hash": "0x77EB78D0",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

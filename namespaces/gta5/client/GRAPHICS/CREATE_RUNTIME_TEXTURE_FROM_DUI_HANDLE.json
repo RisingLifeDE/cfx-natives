@@ -1,0 +1,30 @@
+{
+    "0xB135472B": {
+        "name": "CREATE_RUNTIME_TEXTURE_FROM_DUI_HANDLE",
+        "params": [
+            {
+                "name": "txd",
+                "type": "long",
+                "description": "A handle to the runtime TXD to create the runtime texture in."
+            },
+            {
+                "name": "txn",
+                "type": "const char*",
+                "description": "The name for the texture in the runtime texture dictionary."
+            },
+            {
+                "name": "duiHandle",
+                "type": "const char*",
+                "description": "The DUI handle returned from GET_DUI_HANDLE."
+            }
+        ],
+        "return_type": "long",
+        "description": "Creates a runtime texture from a DUI handle.",
+        "examples": [],
+        "hash": "0xB135472B",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The runtime texture handle."
+    }
+}

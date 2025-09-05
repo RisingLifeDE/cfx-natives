@@ -1,0 +1,19 @@
+{
+    "0x5FB53015": {
+        "name": "SET_MINIMAP_TYPE",
+        "params": [
+            {
+                "name": "type",
+                "type": "int",
+                "description": "Type to set the minimap to."
+            }
+        ],
+        "return_type": "void",
+        "description": "Possible Types:\n\n```\n0 = Off,\r\n1 = Regular,\r\n2 = Expanded,\r\n3 = Simple,\n```",
+        "examples": [],
+        "hash": "0x5FB53015",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "rdr3"
+    }
+}

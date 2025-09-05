@@ -1,0 +1,24 @@
+{
+    "0x264B45DE": {
+        "name": "SET_VEHICLE_ROLL_BIAS",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "Target vehicle."
+            },
+            {
+                "name": "value",
+                "type": "float",
+                "description": "Roll bias value."
+            }
+        ],
+        "return_type": "void",
+        "description": "Set the vehicle's roll bias. Only works on planes.",
+        "examples": [],
+        "hash": "0x264B45DE",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

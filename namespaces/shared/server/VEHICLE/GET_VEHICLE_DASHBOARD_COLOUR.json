@@ -1,0 +1,22 @@
+{
+    "0xA0DBD08D": {
+        "name": "GET_VEHICLE_DASHBOARD_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "color",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0xA0DBD08D",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "0xE3318E0E": {
+        "name": "SET_PED_RANDOM_PROPS",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The ped handle."
+            }
+        ],
+        "return_type": "void",
+        "description": "SET_PED_RANDOM_PROPS\n\n**This is the server-side RPC native equivalent of the client native [SET_PED_RANDOM_PROPS](?\\_0xC44AA05345C992C6).**",
+        "examples": [],
+        "hash": "0xE3318E0E",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0x1382FCEA": {
+        "name": "GET_VEHICLE_STEERING_ANGLE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x1382FCEA",
+        "ns": "CFX",
+        "apiset": "shared",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "0x896A0C11": {
+        "name": "GET_TRACK_NODE_COUNT",
+        "params": [
+            {
+                "name": "trackIndex",
+                "type": "int",
+                "description": "The track index"
+            }
+        ],
+        "return_type": "int",
+        "description": "Gets the specified tracks node count.",
+        "examples": [],
+        "hash": "0x896A0C11",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The amount of track nodes on the specified track"
+    }
+}

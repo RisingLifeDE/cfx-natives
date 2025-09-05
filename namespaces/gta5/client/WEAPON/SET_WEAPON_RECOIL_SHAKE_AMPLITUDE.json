@@ -1,0 +1,24 @@
+{
+    "0x9864312F": {
+        "name": "SET_WEAPON_RECOIL_SHAKE_AMPLITUDE",
+        "params": [
+            {
+                "name": "weaponHash",
+                "type": "Hash",
+                "description": "Weapon name hash."
+            },
+            {
+                "name": "amplitude",
+                "type": "float",
+                "description": "Recoil shake amplitude"
+            }
+        ],
+        "return_type": "void",
+        "description": "A setter for the recoil shake amplitude of a weapon.",
+        "examples": [],
+        "hash": "0x9864312F",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

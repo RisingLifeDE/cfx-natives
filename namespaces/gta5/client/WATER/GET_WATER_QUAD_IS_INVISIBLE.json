@@ -1,0 +1,29 @@
+{
+    "0x1DEDBD77": {
+        "name": "GET_WATER_QUAD_IS_INVISIBLE",
+        "params": [
+            {
+                "name": "waterQuad",
+                "type": "int",
+                "description": "The water quad index"
+            },
+            {
+                "name": "isInvisible",
+                "type": "int*"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local success, isInvisible = GetWaterQuadIsInvisible(0)"
+            }
+        ],
+        "hash": "0x1DEDBD77",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns if the given water quad is invisible"
+    }
+}

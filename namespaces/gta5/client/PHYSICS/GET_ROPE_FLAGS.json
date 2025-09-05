@@ -1,0 +1,20 @@
+{
+    "0xA80FFE99": {
+        "name": "GET_ROPE_FLAGS",
+        "params": [
+            {
+                "name": "rope",
+                "type": "int",
+                "description": "The rope to get the flags for."
+            }
+        ],
+        "return_type": "int",
+        "description": "```cpp\nenum eRopeFlags\r\n{\r\n    DrawShadowEnabled = 2,\r\n\tBreakable = 4,\r\n\tRopeUnwindingFront = 8,\r\n\tRopeWinding = 32\r\n}\n```",
+        "examples": [],
+        "hash": "0xA80FFE99",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The rope's flags."
+    }
+}

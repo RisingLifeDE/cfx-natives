@@ -1,0 +1,33 @@
+{
+    "0x9A209B3C": {
+        "name": "SET_AUDIO_SUBMIX_EFFECT_PARAM_FLOAT",
+        "params": [
+            {
+                "name": "submixId",
+                "type": "int",
+                "description": "The submix."
+            },
+            {
+                "name": "effectSlot",
+                "type": "int",
+                "description": "The effect slot for the submix. It is expected that the effect is set in this slot beforehand."
+            },
+            {
+                "name": "paramIndex",
+                "type": "int",
+                "description": "The parameter index for the effect."
+            },
+            {
+                "name": "paramValue",
+                "type": "float",
+                "description": "The parameter value to set."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets a floating-point parameter for a submix effect.",
+        "examples": [],
+        "hash": "0x9A209B3C",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

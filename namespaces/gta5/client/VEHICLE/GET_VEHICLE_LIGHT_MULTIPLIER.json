@@ -1,0 +1,19 @@
+{
+    "0x7E6E219C": {
+        "name": "GET_VEHICLE_LIGHT_MULTIPLIER",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x7E6E219C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": ""
+    }
+}

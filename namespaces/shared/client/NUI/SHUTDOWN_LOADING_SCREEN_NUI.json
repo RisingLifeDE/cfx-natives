@@ -1,0 +1,12 @@
+{
+    "0xB9234AFB": {
+        "name": "SHUTDOWN_LOADING_SCREEN_NUI",
+        "params": [],
+        "return_type": "void",
+        "description": "Shuts down the `loadingScreen` NUI frame, similarly to `SHUTDOWN_LOADING_SCREEN`.",
+        "examples": [],
+        "hash": "0xB9234AFB",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "0xA085CB10": {
+    "name": "DESTROY_DUI",
+    "params": [
+      {
+        "name": "duiObject",
+        "type": "long",
+        "description": "The DUI browser handle."
+      }
+    ],
+    "return_type": "void",
+    "description": "Destroys a DUI browser.",
+    "examples": [],
+    "hash": "0xA085CB10",
+    "ns": "CFX",
+    "apiset": "client"
+  }
+}

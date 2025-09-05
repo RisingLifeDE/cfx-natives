@@ -1,0 +1,24 @@
+{
+    "0x36366EC3": {
+        "name": "IS_DISABLED_RAW_KEY_DOWN",
+        "params": [
+            {
+                "name": "rawKeyIndex",
+                "type": "int",
+                "description": "Index of raw key from keyboard."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Gets if the specified `rawKeyIndex` is pressed down, even if the key is disabled with [DISABLE_RAW_KEY_THIS_FRAME](#\\_0x8BCF0014).\n\nVirtual key codes can be found [here](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes)",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "if IsDisabledRawKeyDown(32) then -- KEY_SPACE\r\n    print(\"Spacebar is down\")\r\nend"
+            }
+        ],
+        "hash": "0x36366EC3",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns bool value of down state."
+    }
+}

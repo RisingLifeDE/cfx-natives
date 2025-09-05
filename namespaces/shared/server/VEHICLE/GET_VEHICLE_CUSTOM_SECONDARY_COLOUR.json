@@ -1,0 +1,30 @@
+{
+    "0x3FF247A2": {
+        "name": "GET_VEHICLE_CUSTOM_SECONDARY_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "r",
+                "type": "int*"
+            },
+            {
+                "name": "g",
+                "type": "int*"
+            },
+            {
+                "name": "b",
+                "type": "int*"
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [],
+        "hash": "0x3FF247A2",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

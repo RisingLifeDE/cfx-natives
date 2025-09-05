@@ -1,0 +1,20 @@
+{
+    "0x12948DE9": {
+        "name": "GET_HELI_ROLL_CONTROL",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check."
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0x12948DE9",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns a value representing the roll control of the helicopter. The values range from `-1.0` (roll left) to `1.0` (roll right), with `0.0` indicating no roll input."
+    }
+}

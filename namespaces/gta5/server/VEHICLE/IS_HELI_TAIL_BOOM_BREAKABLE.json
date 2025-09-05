@@ -1,0 +1,20 @@
+{
+    "0x23E46BD7": {
+        "name": "IS_HELI_TAIL_BOOM_BREAKABLE",
+        "params": [
+            {
+                "name": "heli",
+                "type": "Vehicle",
+                "description": "The helicopter to check"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "This is a getter for [SET_HELI_TAIL_EXPLODE_THROW_DASHBOARD](#\\_0x3EC8BF18AA453FE9)",
+        "examples": [],
+        "hash": "0x23E46BD7",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns `true` if the helicopter's tail boom can break, `false` if it cannot."
+    }
+}

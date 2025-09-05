@@ -1,0 +1,19 @@
+{
+    "0xB8B4490C": {
+        "name": "SET_MINIMAP_CLIP_TYPE",
+        "params": [
+            {
+                "name": "type",
+                "type": "int",
+                "description": "0 for rectangular, 1 for rounded."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets the type for the minimap blip clipping object to be either rectangular or rounded.",
+        "examples": [],
+        "hash": "0xB8B4490C",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

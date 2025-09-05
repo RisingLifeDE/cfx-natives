@@ -1,0 +1,20 @@
+{
+    "0x428668B7": {
+        "name": "GET_TRAIN_SPEED",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The train handle"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the speed the train is currently going.",
+        "examples": [],
+        "hash": "0x428668B7",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "The current speed of the train"
+    }
+}

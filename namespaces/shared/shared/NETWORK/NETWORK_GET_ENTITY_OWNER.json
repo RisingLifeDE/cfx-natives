@@ -1,0 +1,19 @@
+{
+    "0x526FEE31": {
+        "name": "NETWORK_GET_ENTITY_OWNER",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the owner for."
+            }
+        ],
+        "return_type": "int",
+        "description": "Returns the owner ID of the specified entity.",
+        "examples": [],
+        "hash": "0x526FEE31",
+        "ns": "CFX",
+        "apiset": "shared",
+        "resultsDescription": "On the server, the server ID of the entity owner. On the client, returns the player/slot ID of the entity owner."
+    }
+}

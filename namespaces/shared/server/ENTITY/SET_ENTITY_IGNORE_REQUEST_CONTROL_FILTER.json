@@ -1,0 +1,23 @@
+{
+    "0x9F7F8D36": {
+        "name": "SET_ENTITY_IGNORE_REQUEST_CONTROL_FILTER",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity handle to ignore the request control filter."
+            },
+            {
+                "name": "ignore",
+                "type": "BOOL",
+                "description": "Define if the entity ignores the request control filter policy."
+            }
+        ],
+        "return_type": "void",
+        "description": "It allows to flag an entity to ignore the request control filter policy.",
+        "examples": [],
+        "hash": "0x9F7F8D36",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

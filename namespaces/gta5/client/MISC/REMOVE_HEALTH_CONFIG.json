@@ -1,0 +1,19 @@
+{
+    "0xE0ED5FB": {
+        "name": "REMOVE_HEALTH_CONFIG",
+        "params": [
+            {
+                "name": "configName",
+                "type": "const char*",
+                "description": "Removes config name. Cannot be default game health config name."
+            }
+        ],
+        "return_type": "void",
+        "description": "Removes health config.",
+        "examples": [],
+        "hash": "0xE0ED5FB",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

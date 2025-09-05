@@ -1,0 +1,20 @@
+{
+    "0xE0C53765": {
+        "name": "IS_TRACK_SWITCHED_OFF",
+        "params": [
+            {
+                "name": "track",
+                "type": "int",
+                "description": "The track id (between 0 - 27)"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Getter for [SWITCH_TRAIN_TRACK](#\\_0xFD813BB7DB977F20). Determines if ambient trains are able to spawn on this track.",
+        "examples": [],
+        "hash": "0xE0C53765",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "If this track allows ambient trains to spawn"
+    }
+}

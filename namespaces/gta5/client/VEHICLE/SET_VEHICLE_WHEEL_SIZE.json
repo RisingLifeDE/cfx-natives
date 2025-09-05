@@ -1,0 +1,25 @@
+{
+    "0x53AB5C35": {
+        "name": "SET_VEHICLE_WHEEL_SIZE",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to set data for."
+            },
+            {
+                "name": "size",
+                "type": "float",
+                "description": "Size of the wheels (usually between 0.5 and 1.5 is reasonable)."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Sets vehicle's wheels' size (size is the same for all the wheels, cannot get/set specific wheel of vehicle).\r\nOnly works on non-default wheels.\r\nReturns whether change was successful (can be false if trying to set size for non-default wheels).",
+        "examples": [],
+        "hash": "0x53AB5C35",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Bool - whether change was successful or not"
+    }
+}

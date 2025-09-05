@@ -1,0 +1,18 @@
+{
+    "0xFE2A1D4D": {
+        "name": "GET_TIMECYCLE_MODIFIER_COUNT",
+        "params": [],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local count = GetTimecycleModifierCount()\r\nprint(\"we have  \" .. count .. \"timecycle modifiers loaded\")"
+            }
+        ],
+        "hash": "0xFE2A1D4D",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "Returns the amount of timecycle modifiers loaded."
+    }
+}

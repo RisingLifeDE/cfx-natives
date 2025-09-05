@@ -1,0 +1,24 @@
+{
+    "0xF44BFB95": {
+        "name": "REGISTER_STREAMING_FILE_FROM_URL",
+        "params": [
+            {
+                "name": "registerAs",
+                "type": "const char*",
+                "description": "The file name to register as, for example `asset.ydr`."
+            },
+            {
+                "name": "url",
+                "type": "const char*",
+                "description": "The URL to fetch the asset from."
+            }
+        ],
+        "return_type": "void",
+        "description": "**Experimental**: This native may be altered or removed in future versions of CitizenFX without warning.\n\nRegisters a file from an URL as a streaming asset in the GTA streaming subsystem. This will asynchronously register the asset, and caching is done based on the URL itself - cache headers are ignored.\n\nUse `IS_STREAMING_FILE_READY` to check if the asset has been registered successfully.",
+        "examples": [],
+        "hash": "0xF44BFB95",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

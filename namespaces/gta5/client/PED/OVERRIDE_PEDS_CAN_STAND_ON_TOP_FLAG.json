@@ -1,0 +1,19 @@
+{
+    "0x90A9E0B2": {
+        "name": "OVERRIDE_PEDS_CAN_STAND_ON_TOP_FLAG",
+        "params": [
+            {
+                "name": "flag",
+                "type": "BOOL",
+                "description": "true to override, false to use default game behavior."
+            }
+        ],
+        "return_type": "void",
+        "description": "Sets whether peds can stand on top of *all* vehicles without falling off.\n\nNote this flag is not replicated automatically, you will have to manually do so.",
+        "examples": [],
+        "hash": "0x90A9E0B2",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

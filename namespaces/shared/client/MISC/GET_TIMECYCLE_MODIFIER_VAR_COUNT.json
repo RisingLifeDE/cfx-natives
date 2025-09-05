@@ -1,0 +1,24 @@
+{
+    "0x60FB60FE": {
+        "name": "GET_TIMECYCLE_MODIFIER_VAR_COUNT",
+        "params": [
+            {
+                "name": "modifierName",
+                "type": "const char*",
+                "description": "The timecycle modifier name."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local varCount = GetTimecycleModifierVarCount(\"underwater\")\r\n\r\nif varCount ~= 0 then\r\n  for index = 0, varCount - 1 do\r\n    local varName = GetTimecycleModifierVarNameByIndex(index)\r\n\r\n    print(string.format(\"[%d] %s\", index, varName))\r\n  end\r\nend"
+            }
+        ],
+        "hash": "0x60FB60FE",
+        "ns": "CFX",
+        "apiset": "client",
+        "resultsDescription": "The amount of variables used on a specified timecycle modifier."
+    }
+}

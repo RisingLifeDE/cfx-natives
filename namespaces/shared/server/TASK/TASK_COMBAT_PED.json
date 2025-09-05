@@ -1,0 +1,29 @@
+{
+    "0xCB0D8932": {
+        "name": "TASK_COMBAT_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "targetPed",
+                "type": "Ped"
+            },
+            {
+                "name": "p2",
+                "type": "int"
+            },
+            {
+                "name": "p3",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nMakes the specified ped attack the target ped.\r\np2 should be 0\r\np3 should be 16\n```\n\n**This is the server-side RPC native equivalent of the client native [TASK_COMBAT_PED](?\\_0xF166E48407BAC484).**",
+        "examples": [],
+        "hash": "0xCB0D8932",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

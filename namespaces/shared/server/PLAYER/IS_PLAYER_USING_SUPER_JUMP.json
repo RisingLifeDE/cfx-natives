@@ -1,0 +1,19 @@
+{
+    "0xC7D2C20C": {
+        "name": "IS_PLAYER_USING_SUPER_JUMP",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0xC7D2C20C",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "A boolean."
+    }
+}

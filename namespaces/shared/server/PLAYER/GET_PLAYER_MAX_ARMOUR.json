@@ -1,0 +1,19 @@
+{
+    "0x2A50657": {
+        "name": "GET_PLAYER_MAX_ARMOUR",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0x2A50657",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": ""
+    }
+}

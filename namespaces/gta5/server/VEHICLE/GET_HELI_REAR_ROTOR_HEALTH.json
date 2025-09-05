@@ -1,0 +1,20 @@
+{
+    "0x33EE6E2B": {
+        "name": "GET_HELI_REAR_ROTOR_HEALTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The target vehicle."
+            }
+        ],
+        "return_type": "float",
+        "description": "This native is a getter for [SET_HELI_TAIL_ROTOR_HEALTH](#\\_0xFE205F38AAA58E5B)",
+        "examples": [],
+        "hash": "0x33EE6E2B",
+        "ns": "CFX",
+        "apiset": "server",
+        "game": "gta5",
+        "resultsDescription": "Returns the health of the helicopter's rear rotor. The maximum health value is `1000`."
+    }
+}

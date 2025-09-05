@@ -1,0 +1,20 @@
+{
+    "0xE015E854": {
+        "name": "GET_TRAIN_CURRENT_TRACK_NODE",
+        "params": [
+            {
+                "name": "train",
+                "type": "Vehicle",
+                "description": "The target train."
+            }
+        ],
+        "return_type": "int",
+        "description": "",
+        "examples": [],
+        "hash": "0xE015E854",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Train's current track node index."
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "0xC182F76E": {
+        "name": "GET_PED_DESIRED_HEADING",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped",
+                "description": "The target ped"
+            }
+        ],
+        "return_type": "float",
+        "description": "",
+        "examples": [],
+        "hash": "0xC182F76E",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns ped's desired heading."
+    }
+}

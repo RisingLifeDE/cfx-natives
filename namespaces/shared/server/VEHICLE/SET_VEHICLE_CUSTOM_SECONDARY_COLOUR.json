@@ -1,0 +1,29 @@
+{
+    "0x9D77259E": {
+        "name": "SET_VEHICLE_CUSTOM_SECONDARY_COLOUR",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "r",
+                "type": "int"
+            },
+            {
+                "name": "g",
+                "type": "int"
+            },
+            {
+                "name": "b",
+                "type": "int"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\np1, p2, p3 are RGB values for color (255,0,0 for Red, ect)\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_CUSTOM_SECONDARY_COLOUR](?\\_0x36CED73BFED89754).**",
+        "examples": [],
+        "hash": "0x9D77259E",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

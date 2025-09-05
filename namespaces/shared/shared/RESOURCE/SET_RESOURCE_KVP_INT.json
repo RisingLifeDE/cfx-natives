@@ -1,0 +1,28 @@
+{
+    "0x6A2B1E8": {
+        "name": "SET_RESOURCE_KVP_INT",
+        "params": [
+            {
+                "name": "key",
+                "type": "const char*",
+                "description": "The key to set"
+            },
+            {
+                "name": "value",
+                "type": "int",
+                "description": "The value to write"
+            }
+        ],
+        "return_type": "void",
+        "description": "A setter for [GET_RESOURCE_KVP_INT](#\\_0x557B586A).",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local lickMy = 42\r\nSetResourceKvp('bananabread', lickMy)"
+            }
+        ],
+        "hash": "0x6A2B1E8",
+        "ns": "CFX",
+        "apiset": "shared"
+    }
+}

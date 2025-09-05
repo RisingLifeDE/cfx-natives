@@ -1,0 +1,23 @@
+{
+    "0x7995539E": {
+        "name": "LOAD_PLAYER_COMMERCE_DATA_EXT",
+        "params": [
+            {
+                "name": "playerSrc",
+                "type": "const char*",
+                "description": "The player handle"
+            }
+        ],
+        "return_type": "void",
+        "description": "Requests the commerce data from Tebex for the specified player, including the owned SKUs.\n\nUse [`IS_PLAYER_COMMERCE_INFO_LOADED_EXT`](#\\_0x1D14F4FE) to check if it has loaded.\n\nThis will not automatically update whenever a client purchases a package, if you want to fetch new purchases you will need to call this native again.\n\nThis native will temporarily cache the players commerce data for 10 seconds, a call to this native after 10 seconds will re-fetch the players commerce data.",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "RegisterNetEvent(\"doesOwnPackage\", function(packageIdSku)\r\n\t-- source isn't valid across waits, so we localize it\r\n\tlocal source = source\r\n\r\n\t-- input isn't right\r\n\tif type(packageIdSku) ~= \"number\" then\r\n\t\treturn\r\n\tend\r\n\r\n\t-- The native will cache the results\r\n\tLoadPlayerCommerceDataExt(source)\r\n\t-- Wait for the players data to load\r\n\twhile not IsPlayerCommerceInfoLoadedExt(source) do\r\n\t\tWait(0)\r\n\tend\r\n\r\n\t-- Tell the client if they own the package or not\r\n\tTriggerClientEvent(\"doesOwnPackage\", source, DoesPlayerOwnSkuExt(source, packageIdSku))\r\nend)"
+            }
+        ],
+        "hash": "0x7995539E",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

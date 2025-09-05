@@ -1,0 +1,29 @@
+{
+    "0x70559AC7": {
+        "name": "ADD_PED_DECORATION_FROM_HASHES",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "collection",
+                "type": "Hash"
+            },
+            {
+                "name": "overlay",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\nApplies an Item from a PedDecorationCollection to a ped. These include tattoos and shirt decals.\r\ncollection - PedDecorationCollection filename hash\r\noverlay - Item name hash\r\nExample:\r\nEntry inside \"mpbeach_overlays.xml\" -\r\n<Item>\r\n<uvPos x=\"0.500000\" y=\"0.500000\" />\r\n<scale x=\"0.600000\" y=\"0.500000\" />\r\n<rotation value=\"0.000000\" />\r\n<nameHash>FM_Hair_Fuzz</nameHash>\r\n<txdHash>mp_hair_fuzz</txdHash>\r\n<txtHash>mp_hair_fuzz</txtHash>\r\n<zone>ZONE_HEAD</zone>\r\n<type>TYPE_TATTOO</type>\r\n<faction>FM</faction>\r\n<garment>All</garment>\r\n<gender>GENDER_DONTCARE</gender>\r\n<award />\r\n<awardLevel />\r\n</Item>\r\nCode:\r\nPED::_0x5F5D1665E352A839(PLAYER::PLAYER_PED_ID(), MISC::GET_HASH_KEY(\"mpbeach_overlays\"), MISC::GET_HASH_KEY(\"fm_hair_fuzz\"))\n```\n\n**This is the server-side RPC native equivalent of the client native [ADD_PED_DECORATION_FROM_HASHES](?\\_0x5F5D1665E352A839).**",
+        "examples": [],
+        "hash": "0x70559AC7",
+        "ns": "CFX",
+        "aliases": [
+            "_APPLY_PED_OVERLAY",
+            "_SET_PED_DECORATION"
+        ],
+        "apiset": "server"
+    }
+}

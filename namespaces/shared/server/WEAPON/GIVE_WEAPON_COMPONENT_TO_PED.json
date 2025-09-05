@@ -1,0 +1,25 @@
+{
+    "0x3E1E286D": {
+        "name": "GIVE_WEAPON_COMPONENT_TO_PED",
+        "params": [
+            {
+                "name": "ped",
+                "type": "Ped"
+            },
+            {
+                "name": "weaponHash",
+                "type": "Hash"
+            },
+            {
+                "name": "componentHash",
+                "type": "Hash"
+            }
+        ],
+        "return_type": "void",
+        "description": "GIVE_WEAPON_COMPONENT_TO_PED\n\n**This is the server-side RPC native equivalent of the client native [GIVE_WEAPON_COMPONENT_TO_PED](?\\_0xD966D51AA5B28BB9).**",
+        "examples": [],
+        "hash": "0x3E1E286D",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

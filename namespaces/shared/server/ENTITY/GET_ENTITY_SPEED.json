@@ -1,0 +1,19 @@
+{
+    "0x9E1E4798": {
+        "name": "GET_ENTITY_SPEED",
+        "params": [
+            {
+                "name": "entity",
+                "type": "Entity",
+                "description": "The entity to get the speed of"
+            }
+        ],
+        "return_type": "float",
+        "description": "Gets the current speed of the entity in meters per second.\n\n```\nTo convert to MPH: speed * 2.236936\r\nTo convert to KPH: speed * 3.6\n```",
+        "examples": [],
+        "hash": "0x9E1E4798",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "The speed of the entity in meters per second"
+    }
+}

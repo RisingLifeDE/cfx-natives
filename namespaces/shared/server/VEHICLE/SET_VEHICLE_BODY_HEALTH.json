@@ -1,0 +1,21 @@
+{
+    "0x920C2517": {
+        "name": "SET_VEHICLE_BODY_HEALTH",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle"
+            },
+            {
+                "name": "value",
+                "type": "float"
+            }
+        ],
+        "return_type": "void",
+        "description": "```\np2 often set to 1000.0 in the decompiled scripts.\n```\n\n**This is the server-side RPC native equivalent of the client native [SET_VEHICLE_BODY_HEALTH](?\\_0xB77D05AC8C78AADB).**",
+        "examples": [],
+        "hash": "0x920C2517",
+        "ns": "CFX",
+        "apiset": "server"
+    }
+}

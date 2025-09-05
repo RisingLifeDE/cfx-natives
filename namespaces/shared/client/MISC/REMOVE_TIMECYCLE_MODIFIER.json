@@ -1,0 +1,23 @@
+{
+    "0x36DF8612": {
+        "name": "REMOVE_TIMECYCLE_MODIFIER",
+        "params": [
+            {
+                "name": "modifierName",
+                "type": "const char*",
+                "description": "The timecycle modifier name."
+            }
+        ],
+        "return_type": "void",
+        "description": "",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local modifierName = \"my_awesome_timecycle\"\r\nRemoveTimecycleModifier(modifierName)"
+            }
+        ],
+        "hash": "0x36DF8612",
+        "ns": "CFX",
+        "apiset": "client"
+    }
+}

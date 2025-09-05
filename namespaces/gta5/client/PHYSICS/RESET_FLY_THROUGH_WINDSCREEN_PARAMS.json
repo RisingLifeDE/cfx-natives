@@ -1,0 +1,13 @@
+{
+    "0x6D712937": {
+        "name": "RESET_FLY_THROUGH_WINDSCREEN_PARAMS",
+        "params": [],
+        "return_type": "void",
+        "description": "Resets parameters which is used by the game for checking is ped needs to fly through windscreen after a crash to default values.",
+        "examples": [],
+        "hash": "0x6D712937",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5"
+    }
+}

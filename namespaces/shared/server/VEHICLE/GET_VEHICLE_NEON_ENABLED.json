@@ -1,0 +1,37 @@
+{
+    "0x684BDBF2": {
+        "name": "GET_VEHICLE_NEON_ENABLED",
+        "params": [
+            {
+                "name": "vehicle",
+                "type": "Vehicle",
+                "description": "The vehicle to check."
+            },
+            {
+                "name": "neonIndex",
+                "type": "int",
+                "description": "A value from the neonIndex enum representing the neon light to check."
+            }
+        ],
+        "return_type": "BOOL",
+        "description": "Getter to check if one of the neon lights of a vehicle is enabled. This native is the server side getter of [IS_VEHICLE_NEON_LIGHT_ENABLED](#\\_0x8C4B92553E4766A5).\n\n```cpp\nenum neonIndex\r\n{\r\n    NEON_BACK = 0,   // Back neon\r\n    NEON_RIGHT = 1,  // Right neon\r\n    NEON_LEFT = 2,   // Left neon\r\n    NEON_FRONT = 3   // Front neon\r\n};\n```",
+        "examples": [
+            {
+                "lang": "lua",
+                "code": "local vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false) -- 1 is the source here\r\nlocal isRightNeonOn = GetVehicleNeonEnabled(vehicle, 1)\r\nprint(isRightNeonOn)"
+            },
+            {
+                "lang": "js",
+                "code": "const vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false); // 1 is the source here\r\nconst isRightNeonOn = GetVehicleNeonEnabled(vehicle, 1);\r\nconsole.log(isRightNeonOn);"
+            },
+            {
+                "lang": "cs",
+                "code": "using static CitizenFX.Core.Native.API;\r\n\r\nint vehicle = GetVehiclePedIsIn(GetPlayerPed(1), false); // 1 is the source here\r\nbool isRightNeonOn = GetVehicleNeonEnabled(vehicle, 1);\r\nDebug.WriteLine($\"{isRightNeonOn}\");"
+            }
+        ],
+        "hash": "0x684BDBF2",
+        "ns": "CFX",
+        "apiset": "server",
+        "resultsDescription": "Returns `true` if the specified neon light is enabled, `false` otherwise."
+    }
+}

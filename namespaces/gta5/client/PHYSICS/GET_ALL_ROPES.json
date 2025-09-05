@@ -1,0 +1,14 @@
+{
+    "0x760A2D67": {
+        "name": "GET_ALL_ROPES",
+        "params": [],
+        "return_type": "Object",
+        "description": "Returns all rope handles. The data returned adheres to the following layout:\n\n```\n[ 770, 1026, 1282, 1538, 1794, 2050, 2306, 2562, 2818, 3074, 3330, 3586, 3842, 4098, 4354, 4610, ...]\n```",
+        "examples": [],
+        "hash": "0x760A2D67",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "An object containing a list of all rope handles."
+    }
+}
