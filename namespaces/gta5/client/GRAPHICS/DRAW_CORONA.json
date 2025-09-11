@@ -50,7 +50,7 @@
             {
                 "name": "zBias",
                 "type": "float",
-                "description": "zBias slightly shifts the depth of surfaces to make sure they don\u00e2\u20ac\u2122t overlap or cause visual glitches when they are very close together. The zBias value are usually in the range of 0.0 to 1.0."
+                "description": "zBias slightly shifts the depth of surfaces to make sure they don\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u201e\u00a2t overlap or cause visual glitches when they are very close together. The zBias value are usually in the range of 0.0 to 1.0."
             },
             {
                 "name": "dirX",
