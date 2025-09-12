@@ -1,6 +1,6 @@
 {
     "0x7BDCBD45": {
-        "name": "SET_RICH_PRESENCE",
+        "name": "SET_DETAIL_STATE",
         "params": [
             {
                 "name": "presenceState",

@@ -1,6 +1,6 @@
 {
     "0xCBBC3FAC": {
-        "name": "SET_DISCORD_RICH_PRESENCE_ACTION",
+        "name": "SET_ACTION",
         "params": [
             {
                 "name": "index",

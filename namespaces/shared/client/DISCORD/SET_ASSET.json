@@ -1,6 +1,6 @@
 {
     "0x53DFD530": {
-        "name": "SET_DISCORD_RICH_PRESENCE_ASSET",
+        "name": "SET_ASSET",
         "params": [
             {
                 "name": "assetName",

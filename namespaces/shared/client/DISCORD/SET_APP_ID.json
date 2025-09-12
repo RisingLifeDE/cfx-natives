@@ -1,6 +1,6 @@
 {
     "0x6A02254D": {
-        "name": "SET_DISCORD_APP_ID",
+        "name": "SET_APP_ID",
         "params": [
             {
                 "name": "appId",

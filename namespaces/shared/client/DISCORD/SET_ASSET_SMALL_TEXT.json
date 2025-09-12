@@ -1,11 +1,11 @@
 {
     "0x35E62B6A": {
-        "name": "SET_DISCORD_RICH_PRESENCE_ASSET_SMALL_TEXT",
+        "name": "SET_ASSET_SMALL_TEXT",
         "params": [
             {
                 "name": "text",
                 "type": "const char*",
-                "description": "Text to be displayed when hovering over small image asset. Note that you must also set a valid small image asset using the SET_DISCORD_RICH_PRESENCE_ASSET_SMALL native."
+                "description": "Text to be displayed when hovering over small image asset. Note that you must also set a valid small image asset using the SET_ASSET_SMALL native."
             }
         ],
         "return_type": "void",
