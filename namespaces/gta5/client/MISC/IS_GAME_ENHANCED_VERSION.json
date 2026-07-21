@@ -1,0 +1,14 @@
+{
+    "0x4DD998F6": {
+        "name": "IS_GAME_ENHANCED_VERSION",
+        "params": [],
+        "return_type": "BOOL",
+        "description": "",
+        "examples": [],
+        "hash": "0x4DD998F6",
+        "ns": "CFX",
+        "apiset": "client",
+        "game": "gta5",
+        "resultsDescription": "Returns whether this script is running in GTAV Enhanced or not."
+    }
+}
